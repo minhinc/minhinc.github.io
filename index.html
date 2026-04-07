@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to minhinc.github.io</title>
+    <title>Dynamic Site</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my first GitHub Pages website.</p>
+    <div id="dynamic-content"></div>
+    <script>
+        function fetchDynamicContent(url) {
+            fetch("https://minhinc.onrender.com/")
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById('dynamic-content').innerHTML = html;
+                });
+        }
+
+        // Call the function with the current URL
+        const currentUrl = window.location.href;
+        fetchDynamicContent(currentUrl);
+    </script>
 </body>
 </html>
