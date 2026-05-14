@@ -1,0 +1,3086 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>Linux Internals Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:186px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding Virtual memory, Process concepts, IPC, File Systems EXT2
+Understanding Shell programming
+Understanding Boot process
+Understanding cross compilation and installing Linux installation on
+embedded hardware
+Understanding developing application for embedded systems</pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:76px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting embedded and medium scale products.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:230px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of c programming</b>
+All examples are provided through c programming language.
+Knowledge of c programming is required.
+C training slides can browsed at
+<a href=http://minhinc.42web.io/training/c/advance-c-slides.php>http://minhinc.42web.io/training/c/advance-c-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-c-slides.pdf>http://minhinc.42web.io/training/advance-c-slides.pdf</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu 16.0x LTS
+Raspberry Pi3</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:91px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries. Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-li-slides.pdf">http://minhinc.42web.io/training/advance-li-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.</pre>
+ </div>
+ <div style="width:960px;height:253px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-li-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Linux</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php#chap1_0"><pre>GNU Project/GPL Licensing</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_1"><pre>Evolution of Linux & Development Model</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_2"><pre>Device Identities in Linux-Partitioning Schema</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-li-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Kernel</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=2#chap2_0"><pre>History of Linux</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_1"><pre>Types of kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_2"><pre>The Linux Kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_3"><pre>Kernel Architecture</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:101px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:316px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-li-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Shell commands & Shell</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=3#chap3_0"><pre>Basic Shell commands</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_0"><pre>Bash Shell Essentials
+- Introduction</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_1"><pre> - Process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_2"><pre>-Shell Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_3"><pre> - Shell Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_4"><pre>-Programming commands</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_5"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_6"><pre>Creating Makefiles</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:316px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:69px;top:18px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>mknod</pre></li>
+    <li><pre>Write a Makefile to compile file</pre></li>
+    <li><pre>Create a static library using Makefile</pre></li>
+    <li><pre>Create a dynamic library using Makefile</pre></li>
+    <li><pre>Write application using static library and
+dynamic library generated</pre></li>
+   </ul>
+ </div><div style="width:475px;height:164px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:88px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:150px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-li-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Creating Libraries</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Static Library
+ - Using Static Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Shared Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_1"><pre> -Using Shared Library</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-li-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The Boot Process</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=5#chap5_0"><pre>The Boot Process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_1"><pre>BIOS Level</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre> - Boot Loader - Setup
+  - startup_32 functions</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre>The start_kernel() function</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:133px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:88px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Cross compiling kernel</pre></li>
+    <li><pre>Board Support packages</pre></li>
+   </ul>
+ </div><div style="width:475px;height:88px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:150px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main6" href="#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The File System</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap6_0"><pre>The File System</pre></a></li>
+    <li><a href="#chap6_1"><pre>Virtual File system & its role</pre></a></li>
+    <li><a href="#chap6_2"><pre>Files associated with a process</pre></a></li>
+    <li><a href="#chap6_3"><pre>proc file system</pre></a></li>
+    <li><a href="#chap6_4"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-li-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Process Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=7#chap7_0"><pre>Process Defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_1"><pre>Process Descriptor Structures in the kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_2"><pre>Process States</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_3"><pre>Process Scheduling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_4"><pre>Process Creation</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_5"><pre>System calls related to process management</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-li-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=8#chap8_0"><pre>Defining and Creating secondary memory
+areas</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_1"><pre>Memory allocation & deallocation system
+calls malloc, calloc, alloca, free</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_2"><pre>Virtual Memory Management</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_3"><pre>Address Translation and page fault
+handling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_4"><pre>Demand Paging defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_5"><pre>Process Organization in Memory</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:221px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:140px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:6px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:6px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:72px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:72px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Implement late binding</pre></li>
+    <li><pre>Create hard link</pre></li>
+    <li><pre>Create soft link</pre></li>
+    <li><pre>Write a program to enumerate stat structure
+for both hard link and soft link. Illustrate which
+field is different</pre></li>
+    <li><pre>Create a child process and validates if all
+open descriptors are copied to child process also.
+ - Use file seek from parent and see child's
+  descriptor also got seeked.</pre></li>
+   </ul>
+ </div><div style="width:475px;height:240px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:171px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:7px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:104px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:104px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-li-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Multi Thread Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=9#chap9_0"><pre>Creating multiple threads</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=9#chap9_1"><pre>Parent synchronization with other Thread</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=9#chap9_2"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-li-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inter process communication</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=10#chap10_0"><pre>Pipes</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_1"><pre>Fifo's</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_2"><pre>Signals</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_3"><pre>System-V IPC's
+ - Message queues</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_4"><pre> - Shared memory</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_5"><pre> - Semaphore</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:87px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:13px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:13px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-li-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Sockets</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=11#chap11_0"><pre>An Overview</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_1"><pre>System calls related to
+ - TCP</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_2"><pre>-UDP</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:126px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a multi threaded application and check if
+global variables are shared.
+ - Protect them using semaphores</pre></li>
+   </ul>
+ </div><div style="width:475px;height:107px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:23px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:159px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:3px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:96px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:96px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-li-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Network Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=12#chap12_0"><pre>TCP Server Client Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=12#chap12_1"><pre>UDP Server Client Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=12#chap12_2"><pre>UDP Server Cient Programming</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-li-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Programming and Debugging tools</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=13#chap13_0"><pre>strace - Tracing system calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_1"><pre>ltrace - Tracing library calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_2"><pre>Tools used to detect memory access
+error; and memory leakage in linux
+mtrace</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:85px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-li-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Device Driver Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=14#chap14_0"><pre>Introduction</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_1"><pre>Kernel modules</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_2"><pre>Character device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_3"><pre>Block device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_4"><pre>Hardware and Interrupt Handling</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:136px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:50px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+  </ul>
+ </div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p5</a>
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">Linux Internals Essentials</pre><pre class="slidesubtitle">Linux Internals Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-li-slides.pdf">http://minhinc.42web.io/training/advance-li-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-15-2021 
+
+Document contains 97 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap6">&nbsp;<div class="slideheader" style="height:134px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <h1><pre class="topic">  6. The File System</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap6_0">The File System</a></h2></li>   <li class="sml"><pre>Virtual File system & its role
+</pre></li>   <li class="sml"><pre>Files associated with a process
+</pre></li>   <li class="sml"><pre>proc file system
+</pre></li>   <li class="sml"><pre>System calls</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:171px;" class="slidecontent"> 
+The File System
+ 
+Filesystems are containers of files, that are stored, probably in a directory tree, together with attributes, like size, owner, creation date and the like. A filesystem has a type. It defines how things are arranged on the disk. For example, one has the types minix, ext2, reiserfs, iso9660, vfat, hfs.
+ 
+Linux File System Layout </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-filesystemlayout.png" /></div><div style="width:399px;height:344px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:31px;top:32px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+Inode and direntry
+  </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-filesysteminode.png" /></div><div style="width:396px;height:301px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:30px;top:10px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+$mkdir testdir
+  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p32</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-filesysteminode1.png" /></div><div style="width:405px;height:355px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:34px;top:37px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:133px;" class="slidecontent"> 
+Inode
+An (in-core) inode contains the metadata of a file: its serial number, its protection (mode), its owner, its size, the dates of last access, creation and last modification, etc. It also points to the superblock of the filesystem the file is in, the methods for this file, and the dentries (names) for this file.
+  </pre>
+<div class="clr"></div> <pre style="height:144px;float:left;" class="codec">struct inode {
+unsigned long i_ino;
+umode_t i_mode;
+uid_t i_uid;
+gid_t i_gid;
+kdev_t i_rdev;
+loff_t i_size;
+struct timespec i_atime;
+struct timespec i_ctime;
+struct timespec i_mtime;
+struct super_block *i_sb;
+struct inode_operations *i_op;
+struct address_space *i_mapping;
+struct list_head i_dentry;
+...
+} </pre>
+<div style="width:480px;height:144px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+User space stat structure provides similar interface
+  </pre>
+<div class="clr"></div> <pre style="height:198px;float:left;" class="codec">#include &lt;sys/types.h&gt;
+#include &lt;sys/stat.h&gt;
+#include &lt;unistd.h&gt;
+int stat (const char *path, struct stat *buf);
+int fstat (int fd, struct stat *buf);
+int lstat (const char *path, struct stat *buf);
+ 
+truct stat {
+dev_t st_dev; /*ID of device containing file */
+ino_t st_ino; /*inode number *
+mode_t st_mode;  /*permissions */
+nlink_t st_nlink; /*number of hard links */
+uid_t st_uid; /*user ID of owner */
+gid_t st_gid; /*group ID of owner */
+dev_t st_rdev; /*device ID (if special file) */
+off_t st_size; /*total size in bytes */
+blksize_t st_blksize; /*blocksize for filesystem I/O */
+blkcnt_t st_blocks; /* number of blocks allocated */
+time_t st_atime; /*last access time */
+time_t st_mtime; /*last modification time */
+time_t st_ctime; /*last status change time */
+}; </pre>
+<div style="width:480px;height:198px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:132px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:133px;" class="slidecontent"> 
+lstat()  is  identical to stat(), except that if pathname is a symbolic link, then it returns information about the link itself, not  the  file that it refers to.
+ 
+fstat() is identical to stat(), except that the file about which information is to be retrieved is specified by the file descriptor fd.
+  </pre>
+<div class="clr"></div> <pre style="height:252px;float:left;" class="codec">#include
+#include
+#include
+#include
+&lt;sys/types.h&gt;
+&lt;sys/stat.h&gt;
+&lt;unistd.h&gt;
+&lt;stdio.h&gt;
+int main (int argc, char *argv[])
+{
+struct stat sb;
+int ret;
+if (argc &lt; 2) {
+fprintf (stderr,
+"usage: %s &lt;file&gt;
+", argv[0]);
+return 1;
+}
+ret = stat (argv[1], &sb);
+if (ret) {
+perror ("stat");
+return 1;
+}
+printf ("%s is %ld bytes
+",
+argv[1], sb.st_size);
+return 0;
+} </pre>
+<div style="width:480px;height:252px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:1px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:270px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+The following mask values are defined for the file type of the st_mode field: </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">S_IFMT     0170000   bit mask for the file type bit field
+S_IFSOCK   0140000   socket
+S_IFLNK    0120000   symbolic link
+S_IFREG    0100000   regular file </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p33</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:60px;float:left;" class="code">S_IFBLK    0060000   block device
+S_IFDIR    0040000   directory
+S_IFCHR    0020000   character device
+S_IFIFO    0010000   FIFO </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Thus, to test for a regular file (for example), one could write: </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">stat(pathname, &sb);
+if ((sb.st_mode & S_IFMT) == S_IFREG) {
+/* Handle regular file */
+} </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:315px;float:left;" class="codec">#include "apue.h"
+int
+main(int argc, char *argv[])
+{
+int          i;
+struct stat buf;
+char         *ptr;
+for (i = 1; i &lt; argc; i++) {
+ printf("%s: ", argv[i]);
+ if (lstat(argv[i], &buf) &lt; 0) {
+  err_ret("lstat error");
+   continue;
+ }
+ 
+ if (S_ISREG(buf.st_mode))
+  ptr = "regular";
+ else if (S_ISDIR(buf.st_mode))
+  ptr = "directory";
+ else if (S_ISCHR(buf.st_mode))
+  ptr = "character special";
+ else if (S_ISBLK(buf.st_mode))
+  ptr = "block special";
+ else if (S_ISFIFO(buf.st_mode))
+  ptr = "fifo";
+ else if (S_ISLNK(buf.st_mode))
+  ptr = "symbolic link";
+ else if (S_ISSOCK(buf.st_mode))
+  ptr = "socket";
+ else
+ ptr = "** unknown mode **";
+ printf("%s
+", ptr);
+}
+ exit(0);
+} </pre>
+<div style="width:480px;height:315px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:17px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+Printing all fields
+  </pre>
+<div class="clr"></div> <pre style="height:396px;float:left;" class="codec"># include &lt;fcntl.h&gt;
+# include &lt;stdio.h&gt;
+# include &lt;time.h&gt;
+# include &lt;sys/types.h&gt;
+# include&lt;sys/stat.h&gt;
+ 
+main()
+{
+struct stat fst;
+struct tm  *Time;
+int fd;
+fd = open("testfile",O_RDONLY);
+fstat(fd,&fst);
+printf("Listing the detailsd of the file
+");
+printf(" The inode no of the file is %d
+",fst.st_ino);
+printf(" The device ID  of the file is %d
+",fst.st_dev);
+printf(" The block size of the file system is %d
+",fst.st_blksize);
+printf("The user ID is %d
+",fst.st_uid);
+printf("The group ID is %d
+",fst.st_gid);
+printf("Access time is %d
+",fst.st_atime);
+printf("creation time is %d
+",fst.st_ctime);
+printf("modification time is %d
+",fst.st_mtime);
+Time = localtime(&fst.st_atime);
+ 
+printf("day : %d
+  ",Time-&gt;tm_mday);
+printf("month: %d
+ ",Time -&gt;tm_mon);
+printf("year : %d
+ ",Time-&gt;tm_year);
+printf("hour : %d
+ ",Time-&gt;tm_hour);
+printf("min : %d
+ ",Time -&gt;tm_min);
+} </pre>
+<div style="width:480px;height:396px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:18px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:316px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:76px;" class="slidecontent"> 
+Permissions
+While the stat calls can be used to obtain the permission values for a given file, two other system calls set those values: </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">#include &lt;sys/types.h&gt;
+#include &lt;sys/stat.h&gt;
+int chmod (const char *path, mode_t mode);
+int fchmod (int fd, mode_t mode); </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">Example chmod
+  </pre>
+<div class="clr"></div> <pre style="height:135px;float:left;" class="code">int ret;
+/*
+* Set 'map.png' in the current directory to
+* owner-readable and -writable. This is the
+* same as 'chmod 600 ./map.png'.
+*/
+ret = chmod ("./map.png", S_IRUSR | S_IWUSR);
+if (ret)
+perror ("chmod"); </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;" class="slidecontent"> 
+Ownership
+In the stat structure, the st_uid and st_gid fields provide the file's owner and group, respectively. Three system calls allow a user to change those two values: </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">#include &lt;sys/types.h&gt;
+#include &lt;unistd.h&gt;
+int chown (const char *path, uid_t owner, gid_t group); </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p34</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:285px;float:left;" class="code">int lchown (const char *path, uid_t owner, gid_t group);
+int fchown (int fd, uid_t owner, gid_t group);
+ 
+struct group *gr;
+int ret;
+/*
+* getgrnam() returns information on a group
+* given its name.
+*/
+gr = getgrnam ("officers");
+if (!gr) {
+/* likely an invalid group */
+perror ("getgrnam");
+return 1;
+}
+/* set manifest.txt's group to 'officers' */
+ret = chown("manifest.txt", -1, gr-&gt;gr_gid);
+if (ret)
+perror ("chown"); </pre>
+<div style="width:480px;height:285px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:2px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;float:left;" class="slidecontent"> 
+Reading a Directory's Contents
+A directory is represented by DIR object
+  </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:45px;" class="code">#include &lt;sys/types.h&gt;
+#include &lt;dirent.h&gt;
+DIR * opendir (const char *name); </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">To obtain the file descriptor behind a given directory stream: </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">#define _BSD_SOURCE /* or _SVID_SOURCE */
+#include &lt;sys/types.h&gt;
+#include &lt;dirent.h&gt;
+int dirfd (DIR *dir); </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:114px;" class="slidecontent"> 
+Reading from a directory stream
+Once you have created a directory stream with opendir() , your program can begin reading entries from the directory. To do this, use readdir() , which returns entries one by one from a given DIR object:
+  </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">#include &lt;sys/types.h&gt;
+#include &lt;dirent.h&gt;
+struct dirent * readdir (DIR *dir); </pre>
+<div class="clr"></div> <pre style="height:152px;" class="slidecontent"> 
+A successful call to readdir() returns the next entry in the directory represented by dir . The dirent structure represents a directory entry. Defined in &lt;dirent.h&gt; , on
+Linux, its definition is:
+Applications successively invoke readdir() , obtaining each file in the directory, until they find the file they are searching for or until the entire directory is read, at which time readdir() returns NULL .
+  </pre>
+<div class="clr"></div> <pre style="height:105px;float:left;" class="code">struct dirent {
+ino_t d_ino; /* inode number */
+off_t d_off; /* offset to the next dirent */
+unsigned short d_reclen; /* length of this record */
+unsigned char d_type; /* type of file */
+char d_name[256]; /* filename */
+}; </pre>
+<div style="width:480px;height:105px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:22px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+To close the DIR* </pre>
+<div class="clr"></div> <pre style="height:420px;float:left;" class="code">int closedir (DIR *dir);
+ 
+/*
+* find_file_in_dir - searches the directory 'path' for a
+* file named 'file'.
+*
+* Returns 0 if 'file' exists in 'path' and a nonzero
+* value otherwise.
+*/
+int find_file_in_dir (const char *path, const char *file)
+{
+ struct dirent *entry;
+ int ret = 1;
+ DIR *dir;
+ dir = opendir (path);
+ errno = 0;
+ while ((entry = readdir (dir)) != NULL) {
+  if (strcmp(entry-&gt;d_name, file) == 0) {
+  ret = 0;
+  break;
+  }
+ }
+if (errno && !entry)
+ perror ("readdir");
+ 
+closedir (dir);
+return ret;
+} </pre>
+<div style="width:480px;height:420px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:290px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:355px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p35</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:133px;" class="slidecontent"> 
+System calls for reading directory contents
+The previously discussed functions for reading the contents of directories are standar- dized by POSIX and provided by the C library. Internally, these functions use one of two system calls, readdir() and getdents() , which are provided here for completeness:
+  </pre>
+<div class="clr"></div> <pre style="height:225px;float:left;" class="code">#include &lt;unistd.h&gt;
+#include &lt;linux/types.h&gt;
+#include &lt;linux/dirent.h&gt;
+ 
+#include &lt;errno.h&gt;
+/*
+* Not defined for user space: need to
+* use the _syscall3() macro to access.
+*/
+int readdir (unsigned int fd,
+struct dirent *dirp,
+unsigned int count);
+int getdents (unsigned int fd,
+struct dirent *dirp,
+unsigned int count); </pre>
+<div style="width:480px;height:225px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:12px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:12px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:285px;float:left;" class="slidecontent"> 
+Links
+A link is essentially just a name in a list (a directory) that points at an inode-there would appear to be no reason why multiple links to the same inode could not exist. That is, a single inode (and thus a single file) could be referenced from, say, both /etc/customs and /var/run/ledger.
+ 
+Hard Link
+Files can have 0, 1, or many links. Most files have a link count of 1-that is, they are pointed at by a single directory entry-but some files have 2 or even more links. These are called hard link.
+ 
+The link() system call, one of the original Unix system calls, and now standardized by POSIX, creates a new link for an existing file:
+  </pre>
+<div style="width:374px;height:285px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:2px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:180px;float:left;" class="code">#include &lt;unistd.h&gt;
+int link (const char *oldpath, const char *newpath);
+ 
+int ret;
+/*
+* create a new directory entry,
+* '/home/kidd/privateer', that points at
+* the same inode as '/home/kidd/pirate'
+*/
+ret = link ("/home/kidd/privateer", /home/kidd/pirate");
+if (ret)
+perror ("link"); </pre>
+<div style="width:480px;height:180px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:209px;float:left;" class="slidecontent"> 
+Symbolic Links
+Symbolic links, also known as symlinks or soft links, are similar to hard links in that both point at files in the filesystem. The symbolic link differs, however, in that it is not merely an additional directory entry, but a special type of file altogether. This special file contains the pathname for a different file, called the symbolic link's target. At runtime, on the fly, the kernel substitutes this pathname for the symbolic link's pathname (unless using the various l versions of system calls, such as lstat() , which operate on the link itself, and not the target).
+Soft links, unlike hard links, can span filesystems also called dangling softlink.
+  </pre>
+<div style="width:374px;height:209px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:4px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:180px;float:left;" class="code">#include &lt;unistd.h&gt;
+int symlink (const char *oldpath, const char *newpath);
+ 
+int ret;
+/*
+* create a symbolic link,
+* '/home/kidd/privateer', that
+* points at '/home/kidd/pirate'
+*/
+ret = symlink ("/home/kidd/privateer", "/home/kidd/pirate");
+if (ret)
+perror ("symlink"); </pre>
+<div style="width:480px;height:180px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:95px;" class="slidecontent"> 
+Unlinking
+The converse to linking is unlinking, the removal of pathnames from the filesystem. A single system call, unlink(), handles this task:
+  </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">#include &lt;unistd.h&gt;
+int unlink (const char *pathname); </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p36</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:134px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  6. The File System</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>The File System
+</pre></li>   <li class="big"><h2><a name="chap6_1">Virtual File system & its role</a></h2></li>   <li class="sml"><pre>Files associated with a process
+</pre></li>   <li class="sml"><pre>proc file system
+</pre></li>   <li class="sml"><pre>System calls</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:247px;float:left;" class="slidecontent"> 
+VFS, Virtual File Systems
+ 
+- The Linux kernel implements the concept of Virtual File System (VFS, originally Virtual Filesystem Switch), so that it is (to a large degree) possible to separate actual "low-level" filesystem code from the rest of the kernel.
+- The VFS is more of an Interface rather than an actual complete file system.
+- An important role of the VFS is to perform what is called "Standard Actions". For example, the function lseek() is not actually implemented by any file system, as the function of lseek() is provided by a "standard action" of VFS.
+- Two important native filesystems in the Linux environment are ext2 and the proc file system.
+  </pre>
+<div style="width:374px;height:247px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:23px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-virtualfilesystem.png" /></div><div style="width:404px;height:382px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:34px;top:51px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:477px;float:left;" class="slidecontent"> 
+Four main objects in VFS API: superblock, dentries, inodes, files
+- The kernel keeps track of files using in-core inodes ("index nodes"), usually derived by the low-level filesystem from on-disk inodes.
+ - A file may have several names, and there is a layer of dentries ("directory entries") that represent pathnames, speeding up the lookup operation.
+ - Several processes may have the same file open for reading or writing, and file structures contain the required information such as the current file position.
+ - Access to a filesystem starts by mounting it. This operation takes a filesystem type (like ext2, vfat, iso9660, nfs) and a device and produces the in-core superblock that contains the information required for operations on the filesystem; a third ingredient, the mount point, specifies what pathname refers to the root of the filesystem.
+ 
+Auxiliary objects
+ We have filesystem types, used to connect the name of the filesystem to the routines for setting it up (at mount time) or tearing it down (at umount time).
+ - A struct vfsmount represents a subtree in the big file hierarchy - basically a pair (device, mountpoint).
+ - A struct nameidata represents the result of a lookup.
+ - A struct address_space gives the mapping between the blocks in a file and blocks on disk. It is needed for I/O.
+ 
+<pre class="black">Filesystem type registration</pre>
+The struct is of type struct file_system_type . Here the 2.2.17 version: </pre>
+<div style="width:374px;height:477px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:37px;top:9px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:37px;top:218px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:90px;" class="code">struct file_system_type {
+const char *name;
+int fs_flags;
+struct super_block *(*read_super) (struct super_block *, void *, int);
+struct file_system_type *next;
+}; </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p37</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:171px;" class="slidecontent"> 
+The call register_filesystem() hangs this struct in the chain with head file_systems , and unregister_filesystem() removes it again.
+Accesses to this chain are protected by the spinlock file_systems_lock . There are no other writers. The main reader is of course the mount() system call (via get_fs_type() ). Other readers are get_filesystem_list() used for /proc/filesystems , andthe sysfs system call.
+The code is in fs/filesystems.c .
+  </pre>
+<div class="clr"></div> <pre style="height:225px;float:left;" class="code">static struct file_system_type tue_fs_type = {
+.owner= THIS_MODULE,
+.name= "tue",
+.get_sb= tue_get_sb,
+.kill_sb= kill_block_super,
+.fs_flags= FS_REQUIRES_DEV,
+}
+ 
+static int __init init_tue_fs(void) {
+return register_filesystem(&tue_fs_type);
+}
+static void __exit exit_tue_fs(void)
+{
+unregister_filesystem(&tue_fs_type);
+} </pre>
+<div style="width:480px;height:225px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:12px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:12px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:59px;" class="slidecontent"> 
+<pre class="black">Struct file_system_type</pre>
+  </pre>
+<div class="clr"></div> <pre style="height:180px;float:left;" class="code">struct file_system_type {
+const char *name;
+int fs_flags;
+struct super_block *(*get_sb)(struct file_system_type *,
+int, char *, void *, struct vfsmount *);
+void (*kill_sb) (struct super_block *);
+struct module *owner;
+struct file_system_type *next;
+struct list_head fs_supers;
+struct lock_class_key s_lock_key;
+struct lock_class_key s_umount_key;
+}; </pre>
+<div style="width:480px;height:180px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:18px;" class="codec">(In 2.4 there was no kill_sb() , and the role of get_sb() was taken by read_super() . The final parameter of get_sb() and the lock_class_key fields are present since 2.6.18.) </pre>
+<div class="clr"></div> <pre style="height:437px;float:left;" class="slidecontent"> 
+<b>name</b>
+Here the filesystem type gives its name ("tue"), so that the kernel can find it when someone does mount -t tue /dev/foo /dir
+ 
+<b>get_sb</b>
+At mount time the kernel calls the fstype-&gt;get_sb() routine that initializes things and sets up a superblock. Typically this is a 1-line routine that calls one of get_sb_bdev , get_sb_single , get_sb_nodev , get_sb_pseudo
+ 
+<b>kill_sb</b>
+At umount time the kernel calls the fstype-&gt;kill_sb() routine to clean up.  Typically one of kill_block_super , kill_anon_super , kill_litter_super .
+ 
+Example of the use of owner - sysfs
+There exists a strange SYSV system call sysfs that will return (i) a sequence number given a filesystem type, and (ii) a filesystem type given a sequence number, and (iii) the total number of filesystem types registered now. This call is not supported by libc or glibc.
+These sequence numbers are rather meaningless since they may change any moment. But this means that one can get a snapshot of the list of filesystem types without looking at /proc/filesystems . For example, the program
+  </pre>
+<div style="width:374px;height:437px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:78px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:255px;float:left;" class="code">#include &lt;stdio.h&gt;
+#include &lt;linux/unistd.h&gt;
+/* define the 3-arg version of sysfs() */
+static _syscall3(int,sysfs,int,option,unsigned int,fsindex,char *,buf);
+/* define the 1-arg version of sysfs() */
+static int sysfs1(int i) {
+return sysfs(i,0,NULL);
+}
+ 
+main(){
+int i, tot;
+char buf[100];
+/* how long is a filesystem type name?? */
+tot = sysfs1(3);
+if (tot == -1) {
+perror("sysfs(3)");
+  </pre>
+<div style="width:430px;height:255px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:65px;top:2px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p38</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:150px;float:left;" class="code">exit(1);
+for (i=0; i&lt;tot; i++) {
+if (sysfs(2, i, buf)) {
+perror("sysfs(2)");
+exit(1);
+}
+printf("%2d: %s
+", i, buf);
+}
+Return 0; </pre>
+<div style="width:480px;height:150px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:80px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+might give output like </pre>
+<div class="clr"></div> <pre style="height:135px;float:left;" class="code">0:ext2
+1:minix
+2:romfs
+3:msdos
+4:vfat
+5:proc
+6:nfs
+7:smbfs
+8:iso9660 </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:211px;float:left;" class="slidecontent"> 
+<pre class="black">Mounting</pre>
+The mount system call attaches a filesystem to the big file hierarchy at some indicated point. Ingredients needed:
+(i) a device that carries the filesystem (disk, partition, floppy, CDROM, SmartMedia card, ...), (ii) a directory where the filesystem on that device must be attached, (iii) a filesystem type.
+ 
+The code for sys_mount() is found in fs/namespace.c and fs/super.c . The connection with the filesystem type name is made in do_kern_mount() :
+  </pre>
+<div style="width:374px;height:211px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:75px;float:left;" class="code"><b>struct file_system_type *type = get_fs_type(fstype);</b>
+struct super_block *sb;
+if (!type)
+return ERR_PTR(-ENODEV);
+sb = type-&gt;get_sb(type, flags, name, data); </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;" class="slidecontent">and this is the only call of the get_sb() routine.
+ 
+The code for sys_umount() is found in fs/namespace.c and fs/super.c . The counterpart of the just quoted code is the cleanup in deactivate_super() : </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">fs-&gt;kill_sb(s); </pre>
+<div class="clr"></div> <pre style="height:116px;" class="slidecontent">and this is the only call of the kill_sb() routine.
+ 
+<pre class="black">The superblock</pre>
+The superblock gives global information on a filesystem: the device on which it lives, its block size, its type, the dentry of the root of the filesystem, the methods it has, etc., etc. </pre>
+<div class="clr"></div> <pre style="height:252px;float:left;" class="codec">struct super_block {
+dev_t s_dev;
+unsigned long s_blocksize;
+struct file_system_type *s_type;
+struct super_operations *s_op;
+struct dentry *s_root;
+...
+}
+struct super_operations {
+struct inode *(*alloc_inode)(struct super_block *sb);
+void (*destroy_inode)(struct inode *);
+void (*read_inode) (struct inode *);
+void (*dirty_inode) (struct inode *);
+void (*write_inode) (struct inode *, int);
+void (*put_inode) (struct inode *);
+void (*drop_inode) (struct inode *);
+void (*delete_inode) (struct inode *);
+void (*put_super) (struct super_block *);
+void (*write_super) (struct super_block *);
+int (*sync_fs)(struct super_block *sb, int wait);
+void (*write_super_lockfs) (struct super_block *);
+void (*unlockfs) (struct super_block *);
+int (*statfs) (struct super_block *, struct statfs *);
+int (*remount_fs) (struct super_block *, int *, char *);
+void (*clear_inode) (struct inode *);
+void (*umount_begin) (struct super_block *);
+int (*show_options)(struct seq_file *, struct vfsmount *);
+}; </pre>
+<div style="width:480px;height:252px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:1px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:270px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:304px;float:left;" class="slidecontent">This is enough to get started: the dentry of the root directory tells us the inode of this root directory (and in particular its i_ino ), and sb-&gt;s_op-&gt;read_inode(inode) will read this inode from disk. Now inode-&gt;i_op-&gt;lookup() allows us to find names in the root directory, etc.
+Each superblock is on six lists, with links through the fields s_list , s_dirty , s_io , s_anon , s_files , s_instances , respectively.
+ 
+<b>The super_blocks list</b>
+All superblocks are collected in a list super_blocks with links in the fields s_list . This list is protected by the spinlock sb_lock . The main use is in super.c:get_super() or user_get_super() to find the superblock for a given block device. (Bothroutines are identical, except that one takes a bdev , the other a dev_t .) This list is also used various places where all superblocks must be sync'ed or all dirty inodes must be written out.
+ 
+&lt;b.The fs_supers list</b> </pre>
+<div style="width:374px;height:304px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:12px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p39</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:553px;float:left;" class="slidecontent">All superblocks of a given type are collected in a list headed by the fs_supers field of the struct filesystem_type, with links in the fields s_instances . Also this list is protected by the spinlock sb_lock .
+ 
+<b>The file list</b>
+All open files belonging to a given superblock are chained in a list headed by the s_files field of the superblock, with links in the fields f_list of the files. These lists are protected by the spinlock files_lock . This list is used for example in fs_may_remount_ro() to check that there are no files currently open for writing.
+ 
+<b>The list of anonymous dentries</b>
+Normally, all dentries are connected to root. However, when NFS filehandles are used this need not be the case. Dentries that are roots of subtrees potentially unconnected to root are chained in a list headed by the s_anon field
+of the superblock, with links in the fields d_hash . These lists are protected by the spinlock dcache_lock . They are grown in dcache.c:d_alloc_anon() and shrunk in super.c:generic_shutdown_super() .
+ 
+<b>The inode lists s_dirty, s_io</b>
+Lists of inodes to be written out. These lists are headed at the s_dirty (resp. s_io ) field of the superblock, with links in the fields i_list . These lists are protected by the spinlock inode_lock . See fs/fs-writeback.c .
+ 
+ 
+<pre class="black">Inodes</pre>
+An (in-core) inode contains the metadata of a file: its serial number, its protection (mode), its owner, its size, the dates of last access, creation and last modification, etc. It also points to the superblock of the filesystem the file is in, the methods for this file, and the dentries (names) for this file. </pre>
+<div style="width:374px;height:553px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:7px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:294px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:342px;float:left;" class="codec">struct inode {
+unsigned long i_ino;
+umode_t i_mode;
+uid_t i_uid;
+gid_t i_gid;
+kdev_t i_rdev;
+loff_t i_size;
+struct timespec i_atime;
+struct timespec i_ctime;
+struct timespec i_mtime;
+struct super_block *i_sb;
+ 
+struct inode_operations *i_op;
+struct address_space *i_mapping;
+struct list_head i_dentry;
+...
+}
+ 
+struct inode_operations {
+int (*create) (struct inode *, struct dentry *, int);
+struct dentry * (*lookup) (struct inode *, struct dentry *);
+int (*link) (struct dentry *, struct inode *, struct dentry *);
+int (*unlink) (struct inode *, struct dentry *);
+int (*symlink) (struct inode *, struct dentry *, const char *);};
+int (*mkdir) (struct inode *, struct dentry *, int);
+int (*rmdir) (struct inode *, struct dentry *);
+int (*mknod) (struct inode *, struct dentry *, int, dev_t);
+int (*rename) (struct inode *, struct dentry *, struct inode *, struct dentry *);
+int (*readlink) (struct dentry *, char *,int);
+int (*follow_link) (struct dentry *, struct nameidata *);
+void (*truncate) (struct inode *);
+int (*permission) (struct inode *, int);
+int (*setattr) (struct dentry *, struct iattr *);
+int (*getattr) (struct vfsmount *mnt, struct dentry *, struct kstat *);
+int (*setxattr) (struct dentry *, const char *, const void *, size_t, int);
+ssize_t (*getxattr) (struct dentry *, const char *, void *, size_t);
+ssize_t (*listxattr) (struct dentry *, char *, size_t);
+int (*removexattr) (struct dentry *, const char *); </pre>
+<div style="width:480px;height:342px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:280px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:173px;" class="slidecontent"> 
+Each inode is on four lists, with links through the fields i_hash , i_list , i_dentry , i_devices .
+ 
+<pre class="black">Dentries</pre>
+The dentries encode the filesystem tree structure, the names of the files. Thus, the main parts of a dentry are the inode (if any) that belongs to it, the name (the final part of the pathname), and the parent (the name of the containing directory). There are also the superblocks, the methods, a list of subdirectories, etc. </pre>
+<div class="clr"></div> <pre style="height:153px;float:left;" class="codec">struct dentry {
+struct inode *d_inode;
+struct dentry *d_parent;
+struct qstr d_name;
+struct super_block *d_sb;
+struct dentry_operations *d_op;
+struct list_head d_subdirs;
+...
+}
+struct dentry_operations {
+int (*d_revalidate)(struct dentry *, int);
+int (*d_hash) (struct dentry *, struct qstr *);
+int (*d_compare) (struct dentry *, struct qstr *, struct qstr *);
+int (*d_delete)(struct dentry *);
+void (*d_release)(struct dentry *);
+void (*d_iput)(struct dentry *, struct inode *);
+}; </pre>
+<div style="width:480px;height:153px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:11px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:82px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:116px;" class="slidecontent"> 
+ 
+Each dentry is on five lists, with links through the fields d_hash , d_lru , d_child , d_subdirs , d_alias .
+ 
+<pre class="black">Files</pre> </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p40</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:114px;" class="slidecontent">File structures represent open files, that is, an inode together with a current (reading/writing) offset. The offset can be set by the lseek() system call. Note that instead of a pointer to the inode we have a pointer to the dentry -that means that the name used to open a file is known. In particular system calls like getcwd() are possible.
+  </pre>
+<div class="clr"></div> <pre style="height:99px;float:left;" class="codec">struct file {
+struct dentry *f_dentry;
+struct vfsmount *f_vfsmnt;
+struct file_operations *f_op;
+mode_t f_mode;
+loff_t f_pos;
+struct fown_struct f_owner;
+unsigned int f_uid, f_gid;
+unsigned long f_version;
+...
+} </pre>
+<div style="width:480px;height:99px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:19px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">Here the f_owner field gives the owner to use for async I/O signals.
+  </pre>
+<div class="clr"></div> <pre style="height:207px;float:left;" class="codec">struct file_operations {
+struct module *owner;
+loff_t (*llseek) (struct file *, loff_t, int);
+ssize_t (*read) (struct file *, char *, size_t, loff_t *);
+ssize_t (*aio_read) (struct kiocb *, char *, size_t, loff_t);
+ssize_t (*write) (struct file *, const char *, size_t, loff_t *);
+ssize_t (*aio_write) (struct kiocb *, const char *, size_t, loff_t);
+int (*readdir) (struct file *, void *, filldir_t);
+unsigned int (*poll) (struct file *, struct poll_table_struct *);
+int (*ioctl) (struct inode *, struct file *, unsigned int, unsigned long);
+int (*mmap) (struct file *, struct vm_area_struct *);
+int (*open) (struct inode *, struct file *);
+int (*flush) (struct file *);
+int (*release) (struct inode *, struct file *);
+int (*fsync) (struct file *, struct dentry *, int datasync);
+int (*aio_fsync) (struct kiocb *, int datasync);
+int (*fasync) (int, struct file *, int);
+int (*lock) (struct file *, int, struct file_lock *);
+ssize_t (*readv) (struct file *, const struct iovec *, unsigned long, loff_t *);
+ssize_t (*writev) (struct file *, const struct iovec *, unsigned long, loff_t *);
+ssize_t (*sendfile) (struct file *, loff_t *, size_t, read_actor_t, void *);
+ssize_t (*sendpage) (struct file *, struct page *, int, size_t, loff_t *, int);
+unsigned long (*get_unmapped_area)(struct file *, unsigned long, unsigned long, unsigned long, unsigned long); </pre>
+<div style="width:466px;height:207px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:22px;top:3px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:244px;top:3px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:401px;float:left;" class="slidecontent"> 
+Each file is in two lists, with links through the fields f_list , f_ep_links .
+ 
+<b>f_list</b>
+The list with links through f_list was discussed above. It is the list of all files belonging to a given superblock. There is a second use: the tty driver collects all files that are opened instances of a tty in a list headed by tty-&gt;tty_files with links through the file field f_list . Conversely, these files point back at the tty via their field private_data .
+(This field private_data is also used elsewhere. For example, the proc code uses it to attach a struct seq_file to a file.)
+ 
+The event poll list
+All event poll items belonging to a given file are collected in a list with head f_ep_links , protected by the file field
+f_ep_lock . (For event poll stuff, see epoll_ctl(2).)
+ 
+ 
+<pre class="black">struct vfsmount</pre>
+A struct vfsmount describes a mount. The definition lives in mount.h :
+  </pre>
+<div style="width:374px;height:401px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:60px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:153px;float:left;" class="codec">struct vfsmount {
+struct list_head mnt_hash;
+struct vfsmount *mnt_parent; /* fs we are mounted on */
+struct dentry *mnt_mountpoint; /* dentry of mountpoint */
+struct dentry *mnt_root;
+/* root of the mounted tree */
+struct super_block *mnt_sb;
+/* pointer to superblock */
+struct list_head mnt_mounts; /* list of children, anchored here */
+struct list_head mnt_child;
+/* and going through their mnt_child */
+atomic_t mnt_count;
+int mnt_flags;
+char *mnt_devname;
+/* Name of device e.g. /dev/dsk/hda1 */
+struct list_head mnt_list;
+}; </pre>
+<div style="width:480px;height:153px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:11px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:82px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:133px;" class="slidecontent"> 
+<b>fs_struct</b>
+A struct fs_struct determines the interpretation of pathnames referred to by a process (and also, somewhat illogically, contains the umask). The typical reference is current-&gt;fs . The definition
+ 
+lives in fs_struct.h : </pre>
+<div class="clr"></div> <pre style="height:63px;float:left;" class="codec">struct fs_struct {
+atomic_t count;
+rwlock_t lock;
+int umask;
+struct dentry * root, * pwd, * altroot;
+struct vfsmount * rootmnt, * pwdmnt, * altrootmnt;
+}; </pre>
+<div style="width:480px;height:63px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+Semantics of root and pwd are clear. Remains to discuss altroot .
+  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p41</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:134px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  6. The File System</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>The File System
+</pre></li>   <li class="sml"><pre>Virtual File system & its role
+</pre></li>   <li class="big"><h2><a name="chap6_2">Files associated with a process</a></h2></li>   <li class="sml"><pre>proc file system
+</pre></li>   <li class="sml"><pre>System calls</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+<div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-filesystemvtable.png" /></div><div style="width:231px;height:586px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:62px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:324px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:646px;float:left;" class="slidecontent"> 
+There are two normal cases for handling the descriptors after a fork.
+1. The parent waits for the child to complete. In this case, the parent does not need to do anything with its descriptors. When the child terminates, any of the shared descriptors that the child read from or wrote to will have their file offsets updated accordingly.
+2. Both the parent and the child go their own ways. Here, after the fork, the parent closes the descriptors that it doesn't need, and the child does the same thing. This way, neither interferes with the other's open descriptors. This scenario is often found with network servers.
+ 
+Besides the open files, numerous other properties of the parent are inherited by the child:
+*  Real user ID, real group ID, effective user ID, and effective group ID
+*  Supplementary group IDs
+*  Process group ID
+*  Session ID
+*  Controlling terminal
+*  The set-user-ID and set-group-ID flags
+*  Current working directory
+*  Root directory
+*  File mode creation mask
+*  Signal mask and dispositions
+*  The close-on-exec flag for any open file descriptors
+*  Environment
+*  Attached shared memory segments
+*  Memory mappings
+*  Resource limits
+The differences between the parent and child are
+* The return values from fork are different.
+* The process IDs are different.
+* The two processes have different parent process IDs: the parent process ID of the
+    child is the parent; the parent process ID of the parent doesn't change.
+* The child's tms_utime, tms_stime, tms_cutime, and tms_cstime values are set to 0 </pre>
+<div style="width:374px;height:646px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:37px;top:23px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p42</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:76px;float:left;" class="slidecontent">* File locks set by the parent are not inherited by the child.
+* Pending alarms are cleared for the child.
+* The set of pending signals for the child is set to the empty set.
+  </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div class="slideheader" style="height:134px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  6. The File System</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>The File System
+</pre></li>   <li class="sml"><pre>Virtual File system & its role
+</pre></li>   <li class="sml"><pre>Files associated with a process
+</pre></li>   <li class="big"><h2><a name="chap6_3">proc file system</a></h2></li>   <li class="sml"><pre>System calls</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:190px;" class="slidecontent"> 
+/proc is a window into the running Linux kernel. Files in the /proc file system don't corre-spond to actual files on a physical device. Instead, they are magic objects that behave like files but provide access to parameters, data structures, and statistics in the kernel. The "contents" of these files are not always fixed blocks of data, as ordinary file contents are. Instead, they are generated on the fly by the Linux kernel when you read
+from the file.You can also change the configuration of the running kernel by writing to certain files in the /proc file system.
+Let's look at an example: </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">    % ls -l /proc/version
+    -r--r--r--      1 root     root            0 Jan 17 18:09 /proc/version
+Size is 0 as this generated by kernel </pre>
+<div class="clr"></div> <pre style="height:133px;float:left;" class="slidecontent"> 
+$mount
+none on /proc type proc (rw)
+ 
+none reveals that is not a file systemon disk.
+ 
+Extracting Information from /proc </pre>
+<div style="width:480px;height:133px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:540px;float:left;" class="code">#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+/* Returns the clock speed of the system's CPU in MHz, as reported by
+   /proc/cpuinfo. On a multiprocessor machine, returns the speed of
+   the first CPU. On error returns zero. */
+float get_cpu_clock_speed ()
+{
+  FILE* fp;
+  char buffer[1024];
+  size_t bytes_read;
+  char* match;
+  float clock_speed;
+  /* Read the entire contents of /proc/cpuinfo into the buffer. */
+  fp = fopen ("/proc/cpuinfo", "r");
+  bytes_read = fread (buffer, 1, sizeof (buffer), fp);
+  fclose (fp);
+  /* Bail if read failed or if buffer isn't big enough. */
+  if (bytes_read == 0 || bytes_read == sizeof (buffer))
+    return 0;
+  /* NUL-terminate the text. */
+  buffer[bytes_read] = '\0';
+  /* Locate the line that starts with "cpu MHz". */
+ 
+  match = strstr (buffer, "cpu MHz");
+  if (match == NULL)
+    return 0;
+  /* Parse the line to extract the clock speed. */
+  sscanf (match, "cpu MHz : %f", &clock_speed);
+  return clock_speed;
+}
+int main ()
+{
+  printf ("CPU clock speed: %4.0f MHz
+", get_cpu_clock_speed ());
+  return 0;
+} </pre>
+<div style="width:444px;height:540px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:54px;top:3px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:54px;top:286px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Various directories and files in /proc </pre>
+<div class="clr"></div> <pre style="height:90px;float:left;" class="codec">1)/proc/&lt;number&gt;  # for processes running
+2)/proc/self    #for current process
+3)/proc/cpuinfo
+4)/proc/devices
+5)/proc/pci #summary of devices connected to pci bus
+6)/proc/tty/driver/serail #serial ports
+7)/proc/sys/kernel #kernel information
+8)/proc/meminfo #system's memory usage
+9)/proc/filesystem #filesystems mounted in kernel
+10) /proc/mount #all mounted filesytems </pre>
+<div style="width:480px;height:90px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p43</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:134px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  6. The File System</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>The File System
+</pre></li>   <li class="sml"><pre>Virtual File system & its role
+</pre></li>   <li class="sml"><pre>Files associated with a process
+</pre></li>   <li class="sml"><pre>proc file system
+</pre></li>   <li class="big"><h2><a name="chap6_4">System calls</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:57px;" class="slidecontent"> 
+<b>1. fcntl Record Locking</b>
+  </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;height:548px;">#include &lt;fcntl.h&gt;
+int fcntl(int fd, int cmd);
+int fcntl(int fd, int cmd, long arg);
+int fcntl(int fd, int cmd, struct flock *lock);
+    Returns: depends on cmd if OK (see following), -1 on error
+ 
+<pre class="codei">For record locking cmd is F_GETLK, </pre>
+<pre class="codei">F_SETLK or F_SETLKW</pre>
+ 
+struct flock {
+ short l_type;  /* F_RDLCK, F_WRLCK, or F_UNLCK */
+ short l_whence; /* SEEK_SET, SEEK_CUR, or SEEK_END */
+ off_t l_start; /* offset in bytes, relative to l_whence */
+ off_t l_len; /* length, in bytes; 0 means lock to EOF */
+ pid_t l_pid; /* returned with F_GETLK */
+};
+ 
+# include &lt;stdio.h&gt;
+# include&lt;fcntl.h&gt;
+Main() {
+int fd, pid, retval;
+struct flock lockc, lockp;
+fd = open("testlock",O_WRONLY);
+lockp.l_type = F_WRLCK;
+lockp.l_whence = 0;
+lockp.l_start = 10;
+lockp.l_len = 15;
+if((retval = fcntl(fd, F_SETLK,&lockp)) == -1) // Parent is locking the file
+ perror("parent write lock
+");
+printf("retval is %d
+",retval);
+if((pid = fork()) == 0){
+ lockc.l_type = F_WRLCK;
+ lockc.l_whence = 0;
+ lockc.l_start = 40;
+ lockc.l_len = 55;
+ //Child is locking the file
+ if((retval = fcntl(fd, F_SETLK,&lockc)) == -1)perror("Child write lock
+");
+  printf("retval is %d
+",retval);
+  printf("Child Process over
+");
+ }
+ else {
+  sleep(3);
+  lockp.l_type = F_UNLCK;
+  lockp.l_whence = 0;
+  lockp.l_start = 10;
+  lockp.l_len = 15;
+  // Parent is unlocking the file
+  if((retval = fcntl(fd, F_SETLK,&lockp)) == -1)perror("parent write lock
+");
+    printf("Parent Process over
+");
+ }
+}
+  </pre>
+ <pre class="codes" style="float:left;height:566px;"><pre class="codei">Both are trying to make READ LOCK,</pre>
+<pre class="codei">Successfull can try at WRITE LOCK</pre>
+# include &lt;stdio.h&gt;
+# include&lt;fcntl.h&gt;
+ 
+main()
+{
+int fd, pid, retval;
+struct flock lockc, lockp;
+ 
+fd = open("testlock",O_RDONLY);
+ 
+lockp.l_type = F_RDLCK;
+lockp.l_whence = 0;	//SEEK_SET
+lockp.l_start = 10;
+lockp.l_len = 15;
+if((retval = fcntl(fd, F_SETLK,&lockp)) == -1) // Parent is locking the file
+ perror("parent read lock
+");
+printf("Parent retval is %d
+",retval);
+ 
+//Child starts here
+if((pid = fork()) == 0){
+ if((retval = fcntl(fd, F_GETLK,&lockc)) == -1)
+  perror("child write lock
+");
+ 
+printf("retval is %d
+",retval);
+printf("process %d has locked this section
+",lockc.l_pid);
+printf("lock type   %d
+",lockc.l_type);
+printf("whence 		%d
+",lockc.l_whence);
+printf("start 		%d
+",lockc.l_start);
+printf("lenth is 	%d
+",lockc.l_len);
+ 
+lockc.l_type = F_RDLCK;
+lockc.l_whence = 0;
+lockc.l_start = 10;
+lockc.l_len = 15;
+//Child is locking the file
+if((retval = fcntl(fd, F_SETLK,&lockc)) == -1)
+ perror("Child read lock
+");
+ 
+ printf("Child retval is %d
+",retval);
+ printf("Child Process over
+");
+}
+else {
+sleep(3);
+printf("Parent Process over
+");
+}
+} </pre>
+<div style="width:278px;height:566px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:22px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:294px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:76px;float:left;" class="slidecontent"> 
+<b>2. lockf</b>
+ 
+SYNOPSIS </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:30px;" class="code">#include &lt;unistd.h&gt;
+int lockf(int fd, int cmd, off_t len); </pre>
+<div class="clr"></div> <pre style="height:76px;float:left;" class="slidecontent">- apply, test or remove a POSIX lock on an open file
+ 
+DEADLOCK,  avoid deadlock with F_TLOCK in child lockf() call
+  </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:405px;float:left;" class="code"># include &lt;fcntl.h&gt;
+# include &lt;unistd.h&gt;
+main()
+{
+int fd, retvelue;
+pid_t pid;
+ 
+char   buff[100];
+ 
+if((fd = open("locktest",O_RDWR|O_CREAT, 0666)) == -1)
+ perror("open file locktest
+");
+ 
+if(lockf(fd,F_LOCK,10) == -1)
+ perror("lockf failed");
+ 
+if((pid = fork()) == 0){
+ if(lockf(fd,F_LOCK,10) == -1)	//child blocked dead lock....!
+  perror("lockf failed");
+  puts("The child process over");
+ }
+ else{
+  wait(0);
+  printf("Process %d is over
+",getpid());
+}
+} </pre>
+<div style="width:480px;height:405px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:1px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:282px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:343px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p44</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:38px;" class="slidecontent"> 
+<b>3. access</b> </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">#include &lt;unistd.h&gt;
+int access(const char *pathname, int mode); </pre>
+<div class="clr"></div> <pre style="height:171px;" class="slidecontent"> 
+access() checks whether the process would be allowed to read, write or test for existence of the file (or other file system object) whose name is pathname.  If pathname  is  a  symbolic link permissions of the file referred to by this symbolic link are tested.
+mode is a mask consisting of one or more of R_OK, W_OK, X_OK and F_OK.
+R_OK, W_OK and X_OK request checking whether the file exists and has read, write and execute permissions, respectively.  F_OK just requests checking for the existence of the file. </pre>
+<div class="clr"></div> <pre style="height:165px;float:left;" class="code">#include&lt;errno.h&gt;
+#include&lt;stdio.h&gt;
+#include&lt;unistd.h&gt;
+int main(int argc, char* argv[]) {
+char* path = argv[1];
+int ret;
+ret = access(path,F_OK); // check for file exists
+if(ret == 0)
+printf(" %s file exists
+",path);
+} </pre>
+<div style="width:480px;height:165px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+<b>4. create</b> </pre>
+<div class="clr"></div> <pre style="height:105px;float:left;" class="code">#include &lt;sys/types.h&gt;
+#include &lt;sys/stat.h&gt;
+#include &lt;fcntl.h&gt;
+ 
+int open(const char *pathname, int flags);
+int open(const char *pathname, int flags, mode_t mode);
+int creat(const char *pathname, mode_t mode); </pre>
+<div style="width:480px;height:105px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:22px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+ 
+<b>5. dup, dup2</b> </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">#include &lt;unistd.h&gt;
+ 
+int dup(int oldfd);
+int dup2(int oldfd, int newfd); </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:285px;float:left;" class="slidecontent"> 
+dup() and dup2() create a copy of the file descriptor oldfd.
+ 
+After a successful return from dup() or dup2(), the old and new file descriptors may be used interchangeably. They refer to the same open file descriptor thus share file offset and file status flags; for example, if the file offset is modified by using
+lseek(2) on one of the descriptors, the offset is also changed for the other.
+ 
+The two descriptors do not share file descriptor flags (the close-on-exec flag).  The close- on-exec flag (FD_CLOEXEC;
+ 
+dup() uses the lowest-numbered unused descriptor for the new descriptor.
+ 
+dup2() makes newfd be the copy of oldfd, closing newfd first if necessary.
+  </pre>
+<div style="width:374px;height:285px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:2px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:420px;float:left;" class="code"># include &lt;stdio.h&gt;
+# include &lt;stdlib.h&gt;
+# include &lt;fcntl.h&gt;
+# include &lt;sys/stat.h&gt;
+main(){
+int fd, newfd;
+if((fd = creat("testfile",0666)) == -1){
+ perror("Creat failed
+");
+ exit(0);
+}
+printf("Descriptor is %d",fd);
+newfd= dup2(fd,5);//try with stdout
+printf("
+New Descriptor is %d
+",newfd);
+printf("The PID is %d
+",getpid());
+for(;;);
+close(fd);
+close(newfd);
+}
+ 
+Using fcntl to create a copy
+# include &lt;stdio.h&gt;
+# include &lt;fcntl.h&gt;
+main()
+{ </pre>
+<div style="width:480px;height:420px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:290px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:355px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p45</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:165px;float:left;" class="code">int fd,fd1, newfd;
+fd = open("temp",O_RDWR | O_CREAT ,0666);
+printf("The file discriptor is %d
+",fd);
+ 
+fd1 = open("temp1",O_RDWR | O_CREAT ,0666);
+newfd=fcntl(fd,F_DUPFD,NULL);
+printf("The file discriptor is %d
+",newfd);
+				
+} </pre>
+<div style="width:480px;height:165px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+<b>6. mmap</b> </pre>
+<div class="clr"></div> <pre style="height:60px;" class="code">#include &lt;sys/mman.h&gt;
+ 
+void *mmap(void *start, size_t length, int prot, int flags, int fd, off_t offset);
+int munmap(void *start, size_t length); </pre>
+<div class="clr"></div> <pre style="height:190px;" class="slidecontent"> 
+The mmap() function asks to map length bytes starting at offset offset from the file (or  other object) specified by the file descriptor fd into memory, preferably at address start.
+This latter address is a hint only, and is usually specified as 0. The actual place where the object is mapped is returned by mmap().
+ 
+The prot argument describes the desired memory protection (and must not conflict with the open mode of the file).It is either PROT_NONE or is the bitwise OR of one or more of the  other PROT_* flags. </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">PROT_EXEC  Pages may be executed.
+PROT_READ  Pages may be read.
+PROT_WRITE Pages may be written.
+PROT_NONE  Pages may not be accessed. </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:247px;float:left;" class="slidecontent"> 
+The flags parameter specifies the type of the mapped object,  mapping  options  and  whether modifications  made  to  the mapped copy of the page are private to the process or are to be shared with other references.  It has bits
+ 
+<pre class="codei">MAP_FIXED</pre> Do not select a different address than the one specified. If the memory region specified by start.
+<pre class="codei">MAP_SHARED</pre> Share this mapping with all other processes that map this object. Storing to the region is equivalent to writing to the file.
+<pre class="codei">MAP_PRIVATE</pre> Create a private copy-on-write mapping. Stores to the region do not affect the original file. It is unspecified whether changes made to the file after the mmap() call are visible in the mapped region.
+  </pre>
+<div style="width:374px;height:247px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:23px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-memorymap.png" /></div><div style="width:401px;height:426px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:0px;top:8px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:200px;top:8px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:0px;top:216px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:200px;top:216px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;height:167px;">#include&lt;unistd.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;sys/mman.h&gt;
+#include&lt;sys/types.h&gt;
+#include&lt;sys/stat.h&gt;
+#include&lt;fcntl.h&gt;
+#include&lt;stdio.h&gt;
+#include&lt;syscall.h&gt;
+ 
+main(int argc,char *argv[])
+{
+int fd;
+void *addr;
+ 
+if( (fd=open(argv[1],O_RDWR|O_CREAT,0777)) &lt; 0) {
+ perror("open");
+ exit(1);
+} </pre>
+ <pre class="codes" style="float:left;height:167px;"> 
+lseek(fd,5,SEEK_SET);
+write(fd,"",1);
+//lseek(fd,0,SEEK_SET);
+addr=mmap(0,5,PROT_WRITE,MAP_SHARED,fd,0); /* Mapping the file to memory*/
+close(fd);
+sprintf(addr,"%s
+","hello");
+munmap(addr,5);
+}
+//#define BCM2708_PERI_BASE  0x20000000
+#define BCM2708_PERI_BASE    0x3F000000
+#define GPIO_BASE  (BCM2708_PERI_BASE + 0x200000) /* GPIO controller */
+ 
+ 
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;fcntl.h&gt; </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p46</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre class="codes" style="float:left;height:374px;">#include &lt;sys/mman.h&gt;
+#include &lt;unistd.h&gt;
+ 
+#define PAGE_SIZE (4*1024)
+#define BLOCK_SIZE (4*1024)
+ 
+int  mem_fd;
+void *gpio_map;
+ 
+// I/O access
+volatile unsigned *gpio;
+ 
+ 
+// GPIO setup macros. Always use INP_GPIO(x) before using OUT_GPIO(x) or SET_GPIO_ALT(x,y)
+#define INP_GPIO(g) *(gpio+((g)/10)) &= ~(7&lt;&lt;(((g)%10)*3))
+#define OUT_GPIO(g) *(gpio+((g)/10)) |=  (1&lt;&lt;(((g)%10)*3))
+#define SET_GPIO_ALT(g,a) *(gpio+(((g)/10))) |= (((a)&lt;=3?(a)+4:(a)==4?3:2)&lt;&lt;(((g)%10)*3))
+ 
+//#define GPIO_SET *(gpio+7)  // sets   bits which are 1 ignores bits which are 0
+//#define GPIO_CLR *(gpio+10) // clears bits which are 1 ignores bits which are 0
+//temporarily introduced for pint 4
+#define GPIO_SET *(volatile unsigned int*)(gpio+7) |= 0x10  // sets   bits which are 1 ignores bits which are 0
+#define GPIO_CLR *(volatile unsigned int*)(gpio+10)|= 0x10 // clears bits which are 1 ignores bits which are 0
+#define GPIO_READ(g) *(gpio + 13) &= (1&lt;&lt;(g))
+ 
+void setup_io();
+ 
+int main(int argc, char **argv)
+{
+int g,rep;
+ 
+// Set up gpi pointer for direct register access
+setup_io();
+// set GPIO pin 7 as output
+//    INP_GPIO(7); // must use INP_GPIO before we can use OUT_GPIO
+    INP_GPIO(4); // must use INP_GPIO before we can use OUT_GPIO
+//    OUT_GPIO(7);
+    OUT_GPIO(4);
+  </pre>
+ <pre class="codes" style="float:left;height:392px;">// flash LED on and off 10 times
+ for (rep = 0; rep &lt; 10; rep++) {
+//        GPIO_SET = (1 &lt;&lt; 7);
+        printf("setting
+");
+        GPIO_SET;
+        sleep(1);
+//        GPIO_CLR = (1 &lt;&lt; 7);
+ 
+        printf("resetting
+");
+        GPIO_CLR;
+        sleep(1);
+ }
+  return 0;
+} // main
+// Set up a memory regions to access GPIO
+void setup_io()
+{
+/* open /dev/mem */
+if ((mem_fd = open("/dev/mem", O_RDWR|O_SYNC) ) &lt; 0) {
+ printf("can't open /dev/mem
+");
+ exit(-1);
+}
+/* mmap GPIO */
+gpio_map = mmap(
+ NULL,                 //Any adddress in our space will do
+ BLOCK_SIZE,           //Map length
+ PROT_READ|PROT_WRITE, // Enable reading & writting to mapped memory
+ MAP_SHARED,           //Shared with other processes
+ mem_fd,               //File to map
+ GPIO_BASE             //Offset to GPIO peripheral
+ );
+ close(mem_fd); //No need to keep mem_fd open after mmap
+ if (gpio_map == MAP_FAILED) {
+  printf("mmap error %d
+", (int)gpio_map); //errno also set!
+  exit(-1);
+ }
+ // Always use volatile pointer!
+ gpio = (volatile unsigned *)gpio_map;
+} // setup_io() </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-raspberrypigpio.png" /></div><div style="width:409px;height:399px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:36px;top:59px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-raspberrypigpio2.png" /></div><div style="width:411px;height:490px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:3px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:206px;top:3px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:206px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p47</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:19px;" class="slidecontent"><b>7. mount</b> </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">mount [-lhV]
+ 
+mount -a [-fFnrsvw] [-t vfstype] [-O optlist]
+mount [-fnrsvw] [-o options [,...]] device | dir
+mount [-fnrsvw] [-t vfstype] [-o options] device dir </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:171px;" class="slidecontent"> 
+Mount a file system
+ 
+All files accessible in a Unix system are arranged in one big tree, the file hierarchy, rooted at /. These files can be spread out over several devices. The mount command serves to attach the file system found on some device to the big file tree. Conversely, the umount(8) command will detach it again.
+ 
+The standard form of the mount command, is mount -t type device dir </pre>
+<div class="clr"></div> <pre style="height:270px;float:left;" class="code">#include&lt;sys/mount.h&gt;
+#include&lt;stdio.h&gt;
+main(){
+int fd;
+fd = mount("/dev/fd0","/mnt/floppy","ext2",MS_NOSUID,NULL);
+if(fd != -1)
+printf(" Floppy mounted successfully
+");
+printf(" Changing Directory to floppy
+");
+chdir("/mnt/floppy");
+printf(" Creating a file test_file in floppy
+");
+fd = creat("test_file",0644);
+if (fd != -1)
+printf(" File Creation successful
+");
+} </pre>
+<div style="width:480px;height:270px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:10px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:270px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+<b>8. readv, writev</b> </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">#include &lt;sys/uio.h&gt;
+ 
+ssize_t readv(int fd, const struct iovec *vector, int count);
+ssize_t writev(int fd, const struct iovec *vector, int count);
+readv, writev - read or write data into multiple buffers </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:171px;" class="slidecontent"> 
+The readv() function reads count blocks from the file associated with the file descriptor fd into the multiple buffers described by vector.
+ 
+The writev() function writes at most count blocks described by vector to the file associated with the file descriptor fd.
+ 
+The pointer vector points to a struct iovec defined in &lt;sys/uio.h&gt; as
+  </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:525px;float:left;" class="code">struct iovec {
+ void *iov_base;   /* Starting address */
+ size_t iov_len;   /* Number of bytes */
+};
+ 
+# include&lt;stdio.h&gt;
+# include &lt;fcntl.h&gt;
+# include &lt;sys/uio.h&gt;
+ 
+struct emp{
+char name[25];
+int age;
+float  sal;
+}obj[2], Emp [2]={{"Hello",10,123.345},{"World",20,234.567}};
+ 
+main()
+{
+struct iovec  readiovobj,ioobj;
+int fd;
+int retval;
+ioobj.iov_base = Emp;
+ioobj.iov_len =sizeof(Emp);
+ 
+printf("%d",ioobj.iov_len );
+ 
+fd = open("temp",O_CREAT|O_RDWR,0666);
+retval=writev(fd,&ioobj,1);
+printf("%d",retval);
+ 
+lseek(fd,0,SEEK_SET);
+readiovobj.iov_base = obj;
+readiovobj.iov_len =sizeof(Emp);
+retval=readv(fd,&readiovobj,1);
+printf("%d",retval);
+} </pre>
+<div style="width:480px;height:525px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:8px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:266px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:270px;top:266px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p48</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:38px;" class="slidecontent"> 
+<b>9. pread, pwrite </b> </pre>
+<div class="clr"></div> <pre style="height:120px;" class="code">#define _XOPEN_SOURCE 500
+ 
+#include &lt;unistd.h&gt;
+ 
+ssize_t pread(int fd, void *buf, size_t count, off_t offset);
+ 
+ssize_t pwrite(int fd, const void *buf, size_t count, off_t offset);
+ pread, pwrite - read from or write to a file descriptor at a given offset </pre>
+<div class="clr"></div> <pre style="height:133px;" class="slidecontent"> 
+pread() reads up to count bytes from file descriptor fd at offset offset (from the start of the file) into the buffer starting at buf. The file offset is not changed.
+pwrite() writes up to count bytes from the buffer starting at buf to the file descriptor  fd at offset offset.  The file offset is not changed.
+The file referenced by fd must be capable of seeking.
+  </pre>
+<div class="clr"></div> <pre style="height:390px;float:left;" class="code">#include&lt;stdio.h&gt;
+#include&lt;sys/stat.h&gt;
+#include&lt;sys/types.h&gt;
+#include&lt;fcntl.h&gt;
+#include&lt;unistd.h&gt;
+ 
+main()
+{
+int fd1, fd2,n;
+char ch[1024];
+if((fd1 = open("/etc/passwd",O_RDONLY)) == -1)
+ perror("Un able to open source");
+ 
+n = pread(fd1,ch,100,100);
+printf(ch);
+close(fd1);
+ 
+if((fd2 = open("newfile",O_WRONLY,0666)) == -1){
+ perror("Un able to open target");
+ exit(1);
+}
+pwrite(fd2,"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",40,500);
+ pwrite(fd2,"YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",40,500);
+ 
+close(fd2);
+} </pre>
+<div style="width:474px;height:390px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:16px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:312px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main6" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p49</a>
+</div>

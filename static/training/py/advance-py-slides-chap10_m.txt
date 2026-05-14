@@ -1,0 +1,954 @@
+<div class="pg" style="margin-top:40px">
+ <pre class=title>Python Essentials Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div align="center" style="width:100%;height:100px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:100px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:160px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding principles of Object Oriented Programming
+Understanding the structure of a Python program
+Understanding module, class and object
+Understanding Polymorphism and Inheritance
+Practical labs with Python 3.x Interprete</pre>
+  </div>
+ </div>
+ <div style="height:94px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:116px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional embedded Software developers
+Embedded developers.
+People supporting large scale products.</pre>
+  </div>
+ </div>
+ <div style="height:292px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of Shell Scripting programming</b>
+In particular, participants should be familiar with writing scripts in Unix
+Shell Programming. Basic syntax and execution flow knowledge is required.
+Shell Programming training agenda is available at
+<a href="http://minhinc.42web.io/training/li/advance-li-agenda.php">http://minhinc.42web.io/training/li/advance-li-agenda.php</a>
+
+and can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-li-agenda.pdf">http://minhinc.42web.io/training/advance-li-agenda.pdf</a>
+
+<b>Knowledge of Object Oriented Concepts</b>
+Oops concept like Abstraction, Inheritance, Polymorphism would help.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Machine with Python 3.x interpreter installed.</pre>
+  </div>
+ </div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-py-slides.pdf">http://minhinc.42web.io/training/advance-py-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:91px">Labs session would be completely hands on session where each example
+(with example data and execution instruction) would be provided to the
+students. Students can verify their results with the results provided in
+the material.</pre>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-py-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Basic structure of Python program</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php#chap1_0"><pre>Python Interpreter</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_1"><pre>Interactive Mode</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_2"><pre>Scripting mode</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_3"><pre>Main module</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_4"><pre>Library modules</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_5"><pre>Various namespaces scope</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_6"><pre>Python Identifiers</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_7"><pre>Lines and indentation</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_8"><pre>Quotation</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_9"><pre>Comments</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_10"><pre>Multi Line statements</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-py-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Python execution model</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=2#chap2_0"><pre>Self-Organizing Maps</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=2#chap2_1"><pre>Boltzmann Machine</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=2#chap2_2"><pre>Auto Encoders</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-py-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Variable types</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=3#chap3_0"><pre>Number (integer, long, float, complex)</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_1"><pre>String</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_2"><pre>Declaring and initializing variable</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_3"><pre>Performing arithmetic calculation</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_4"><pre>Mutable types
+ -List
+ -Dictionary</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_5"><pre>Non mutable types
+ -Tuple</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_6"><pre>meta class</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Installing Python</pre></li>
+    <li><pre>Writing simple python program</pre></li>
+    <li><pre>Executing program on command shell</pre></li>
+    <li><pre>Executing program through interpreter</pre></li>
+    <li><pre>Converting various data types to other
+types</pre></li>
+    <li><pre>Practicing built in functions.</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-py-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Defining and Calling functions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=4#chap4_0"><pre>Function definition</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_1"><pre>Function arguments
+ -Pass by reference and value
+ -Required arguments
+ -Keyword arguments
+ -Default arguments
+ -Variable length arguments</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_2"><pre>Function local, non local and global
+variable.</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_3"><pre>Function object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_3"><pre>Method object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_4"><pre>runtime function object creation</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_5"><pre>decorator</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-py-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Control statement</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=5#chap5_0"><pre>if else elif statement</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_1"><pre>for in statement</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_2"><pre>while statement</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_3"><pre>break, continue and pass</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_4"><pre>Iterator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_5"><pre>Generator</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-py-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Regular Expression</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=6#chap6_0"><pre>Module re</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=6#chap6_1"><pre>match(), search(), sub()</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=6#chap6_2"><pre>Modifiers</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-py-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Basic Operators</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=7#chap7_0"><pre>Arithmetic operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_1"><pre>Relation operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_2"><pre>Assignment operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_3"><pre>Bitwise operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_4"><pre>Membership operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_5"><pre>Identity operator</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write sample application with a function
+defined.</pre></li>
+    <li><pre>Pass arguments as
+ -Keyword arguments
+ -Default arguments
+ -Variable length arguments</pre></li>
+    <li><pre>Write regular expression to search and
+modify a string.</pre></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-py-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Module</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=8#chap8_0"><pre>Package and Module</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_0"><pre>Importing namespace to other</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_0"><pre>Loading a module and accessing symbols</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_1"><pre>Locating module</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_2"><pre>Namespaces in dictionary</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_3"><pre>dir function listing dictionary</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_4"><pre>globals(), locals() function</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_5"><pre>Reloading a module</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_6"><pre>Python Interpreter</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-py-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Class and Object</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=9#chap9_0"><pre>class</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_0"><pre>class object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_0"><pre>function object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_1"><pre>class instance object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_1"><pre>method object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_2"><pre>public private variable</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_2"><pre>virtual methods</pre></a></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>List module namespace dictionary</pre></li>
+    <li><pre>Import a module in main module and call
+module functions</pre></li>
+    <li><pre>Import external modules symbols in
+current module' namespace</pre></li>
+    <li><pre>Reload a module</pre></li>
+    <li><pre>Write package and sub packages</pre></li>
+    <li><pre>Write a small class with class variable and</pre></li>
+    <li><pre>function object</pre></li>
+    <li><pre>Add object variable and method objects.</pre></li>
+    <li><pre>Call methods from other method</pre></li>
+    <li><pre>Inherit from the class and override</pre></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main10" href="#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inheritance and Polymorphism</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap10_0"><pre>Reusing functionality through inheritance</pre></a></li>
+    <li><a href="#chap10_1"><pre>class object inheritance</pre></a></li>
+    <li><a href="#chap10_1"><pre>instance object inheritance</pre></a></li>
+    <li><a href="#chap10_2"><pre>Polymorphism</pre></a></li>
+    <li><a href="#chap10_2"><pre>Overriding methods</pre></a></li>
+    <li><a href="#chap10_3"><pre>Multiple inheritance</pre></a></li>
+    <li><a href="#chap10_3"><pre>super() function call</pre></a></li>
+    <li><a href="#chap10_4"><pre>Similarity and dissimilarity with C++</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-py-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Meta Class</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=11#chap11_0"><pre>meta class</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_1"><pre>class object
+ - creation
+ - initialization</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_2"><pre>instance object
+ - Creation
+ - Initialization</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_3"><pre>Modify class in meta class</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_4"><pre>Inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_4"><pre>Singleton</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Inherit from the class and override
+methods</pre></li>
+    <li><pre>Instantiate base and derived class
+separately and check inheritance and
+polymorphism functionality.</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-py-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - File I/O</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=12#chap12_0"><pre>Introduct operator overloading</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__init__, __del__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__sub__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__add_</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__or__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__repr__,__str__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__getattr_,__getattribute__,__setattr__,__delattr__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__getitem__,__setitem__,__delitem__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__len__,__bool__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__lt__,__gt__,__le__,__ge__,__eq__,__ne__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__radd__,__iadd__,__iter__,__next__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__contains__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__index__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__enter__,__exit__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_4"><pre>__get__,__set__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_4"><pre>__delete__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_4"><pre>__new__</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-py-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Operator overloading</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=13#chap13_0"><pre>Exception objects</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_1"><pre>Assertion</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_2"><pre>try, except, finally</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_3"><pre>Raising an exception</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_4"><pre>User defined exceptions</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:159px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:159px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Implement operator overloading methods</pre></li>
+    <li><pre>Raise exception</pre></li>
+    <li><pre>Catch in except block</pre></li>
+    <li><pre>Implement finally</pre></li>
+   </ul>
+ </div>
+ 
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg">
+<pre class="slidetitle">Python Essentials</pre><pre class="slidesubtitle">Python Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer"></pre>
+</div>
+<div class="pg">
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div><div class="pg" style="margin-top:20px;">
+<a name="chap10">&nbsp;<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <h1><pre class="topic">  10. Inheritance and Polymorphism</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap10_0">Reusing functionality through inheritance</a></h2></li>   <li class="sml"><pre>class object inheritance
+</pre></li>   <li class="sml"><pre>instance object inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Overriding methods
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>super() function call
+</pre></li>   <li class="sml"><pre>Similarity and dissimilarity with C++</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre  class="slidecontent">A class is defined to provide service in a particular technical area. A class can extend/add to functionality provided through other class, by inheriting the class, avoiding chance of code duplicacy. This promotes code reusablility. Link layer in network stack provide same interface to all kind of data transfer. Ip layer where each interface is identified thorugh ip address. Tcp and udp are different algorithms to maintain timer and send/recieve buffer. It make sense to dedicate separate class at each layer. </pre>
+ <pre  class="code">                      ----------
+                      | link   |
+                      --------------
+                      |send(dest,buffer)|
+                      --------------
+                           / \
+                            -
+                            |
+                       --------
+                       | ip   |
+                       --------------
+                       |send(dest,buffer)|
+                       --------------
+                            / \
+                             -
+                             |
+                     +-----------------+
+                     |                 |
+               --------            ---------
+               | tcp  |            | udp   |
+               -----------------   ----------------
+               | send(dest,buf)|   |send(dest,buf)|
+               -----------------   ---------------- </pre>
+<div align="center" style="width:100%;height:88px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:88px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">What if a new ip layer alogorithms introduced which uses same link layer algorithms, what about new protocol in addition to tcp and udp.
+ 
+A new 'ipsec' algorithms introduced for security feature which may not use current 'ip' class </pre>
+<div align="center" style="width:100%"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="code">                      ----------
+                      | link   |
+                      --------------
+                      |send(buffer)|
+                      --------------
+                           / \  / \
+                            -     -
+                            |     |
+                            |     +---------|
+                       --------          ----------
+                       | ip   |          | ipsec |    <span style="color:#0055cf;">&lt;-- independent ipsec class</span>
+                       --------------    --------------
+                       |send(buffer)|    |send(buffer)|
+                       --------------    -------------- </pre>
+<div align="center" style="width:100%;height:54px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:54px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">'ipsec' algorithms extending current ip class </pre>
+ <pre  class="code">                      ----------
+                      | link   |
+                      --------------
+                      |send(buffer)|
+                      --------------
+                           / \
+                            -
+                            |
+                       --------
+                       | ip   |
+                       --------------
+                       |send(buffer)|
+                       --------------
+                            / \
+                             -
+                             |
+                         --------
+                         | ipsec|           <span style="color:#0055cf;">&lt;--- adding functinality to 'ip'</span>
+                         --------------
+                         |send(buffer)|
+                         -------------- </pre>
+<div align="center" style="width:100%;height:80px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"><span style="background-color:#000" class="dot1"></span> Features provided by inhertiance
+ <span style="background-color:#000" class="dot2"></span> Distrubute responsibilities in separate reusable componenents
+ <span style="background-color:#000" class="dot2"></span> Extend feature of base class.add more features in derive class
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main10"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  10. Inheritance and Polymorphism</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Reusing functionality through inheritance
+</pre></li>   <li class="big"><h2><a name="chap10_1">class object inheritance<br></a></h2></li>   <li class="big"><h2><a name="chap10_1">instance object inheritance</a></h2></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Overriding methods
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>super() function call
+</pre></li>   <li class="sml"><pre>Similarity and dissimilarity with C++</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"><span style="background-color:#000" class="dot"></span> Class object inheritance
+Each class carry a separate data structure (class object). When attribures cannot be searched in a class it is searched in immediate class. </pre>
+ <pre  class="codeb">class B:
+ def func():
+  print('B.func()')
+class A(B):
+ ca=10
+&gt;&gt;&gt;A.func()
+B.func() </pre>
+ <pre  class="slidecontent">With class 'A' derived from class 'B' two data strucutres comes into picture. Search begins upward when attributes not found in a data structure. </pre>
+ <pre  class="codeb">                         +--------- class object B data structure
+                         |
+                         v
+                     -----------
+                     |B.func() |
+                     -----------
+                            ^
+class object A              |     
+data structure              +----+ searchs upward
+                                |
+                                | 
+                    ----------- +
+            -------&gt; |   ca    | &lt;---------- A.func() 
+                     ----------- </pre>
+<div align="center" style="width:100%;height:56px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:56px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"><span style="background-color:#000" class="dot"></span> Class instance object inheritance
+What if a particular class in inheritance hierarchy is instanced and then its attribute (method or non method) is referenced? instancing a class is nothing more than bring a new instance object data structure which searches for attributes first in instance object data structure and then in its class object. Failing to get at either place, it starts 'class object' inheritance hierarchy to lookup again. </pre>
+ <pre  class="codeb">class B:
+ def func(self):
+  print('B.func()')
+class A(B):
+ ca=10
+&gt;&gt;&gt;a=A()
+&gt;&gt;&gt;a.func()
+B.func </pre>
+ <pre  class="codeb">                         +--------- class object B data structure
+                         |                           +----- instance object B()
+                         v                           |
+                     -----------       ---------- &lt;--+
+                     |B.func() |       |        |
+                     -----------       ----------
+                            ^
+class object A              |     
+data structure          (3) ------ searchs upward  +------- instance object A()
+                                |                 |
+                                |                 v
+                    ----------- +  (2)   ----------    (1)
+            -------&gt; |   ca    |&lt;---------|        | &lt;---------- a.func() 
+                     -----------          ---------- </pre>
+<div align="center" style="width:100%;height:56px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:56px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">There is no instance object inheritance hierarchy. <pre class="codei">a=A()</pre>, instantiating class A yeilds 'a'. Calling a.func() searches in instance object 'a' first then in class object 'A' and then in class object 'B'. It does not search in instance of class B. </pre>
+ <pre  class="codeb">class B:
+ ca=10
+ cb=20
+ def __init__(self):
+  self.ma=40 # <span style="color:#0055cf;">&lt;--- self refer to instance object 'a'</span>
+class A(B):         <span style="color:#0055cf;">when called in a.__init__ context</span>
+ pass
+&gt;&gt;a=A()
+&gt;&gt;a.ma
+40 </pre>
+ <pre  class="slidecontent">This happens because B.__init__ is called when A.__init__ is missing and so 'ma' attribute is added to the 'a' instance object.
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main10"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  10. Inheritance and Polymorphism</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Reusing functionality through inheritance
+</pre></li>   <li class="sml"><pre>class object inheritance
+</pre></li>   <li class="sml"><pre>instance object inheritance
+</pre></li>   <li class="big"><h2><a name="chap10_2">Polymorphism<br></a></h2></li>   <li class="big"><h2><a name="chap10_2">Overriding methods</a></h2></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>super() function call
+</pre></li>   <li class="sml"><pre>Similarity and dissimilarity with C++</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">A class is polymorphic when its methods called against it would be different at compile and runtime. If method func() is called against instance of class A in the code then there would be provision to replace the instance of class at runtime making different func() method called altogether. This is also known as interface programming. </pre>
+ <pre  class="code">class A:
+ def func(self):
+  pass
+ def __init__(self):
+  self.func() </pre>
+ <pre  class="slidecontent">In code it is expected that self.func() is actually A().func. It shows polymorphics behaviour when self.func() inside A.__init__ would be different than A(). Here it shows polymporphic behaviour as code is written keeping in mind that func() method is called against class A instance, A().func(), where as method func() can be called against any class instance which actually have method func defined. This depends upon which 'self' is passed against A.__init__ as first argument. Typically these call would be from the derived classes. Drivie class method call finally resolves in inheritance heirarchy when it misses at the instance object. Method call typcially add instance object as first parameter in the argument list.
+ 
+Unlike c++, interface class need not delcare the function signature (as virtual). In this case the python class is pure virtual and methods must only be called aginst the concrete deriver classes. </pre>
+<div align="center" style="width:100%;height:61px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:61px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="code">class A:
+ def __init__(self):
+  self.func() </pre>
+ <pre  class="slidecontent">A.func() definition is not required when A need not be instantiated and it is considered as pure virtual class.
+  </pre>
+<div align="center" style="width:100%"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="codeb">               +---- self is X() or A()
+               |
+class A:       v
+ def __init__(self):
+  self.func() &lt;---- func() is polymorphic. 
+                    Actual defintion depends on 'self' instance object
+ 
+class X:
+ def __init__(self):
+  A.__init__(self) # &lt;-- any class instance can be passed
+ def func(self):
+  print('X.func')
+ 
+class D(A): # A.__init__ is called instead. 'self' is D instance object
+ def func(self):
+  print('D.func')
+ 
+&gt;&gt;&gt; x=X()
+X.func
+&gt;&gt;&gt; d=D()
+D.func </pre>
+<div align="center" style="width:100%;height:80px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"> 
+Every method in class 'a' is virtual and all its attributes are public. Inheritance type is only public. Class attributes and instance attributes can be added at run time (instance attributes can be added only at runtime). Referring to instance attribute searches in instance object data structure and then in class objects in heirarchy.
+Python has no concept for instance object inheritance, Its only about class (object) inheritance. Method object is mere binding class function object against instance object and calling again the same class function object after prepending instnace object reference the argument's list.
+Python has no concept of implicit attribute binding to an object. while binding an attribute to an object (class or instance), object name must be mentioned explicitly.
+failing to mention object name makes the attribute variable belong to local namespace. </pre>
+<div align="center" style="width:100%;height:61px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:61px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="code">class A:
+ def __init__(self):
+  ma=10 </pre>
+ <pre  class="slidecontent">ma is local variable to function A.__init__. it neither belong to class object A nor instance object A(). </pre>
+ <pre  class="code">class A:
+ def __init__(self):
+  A.ca=10
+  self.ca=10 </pre>
+ <pre  class="slidecontent">one 'ca' goes to class object where as another one goes to instance object A().
+class object attributes and instance object attributes can be added at runtime. </pre>
+ <pre  class="code">class A:
+ def __init__(self):
+  self.ma=10
+ def func(self):
+  self.mb=20
+ 
+class A(B):
+ def __init__(self):
+  A.__init__(self)
+  self.mb=20 </pre>
+ <pre  class="slidecontent"> 
+a=A()
+b=B()
+ 
+'a' get two attributes ma and mb as B.__init__ argument 'self' is 'a' when it is called from A.__init__ --&gt; B.__init__(self). 'b' get only one attribute 'ma'. similarly  class object can also be polymorphic
+  </pre>
+ <pre  class="codeb">class B:
+ def __init__(self,cls):
+  self.ma=10
+  cls.ca=10
+ 
+class A(B):
+ def __init__(self):
+  B.__init__(self,A)
+ 
+&gt;&gt;&gt; a=A()
+&gt;&gt;&gt; A.ca
+10
+&gt;&gt;&gt; a.ca
+10
+&gt;&gt;&gt; a.ma
+10 </pre>
+<div align="center" style="width:100%;height:63px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:63px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"> 
+so any class type value which can accept attributes at runtime are polymorphic.
+when methods are called against instance object in any class in class inheritance heirarcy search for method definition begins at instance object only and then takes path of class inheritance hierarchy.
+  </pre>
+ <pre  class="codeb">class X:
+ def __init__(self):
+  self.func()
+ 
+class Y(X):
+ def func():
+  print('Y.func')
+ 
+class A(Y):
+ pass
+ 
+a=A() </pre>
+ <pre  class="slidecontent">  </pre>
+ <pre  class="codeb">             ---------
+             |  X    |&lt;-- class object X data structure
+             ---------
+               ^         +--------- class object B data structure
+               |         |
+               |(4)      v
+               |     -----------
+               +-----|B.func() |
+                     -----------
+                            ^
+class object A              |
+data structure          (3) ------ searchs upward  +------- instance object A()
+                                |                 |
+                                |                 v
+                    ----------- +  (2)   ----------    (1)
+            -------&gt; |   ca    |&lt;---------|        | &lt;---------- a.func() 
+                     -----------          ---------- </pre>
+<div align="center" style="width:100%;height:66px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:66px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"> 
+X.__init__ is called from meta class system which inturn calls X.__init__ as per inheritance. calling self.func() in X.__init__ leads to call of func method against the actual instance object which is 'a'. so search would be as follows
+  </pre>
+ <pre  class="code">X.func
+  ^
+  |
+Y.func
+  ^
+  |
+A.func &lt;---- a.func </pre>
+ <pre  class="slidecontent"> 
+so finally it would call Y.func
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main10"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  10. Inheritance and Polymorphism</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Reusing functionality through inheritance
+</pre></li>   <li class="sml"><pre>class object inheritance
+</pre></li>   <li class="sml"><pre>instance object inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Overriding methods
+</pre></li>   <li class="big"><h2><a name="chap10_3">Multiple inheritance<br></a></h2></li>   <li class="big"><h2><a name="chap10_3">super() function call</a></h2></li>   <li class="sml"><pre>Similarity and dissimilarity with C++</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">in multiple inheritance base classes are searched in depth first order where each class is search only once. this is also known a mro search algorithms </pre>
+ <pre  class="codeb">              X
+             / \
+              -
+              |
+      -----------------
+      |               |
+      B               C
+      .               .
+     / \             / \
+      -               -
+      |               |
+      +-------+-------+
+              |
+              A </pre>
+<div align="center" style="width:100%;height:56px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:56px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="code">class B(X):
+ pass
+class C(X):
+ pass
+class A(B,C):
+ pass </pre>
+ <pre  class="slidecontent"> 
+A.func(), order of search would be A.func, B.func, C.func and X.func.
+super is used to call base class function object. exact base class is decided by mro algorithms of python.
+  </pre>
+ <pre  class="code">class A(B,C):
+ def __init__(self):
+  super(S,self).__func()
+'self' is class object or instance object. incase calling static method it can be called with class name in both parameter
+self(A,A) </pre>
+<div align="center" style="width:100%"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main10"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  10. Inheritance and Polymorphism</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Reusing functionality through inheritance
+</pre></li>   <li class="sml"><pre>class object inheritance
+</pre></li>   <li class="sml"><pre>instance object inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Overriding methods
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>super() function call
+</pre></li>   <li class="big"><h2><a name="chap10_4">Similarity and dissimilarity with C++</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"><span style="background-color:#000" class="dot"></span> Python is similar to c++ in
+ <span style="background-color:#000" class="dot2"></span> Class object data structure - static attributes in c++ belongs to class object where as non static belongs to instance object
+ <span style="background-color:#000" class="dot2"></span> Factory method is used to create instance object. <span style="color:#004000;font-weight:bold">new</span> factory method creates instance object in c++ where as <span style="color:#004000;font-weight:bold">object.__new</span> creates instance object in python
+ 
+<span style="background-color:#000" class="dot"></span> Dissimilarity
+ <span style="background-color:#000" class="dot2"></span> Class object in c++ is created by compiler and there is no concept of meta class.
+ <span style="background-color:#000" class="dot2"></span> Base class object data structure comes inside derive class data structure which means drive class object grows biggers with more number of base classes where base class object stays separate in python.
+ <span style="background-color:#000" class="dot2"></span> Python also supports virtual and polymorphism. runtime attribute addition to object makes it polymorphic where as c++ maintains a vtable for each virtual method entry in class definition.
+ <span style="background-color:#000" class="dot2"></span> Default attributes and inheritance in c++ is private where as it is public in python
+ <span style="background-color:#000" class="dot2"></span> C++ has concept of pure virtual class that can not be instanciated. every class must declare a method when it access it in any method. every class can be instantiated and class my not define a method even if it is called against an object. object reference can be passed through arguments and that object class needs to have the defintion.
+ <span style="background-color:#000" class="dot2"></span> Variable types must well defined and it cannot be changed in c++, every variable is polymorphic in python and it can change reference to any type of object at runtime." </pre>
+<div align="center" style="width:100%;height:109px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:109px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main11"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>

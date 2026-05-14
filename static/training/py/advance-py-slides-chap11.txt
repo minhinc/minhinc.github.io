@@ -1,0 +1,1324 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>Python Essentials Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:160px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding principles of Object Oriented Programming
+Understanding the structure of a Python program
+Understanding module, class and object
+Understanding Polymorphism and Inheritance
+Practical labs with Python 3.x Interprete</pre>
+  </div>
+ </div>
+ <div style="height:94px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:116px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional embedded Software developers
+Embedded developers.
+People supporting large scale products.</pre>
+  </div>
+ </div>
+ <div style="height:292px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of Shell Scripting programming</b>
+In particular, participants should be familiar with writing scripts in Unix
+Shell Programming. Basic syntax and execution flow knowledge is required.
+Shell Programming training agenda is available at
+<a href="http://minhinc.42web.io/training/li/advance-li-agenda.php">http://minhinc.42web.io/training/li/advance-li-agenda.php</a>
+
+and can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-li-agenda.pdf">http://minhinc.42web.io/training/advance-li-agenda.pdf</a>
+
+<b>Knowledge of Object Oriented Concepts</b>
+Oops concept like Abstraction, Inheritance, Polymorphism would help.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Machine with Python 3.x interpreter installed.</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-py-slides.pdf">http://minhinc.42web.io/training/advance-py-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:91px">Labs session would be completely hands on session where each example
+(with example data and execution instruction) would be provided to the
+students. Students can verify their results with the results provided in
+the material.</pre>
+ </div>
+ <div style="width:960px;height:201px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:0px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:90px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:259px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-py-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Basic structure of Python program</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php#chap1_0"><pre>Python Interpreter</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_1"><pre>Interactive Mode</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_2"><pre>Scripting mode</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_3"><pre>Main module</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_4"><pre>Library modules</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_5"><pre>Various namespaces scope</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_6"><pre>Python Identifiers</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_7"><pre>Lines and indentation</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_8"><pre>Quotation</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_9"><pre>Comments</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_10"><pre>Multi Line statements</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-py-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Python execution model</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=2#chap2_0"><pre>Self-Organizing Maps</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=2#chap2_1"><pre>Boltzmann Machine</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=2#chap2_2"><pre>Auto Encoders</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:92px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:1px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-py-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Variable types</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=3#chap3_0"><pre>Number (integer, long, float, complex)</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_1"><pre>String</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_2"><pre>Declaring and initializing variable</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_3"><pre>Performing arithmetic calculation</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_4"><pre>Mutable types
+ -List
+ -Dictionary</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_5"><pre>Non mutable types
+ -Tuple</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_6"><pre>meta class</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:240px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Installing Python</pre></li>
+    <li><pre>Writing simple python program</pre></li>
+    <li><pre>Executing program on command shell</pre></li>
+    <li><pre>Executing program through interpreter</pre></li>
+    <li><pre>Converting various data types to other
+types</pre></li>
+    <li><pre>Practicing built in functions.</pre></li>
+   </ul>
+ </div><div style="width:475px;height:223px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:11px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:11px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:127px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:297px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-py-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Defining and Calling functions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=4#chap4_0"><pre>Function definition</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_1"><pre>Function arguments
+ -Pass by reference and value
+ -Required arguments
+ -Keyword arguments
+ -Default arguments
+ -Variable length arguments</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_2"><pre>Function local, non local and global
+variable.</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_3"><pre>Function object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_3"><pre>Method object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_4"><pre>runtime function object creation</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_5"><pre>decorator</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-py-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Control statement</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=5#chap5_0"><pre>if else elif statement</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_1"><pre>for in statement</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_2"><pre>while statement</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_3"><pre>break, continue and pass</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_4"><pre>Iterator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_5"><pre>Generator</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:80px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-py-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Regular Expression</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=6#chap6_0"><pre>Module re</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=6#chap6_1"><pre>match(), search(), sub()</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=6#chap6_2"><pre>Modifiers</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:107px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:23px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:125px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:62px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:62px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-py-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Basic Operators</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=7#chap7_0"><pre>Arithmetic operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_1"><pre>Relation operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_2"><pre>Assignment operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_3"><pre>Bitwise operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_4"><pre>Membership operator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=7#chap7_5"><pre>Identity operator</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write sample application with a function
+defined.</pre></li>
+    <li><pre>Pass arguments as
+ -Keyword arguments
+ -Default arguments
+ -Variable length arguments</pre></li>
+    <li><pre>Write regular expression to search and
+modify a string.</pre></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-py-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Module</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=8#chap8_0"><pre>Package and Module</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_0"><pre>Importing namespace to other</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_0"><pre>Loading a module and accessing symbols</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_1"><pre>Locating module</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_2"><pre>Namespaces in dictionary</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_3"><pre>dir function listing dictionary</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_4"><pre>globals(), locals() function</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_5"><pre>Reloading a module</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_6"><pre>Python Interpreter</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-py-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Class and Object</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=9#chap9_0"><pre>class</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_0"><pre>class object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_0"><pre>function object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_1"><pre>class instance object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_1"><pre>method object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_2"><pre>public private variable</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_2"><pre>virtual methods</pre></a></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:145px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:278px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>List module namespace dictionary</pre></li>
+    <li><pre>Import a module in main module and call
+module functions</pre></li>
+    <li><pre>Import external modules symbols in
+current module' namespace</pre></li>
+    <li><pre>Reload a module</pre></li>
+    <li><pre>Write package and sub packages</pre></li>
+    <li><pre>Write a small class with class variable and</pre></li>
+    <li><pre>function object</pre></li>
+    <li><pre>Add object variable and method objects.</pre></li>
+    <li><pre>Call methods from other method</pre></li>
+    <li><pre>Inherit from the class and override</pre></li>
+   </ul>
+ </div><div style="width:475px;height:318px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:69px;top:19px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:186px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:2px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:94px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-py-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inheritance and Polymorphism</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=10#chap10_0"><pre>Reusing functionality through inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_1"><pre>class object inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_1"><pre>instance object inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_2"><pre>Polymorphism</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_2"><pre>Overriding methods</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_3"><pre>Multiple inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_3"><pre>super() function call</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_4"><pre>Similarity and dissimilarity with C++</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main11" href="#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Meta Class</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap11_0"><pre>meta class</pre></a></li>
+    <li><a href="#chap11_1"><pre>class object
+ - creation
+ - initialization</pre></a></li>
+    <li><a href="#chap11_2"><pre>instance object
+ - Creation
+ - Initialization</pre></a></li>
+    <li><a href="#chap11_3"><pre>Modify class in meta class</pre></a></li>
+    <li><a href="#chap11_4"><pre>Inheritance</pre></a></li>
+    <li><a href="#chap11_4"><pre>Singleton</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Inherit from the class and override
+methods</pre></li>
+    <li><pre>Instantiate base and derived class
+separately and check inheritance and
+polymorphism functionality.</pre></li>
+   </ul>
+ </div><div style="width:475px;height:185px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:62px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:123px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:150px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:373px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-py-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - File I/O</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=12#chap12_0"><pre>Introduct operator overloading</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__init__, __del__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__sub__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__add_</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__or__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__repr__,__str__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__getattr_,__getattribute__,__setattr__,__delattr__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__getitem__,__setitem__,__delitem__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__len__,__bool__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__lt__,__gt__,__le__,__ge__,__eq__,__ne__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__radd__,__iadd__,__iter__,__next__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__contains__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__index__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__enter__,__exit__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_4"><pre>__get__,__set__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_4"><pre>__delete__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_4"><pre>__new__</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-py-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Operator overloading</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=13#chap13_0"><pre>Exception objects</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_1"><pre>Assertion</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_2"><pre>try, except, finally</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_3"><pre>Raising an exception</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_4"><pre>User defined exceptions</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:133px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Implement operator overloading methods</pre></li>
+    <li><pre>Raise exception</pre></li>
+    <li><pre>Catch in except block</pre></li>
+    <li><pre>Implement finally</pre></li>
+   </ul>
+ </div><div style="width:475px;height:166px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p5</a>
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">Python Essentials</pre><pre class="slidesubtitle">Python Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-py-slides.pdf">http://minhinc.42web.io/training/advance-py-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on Jun-12-2021 
+
+Document contains 41 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap11">&nbsp;<div class="slideheader" style="height:150px;width:432px;">
+  <pre class="day">Day 4 Morning</pre>
+  <h1><pre class="topic">  11. Meta Class</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap11_0">meta class</a></h2></li>   <li class="sml"><pre>class object
+ - creation
+ - initialization
+</pre></li>   <li class="sml"><pre>instance object
+ - Creation
+ - Initialization
+</pre></li>   <li class="sml"><pre>Modify class in meta class
+</pre></li>   <li class="sml"><pre>Inheritance
+</pre></li>   <li class="sml"><pre>Singleton</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre  class="slidecontent">Every value has a type so a meta class is type of all class values. It is same as class is type of class instance object. <span style="font-style:Italic">type</span> is meta class of all classes. <span style="color:#004000;font-weight:bold">type</span> is available as class and <span style="color:#004000;font-weight:bold">type</span> is available as built in operator.
+when a class is of type 'type' meta class, 'type' meta class provides <span style="font-style:Italic">factory method</span> __new__() which creates the class object. when instance object is of type class, class provides factory method __new__() which creates instance object.
+<span style="background-color:#000" class="dot"></span> A class definition follows two heirarchy
+ <span style="background-color:#000" class="dot2"></span> <span style="color:#004000;font-weight:bold">object</span> class inheritance where <span style="font-style:Italic">object</span> is base class of all classes
+ <span style="background-color:#000" class="dot2"></span> <span style="color:#004000;font-weight:bold">meta class</span> inhertiance where <span style="font-style:Italic">type</span> is base class of all meta classes </pre>
+<div class="clr"></div> <pre style="float:left;" class="codeb">           <span style="color:#004000;">object</span>        <span style="color:#004000;">type</span>
+             ^             ^
+             |             |
+             ----+     +----
+   &lt;&lt;base class&gt;&gt;|     |&lt;&lt;meta class&gt;&gt;
+                 |     |
+               ----------- equivalent to -------------------------
+               |    <span style="color:#004000;">A</span>    | &lt;-----------&gt; |A(object,metaclass=type|
+               -----------               ------------------------- </pre>
+<div style="width:480px;height:154px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:11px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:82px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre  class="slidecontent"><span style="color:#004000;font-weight:bold">type</span> meta class takes care of class object creation, through factory method __new__, and initialization, through __init__ method, whereas <span style="color:#004000;font-weight:bold">object</span> takes care of class instance object creation, through factory method __new__, and initialization, through __init__ method. By default a class is derivied from <span style="color:#004000;font-weight:bold">object</span> class where as its default meta class is <span style="color:#004000;font-weight:bold">type</span>. So a class is of type <span style="color:#004000;font-weight:bold">type</span>
+<span style="color:#004000;font-weight:bold">meta class</span> has four functions, three responsible for class object creation (and initialization) whereas one hooks into instance object creation (and initialization) by <span style="color:#004000;font-weight:bold">object</span> class.
+  </pre>
+<div class="clr"></div> <pre style="float:left;" class="codeb">    ----------
+    |  <span style="color:#004000;font-weight:bold">type</span> |
+    ---------------
+    |<span style="color:#004000;">@classmethod</span>|
+    |__prepare__  | <span style="color:#0055cf;">&lt;-- class namespace creation</span>
+    |<span style="color:#004000;">@staticmethod</span>| 
+    |__new__      | <span style="color:#0055cf;">&lt;-- factory method class object creation</span>
+    |__init__     | <span style="color:#0055cf;">&lt;-- class object initialization</span>
+    +-------------+
+    |__call__     | ----+
+    --------------+     |
+                        | <span style="color:#0055cf;"> instance object creation </span>
+                        v
+                  ----------
+                  | <span style="color:#004000;">object</span> |
+                  ----------
+                  |<span style="color:#004000;">@staticmethod</span> |
+                  |__new__   | <span style="color:#0055cf;">&lt;--- factory method instance object creation </span>
+                  |__init__  | <span style="color:#0055cf;">&lt;--- instance object initialization </span>
+                  ------------ </pre>
+<div style="width:429px;height:308px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:46px;top:14px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="float:left;" class="codeb">&gt;&gt;&gt; class A:
+...  pass
+... 
+&gt;&gt;&gt; issubclass(A,object)
+True
+&gt;&gt;&gt; issubclass(A,type)
+False
+&gt;&gt;&gt; dir(A)
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__']
+&gt;&gt;&gt; A.__class__
+&lt;class 'type'&gt;
+&gt;&gt;&gt; type(A)
+&lt;class 'type'&gt; </pre>
+<div style="width:258px;height:252px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:4px;top:1px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre  class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main11" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p34</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:180px;width:432px;">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  11. Meta Class</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>meta class
+</pre></li>   <li class="big"><h2><a name="chap11_1">class object<br>- creation<br>- initialization</a></h2></li>   <li class="sml"><pre>instance object
+ - Creation
+ - Initialization
+</pre></li>   <li class="sml"><pre>Modify class in meta class
+</pre></li>   <li class="sml"><pre>Inheritance
+</pre></li>   <li class="sml"><pre>Singleton</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"><span style="background-color:#000" class="dot"></span> A class object can be created in two fashion
+  <span style="background-color:#000" class="dot2"></span> Class definition where metaclass is assigned </pre>
+<div class="clr"></div> <pre  class="code">   class A(B) # defaults to metaclass 'type'
+   or
+   class A(B,metaclass=Meta) # 'Meta' derived from 'type' </pre>
+<div class="clr"></div> <pre  class="slidecontent"> Here class object for class definition 'A' would be created. Base class object is 'B' and meta class is 'Meta'.
+  <span style="background-color:#000" class="dot2"></span> Through built in <span style="font-style:Italic">type</span> function </pre>
+<div class="clr"></div> <pre  class="code">  A=type('A',(B,),{})
+  A=Meta('A',(B,),{})   # 'Meta' a 'type' derivative </pre>
+<div class="clr"></div> <pre style="float:left;" class="codeb">               --------------
+               |<span style="color:#004000;">type</span> |
+               +-------------+                         +--------+
+               |@classmethod |                         |        |
+               |__prepare__  |(metacls,clsname,bases) -&gt; dict   |
+                                                                |
+                                                      +---------+
+                                                      |namespace
+               |@staticmethod|                        v
+               |__new__      |(metacls,clsname,bases,dct,**kw) -&gt; clsobj
+               |__init__     |(clsobj) -&gt; None                       |
+               ---------------   ^                                   |
+                      ^          |                                   |
+                      |          +-----------------------------------+
+                      +------------------
+                                        |
+ ---------------------------  metaclass |
+ |class A(B,metaclass=type)| -----------+
+ | pass                    |            |
+ ---------------------------            |
+        or                              |
+ ------------------------               |
+ |A=type('A',(B,),{}) | ----------------+
+ ------------------------ </pre>
+<div style="width:455px;height:364px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:59px;top:42px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="float:left;" class="slidecontent"> 
+Python creates class object either from class definition or invocation of 'type' inbuilt function. 
+<span style="background-color:#000" class="dot"></span> Class object from class definition
+ <span style="background-color:#000" class="dot2"></span> Python first calls type.__prepare__ classmethod to get the namespace for class object. type.__preapre__ returns dictionary or its derivative.
+ <span style="background-color:#000" class="dot2"></span> Factory method type.__new__ is called with metaclass,class name,class bases and __prepare__ returned custom dictionary argumetns. __new__ return class object.
+ <span style="background-color:#000" class="dot2"></span> <span style="color:#004000;font-weight:bold">type.__init__</span> is called with classobject retruned from type.__new__ method. type.__init__ further intialize the class object. it return None.
+<span style="background-color:#000" class="dot"></span> Runtime class object creation through <span style="font-style:Italic">type</span> built-in function
+ <span style="background-color:#000" class="dot2"></span> 'type' built in function is called with classname,bases,custom dictinary object carrying attributes.
+  </pre>
+<div style="width:374px;height:285px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:2px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="float:left;" class="code">class mydict(dict):
+ def __init__(self,**kw):
+  self.mykey=list(kw.keys())
+  super(mydict,self).__init__(kw)
+ def __setitem__(self,key,value):
+  if key not in self:
+   self.mykey.append(key)
+  dict.__setitem__(self,key,value)
+ 
+class Meta(type):
+ @classmethod
+ def __prepare__(metacls,name,bases):
+  return mydict(ma=10,mb='hello')
+ @staticmethod
+ def __new__(*a,**kw):
+  return super(Meta,Meta).__new__(*a,**kw)
+ def __init__(cls,*a,**kw):
+  super(Meta,cls).__init__(*a,**kw)
+ 
+class B:
+ pass </pre>
+<div style="width:480px;height:323px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:21px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main11" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p35</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre  class="slidecontent"> 
+<span style="background-color:#000" class="dot"></span> Two types of class object creation
+ <span style="background-color:#000" class="dot2"></span> Class definition </pre>
+<div class="clr"></div> <pre  class="code">&gt;&gt;&gt; class A(B,metaclass=Meta):
+...  ca='world'
+... 
+&gt;&gt;&gt; dir(A)
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'ca', 'ma', 'mb'] </pre>
+<div class="clr"></div> <pre  class="slidecontent"> <span style="background-color:#000" class="dot2"></span> <span style="color:#004000;font-weight:bold">type</span> built in function </pre>
+<div class="clr"></div> <pre  class="code">&gt;&gt;&gt; A=Meta('A',(B,),mydict(ma=10,mb='hello',ca='world'))
+&gt;&gt;&gt; dir(A)
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'ca', 'ma', 'mb'] </pre>
+<div class="clr"></div> <pre  class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:180px;width:432px;">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  11. Meta Class</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>meta class
+</pre></li>   <li class="sml"><pre>class object
+ - creation
+ - initialization
+</pre></li>   <li class="big"><h2><a name="chap11_2">instance object<br>- Creation<br>- Initialization</a></h2></li>   <li class="sml"><pre>Modify class in meta class
+</pre></li>   <li class="sml"><pre>Inheritance
+</pre></li>   <li class="sml"><pre>Singleton</pre></li>
+   </ul>
+</div>
+<pre class="slideabstract">when a class object is called with function operator '()', it generates instances of class namespace called class instances which is referred by data structure class instance object</pre>
+<div class="clr"></div>
+ <pre  class="slidecontent">A <span style="color:#004000;">class instance object</span> is a data structure which comes into picture when its prototype/blueprint <span style="color:#004000;font-weight:bold">class object</span> gets called with function operator '()' which leads to <pre class="codei"><span style="font-style:Italic">__call__</span></pre> function invocation in 'type' (or its derivative) meta class. Further the data structure gets instantiated through static factory method <pre class="codei"><span style="font-style:Italic">object.__new__</span></pre> in class object and newly created instance object data structure is then initialized through method <pre class="codei"><span style="font-style:Italic">object.__init__</span></pre> in class <span style="color:#004000;font-weight:bold">object</span>. A class object, simply called class, is blueprint for class instance object which is simply called object. </pre>
+<div class="clr"></div> <pre style="float:left;" class="codeb">            ----------
+            | object |
+            ---------------
+            |@staticmethod|  (2)
+            |__new__      |&lt;-------+(clsobj) -&gt; instanceobj ---
+            |__init__     |&lt;----+  |(instanceobj)             |
+            --------------- (3) |  |        ^                 |
+                 ^              +--+        |                 |
+                / \             |           +-----------------+
+                 -              +------------+
+                 |                           |
+           ---------  metaclass +---------   | (1)
+           |class A|  ------&gt;   | type   |   +-----+
+           ---------      ^     +--------+         |
+                ^         |     |__call__|(cls)----+ 
+                |         |     ---------- (A)
+                |         |
+                |a=A() or a=type('A',(),{})()
+       ---------+
+       |        |&lt;&lt;instantiation&gt;&gt;
+   ------    ------
+   | a  |    |  b |
+   ------    ------ </pre>
+<div style="width:480px;height:350px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:3px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:286px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre  class="slidecontent">pseudo code for type.__call__ can be considered as </pre>
+<div class="clr"></div> <pre style="float:left;" class="code">class type:
+def __call__(clsobj,*a,**kw):
+ instanceobj=clsobj.__new__(clsobj,*a,**kw)
+ instanceobj.__init__(*a,**kw) </pre>
+<div style="width:480px;height:68px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre  class="slidecontent"><span style="background-color:#000" class="dot"></span> <span style="color:#004000;font-weight:bold">class intantiated object</span> is created with following steps
+ <span style="background-color:#000" class="dot2"></span> Function operator against class name appears </pre>
+<div class="clr"></div> <pre style="float:left;" class="code">class Meta(type):
+ def __call__(clsobj,*a,**kw):
+  print('&gt;&lt; Meta.__call__',clsobj,a,kw)
+  return super(Meta,clsobj).__call__(*a,**kw)
+ 
+class B:
+ pass
+ 
+class A(B,metaclass=Meta):
+ @staticmethod
+ def __new__(clsobj,*a,**kw):
+  print('&gt;&lt; A.__new__',clsobj,a,kw)
+  return super(A,A).__new__(clsobj,*a,**kw)
+ def __init__(self,*a,**kw):
+  print('&gt;&lt; A.__init__',self,a,kw) </pre>
+<div style="width:480px;height:233px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:16px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:16px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main11" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p36</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre  class="code">  super(A,self).__init__(*a,**kw)
+ 
+a=A() # &lt;----- function operator </pre>
+<div class="clr"></div> <pre  class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="float:left;" class="codeb">&gt;&lt; Meta.__call__ &lt;class '__main__.A'&gt; () {}
+&gt;&lt; A.__new__ &lt;class '__main__.A'&gt; () {}
+&gt;&lt; A.__init__ &lt;__main__.A object at 0x7faf79091460&gt; () {} </pre>
+<div style="width:480px;height:70px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre  class="slidecontent"> 
+ <span style="background-color:#000" class="dot2"></span> When <span style="color:#004000;font-weight:bold">type</span> inbuilt function creates class object and function operator called against it </pre>
+<div class="clr"></div> <pre  class="code"> a=<span style="color:#004000;">type</span>('A',(),{})() # &lt;----- function operator </pre>
+<div class="clr"></div> <pre  class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:150px;width:432px;">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  11. Meta Class</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>meta class
+</pre></li>   <li class="sml"><pre>class object
+ - creation
+ - initialization
+</pre></li>   <li class="sml"><pre>instance object
+ - Creation
+ - Initialization
+</pre></li>   <li class="big"><h2><a name="chap11_3">Modify class in meta class</a></h2></li>   <li class="sml"><pre>Inheritance
+</pre></li>   <li class="sml"><pre>Singleton</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"><span style="font-style:Italic">type.__new__</span> creates the class object. arguments in creating class object includes base class list and attributes dictionary. base class list or/and <span style="color:#004000;font-weight:bold">dict</span> can be modified to get different class all together. </pre>
+<div class="clr"></div> <pre style="float:left;" class="code">class Meta(type):
+ @staticmethod
+ def __new__(metacls,clsname,bases,dct,**kw):
+  upperdct=dict()
+  for key in dct:
+   if not key.startswith('__'):
+    upperdct[key.upper()]=dct[key]
+   else:
+    upperdct[key]=dct[key]
+  print('non-modified dct {} \nmodified dct {}'.format(dct,upperdct))
+  return super(Meta,Meta).__new__(metacls,clsname,bases,upperdct,**kw)
+ 
+class A(metaclass=Meta):
+ ca=10
+ cb='hello world' </pre>
+<div style="width:437px;height:233px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:12px;top:16px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:224px;top:16px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="float:left;" class="codeb">non-modified dct {'__module__': '__main__', '__qualname__': 'A', 'ca': 10, 'cb': 'hello world'} 
+modified dct {'__module__': '__main__', '__qualname__': 'A', 'CA': 10, 'CB': 'hello world'}
+&gt;&gt;&gt; A.CA
+10
+&gt;&gt;&gt; A.CB
+'hello world'
+&gt;&gt;&gt; A.__dict__
+mappingproxy({'__module__': '__main__', 'CA': 10, 'CB': 'hello world', '__dict__': <attribute '__dict__' of 'A' objects>, '__weakref__': <attribute '__weakref__' of 'A' objects>, '__doc__': None})
+&gt;&gt;&gt; dir(A)
+['CA', 'CB', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__']
+&gt;&gt;&gt; A.ca
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+AttributeError: type object 'A' has no attribute 'ca' </pre>
+<div style="width:258px;height:267px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:4px;top:8px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre  class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:164px;width:432px;">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  11. Meta Class</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>meta class
+</pre></li>   <li class="sml"><pre>class object
+ - creation
+ - initialization
+</pre></li>   <li class="sml"><pre>instance object
+ - Creation
+ - Initialization
+</pre></li>   <li class="sml"><pre>Modify class in meta class
+</pre></li>   <li class="big"><h2><a name="chap11_4">Inheritance<br></a></h2></li>   <li class="big"><h2><a name="chap11_4">Singleton</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">when a class is derives from another class,i.e A drives from B, metaclass of A also must be same or derivative of metaclass of B. by default meta class of class is 'type'. if B's meta class is not defined then A's metaclass must be 'type' or derivative of type.
+  </pre>
+<div class="clr"></div> <pre style="float:left;" class="code">class Meta(type):
+ pass
+ 
+class B(metaclass=Meta):
+ pass
+ 
+class A(B,metaclass=Meta):
+ pass </pre>
+<div style="width:480px;height:128px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main11" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p37</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre  class="code"> 
+class A(B,metaclass=MetaA):
+ pass </pre>
+<div class="clr"></div> <pre  class="slidecontent">here class A metaclass must be Meta or derivative of Meta. </pre>
+<div class="clr"></div> <pre  class="code">class MetaA(Meta):
+ pass </pre>
+<div class="clr"></div> <pre  class="slidecontent">meta class can be used to create singleton class. singleton class can be instantiated only once. instantiating more time would return same (firstly created) instance object reference. instance object is created with function operator against class. </pre>
+<div class="clr"></div> <pre  class="code">a=A() </pre>
+<div class="clr"></div> <pre  class="slidecontent">creates instance object 'a' when class A is called function operator '()'. in this case type.__call__ function is called which in turn class 'object.__new__' and 'object.__init__' to created the instance object and then initialize them.
+type.__call__ operator can be overloaded and calling type.__new__ and type.__init__ can be barred from second time onwards returning first time created instance object.
+  </pre>
+<div class="clr"></div> <pre  class="code">class Meta(type):
+ def __call__(clsobj,*a,**kw):
+  if not hasattr(Meta.__call__,'singleton'):
+   setattr(Meta.__call__,'singleton',super(Meta,clsobj).__call__(*a,**kw))
+  return getattr(Meta.__call__,'singleton') </pre>
+<div class="clr"></div> <pre  class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="float:left;" class="codeb">&gt;&gt;&gt; a=A()
+&gt;&gt;&gt; b=A()
+&gt;&gt;&gt; c=A()
+&gt;&gt;&gt; id(a)
+140452269326048
+&gt;&gt;&gt; id(b)
+140452269326048
+&gt;&gt;&gt; id(c)
+140452269326048
+&gt;&gt;&gt; a is b
+True
+&gt;&gt;&gt; a is c
+True </pre>
+<div style="width:480px;height:210px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="float:left;" class="slidecontent"> 
+class attribute Meta.singleton can also be used
+instead of class function object attribute Meta.__call__
+  </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="float:left;" class="code">class Meta(type):
+ singleton=None
+ def __call__(clsobj,*a,**kw):
+  if not Meta.singleton:
+   Meta.singleton=super(Meta,clsobj).__call__(*a,**kw)
+  return Meta.singleton </pre>
+<div style="width:480px;height:98px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:19px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre  class="slidecontent"> 
+it can also be achieved by barring call to object.__new__ when overriden &lt;class&gt;.__new__ is called from type.__call__. this approach tough does not support barring call to object.__init__ which leads to modification of instance attributes. </pre>
+<div class="clr"></div> <pre  class="code">class A:
+ def __new__(clsobj,*a,**kw):
+  if not hasattr(A.__new__,'singleton'):
+   setattr(A.__new__,'singleton',super(A,clsobj).__new__(*a,**kw))
+  return getattr(A.__new__,'singleton')
+  </pre>
+<div class="clr"></div> <pre  class="slidecontent">this does not stop modifying the instance in A.__init__ function </pre>
+<div class="clr"></div> <pre  class="code">class A:
+  def __init__(self,*a,**kw):
+   self.ma=random.randrange(0,20,1) </pre>
+<div class="clr"></div> <pre  class="slidecontent"> 
+<span style="background-color:#000" class="dot"></span> Example - A singleton widget is created with QWidget from PySide6. creating three widget would create only one.
+  </pre>
+<div class="clr"></div> <pre style="float:left;" class="code">from PySide6 import QtWidgets
+import random
+ 
+class Meta(type(QtWidgets.QWidget)):
+ def __call__(clsobj,*a,**kw):
+  if not hasattr(Meta.__call__,'singleton'):
+   setattr(Meta.__call__,'singleton',super(Meta,clsobj).__call__(*a,**kw))
+  return getattr(Meta.__call__,'singleton')
+ 
+class widget(QtWidgets.QWidget,metaclass=Meta):
+#class widget(QtWidgets.QWidget):
+ COLOR=['#ffff01','#ff0d01','#ffa303','#ff00fe','#6700cd','#0140ff','#00bff3','#01b787','#abe409']
+ def __init__(self,*a,**kw): </pre>
+<div style="width:278px;height:218px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:39px;top:9px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main11" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p38</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="float:left;" class="code">  super(widget,self).__init__(*a,**kw)
+  self.setStyleSheet('background-color:'+widget.COLOR[random.randrange(0,len(widget.COLOR))]+';')
+ 
+if __name__=='__main__':
+ app=QtWidgets.QApplication()
+ w=widget()
+ w2=widget()
+ w3=widget()
+ w.setWindowTitle(str(hex(id(w))));
+ w2.setWindowTitle(str(hex(id(w2))));
+ w3.setWindowTitle(str(hex(id(w3))));
+ print('id(w) {}, id(w2) {}, id(w3) {}'.format(hex(id(w)),hex(id(w2)),hex(id(w3))))
+ w.show();w2.show();w3.show()
+ app.exec_() </pre>
+<div style="width:278px;height:233px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:39px;top:16px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre  class="slidecontent">  </pre>
+<div class="clr"></div><div style="width:600;height:337;" style="float:left;"><a style="position:absolute;" href="http://minhinc.42web.io/image/singleton.png"><img class="img" src="http://minhinc.42web.io/image/singleton_s.png" /></a></div><div style="width:350px;height:337px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:7px;top:28px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre  class="slidecontent">singleton widget class, only one window
+  </pre>
+<div class="clr"></div><div style="width:600;height:337;" style="float:left;"><a style="position:absolute;" href="http://minhinc.42web.io/image/singleton3.png"><img class="img" src="http://minhinc.42web.io/image/singleton3_s.png" /></a></div><div style="width:350px;height:337px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:7px;top:28px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">without singleton, three window </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main11" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p39</a>
+</div>

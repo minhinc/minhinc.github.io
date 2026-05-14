@@ -1,0 +1,322 @@
+<div class="pg" style="margin-top:40px">
+ <pre class=title>Machine Learning in Python</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+ <div style="height:160px;">
+   <div class="headerleft"> <pre>Overview</pre></div>
+   <div class="headerright"> <pre>Understanding principles of Object Oriented Programming
+Understanding the structure of a Python program
+Understanding module, class and object
+Understanding Polymorphism and Inheritance
+Practical labs with Python 3.x Interprete</pre></div>
+  </div>
+ <div style="height:94px;">
+   <div class="headerleft"> <pre>Duration</pre></div>
+   <div class="headerright"> <pre>Five days - 40 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre></div>
+  </div>
+ <hr>
+ <div style="height:72px;">
+   <div class="headerleft"> <pre>Trainer</pre></div>
+   <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre></div>
+  </div>
+ <div style="height:116px;">
+   <div class="headerleft"> <pre>Audience</pre></div>
+   <div class="headerright"> <pre>Professional embedded Software developers
+Embedded developers.
+People supporting large scale products.</pre></div>
+  </div>
+ <div style="height:292px;">
+   <div class="headerleft"> <pre>Prerequisite</pre></div>
+   <div class="headerright"> <pre><b>Knowledge of Shell Scripting programming</b>
+In particular, participants should be familiar with writing scripts in Unix
+Shell Programming. Basic syntax and execution flow knowledge is required.
+Shell Programming training agenda is available at
+<a href="http://www.minhinc.com/training/li/advance-li-agenda.php">http://www.minhinc.com/training/li/advance-li-agenda.php</a>
+
+and can be downloaded from
+<a href="http://www.minhinc.com/training/advance-li-agenda.pdf">http://www.minhinc.com/training/advance-li-agenda.pdf</a>
+
+<b>Knowledge of Object Oriented Concepts</b>
+Oops concept like Abstraction, Inheritance, Polymorphism would help.</pre></div>
+  </div>
+ <hr>
+ <div style="height:72px;">
+   <div class="headerleft"> <pre>Setup</pre></div>
+   <div class="headerright"> <pre>Machine with Python 3.x interpreter installed.</pre></div>
+  </div>
+ <div class="header2" style="margin-top:125px;">
+   <pre class="header" style="line-height:40px">Lecture</pre>
+   <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://www.minhinc.com/training/advance-py-slides.pdf">http://www.minhinc.com/training/advance-py-slides.pdf</a></pre>
+  </div>
+ <div class="header2" style="margin-top:125px;">
+   <pre class="header" style="line-height:40px">Labs</pre>
+   <pre class="content" style="height:91px">Labs session would be completely hands on session where each example
+(with example data and execution instruction) would be provided to the
+students. Students can verify their results with the results provided in
+the material.</pre>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main1" href="#chap1" class="dayheader" style="padding-top:10.0px">  Lecture - Basic structure of Python program</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><a href="#chap1_0"><pre>Interactive Mode</pre></a></li>
+   <li><a href="#chap1_1"><pre>Scripting mode</pre></a></li>
+   <li><a href="#chap1_2"><pre>Main module</pre></a></li>
+   <li><a href="#chap1_3"><pre>Library modules</pre></a></li>
+   <li><a href="#chap1_4"><pre>Various namespaces</pre></a></li>
+   <li><a href="#chap1_5"><pre>Python Identifiers</pre></a></li>
+   <li><a href="#chap1_6"><pre>Lines and indentation</pre></a></li>
+   <li><a href="#chap1_7"><pre>Quotation</pre></a></li>
+   <li><a href="#chap1_8"><pre>Comments</pre></a></li>
+   <li><a href="#chap1_9"><pre>Multi Line statements</pre></a></li>
+
+   </ul>
+  </div>
+ <div class=dayheaderright style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main2" href="#chap2" class="dayheader" style="padding-top:10.0px">  Lecture - Python execution model</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:right">
+   <li><a href="#chap2_0"><pre>Self-Organizing Maps</pre></a></li>
+   <li><a href="#chap2_1"><pre>Boltzmann Machine</pre></a></li>
+   <li><a href="#chap2_2"><pre>Auto Encoders</pre></a></li>
+
+   </ul>
+  </div>
+ <div class=dayheaderleft style="margin-top:40.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main3" href="#chap3" class="dayheader" style="padding-top:10.0px">  Lecture - Variable types</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><a href="#chap3_0"><pre>Number (integer, long, float, complex)</pre></a></li>
+   <li><a href="#chap3_1"><pre>String</pre></a></li>
+   <li><a href="#chap3_2"><pre>Declaring and initializing variable</pre></a></li>
+   <li><a href="#chap3_3"><pre>Performing arithmetic calculation</pre></a></li>
+   <li><a href="#chap3_4"><pre>Mutable types
+ -List
+ -Dictionary</pre></a></li>
+   <li><a href="#chap3_5"><pre>Non mutable types
+ -Tuple</pre></a></li>
+
+   </ul>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><pre class="dayheader" style="padding-top:10.0px">     Lab</pre></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><pre>Installing Python</pre></li>
+   <li><pre>Writing simple python program</pre></li>
+   <li><pre>Executing program on command shell</pre></li>
+   <li><pre>Executing program through interpreter</pre></li>
+   <li><pre>Converting various data types to other
+types</pre></li>
+   <li><pre>Practicing built in functions.</pre></li>
+
+   </ul>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main4" href="#chap4" class="dayheader" style="padding-top:10.0px">  Lecture - Defining and Calling functions</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><a href="#chap4_0"><pre>Function definition</pre></a></li>
+   <li><a href="#chap4_1"><pre>Function arguments
+ -Pass by reference and value
+ -Required arguments
+ -Keyword arguments
+ -Default arguments
+ -Variable length arguments</pre></a></li>
+   <li><a href="#chap4_2"><pre>Function local, non local and global
+variable.</pre></a></li>
+   <li><a href="#chap4_3"><pre>Function object</pre></a></li>
+   <li><a href="#chap4_4"><pre>Method object</pre></a></li>
+
+   </ul>
+  </div>
+ <div class=dayheaderright style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main5" href="#chap5" class="dayheader" style="padding-top:10.0px">  Lecture - Control statement</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:right">
+   <li><a href="#chap5_0"><pre>if else elif statement</pre></a></li>
+   <li><a href="#chap5_1"><pre>for in statement</pre></a></li>
+   <li><a href="#chap5_2"><pre>while statement</pre></a></li>
+   <li><a href="#chap5_3"><pre>break, continue and pass</pre></a></li>
+   <li><a href="#chap5_4"><pre>Iterator</pre></a></li>
+   <li><a href="#chap5_5"><pre>Generator</pre></a></li>
+
+   </ul>
+  </div>
+ <div class=dayheaderleft style="margin-top:40.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main6" href="#chap6" class="dayheader" style="padding-top:10.0px">  Lecture - Regular Expression</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><a href="#chap6_0"><pre>Module re</pre></a></li>
+   <li><a href="#chap6_1"><pre>match(), search(), sub()</pre></a></li>
+   <li><a href="#chap6_2"><pre>Modifiers</pre></a></li>
+
+   </ul>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main7" href="#chap7" class="dayheader" style="padding-top:10.0px">  Lecture - Basic Operators</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><a href="#chap7_0"><pre>Arithmetic operator</pre></a></li>
+   <li><a href="#chap7_1"><pre>Relation operator</pre></a></li>
+   <li><a href="#chap7_2"><pre>Assignment operator</pre></a></li>
+   <li><a href="#chap7_3"><pre>Bitwise operator</pre></a></li>
+   <li><a href="#chap7_4"><pre>Membership operator</pre></a></li>
+   <li><a href="#chap7_5"><pre>Identity operator</pre></a></li>
+
+   </ul>
+  </div>
+ <div class=dayheaderright style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><pre class="dayheader" style="padding-top:10.0px">     Lab</pre></div>
+   <ul class="daycontent" style="padding-top:10px;float:right">
+   <li><pre>Write sample application with a function
+defined.</pre></li>
+   <li><pre>Pass arguments as
+ -Keyword arguments
+ -Default arguments
+ -Variable length arguments</pre></li>
+   <li><pre>Write regular expression to search and
+modify a string.</pre></li>
+
+   </ul>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main8" href="#chap8" class="dayheader" style="padding-top:10.0px">  Lecture - Module</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><a href="#chap8_0"><pre>Namespaces in dictionary</pre></a></li>
+   <li><a href="#chap8_1"><pre>Importing namespace to other</pre></a></li>
+   <li><a href="#chap8_2"><pre>Loading a module and accessing symbols</pre></a></li>
+   <li><a href="#chap8_3"><pre>Locating module</pre></a></li>
+   <li><a href="#chap8_4"><pre>dir function listing dictionary</pre></a></li>
+   <li><a href="#chap8_5"><pre>globals(), locals() function</pre></a></li>
+   <li><a href="#chap8_6"><pre>Reloading a module</pre></a></li>
+   <li><a href="#chap8_7"><pre>Packages,</pre></a></li>
+
+   </ul>
+  </div>
+ <div class=dayheaderright style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main9" href="#chap9" class="dayheader" style="padding-top:10.0px">  Lecture - Class and Object</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:right">
+   <li><a href="#chap9_0"><pre>Class variable</pre></a></li>
+   <li><a href="#chap9_1"><pre>Function object</pre></a></li>
+   <li><a href="#chap9_2"><pre>Inheritance</pre></a></li>
+   <li><a href="#chap9_3"><pre>Polymorphism</pre></a></li>
+   <li><a href="#chap9_4"><pre>Private and Public member</pre></a></li>
+   <li><a href="#chap9_5"><pre>Object instance</pre></a></li>
+   <li><a href="#chap9_6"><pre>Object member variable</pre></a></li>
+   <li><a href="#chap9_7"><pre>Method object</pre></a></li>
+   <li><a href="#chap9_8"><pre>Operator overloading</pre></a></li>
+
+   </ul>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><pre class="dayheader" style="padding-top:10.0px">     Lab</pre></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><pre>List module namespace dictionary</pre></li>
+   <li><pre>Import a module in main module and call
+module functions</pre></li>
+   <li><pre>Import external modules symbols in
+current module' namespace</pre></li>
+   <li><pre>Reload a module</pre></li>
+   <li><pre>Write package and sub packages</pre></li>
+   <li><pre>Write a small class with class variable and</pre></li>
+   <li><pre>function object</pre></li>
+   <li><pre>Add object variable and method objects.</pre></li>
+   <li><pre>Call methods from other method</pre></li>
+   <li><pre>Inherit from the class and override</pre></li>
+
+   </ul>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main10" href="#chap10" class="dayheader" style="padding-top:10.0px">  Lecture - Inheritance and Polymorphismockets</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><a href="#chap10_0"><pre>Reusing functionality through inheritance</pre></a></li>
+   <li><a href="#chap10_1"><pre>Tracing the scope in namespace</pre></a></li>
+   <li><a href="#chap10_2"><pre>Extending methods from base class</pre></a></li>
+   <li><a href="#chap10_3"><pre>Overriding methods for dynamic</pre></a></li>
+   <li><a href="#chap10_4"><pre>behaviour</pre></a></li>
+   <li><a href="#chap10_5"><pre>Polymorphic behaviour of class</pre></a></li>
+   <li><a href="#chap10_6"><pre>Class decorators</pre></a></li>
+   <li><a href="#chap10_7"><pre>Multiple inheritance</pre></a></li>
+   <li><a href="#chap10_8"><pre>Similarity and dissimilarity with C++</pre></a></li>
+   <li><a href="#chap10_9"><pre>inheritance and polymorphis</pre></a></li>
+
+   </ul>
+  </div>
+ <div class=dayheaderright style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main11" href="#chap11" class="dayheader" style="padding-top:10.0px">  Lecture - File I/O</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:right">
+   <li><a href="#chap11_0"><pre>Unbuffered file I/O
+ -os module
+ -File descriptor</pre></a></li>
+   <li><a href="#chap11_1"><pre>Streaming I/O
+ -open()
+ -File object</pre></a></li>
+
+   </ul>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><pre class="dayheader" style="padding-top:10.0px">     Lab</pre></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><pre>Inherit from the class and override
+methods</pre></li>
+   <li><pre>Instantiate base and derived class
+separately and check inheritance and
+polymorphism functionality.</pre></li>
+
+   </ul>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main12" href="#chap12" class="dayheader" style="padding-top:10.0px">  Lecture - Operator overloading</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><a href="#chap12_0"><pre>__init__, __del__</pre></a></li>
+   <li><a href="#chap12_1"><pre>__sub__</pre></a></li>
+   <li><a href="#chap12_2"><pre>__add_</pre></a></li>
+   <li><a href="#chap12_3"><pre>__or__</pre></a></li>
+   <li><a href="#chap12_4"><pre>__repr__,__str__</pre></a></li>
+   <li><a href="#chap12_5"><pre>__getattr_,__getattribute__,__setattr__,__delattr__</pre></a></li>
+   <li><a href="#chap12_6"><pre>__getitem__,__setitem__,__delitem__</pre></a></li>
+   <li><a href="#chap12_7"><pre>__len__,__bool__</pre></a></li>
+   <li><a href="#chap12_8"><pre>__lt__,__gt__,__le__,__ge__,__eq__,__ne__</pre></a></li>
+   <li><a href="#chap12_9"><pre>__radd__,__iadd__,__iter__,__next__</pre></a></li>
+   <li><a href="#chap12_10"><pre>__contains__</pre></a></li>
+   <li><a href="#chap12_11"><pre>__index__</pre></a></li>
+   <li><a href="#chap12_12"><pre>__enter__,__exit__</pre></a></li>
+   <li><a href="#chap12_13"><pre>__get__,__set__</pre></a></li>
+   <li><a href="#chap12_14"><pre>__delete__</pre></a></li>
+   <li><a href="#chap12_15"><pre>__new__</pre></a></li>
+
+   </ul>
+  </div>
+ <div class=dayheaderright style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><a name="main13" href="#chap13" class="dayheader" style="padding-top:10.0px">  Lecture - Exception</a></div>
+   <ul class="daycontent" style="padding-top:10px;float:right">
+   <li><a href="#chap13_0"><pre>Exception objects</pre></a></li>
+   <li><a href="#chap13_1"><pre>Assertion</pre></a></li>
+   <li><a href="#chap13_2"><pre>try, except, finally</pre></a></li>
+   <li><a href="#chap13_3"><pre>Raising an exception</pre></a></li>
+   <li><a href="#chap13_4"><pre>User defined exceptions</pre></a></li>
+
+   </ul>
+  </div>
+ <div class="dayheader" style="margin-top:47.5px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+ <div class=dayheaderleft style="margin-top:20.0px;">
+   <div class="dayheaderheader" style="height:40px"><pre class="dayheader" style="padding-top:10.0px">     Lab</pre></div>
+   <ul class="daycontent" style="padding-top:10px;float:left">
+   <li><pre>Implement operator overloading methods</pre></li>
+   <li><pre>Raise exception</pre></li>
+   <li><pre>Catch in except block</pre></li>
+   <li><pre>Implement finally</pre></li>
+
+   </ul>
+  </div>
+</div>
+<div style="clear:both;"></div>
+<div class="pg">
+</div>

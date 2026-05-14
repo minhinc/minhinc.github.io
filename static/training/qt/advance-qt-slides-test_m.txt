@@ -1,0 +1,1372 @@
+<div class="pg" style="margin-top:40px">
+ <pre class=title>Qt/Qml Essentials Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div align="center" style="width:100%;height:100px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:100px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:151px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding fundamental and advance topics in Qt Programming
+Understanding signals and slots concept
+Understanding Widget
+Understanding QPainter and 2D painting
+Understanding QML/QtQuick</pre>
+  </div>
+ </div>
+ <div style="height:63px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 5 hrs a day</pre>
+  </div>
+ </div>
+ <div style="height:63px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:85px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional embedded Software developers
+Professional GUI developers</pre>
+  </div>
+ </div>
+ <div style="height:437px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of C++ programming</b>
+Qt uses Template level advance C++ as language. Prior knowledge to C++
+is required.
+Advance Cpp training agenda is available at
+<a href=http://minhinc.42web.io/training/cpp/advance-cpp-slides.php>http://minhinc.42web.io/training/cpp/advance-cpp-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-cpp-slides.pdf>http://minhinc.42web.io/training/advance-cpp-slides.pdf</a>
+
+<b>Knowledge of Design Patterns Concepts</b>
+Qt uses GOF desing patterns in co-relating c++ classes.
+Get slides at
+<a href=http://minhinc.42web.io/training/dp/advance-dp-slides.php>http://minhinc.42web.io/training/dp/advance-dp-slides.php</a>
+
+<b>Knowledge of GUI and other concepts</b>
+Qt is used for GUI development and many other technologies including Networks,
+operating systems, Database, scripting. Basic knowledge of these domains are
+required as per the Qt is developed for the particular domain.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:63px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu 16/17 LTS, Qt 5.9/5.10</pre>
+  </div>
+ </div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-qt-slides.pdf">http://minhinc.42web.io/training/advance-qt-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Labs session would be completely hands on session where each example (with
+example data and execution instruction) would be provided to the students. Students
+can verify their results with the results provided in the material.</pre>
+ </div>
+ <div class="dayheader" style="margin-top:80px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class=dayheaderleft style="margin-top:40px;height:px">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Widgets</a>
+  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap5_0"><pre>Introduction to Widgets</pre></a></li>
+   <li><a href="#chap5_1"><pre>Writing custom Widgets</pre></a></li>
+   <li><a href="#chap5_2"><pre>QPainter and capabilites</pre></a></li>
+   <li><a href="#chap5_3"><pre>Drawing curves</pre></a></li>
+   <li><a href="#chap5_4"><pre>Drawing Pixmap</pre></a></li>
+   <li><a href="#chap5_5"><pre>Drawing Fonts</pre></a></li>
+   <li><a href="#chap5_6"><pre>Event Processing and Paint Engine</pre></a></li>
+   <li><a href="#chap5_7"><pre>MainWindow Widget</pre></a></li>
+   <li><a href="#chap5_8"><pre>Dialog Widget</pre></a></li>
+   <li><a href="#chap5_9"><pre>Tabify dock widget</pre></a></li>
+   <li><a href="#chap5_10"><pre>Drag and Drop</pre></a></li>
+   <li><a href="#chap5_11"><pre>Applying Qt style sheet on Widget</pre></a></li>
+  </ul>
+ </div>
+ <div class="dayheader" style="margin-top:143px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class=dayheaderleft style="margin-top:40px;height:px">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>
+  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>QMainWindow QMenu, QMenuBar, QToolBar,
+QStatusBar</pre></li>
+   <li><pre>Parent and Child Window</pre></li>
+  </ul>
+ </div>
+ 
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg">
+<pre class="slidetitle">Qt Essentials</pre><pre class="slidesubtitle">Qt Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:14pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-qt-slides.pdf">http://minhinc.42web.io/training/advance-qt-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on Apr-02-2021 
+
+Document contains 0 pages.</pre>
+</div>
+<div class="pg">
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<a name="chap5">&nbsp;<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <h1><pre class="topic">  5. Widgets</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap5_0">Introduction to Widgets</a></h2></li>   <li class="sml"><pre>Writing custom widget
+</pre></li>   <li class="sml"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts
+</pre></li>   <li class="sml"><pre>Event Processing and Paint Engine
+</pre></li>   <li class="sml"><pre>MainWindow Widget
+</pre></li>   <li class="sml"><pre>Dialog widget
+</pre></li>   <li class="sml"><pre>Tabify dock widget
+</pre></li>   <li class="sml"><pre>Drag and drop
+</pre></li>   <li class="sml"><pre>Applying Qt style sheet on Widgets
+</pre></li>   <li class="sml"><pre>Scrolling, QScrollArea</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-qwidgethierarchy.png" /></div><div align="center" style="width:100%;height:68px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:68px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"> 
+* Derived from QObject
+ - Adds visual representation
+* Base of user interface objects
+* Receives events
+ - e.g. mouse, keyboard events
+* Paints itself on screen
+ - Using styles
+ 
+Object Tree and QWidget
+new QWidget(0)
+ - Widget with no parent is window
+QWidgets children
+ - Displayed in parent coordinate system
+ - Clipped by parents boundaries
+QWidget parent
+ - Propagates state changes
+ - hides/shows them when it is hidden/shown itself
+ - enables/disables them when it is enabled/disabled itself
+Tristate mechanism
+ - For hide/show and enable/disable, ensures that e.g. an explicitly hidden child is not shown when the parent is shown.
+ 
+Widgets that contain other widgets
+* Container Widgets
+* Aggregates other child-widgets
+* Use layouts for aggregation
+* In this example: QHBoxLayout and
+QVBoxLayout
+* Note: Layouts are not widgets
+* Layout Process
+* Add widgets to layout
+* Layouts may be nested
+* Set layout on container widget
+  </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  5. Widgets</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Introduction to Widgets
+</pre></li>   <li class="big"><h2><a name="chap5_1">Writing custom widget</a></h2></li>   <li class="sml"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts
+</pre></li>   <li class="sml"><pre>Event Processing and Paint Engine
+</pre></li>   <li class="sml"><pre>MainWindow Widget
+</pre></li>   <li class="sml"><pre>Dialog widget
+</pre></li>   <li class="sml"><pre>Tabify dock widget
+</pre></li>   <li class="sml"><pre>Drag and drop
+</pre></li>   <li class="sml"><pre>Applying Qt style sheet on Widgets
+</pre></li>   <li class="sml"><pre>Scrolling, QScrollArea</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"> 
+* Drivation
+ * Drive from QWidget or children
+ * Override QPaintEvent </pre>
+ <pre  class="code">-----------
+| QWidget |
+---------------------
+|virtual QPaintEvent|
+---------------------
+        / \
+         -
+         |
+---------------
+|customwidget|
+---------------
+|QpaintEvent()|
+---------------- </pre>
+<div align="center" style="width:100%;height:52px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:52px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"> 
+* Containment
+ * QWidget object contains other QWidgets </pre>
+ <pre  class="code">-----------               *  ---------
+| QWidget |&lt;&gt;---------------&gt;|QWidget|
+---------------------        ---------
+|virtual QPaintEvent|
+--------------------- </pre>
+ <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  5. Widgets</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Introduction to Widgets
+</pre></li>   <li class="sml"><pre>Writing custom widget
+</pre></li>   <li class="big"><h2><a name="chap5_2">QPainter and capabilites<br>- Drawing curves<br>- Drawing Pixmap<br>- Drawing Fonts</a></h2></li>   <li class="sml"><pre>Event Processing and Paint Engine
+</pre></li>   <li class="sml"><pre>MainWindow Widget
+</pre></li>   <li class="sml"><pre>Dialog widget
+</pre></li>   <li class="sml"><pre>Tabify dock widget
+</pre></li>   <li class="sml"><pre>Drag and drop
+</pre></li>   <li class="sml"><pre>Applying Qt style sheet on Widgets
+</pre></li>   <li class="sml"><pre>Scrolling, QScrollArea</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"> 
+The QPainter class performs low-level painting on widgets and other paint devices.
+QPainter provides highly optimized functions to do most of the drawing GUI
+programs require. It has three drawing capabilities.
+a) Pen
+b) Brush
+c) Font
+ 
+QPainter can operate on any object that inherits the QPaintDevice class.
+QPainter generaly operates on virtual function paintEvent(...)  update() funciton in
+QWidget calls repainting, calling paintEvent()
+ 
+Pixmap being QPaintDevice, QPainter works on that.
+  </pre>
+<div align="center" style="width:100%;height:70px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:70px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  5. Widgets</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Introduction to Widgets
+</pre></li>   <li class="sml"><pre>Writing custom widget
+</pre></li>   <li class="sml"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts
+</pre></li>   <li class="big"><h2><a name="chap5_3">Event Processing and Paint Engine</a></h2></li>   <li class="sml"><pre>MainWindow Widget
+</pre></li>   <li class="sml"><pre>Dialog widget
+</pre></li>   <li class="sml"><pre>Tabify dock widget
+</pre></li>   <li class="sml"><pre>Drag and drop
+</pre></li>   <li class="sml"><pre>Applying Qt style sheet on Widgets
+</pre></li>   <li class="sml"><pre>Scrolling, QScrollArea</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-paintengine.png" /></div> <pre  class="slidecontent">The QPaintEngine class provides an abstract definition of how QPainter draws to a given device on a given platform.
+QPaintEngine is created and owned by the QPaintDevice that created it.
+QPainter provides abstract function for drawing to the user, internally it uses specific QPaintEngine, tied to a target PaintDevice, algorithms. </pre>
+ <pre  class="code">enum QPaintEngine::Type
+Constant                     Value           Description
+QPaintEngine::X11             0
+QPaintEngine::Windows         1
+QPaintEngine::MacPrinter      4
+QPaintEngine::CoreGraphics    3    Mac OS X's Quartz2D (CoreGraphics)
+QPaintEngine::QuickDraw       2    Mac OS X's QuickDraw
+QPaintEngine::QWindowSystem   5    Qt for Embedded Linux
+QPaintEngine::PostScript      6    (No longer supported)
+QPaintEngine::OpenGL          7
+QPaintEngine::Picture         8    QPicture format
+QPaintEngine::SVG             9   Scalable Vector Graphics XML format
+QPaintEngine::Raster          10
+QPaintEngine::Direct3D        11  Windows only, Direct3D based engine
+QPaintEngine::Pdf             12  Portable Document Format
+QPaintEngine::OpenVG          13
+QPaintEngine::User            50  First user type ID
+QPaintEngine::MaxUser         100 Last user type ID
+QPaintEngine::OpenGL2         14
+QPaintEngine::PaintBuffer     15
+QPaintEngine::Blitter         16 </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"> 
+GUI events are placed to eventQueue and finally processed by paintEvent Functions. </pre>
+ <pre class="codes" style="float:left;">QT += core
+ 
+<pre class="codei">&lt;main.cpp&gt;</pre>
+#include &lt;QApplication&gt;
+#include "widget.h"
+ 
+int main(int argc, char *argv[]) {
+QApplication a(argc, argv);
+int r;
+widget *w=new widget;
+w-&gt;show();
+r=a.exec();
+return r;
+}
+ 
+<pre class="codei">&lt;widget.h&gt;</pre>
+#include &lt;QPainter&gt;
+#include &lt;QPaintEvent&gt;
+#include &lt;QRadialGradient&gt;
+#include &lt;QTimer&gt;
+#include &lt;QTransform&gt;
+#include "widget.h"
+widget::widget(QWidget *parent):QWidget(parent){
+QTimer *sunroundtimer=new QTimer(this);
+connect(sunroundtimer,SIGNAL(timeout()),this,SLOT(sunround()));
+sunroundangle=0;
+earthownaxisangle=0;
+earthroundangle=0;
+sunroundmarsangle=0;
+marsround1angle=0;
+marsround2angle=0;
+update();
+sunroundtimer-&gt;start(500);
+}
+void widget::paintEvent(QPaintEvent *pe) {
+int side=qMin(width(),height());
+QWidget::paintEvent(pe);
+QPainter *p=new QPainter(this);
+p-&gt;setViewport((width()-side)/2,(height()-side)/2,side,side);
+p-&gt;setWindow(-50,-50,100,100);
+ 
+QTransform transformearth;
+QTransform transformmoon;
+transformearth.rotate(sunroundangle);
+transformearth.translate(30,0);
+transformmoon.rotate(earthroundangle);
+transformmoon.translate(7.5,0);
+QRadialGradient rg(0,0,SUN,0,0);
+rg.setColorAt(0.0,Qt::white);
+rg.setColorAt(0.5,Qt::yellow);
+rg.setColorAt(1,Qt::red);
+p-&gt;setPen(Qt::NoPen);
+p-&gt;setBrush(rg);
+p-&gt;drawEllipse(-SUN,-SUN,SUN*2,SUN*2);
+p-&gt;save();
+ 
+QRadialGradient erg(0,0,EARTH,-EARTH+1,0);
+erg.setColorAt(0.0,Qt::white);
+erg.setColorAt(0.7,Qt::blue);
+erg.setColorAt(1.0,Qt::black);
+p-&gt;setPen(Qt::NoPen);
+p-&gt;setBrush(erg); </pre>
+ <pre class="codes" style="float:left;">//p-&gt;rotate(sunroundangle);
+//p-&gt;translate(+30,0);
+p-&gt;setWorldTransform(transformearth,true);
+p-&gt;save();
+p-&gt;rotate(earthownaxisangle);
+p-&gt;drawEllipse(-EARTH,-EARTH,EARTH*2,EARTH*2);
+p-&gt;restore();
+p-&gt;setBrush(Qt::black);
+//p-&gt;rotate(earthroundangle);
+//p-&gt;translate(7.5,0);
+p-&gt;setWorldTransform(transformmoon,true);
+p-&gt;drawEllipse(-MOON,-MOON,MOON*2,MOON*2);
+p-&gt;restore();
+ 
+ 
+p-&gt;save();
+QRadialGradient mrg(0,0,MARS,-MARS+1,0);
+mrg.setColorAt(0.0,Qt::white);
+mrg.setColorAt(1,Qt::red);
+p-&gt;setPen(Qt::NoPen);
+p-&gt;setBrush(mrg);
+p-&gt;rotate(sunroundmarsangle);
+p-&gt;translate(+40,-40);
+p-&gt;drawEllipse(-MARS,-MARS,MARS*2,MARS*2);
+ 
+p-&gt;save();
+p-&gt;setBrush(Qt::green);
+p-&gt;rotate(marsround1angle);
+p-&gt;translate(4.5,0);
+p-&gt;drawEllipse(-MARSMOON1,-MARSMOON1,MARSMOON1*2,MARSMOON1*2);
+p-&gt;restore();
+ 
+p-&gt;save();
+p-&gt;setBrush(Qt::blue);
+p-&gt;rotate(marsround2angle);
+p-&gt;translate(5.5,0);
+p-&gt;drawEllipse(-MARSMOON2,-MARSMOON2,MARSMOON2*2,MARSMOON2*2);
+p-&gt;restore();
+p-&gt;restore();
+}
+ 
+void widget::sunround() {
+if((sunroundangle+=1)==360) sunroundangle=0;
+if((earthownaxisangle+=90)==360) earthownaxisangle=0;
+if((earthroundangle+=18)==360) earthroundangle=0;
+if((sunroundmarsangle+=0.5)==360) sunroundmarsangle=0;
+if((marsround1angle+=18)==360) marsround1angle=0;
+if((marsround2angle+=36)==360) marsround2angle=0;
+update();
+}
+ 
+<pre class="codei">&lt;widget.h&gt;</pre>
+#ifndef WIDGET_H
+#define WIDGET_H
+class QPainter;
+class QPaintEvent;
+class QTimer;
+#include &lt;QWidget&gt;
+class widget: public QWidget {
+Q_OBJECT
+public:
+widget(QWidget *parent=0);
+protected: </pre>
+<div class="clr"></div><div align="center" style="width:100%;height:144px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:144px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre class="codes" style="float:left;">void paintEvent(QPaintEvent *);
+private slots:
+void sunround();
+private:
+QTimer *sunroundtimer;
+QTimer *earthownaxistimer;
+QTimer *earthroundtimer;
+float sunroundangle;
+float earthownaxisangle;
+float earthroundangle; </pre>
+ <pre class="codes" style="float:left;">float sunroundmarsangle;
+float marsround1angle;
+float marsround2angle;
+QPainter *p;
+static const float SUN=8.0;
+static const float EARTH=5.0;
+static const float MARS=3.0;
+static const float MOON=1.5;
+static const float MARSMOON1=1;
+static const float MARSMOON2=1.5;
+};
+#endif </pre>
+<div class="clr"></div> <pre  class="slidecontent">OUTPUT </pre>
+<div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-widget_solar.png" /></div><div align="center" style="width:100%;height:80px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  5. Widgets</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Introduction to Widgets
+</pre></li>   <li class="sml"><pre>Writing custom widget
+</pre></li>   <li class="sml"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts
+</pre></li>   <li class="sml"><pre>Event Processing and Paint Engine
+</pre></li>   <li class="big"><h2><a name="chap5_4">MainWindow Widget</a></h2></li>   <li class="sml"><pre>Dialog widget
+</pre></li>   <li class="sml"><pre>Tabify dock widget
+</pre></li>   <li class="sml"><pre>Drag and drop
+</pre></li>   <li class="sml"><pre>Applying Qt style sheet on Widgets
+</pre></li>   <li class="sml"><pre>Scrolling, QScrollArea</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-qmainwindow.png" /></div><div align="center" style="width:100%;height:80px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">  </pre>
+ <pre  class="code">                                         Qwidget
+                                           / \
+                                            -
+                                            |
+                                       QMainWindow </pre>
+ <pre  class="slidecontent">-It provides a framework for building an application's user interface.
+-It has its own layout to which QToolBars, QDockWidgets, QMenuBar and QStatusBar
+can be added.
+-It's layout has a center area that can be occupied by any kind of widget,i.e QTextEdit or QGraphicsView
+  </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="code">QMainWindow::setCentralWidget( widget ) </pre>
+ <pre  class="slidecontent">  </pre>
+ <pre  class="code">* QAction: menu items added to QMenu
+void MainWindow::setupMenuBar() {
+QMenuBar* bar = menuBar();
+QMenu* menu = bar-&gt;addMenu(tr("&File"));
+menu-&gt;addAction(action);
+menu-&gt;addSeparator();
+menu-&gt;addMenu("Sub Menu");
+  ...
+ 
+QMainWindow::addToolbar( toolbar ) </pre>
+ <pre  class="slidecontent"> 
+* Adds toolbar to main window
+* QMainWindow::addToolBarBreak()
+ 
+* Adds section splitter
+* QToolBar::addAction( action )
+ 
+* Adds action to toolbar
+* QToolBar::addWidget(widget)
+ 
+* Adds widget to toolbar </pre>
+<div align="center" style="width:100%;height:55px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:55px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="code">void MainWindow::setupToolBar() {
+QToolBar* bar = addToolBar(tr("File"));
+bar-&gt;addAction(action);
+bar-&gt;addSeparator();
+bar-&gt;addWidget(new QLineEdit("Find ..."));
+...
+ 
+QToolButton: Quick-access button to commands or options
+QToolButton* button = new QToolButton(this);
+button-&gt;setAction(action); </pre>
+ <pre  class="code">// Can have a menu
+button-&gt;setMenu(menu);
+// Shows menu indicator on button
+button-&gt;setPopupMode(QToolButton::MenuButtonPopup);
+// Control over text + icon placements
+button-&gt;setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
+...
+ 
+void MainWindow::createStatusBar() {
+QStatusBar* bar = statusBar();
+bar-&gt;showMessage(tr("Ready"));
+bar-&gt;addWidget(new QLabel("Label on StatusBar"));
+...
+ 
+QmainWindow::setDockOptions(options) </pre>
+<div align="center" style="width:100%;height:60px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:60px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"> 
+Specifies docking behavior (animated, nested, tabbed, ...) </pre>
+ <pre  class="code">void MainWindow::createDockWidget() {
+QDockWidget *dock = new QDockWidget(tr("Title"), this);
+dock-&gt;setAllowedAreas(Qt::LeftDockWidgetArea);
+QListWidget *widget = new QListWidget(dock);
+dock-&gt;setWidget(widget);
+addDockWidget(Qt::LeftDockWidgetArea, dock);
+  ... </pre>
+ <pre  class="slidecontent"> 
+<b>MDIAREA EXAMPLE</b> </pre>
+ <pre class="codes" style="float:left;"><pre class="codei">&lt;*.pro&gt;</pre>
+QT+=widgets
+<pre class="codei">&lt;widget.h&gt;</pre>
+#ifndef WIDGET_H
+#define WIDGET_H
+#include &lt;QWidget&gt;
+#include &lt;QPainter&gt;
+#include &lt;QString&gt;
+class QPaintEvent;
+ 
+class widget:public QWidget {
+Q_OBJECT
+public:
+widget(QWidget *p=0,const QString& textp=""):QWidget(p),text(textp){}
+void settext(const QString tp) {
+text=tp;
+}
+private:
+QString text;
+protected:
+void paintEvent(QPaintEvent *e) {
+QWidget::paintEvent(e);
+QPainter p(this);
+p.drawText(rect().width()/2,rect().height()/2,text);
+}
+};
+#endif
+<pre class="codei">&lt;mainwindow.h&gt;</pre>
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+#include &lt;QMainWindow&gt;
+class QMdiArea;
+class QListWidget;
+ 
+class mainwindow:public QMainWindow {
+Q_OBJECT
+public:
+mainwindow(QMainWindow *p=0);
+private slots:
+void itemclck();
+private:
+QMdiArea *ma;
+QListWidget *lw;
+}; </pre>
+ <pre class="codes" style="float:left;">#endif
+<pre class="codei">&lt;mainwindow.c&gt;</pre>
+#include &lt;QWidget&gt;
+#include &lt;QListWidget&gt;
+#include &lt;QDockWidget&gt;
+#include &lt;QMdiArea&gt;
+#include &lt;QDebug&gt;
+#include "mainwindow.h"
+#include "widget.h"
+ 
+mainwindow::mainwindow(QMainWindow *p):QMainWindow(p){
+ma=new QMdiArea;
+lw=new QListWidget(this);
+QDockWidget *dw=new QDockWidget;
+dw-&gt;setAllowedAreas(Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea);
+dw-&gt;setWidget(lw);
+addDockWidget(Qt::LeftDockWidgetArea,dw);
+ 
+lw-&gt;addItem(new QListWidgetItem(tr("one")));
+lw-&gt;addItem(new QListWidgetItem(tr("two")));
+lw-&gt;addItem(new QListWidgetItem(tr("three")));
+ 
+ma-&gt;addSubWindow(new widget(ma,"first"));
+ma-&gt;addSubWindow(new widget(ma,"second"));
+ma-&gt;addSubWindow(new widget(ma,"third"));
+ 
+ma-&gt;tileSubWindows();
+//ma-&gt;cascadeSubWindows();
+setCentralWidget(ma);
+setFixedSize(width(),height());
+connect(lw,SIGNAL(itemClicked(QListWidgetItem*)),this,SLOT(itemclck()));
+}
+void mainwindow::itemclck() {
+qDebug()&lt;&lt;lw-&gt;currentRow();
+ma-&gt;setActiveSubWindow(ma-&gt;subWindowList().at(lw-&gt;currentRow()));
+}
+<pre class="codei">&lt;main.cpp&gt;</pre>
+#include &lt;QApplication&gt;
+#include "mainwindow.h"
+ 
+int main(int argc, char *argv[]) {
+QApplication a(argc, argv);
+mainwindow m;
+m.show();
+return a.exec();
+} </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">OUTPUT </pre>
+<div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-qmainwindow_mdi.png" /></div><div align="center" style="width:100%;height:69px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:69px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent"> 
+<b>STACKED EXAMPLE</b> </pre>
+ <pre class="codes" style="float:left;"><pre class="codei">&lt;*.pro&gt;</pre>
+QT += widgets
+ 
+&lt;main.cpp&gt;
+#include &lt;QApplication&gt;
+#include "mainwindow.h"
+ 
+int main(int argc, char *argv[]) {
+QApplication a(argc, argv);
+mainwindow m;
+m.show();
+return a.exec();
+}
+ 
+<pre class="codei">&lt;mainwindow.cpp&gt;</pre>
+#include &lt;QWidget&gt;
+#include &lt;QListWidget&gt;
+#include &lt;QDockWidget&gt; </pre>
+ <pre class="codes" style="float:left;">#include &lt;QStackedLayout&gt;
+#include &lt;QDebug&gt;
+#include "mainwindow.h"
+#include "widget.h"
+ 
+mainwindow::mainwindow(QMainWindow *p):QMainWindow(p){
+QDockWidget *dw=new QDockWidget;
+lw=new QListWidget(dw);
+dw-&gt;setAllowedAreas(Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea);
+dw-&gt;setWidget(lw);
+addDockWidget(Qt::LeftDockWidgetArea,dw);
+ 
+lw-&gt;addItem(new QListWidgetItem(tr("one")));
+lw-&gt;addItem(new QListWidgetItem(tr("two")));
+lw-&gt;addItem(new QListWidgetItem(tr("three")));
+ 
+sl= new QStackedLayout;
+sl-&gt;addWidget(new widget(this,"first"));
+sl-&gt;addWidget(new widget(this,"second")); </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;">sl-&gt;addWidget(new widget(this,"third"));
+ 
+QWidget *w=new QWidget;
+w-&gt;setLayout(sl);
+setCentralWidget(w);
+connect(lw,SIGNAL(itemClicked(QListWidgetItem*)),this,SLOT(itemclck()));
+}
+void mainwindow::itemclck() {
+qDebug()&lt;&lt;lw-&gt;currentRow();
+sl-&gt;setCurrentIndex(lw-&gt;currentRow());
+}
+ 
+<pre class="codei">&lt;mainwindow.h&gt;</pre>
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+#include &lt;QMainWindow&gt;
+class QListWidget;
+class QStackedLayout;
+ 
+class mainwindow:public QMainWindow {
+Q_OBJECT
+public:
+mainwindow(QMainWindow *p=0);
+private slots:
+void itemclck(); </pre>
+ <pre class="codes" style="float:left;">private:
+QListWidget *lw;
+QStackedLayout *sl;
+};
+#endif
+<pre class="codei">&lt;widget.h&gt;</pre>
+#ifndef WIDGET_H
+#define WIDGET_H
+#include &lt;QWidget&gt;
+#include &lt;QPainter&gt;
+#include &lt;QString&gt;
+class QPaintEvent;
+class widget:public QWidget {
+Q_OBJECT
+public:
+widget(QWidget *p=0,const QString& textp=""):QWidget(p),text(textp){}
+private:
+QString text;
+protected:
+void paintEvent(QPaintEvent *e) {
+QWidget::paintEvent(e);
+QPainter p(this);
+p.drawText(rect().width()/2,rect().height()/2,text);
+}
+};
+#endif </pre>
+<div class="clr"></div><div align="center" style="width:100%;height:61px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:61px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">OUTPUT </pre>
+<div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-qmainwindow_stacklyt.png" /></div><div align="center" style="width:100%;height:61px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:61px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  5. Widgets</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Introduction to Widgets
+</pre></li>   <li class="sml"><pre>Writing custom widget
+</pre></li>   <li class="sml"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts
+</pre></li>   <li class="sml"><pre>Event Processing and Paint Engine
+</pre></li>   <li class="sml"><pre>MainWindow Widget
+</pre></li>   <li class="big"><h2><a name="chap5_5">Dialog widget</a></h2></li>   <li class="sml"><pre>Tabify dock widget
+</pre></li>   <li class="sml"><pre>Drag and drop
+</pre></li>   <li class="sml"><pre>Applying Qt style sheet on Widgets
+</pre></li>   <li class="sml"><pre>Scrolling, QScrollArea</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"> 
+The QDialog class is the base class of dialog windows.
+ 
+A dialog window is a top-level window mostly used for short-term tasks and brief
+communications with the user. QDialogs may be modal or modeless. QDialogs can
+provide a return value, and they can have default buttons. QDialogs can also have a
+QSizeGrip in their lower-right corner, using setSizeGripEnabled().
+ 
+  </pre>
+<div align="center" style="width:100%;height:50px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:50px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  5. Widgets</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Introduction to Widgets
+</pre></li>   <li class="sml"><pre>Writing custom widget
+</pre></li>   <li class="sml"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts
+</pre></li>   <li class="sml"><pre>Event Processing and Paint Engine
+</pre></li>   <li class="sml"><pre>MainWindow Widget
+</pre></li>   <li class="sml"><pre>Dialog widget
+</pre></li>   <li class="big"><h2><a name="chap5_6">Tabify dock widget</a></h2></li>   <li class="sml"><pre>Drag and drop
+</pre></li>   <li class="sml"><pre>Applying Qt style sheet on Widgets
+</pre></li>   <li class="sml"><pre>Scrolling, QScrollArea</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"> 
+A dock widget can be tabified on other dock widget with tabifyDockWidget function in QMainWindow.
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  5. Widgets</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Introduction to Widgets
+</pre></li>   <li class="sml"><pre>Writing custom widget
+</pre></li>   <li class="sml"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts
+</pre></li>   <li class="sml"><pre>Event Processing and Paint Engine
+</pre></li>   <li class="sml"><pre>MainWindow Widget
+</pre></li>   <li class="sml"><pre>Dialog widget
+</pre></li>   <li class="sml"><pre>Tabify dock widget
+</pre></li>   <li class="big"><h2><a name="chap5_7">Drag and drop</a></h2></li>   <li class="sml"><pre>Applying Qt style sheet on Widgets
+</pre></li>   <li class="sml"><pre>Scrolling, QScrollArea</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"> 
+  - Drag and Drop is done through a drag and a drop site.
+  - Drop site has to implement dragEnterEvent, dragMoveEvent and dropEvent
+  - Dtag site has to implement mousePressEvent and MoseMoveEvent
+  - Dragable data is encapsulated in QMideData and finaly in QDrag widget </pre>
+ <pre  class="code"> ------------------
+  |                |
+  |                |------() mousePressEvent
+  |                |------() mouseMoveEvent
+  |                |------() dragEnterEvent
+  |   &lt;DragDrop    |------() dragMoveEvent
+  |    widge&gt;      |------() dropEvent
+  |                |
+  |                |
+  ------------------ </pre>
+ <pre  class="slidecontent">  &lt;&lt;listwidget.h&gt;&gt; </pre>
+ <pre class="codes" style="float:left;"><pre class="codei">&lt;*.pro&gt;</pre>
+QT+=widgets
+RESOURCES = resource.qrc
+<pre class="codei">&lt;resource.qrc&gt;</pre>
+&lt;!DOCTYPE RCC&gt;&lt;RCC version="1.0"&gt;
+&lt;qresource&gt;
+&lt;file&gt;qt-slide-widget_drgdrpicon.png&lt;/file&gt;
+&lt;/qresource&gt;
+&lt;/RCC&gt;
+<pre class="codei">&lt;listwidget.h&gt;</pre>
+#ifndef LISTWIDGET_H
+#define LISTWIDGET_H
+#include &lt;QListWidget&gt;
+struct QDragEnterEvent;
+struct QDropEvent;
+struct QMouseEvent;
+struct QDragMoveEvent;
+ 
+class listwidget:public QListWidget{
+Q_OBJECT
+public:
+listwidget(QListWidget *p=0);
+protected:
+void mousePressEvent(QMouseEvent *e);
+void mouseMoveEvent(QMouseEvent *e);
+void dragEnterEvent(QDragEnterEvent *e);
+void dragMoveEvent(QDragMoveEvent *e);
+void dropEvent(QDropEvent *e);
+private:
+QPoint spos;
+};
+#endif
+<pre class="codei">&lt;listwidget.cpp&gt;</pre>
+#include &lt;QPixmap&gt;
+#include &lt;QListWidgetItem&gt;
+#include &lt;QPoint&gt;
+#include &lt;QDragEnterEvent&gt;
+#include &lt;QDragMoveEvent&gt;
+#include &lt;QDropEvent&gt;
+#include &lt;QMouseEvent&gt;
+#include &lt;QDrag&gt;
+#include &lt;QMimeData&gt;
+#include &lt;QApplication&gt;
+#include "listwidget.h"
+ 
+listwidget::listwidget(QListWidget *p):QListWidget(p){
+addItems(QStringList()&lt;&lt;"one"&lt;&lt;"two"&lt;&lt;"three");
+setAcceptDrops(true);
+}
+void listwidget::mousePressEvent(QMouseEvent *e) {
+if(e-&gt;button() == Qt::LeftButton) spos=e-&gt;pos();
+QListWidget::mousePressEvent(e);
+} </pre>
+ <pre class="codes" style="float:left;"> 
+void listwidget::mouseMoveEvent(QMouseEvent *e){
+QMimeData *mimedata;
+QDrag *drag;
+QListWidgetItem *item;
+if(e-&gt;buttons() & Qt::LeftButton)
+if((e-&gt;pos()-spos).manhattanLength() &gt;= QApplication::startDragDistance()){
+item=currentItem();
+if(item) {
+mimedata=new QMimeData;
+mimedata-&gt;setText(item-&gt;text());
+drag=new QDrag(this);
+drag-&gt;setMimeData(mimedata);
+drag-&gt;setPixmap(QPixmap(":/qt-slide-widget_drgdrpicon.png"));
+if(drag-&gt;exec(Qt::MoveAction) == Qt::MoveAction) delete item;
+}
+}
+QListWidget::mouseMoveEvent(e);
+}
+ 
+void listwidget::dragEnterEvent(QDragEnterEvent* e){
+listwidget* source=qobject_cast&lt;listwidget*&gt;(e-&gt;source());
+if(source && source != this){
+e-&gt;setDropAction(Qt::MoveAction);
+e-&gt;accept();
+}
+}
+ 
+void listwidget::dragMoveEvent(QDragMoveEvent* e){
+listwidget* source=qobject_cast&lt;listwidget*&gt;(e-&gt;source());
+if(source && source != this) {
+e-&gt;setDropAction(Qt::MoveAction);
+e-&gt;accept();
+}
+}
+ 
+void listwidget::dropEvent(QDropEvent *e){
+listwidget* source=qobject_cast&lt;listwidget*&gt;(e-&gt;source());
+if(source && source!= this){
+addItem(e-&gt;mimeData()-&gt;text());
+e-&gt;setDropAction(Qt::MoveAction);
+e-&gt;accept();
+}
+}
+<pre class="codei">&lt;main.cpp&gt;</pre>
+#include &lt;QApplication&gt;
+#include "listwidget.h"
+ 
+int main(int argc, char *argv[]){
+QApplication a(argc,argv);
+listwidget l1;
+listwidget l2;
+l1.show();
+l2.show();
+return a.exec();
+} </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">OUTPUT </pre>
+<div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-widget_drgdrpicon.png" /></div><div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-widget_drgdrp.png" /></div><div align="center" style="width:100%;height:57px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:57px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  5. Widgets</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Introduction to Widgets
+</pre></li>   <li class="sml"><pre>Writing custom widget
+</pre></li>   <li class="sml"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts
+</pre></li>   <li class="sml"><pre>Event Processing and Paint Engine
+</pre></li>   <li class="sml"><pre>MainWindow Widget
+</pre></li>   <li class="sml"><pre>Dialog widget
+</pre></li>   <li class="sml"><pre>Tabify dock widget
+</pre></li>   <li class="sml"><pre>Drag and drop
+</pre></li>   <li class="big"><h2><a name="chap5_8">Applying Qt style sheet on Widgets</a></h2></li>   <li class="sml"><pre>Scrolling, QScrollArea</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent"> 
+Styles sheets are textual specifications that can be set on the whole application using
+QApplication::setStyleSheet() or on a specific widget (and its children) using
+QWidget::setStyleSheet(). If several style sheets are set at different levels, Qt derives the
+effective style sheet from all of those that are set. This is called cascading.
+ 
+Ex.
+ 
+QLineEdit { background: yellow }
+QCheckBox { color: red }
+  </pre>
+<div align="center" style="width:100%;height:65px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:65px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre class="codes" style="float:left;"><pre class="codei">&lt;.pro&gt;</pre>
+QT+=widgets
+# Input
+RESOURCES += resource.qrc
+ 
+<pre class="codei">&lt;main.cpp&gt;</pre>
+#include &lt;QApplication&gt;
+#include "mainwindow.h"
+ 
+int main(int argc, char* argv[]){
+QApplication a(argc, argv);
+mainwindow mw;
+mw.show();
+return a.exec();
+}
+ 
+<pre class="codei">&lt;mainwindow.h&gt;</pre>
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+#include &lt;QMainWindow&gt;
+struct QDockWidget;
+struct stylewidget;
+ 
+struct mainwindow:QMainWindow{
+mainwindow();
+stylewidget* sw;
+QDockWidget *ldw,*rdw;
+private:
+Q_OBJECT
+};
+#endif
+ 
+<pre class="codei">&lt;stylewidget.h&gt;</pre>
+fndef STYLEWIDGET_H
+#define STYLEWIDGET_H
+#include &lt;QWidget&gt;
+#include &lt;QString&gt;
+struct QLineEdit;
+struct QComboBox;
+struct QPushButton;
+struct QListWidget;
+ 
+struct stylewidget:QWidget{
+stylewidget();
+QComboBox* scb;
+QComboBox* sscb;
+QLineEdit* le;
+QPushButton* pb;
+QListWidget* lw;
+private slots:
+void slotscbactivated(const QString&);
+void slotsscbactivated(const QString&);
+private:
+Q_OBJECT
+};
+#endif
+ 
+<pre class="codei">&lt;mainwindow.cpp&gt;</pre>
+#include &lt;QDockWidget&gt;
+#include "mainwindow.h"
+#include "stylewidget.h"
+ 
+mainwindow::mainwindow(){
+setCentralWidget(sw=new stylewidget);
+addDockWidget(Qt::LeftDockWidgetArea,ldw=new QDockWidget);
+addDockWidget(Qt::RightDockWidgetArea,rdw=new QDockWidget);
+ldw-&gt;setAllowedAreas(Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea);
+rdw-&gt;setAllowedAreas(Qt::RightDockWidgetArea|Qt::LeftDockWidgetArea);
+ldw-&gt;setWindowTitle("Left");
+rdw-&gt;setWindowTitle("Right");
+}
+<pre class="codei">&lt;stylewidget.cpp&gt;</pre>
+#include &lt;QLineEdit&gt; </pre>
+ <pre class="codes" style="float:left;">#include &lt;QPushButton&gt;
+#include &lt;QListWidget&gt;
+#include &lt;QLabel&gt;
+#include &lt;QComboBox&gt;
+#include &lt;QFile&gt;
+#include &lt;QVBoxLayout&gt;
+#include &lt;QHBoxLayout&gt;
+#include &lt;QApplication&gt;
+#include &lt;QStyleFactory&gt;
+#include &lt;QDebug&gt;
+#include "stylewidget.h"
+ 
+stylewidget::stylewidget(){
+QVBoxLayout* vlt=new QVBoxLayout;
+QHBoxLayout* chlt=new QHBoxLayout;
+chlt-&gt;addWidget(scb=new QComboBox);
+chlt-&gt;addWidget(sscb=new QComboBox);
+vlt-&gt;addLayout(chlt);
+QHBoxLayout* hlt=new QHBoxLayout;
+hlt-&gt;addWidget(le=new QLineEdit);
+hlt-&gt;addWidget(pb=new QPushButton("click"));
+vlt-&gt;addLayout(hlt);
+vlt-&gt;addWidget(lw=new QListWidget);
+lw-&gt;addItem("one");
+lw-&gt;addItem("two");
+lw-&gt;addItem("three");
+setLayout(vlt);
+lw-&gt;setCurrentRow(0);
+QRegExp regex(".(.*)\+?Style");
+QString defaultstyle=QApplication::style()-&gt;metaObject()-&gt;className();
+qDebug()&lt;&lt;defaultstyle;
+if(regex.exactMatch(defaultstyle))
+defaultstyle=regex.cap(1);
+qDebug()&lt;&lt;defaultstyle;
+ 
+scb-&gt;addItems(QStyleFactory::keys());
+scb-&gt;setCurrentIndex(scb-&gt;findText(defaultstyle, Qt::MatchContains));
+ 
+sscb-&gt;addItems(QStringList()&lt;&lt;"Default"&lt;&lt;"Style");
+ 
+sscb-&gt;setCurrentIndex(sscb-&gt;findText("Default"));
+connect(scb,SIGNAL(activated(QString)),this,SLOT(slotscbactivated(QString)));
+connect(sscb,SIGNAL(activated(QString)),this,SLOT(slotsscbactivated(QString)));
+}
+void stylewidget::slotscbactivated(const QString& stylename){
+qApp-&gt;setStyle(stylename);
+}
+void stylewidget::slotsscbactivated(const QString& stylesheetname){
+QFile file(":/"+stylesheetname.toLower() + ".qss");
+file.open(QIODevice::ReadOnly);
+qApp-&gt;setStyleSheet(file.readAll());
+}
+<pre class="codei">&lt;default.css&gt;</pre>
+/* empty stylesheet */
+ 
+ 
+<pre class="codei">style.qss</pre>
+QLineEdit {
+background-color : palegoldenrod;
+}
+QLabel {
+font:'Tw Cen Mt';
+}
+QPushButton {
+background-color : wheat;
+}
+QListWidget {
+background-color : wheat;
+}
+<pre class="codei">resource.qrc</pre>
+&lt;!DOCTYPE RCC&gt;&lt;RCC version="1.0"&gt;
+ &lt;qresource&gt;
+  &lt;file&gt;style.qss&lt;/file&gt;
+  &lt;file&gt;default.qss&lt;/file&gt;
+ &lt;/qresource&gt;
+&lt;/RCC&gt; </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">OUTPUT </pre>
+<div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-widget_style.png" /></div><div align="center" style="width:100%;height:78px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:78px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-widget_stylesheet.png" /></div><div align="center" style="width:100%;height:78px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:78px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div><img class="img"  src="http://minhinc.42web.io/image/qt-slide-widget_stylesheet2.png" /></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main5"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  5. Widgets</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Introduction to Widgets
+</pre></li>   <li class="sml"><pre>Writing custom widget
+</pre></li>   <li class="sml"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts
+</pre></li>   <li class="sml"><pre>Event Processing and Paint Engine
+</pre></li>   <li class="sml"><pre>MainWindow Widget
+</pre></li>   <li class="sml"><pre>Dialog widget
+</pre></li>   <li class="sml"><pre>Tabify dock widget
+</pre></li>   <li class="sml"><pre>Drag and drop
+</pre></li>   <li class="sml"><pre>Applying Qt style sheet on Widgets
+</pre></li>   <li class="big"><h2><a name="chap5_9">Scrolling, QScrollArea</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<iframe style="margin:15px 0;width:100%;height:210px;" src="https://www.youtube.com/embed/aF1SszSlq9E?enablejsapi=1&controls=1&autoplay=1&vq=hd240" frameborder="0"></iframe><div align="center" style="width:100%;height:60px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_mobile_300_200 -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:60px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<a href="http://minhinc.42web.io" target="_blank" class="logo"><pre class="copy logob">&copy</pre><pre class="logot">minhinc.42web.io</pre></a>
+</div>

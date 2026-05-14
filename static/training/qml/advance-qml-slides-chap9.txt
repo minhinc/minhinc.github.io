@@ -1,0 +1,2604 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>Qml QtQuick Essentials Training</pre>
+ <pre class=subtitle>3-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:182px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Qt Quick scene graph concept
+Understanding Qml Component/Document/Module Architecute
+Understanding QtQuick classes
+Exporting C++ class to Qml as object and class type
+Three layers software development with qml and c++
+Dynamic Properties</pre>
+  </div>
+ </div>
+ <div style="height:94px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Three days - 24 hours
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:336px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of Qt programming</b>
+Knowledge of Qt programming is important. Technically Qml is javascript
+counter part of C++ Qt. Knowing Qt will help fast understanding of Qml.
+Qt slides can browsed at
+<a href=http://minhinc.42web.io/training/qt/advance-qt-slides.php>http://minhinc.42web.io/training/qt/advance-qt-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-qt-slides.pdf>http://minhinc.42web.io/training/advance-qt-slides.pdf</a>
+
+<b>Knowledge of GUI and other concepts</b>
+Qt/Qml is used for GUI development and many other technologies including 
+Networks, operating systems, Database, scripting. Basic knowledge of these domains 
+are required as per the Qt/Qml is developed for the particular domain.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu LTS 16.04, Qt 5.[>6]</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:91px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries. Lecture content can be downloaded at 
+<a href=http://minhinc.42web.io/training/advance-qml-slides.pdf>http://minhinc.42web.io/training/advance-qml-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Labs session would be completely hands on session where each example (with
+example data and execution instruction) would be provided to the students. Students
+can verify their results with the results provided in the material.</pre>
+ </div>
+ <div style="width:960px;height:253px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-qml-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Qt Quick and QML</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php#chap1_0"><pre>QObject Meta Object System</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_1"><pre>Defining Qml Component</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_2"><pre>Tree of QML Objects</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_3"><pre>Qml Types
+ - Visual
+ - Non Visual</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_4"><pre>Qt Quick classes</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_5"><pre>Data Type Conversion Between QML and C++</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-qml-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qt Properties</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=2#chap2_0"><pre>Combination of Get/Set/Notifiy</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_1"><pre>Declaration of a Qt property</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_2"><pre>Qt Property with Enum</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_3"><pre>Getting & Setting Qt Properties</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_4"><pre>Dynamic Properties</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_5"><pre>Signal and Slots</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:101px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-qml-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Building Blocks of QML</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=3#chap3_0"><pre>QuickItem</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=3#chap3_1"><pre>Variant
+ - QVariant and QML</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=3#chap3_2"><pre>Variant Containers
+ - QVariantList
+ - QVariantMap
+ - QList
+ - QQmlListProperty</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=3#chap3_3"><pre>Import QML document in another QML
+document as a package</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:240px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-qml-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Composing UIs</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=4#chap4_0"><pre>Nested Items</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=4#chap4_1"><pre>Graphical QML Types</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=4#chap4_2"><pre>Text Type</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=4#chap4_3"><pre>Anchor Layouts</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a QML document</pre></li>
+    <li><pre>Import QML document in another QML
+document as a package</pre></li>
+    <li><pre>Use anchor layout to place current window
+with imported window in some layout fashion.</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:274px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:392px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-qml-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - User Input</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=5#chap5_0"><pre>Keyboard Navigation and Focus</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=5#chap5_1"><pre>Input Focus
+ - Focus property
+ - Focus Order
+ - Active Focus
+ - Focus Scope</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=5#chap5_2"><pre>Handling Keyboard input
+ - Key-Specific Handlers
+ - All keys Handler
+ - Key Event Propogation
+ - Event Propogation is Convenient</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=5#chap5_3"><pre>Multi-Touch
+ - Common Multi-Touch Gestures
+ - Handling Overlapping Touch Areas</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=5#chap5_4"><pre>Mouse/Single-Touch
+ - Tap
+ - Double-Tap
+ - Top and Hold</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-qml-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Components and Structures</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=6#chap6_0"><pre>Components</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_1"><pre>Dividing code into Components
+ - Creating new Items through new .qml file
+ - Creating Component dynamically</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_2"><pre>Modules</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_3"><pre>Write qml component as a separate .qml file</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_4"><pre>qmldir file
+ - Directory import
+ - Module import</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:104px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:7px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-qml-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qt Quick Controls</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=12#chap12_0"><pre>Qt Quick Designer</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_1"><pre>Qt Quick Controls</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_2"><pre>Application Window</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_3"><pre>Controls and Views</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_4"><pre>Layouts</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_5"><pre>Styling</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_6"><pre>Qml Transformation</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:183px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-qml-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - State and Transitions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=7#chap7_0"><pre>States</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=7#chap7_1"><pre>State Conditions</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=7#chap7_2"><pre>Transitions</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Emit signal when mouse moves over an area</pre></li>
+    <li><pre>Write qml component as a separate .qml file</pre></li>
+    <li><pre>Place Anchor layout inside Vertical layout</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:157px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:2px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-qml-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Dynamic Creation of Items</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=8#chap8_0"><pre>Creating custom Item</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=8#chap8_1"><pre>Creating Items Dynamically
+ - Procedural Method
+ - Procedural/Declarative Creation
+ - Declarative Method</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=8#chap8_2"><pre>Creating Multiple Items</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=8#chap8_3"><pre>Repeaters</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:259px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main9" href="#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - C++ Integration</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap9_0"><pre>Declartive Envrionment
+ -QQmlApplicationEngine
+ -QQuickView</pre></a></li>
+    <li><a href="#chap9_1"><pre>Exporting C++ Objects to QML
+ -QQmlContext</pre></a></li>
+    <li><a href="#chap9_2"><pre>Exporting Classes to QML</pre></a></li>
+    <li><a href="#chap9_3"><pre>Exporting Non-GUI Classes</pre></a></li>
+    <li><a href="#chap9_4"><pre>Exporting Qpainter based GUI Classes
+ -QQuickPaintedItem</pre></a></li>
+    <li><a href="#chap9_5"><pre>Building an application as a Library</pre></a></li>
+    <li><a href="#chap9_6"><pre>Using Custom Types Plugins</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:85px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-qml-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Graphical Effects</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=10#chap10_0"><pre>Canvas</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=10#chap10_1"><pre>Particles</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=10#chap10_2"><pre>Shaders</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:107px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:23px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:135px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-qml-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Animations</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=11#chap11_0"><pre>Animations
+ - PropertyAnimation
+ - ParallelAnimation
+ - SequentialAnimation
+ - PathAnimation</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_1"><pre>Behaviour on <property></pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_1"><pre>Animation on <property></pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_1"><pre>StandAlone Animation</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_2"><pre>Easing Curves</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_3"><pre>Animation Groups</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-qml-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Presenting Data</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=13#chap13_0"><pre>Data Item
+- Arranging Items
+  - Positioners
+  - Repeaters</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=13#chap13_1"><pre>Scene Graph
+ - Data Models
+ - Using Views
+ - Using Delegates</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=13#chap13_2"><pre>Implement List data model view through delegate</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Define component dynamically</pre></li>
+    <li><pre>Implement Ecllipse as Qml Class type</pre></li>
+    <li><pre>Place the Ecllipse class type as Library</pre></li>
+    <li><pre>Implement List data model view through
+delegate</pre></li>
+   </ul>
+ </div><div style="width:475px;height:145px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+
+</div>
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">Qml Essentials</pre><pre class="slidesubtitle">Qml Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-qml-slides.pdf">http://minhinc.42web.io/training/advance-qml-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-13-2021 
+
+Document contains 77 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap9">&nbsp;<div class="slideheader" style="height:212px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <h1><pre class="topic">  9. C++ Integration</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap9_0">Declartive Envrionment<br>-QQmlApplicationEngine<br>-QQuickView</a></h2></li>   <li class="sml"><pre>Exporting C++ Objects to QML
+ -QQmlContext
+</pre></li>   <li class="sml"><pre>Exporting Classes to QML
+</pre></li>   <li class="sml"><pre>Exporting Non-GUI Classes
+</pre></li>   <li class="sml"><pre>Exporting Qpainter based GUI Classes
+ -QQuickPaintedItem
+</pre></li>   <li class="sml"><pre>Building an application as a Library
+</pre></li>   <li class="sml"><pre>Using Custom Types Plugins</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:229px;float:left;" class="slidecontent"> 
+<pre class="note">Qml is a declarative language.It has two parts Qml and Javascript. Declarative part is qml and is the object initialization code with property name and value separated by colon ':'. It supports propery binding (LHS property modified when any RHS property  changes).Javascript part is written in member functions and callback functions. Variable are assigned through '=' operator and so breaking the property binding. <span style="color:#004000;">Binding</span> or <span style="color:#004000;">State</span> Qml type can be used.</pre>
+ 
+<pre class="note">Qml part is interpreted through c++ classes ( QQuickRectangle, QQuickText ...) where as Javascript part is interpreted through JIT interpreter.</pre>
+  </pre>
+<div style="width:374px;height:229px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:336px;float:left;" class="codeb"><span style="color:#004000;font-weight:bold">import</span> QtQuick 2.2
+<span style="color:#004000;font-weight:bold">Item</span>{
+ <span style="color:#004000;font-weight:bold">Rectangle</span> {
+ id:toplevel     <pre class="codeci"> <span style="color:#0055cf;">//&lt;---- declarative</span></pre>
+ color:<span style="color:#ff0000;">"blue"</span>
+ height:500
+ width:height
+  <span style="color:#004000;font-weight:bold">Text</span>{
+  text:"Hello World" <pre class="codeci">  <span style="color:#0055cf;">//&lt;---- declarative </span> </pre>
+  }
+ }
+ <span style="color:#004000;font-weight:bold">MouseArea</span>{
+  anchors.fill:parent
+  <span style="color:#0055cf;">onClicked</span>:{
+  toplevel.height=50;  <pre class="codeci">  <span style="color:#0055cf;">//&lt;---- javascript</span></pre>
+  }
+  <span style="color:#0055cf;">onDoubleClicked</span>:{
+  toplevel.width=toplevel.height;
+  }
+  <span style="color:#0055cf;">onHeightChanged</span>:{
+  toplevel.height=this.height; <pre class="codeci"> <span style="color:#0055cf;">//&lt;------- breaking the binding</span></pre>
+  } 
+ }
+} </pre>
+<div style="width:480px;height:336px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:28px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:38px;" class="slidecontent"> 
+ <b>-QQmlApplicationEngine</b> </pre>
+<div class="clr"></div> <pre style="height:108px;float:left;" class="codec">               <span style="color:#004000;">QObject</span>
+                 / \
+                  -
+                  |
+              <span style="color:#004000;">QJSEngine</span>
+                 / \
+                  -
+              <span style="color:#004000;">QQmlEngine</span>
+                 / \
+                  -
+                  |
+        <span style="color:#004000;">QQmlApplicationEngine</span> </pre>
+<div style="width:480px;height:108px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:24px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:133px;" class="slidecontent">Qml items are simple items of Graphics Views scene graph technology where all items belong to a scene and then scene can be drawn on one or more views/Widgets/Windows. <span style="color:#004000;">Window</span> or <span style="color:#004000;">ApplicationWindow</span> Quick type generates a window where <span style="color:#004000;">Item</span> (<span style="color:#004000;">QQuickItem</span>) gets finally drawn on it. When Window/ApplicationWindow is used on qml side then there is no need for <span style="color:#004000;">QQuickView</span> class on C++ side and just <span style="color:#004000;">QQmlApplicationEngine</span> works.
+  </pre>
+<div class="clr"></div> <pre style="height:90px;float:left;" class="code">    Scene                       QQuickWindow/QQuickView
+ ------------                  ------------------------
+ |          |  mapped to       |                      |
+ |   Item   | ---------------&gt; |   QQuickItem         |
+ |          |                  |                      |
+ ------------                  ------------------------ </pre>
+<div style="width:480px;height:90px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:180px;float:left;" class="codec"><span style="color:#0055cf;font-weight:bold">&lt;main.qrc&gt;</span>
+QT+=quick
+TEMPLATE = app
+TARGET = engine
+INCLUDEPATH += .
+ 
+MOC_DIR=build/moc
+RCC_DIR=build/rcc
+OBJECTS_DIR=build/obj
+UI_DIR=build/uic
+ 
+SOURCES += main.cpp
+RESOURCES +=  main.qrc
+ 
+<span style="color:#0055cf;font-weight:bold">&lt;main.qrc&gt;</span>
+&lt;RCC&gt;
+ &lt;qresource prefix="/"&gt;
+   &lt;file&gt;main.qml&lt;/file&gt;
+ &lt;/qresource&gt;
+&lt;/RCC&gt; </pre>
+<div style="width:480px;height:180px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:28px;" class="codeb"><span style="color:#0055cf;">&lt;main.cpp&gt;</span>
+#<span style="color:#004000;">include</span> &lt;QGuiApplication&gt; </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p49</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:154px;" class="codeb">#<span style="color:#004000;">include</span> &lt;QQmlApplicationEngine&gt;
+#<span style="color:#004000;">include</span> &lt;QUrl&gt;
+ 
+int main(int argc, char *argv[])
+{
+    <span style="color:#004000;">QGuiApplication</span> app(argc, argv);
+<span style="color:#0055cf;">//    QQmlApplicationEngine engine("main.qml");</span>
+    <span style="color:#004000;">QQmlApplicationEngine</span> engine(QUrl(QStringLiteral("qrc:/main.qml"))); <span style="color:#0055cf;">//creates QQuickView internally</span>
+    return app.exec();
+} </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:182px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;main.qml&gt;</span>
+<span style="color:#004000;font-weight:bold">import</span> QtQuick 2.0
+<span style="color:#004000;font-weight:bold">import</span> QtQuick.Window 2.2
+ 
+<span style="color:#004000;font-weight:bold">Window</span> {
+visible:true
+width:550
+height:400
+ <span style="color:#004000;font-weight:bold">Text</span>{
+ text:<span style="color:#ff0000;">"Hello World"</span>
+ anchors.centerIn:parent
+ }
+} </pre>
+<div style="width:480px;height:182px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+ <b>-QQuickView</b> </pre>
+<div class="clr"></div> <pre style="height:45px;" class="codec">      <span style="color:#004000;">QQuickWindow</span>
+          / \
+           -
+           |
+      <span style="color:#004000;">QQuickView</span> </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"><span style="color:#004000;">QQuickview</span> provides window/widget to the top level <span style="color:#004000;">Item</span> in qml file. If qml file has Item as root element then cpp file must have QQuickView in order to show the root level Item. </pre>
+<div class="clr"></div> <pre style="height:189px;float:left;" class="codec"><span style="color:#0055cf;font-weight:bold">&lt;main.pro&gt;</span>
+QT+=quick
+TEMPLATE = app
+TARGET = quickview
+INCLUDEPATH += .
+ 
+MOC_DIR=build/moc
+RCC_DIR=build/rcc
+OBJECTS_DIR=build/obj
+UI_DIR=build/uic
+ 
+# Input
+SOURCES += main.cpp
+RESOURCES += 
+ 
+<span style="color:#0055cf;font-weight:bold">&lt;main.qrc&gt;</span>
+&lt;RCC&gt;
+ &lt;qresource prefix="/"&gt;
+   &lt;file&gt;main.qml&lt;/file&gt;
+ &lt;/qresource&gt;
+&lt;/RCC&gt; </pre>
+<div style="width:480px;height:189px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:126px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:182px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;main.cpp&gt;</span>
+#<span style="color:#004000;">include</span> &lt;QGuiApplication&gt;
+#<span style="color:#004000;">include</span> &lt;QQuickView&gt;
+#<span style="color:#004000;">include</span> &lt;QUrl&gt;
+ 
+int main(int argc, char *argv[]) {
+ <span style="color:#004000;">QGuiApplication</span> app(argc, argv);
+ <span style="color:#004000;">QQuickView*</span> view = new QQuickView();
+ <span style="color:#004000;">QUrl</span> source = <span style="color:#004000;">QStringLiteral</span>(<span style="color:#ff0000;">"qrc:/main.qml"</span>);
+ view-&gt;setSource(source);
+ view-&gt;show();
+ return app.exec();
+} </pre>
+<div style="width:480px;height:182px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:168px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;main.qml&gt;</span>
+<span style="color:#004000;font-weight:bold">import</span> QtQuick 2.0
+ 
+<span style="color:#004000;font-weight:bold">Rectangle</span>{
+width:400
+height:300
+color:"green"
+ <span style="color:#004000;font-weight:bold">Text</span>{
+ text:<span style="color:#ff0000;">"Hello World"</span>
+ anchors.centerIn:parent
+ }
+} </pre>
+<div style="width:480px;height:168px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:16px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:92px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:201px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. C++ Integration</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Declartive Envrionment
+ -QQmlApplicationEngine
+ -QQuickView
+</pre></li>   <li class="big"><h2><a name="chap9_1">Exporting C++ Objects to QML<br>-QQmlContext</a></h2></li>   <li class="sml"><pre>Exporting Classes to QML
+</pre></li>   <li class="sml"><pre>Exporting Non-GUI Classes
+</pre></li>   <li class="sml"><pre>Exporting Qpainter based GUI Classes
+ -QQuickPaintedItem
+</pre></li>   <li class="sml"><pre>Building an application as a Library
+</pre></li>   <li class="sml"><pre>Using Custom Types Plugins</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p50</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="iframecontainer" style="float:left;width:640px;height:360px;"><iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/8MKAd5zzClQ?enablejsapi=1&controls=1&autoplay=1&vq=hd240&cc_load_policy=1" frameborder="0"></iframe></div><div style="width:310px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:5px;top:55px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre style="height:114px;" class="slidecontent">Qml document file has various context like root context root Item context and its children context and so on.. On c++ side QQmlcontext class refer a particular context on Qml side, i.e root context.
+Contexts allow data to be exposed to the QML components instantiated by the QML engine.
+  </pre>
+<div class="clr"></div> <pre style="height:135px;float:left;" class="code"><span style="color:#004000;">QQmlEngine</span> engine;
+<span style="color:#004000;">QStringListModel</span> modelData;
+<span style="color:#004000;">QQmlContext</span> *context = new <span style="color:#004000;">QQmlContext</span>(engine.rootContext());
+context-&gt;setContextProperty("myModel", &modelData);
+ 
+<span style="color:#004000;">QQmlComponent</span> component(&engine);
+component.setData("import QtQuick 2.0
+ListView { model: myModel }", QUrl());
+<span style="color:#004000;">QObject</span> *window = component.create(context); </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:308px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;main.cpp&gt;</span>
+#<span style="color:#004000;">include</span> &lt;QGuiApplication&gt;
+#<span style="color:#004000;">include</span> &lt;QStringList&gt;
+#<span style="color:#004000;">include</span> &lt;qqmlengine.h&gt;
+#<span style="color:#004000;">include</span> &lt;qqmlcontext.h&gt;
+#<span style="color:#004000;">include</span> &lt;qqml.h&gt;
+#<span style="color:#004000;">include</span> &lt;QtQuick/qquickitem.h&gt;
+#<span style="color:#004000;">include</span> &lt;QtQuick/qquickview.h&gt;
+int main(int argc, char ** argv) {
+ <span style="color:#004000;">QGuiApplication</span> app(argc, argv);
+ <span style="color:#004000;">QStringList</span> dataList;
+ dataList.append("Item 1");
+ dataList.append("Item 2");
+ dataList.append("Item 3");
+ dataList.append("Item 4");
+ <span style="color:#004000;">QQuickView</span> view;
+ <span style="color:#004000;">QQmlContext</span> *ctxt = view.rootContext();
+ ctxt-&gt;setContextProperty("myModel", QVariant::fromValue(dataList));
+ view.setSource(QUrl("qrc:view.qml"));
+ view.show();
+ return app.exec();
+} </pre>
+<div style="width:480px;height:308px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:14px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:154px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;view.qml&gt;</span>
+<span style="color:#004000;font-weight:bold">import</span> QtQuick 2.0
+<span style="color:#004000;font-weight:bold">ListView</span> {
+width: 100; height: 100
+model: myModel
+ delegate: <span style="color:#004000;font-weight:bold">Rectangle</span> {
+ height: 25
+ width: 100
+  <span style="color:#004000;font-weight:bold">Text</span> { text: modelData }
+ }
+} </pre>
+<div style="width:480px;height:154px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:11px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:82px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:126px;float:left;" class="codec"><span style="color:#0055cf;">main.pro</span>
+QT+=quick
+TEMPLATE = app
+TARGET = app2
+INCLUDEPATH += .
+SOURCES += main.cpp
+RESOURCES += view.qrc
+ 
+<span style="color:#0055cf;">main.qrc</span>
+&lt;RCC&gt;
+ &lt;qresource&gt;
+  &lt;file&gt;view.qml&lt;/file&gt;
+ &lt;/qresource&gt;
+&lt;/RCC&gt; </pre>
+<div style="width:480px;height:126px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p51</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:190px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. C++ Integration</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Declartive Envrionment
+ -QQmlApplicationEngine
+ -QQuickView
+</pre></li>   <li class="sml"><pre>Exporting C++ Objects to QML
+ -QQmlContext
+</pre></li>   <li class="big"><h2><a name="chap9_2">Exporting Classes to QML</a></h2></li>   <li class="sml"><pre>Exporting Non-GUI Classes
+</pre></li>   <li class="sml"><pre>Exporting Qpainter based GUI Classes
+ -QQuickPaintedItem
+</pre></li>   <li class="sml"><pre>Building an application as a Library
+</pre></li>   <li class="sml"><pre>Using Custom Types Plugins</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:124px;" class="slidecontent"> 
+<pre class="note">C++ classes declarare MetaObject properties and methods through macro Q_PROPERTY and Q_INVOKABLE. C++ classed is registered through <pre class="codei"><span style="color:#004000;">qmlRegisterType</span></pre> to the qt meta object system in order to get is avaiable to qml side.</pre>
+  </pre>
+<div class="clr"></div> <pre style="height:171px;float:left;" class="codec"><span style="color:#0055cf;">&lt;main.qrc</span>
+&lt;RCC&gt;
+ &lt;qresource&gt;
+  &lt;file&gt;main.qml&lt;/file&gt;
+ &lt;/qresource&gt;
+&lt;/RCC&gt;
+ 
+<span style="color:#0055cf;">&lt;main.pro</span>
+QT+=quick
+TEMPLATE = app
+TARGET = binding
+INCLUDEPATH += .
+MOC_DIR=build
+RCC_DIR=build
+UI_DIR=build
+OBJECTS_DIR=build
+HEADERS += country.h river.h countryprint.h
+SOURCES += country.cpp main.cpp river.cpp countryprint.cpp
+RESOURCES += country.qrc </pre>
+<div style="width:480px;height:171px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:17px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:868px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;country.h&gt;</span>
+#ifndef COUNTRY_H
+#define COUNTRY_H
+#<span style="color:#004000;">include</span> &lt;QObject&gt;
+#<span style="color:#004000;">include</span> &lt;QDate&gt;
+#<span style="color:#004000;">include</span> &lt;QDebug&gt;
+#<span style="color:#004000;">include</span> &lt;qqml.h&gt;
+#<span style="color:#004000;">include</span> "river.h"
+class <span style="color:#004000;">CountryAttached</span> : public <span style="color:#004000;">QObject</span> {
+ Q_OBJECT
+ Q_PROPERTY(QDate datadate READ datadate WRITE setDatadate NOTIFY datadateChanged)
+public:
+ CountryAttached(QObject *object);
+ QDate datadate() const;
+ void setDatadate(const QDate &);
+signals:
+ void datadateChanged();
+private:
+ QDate m_datadate;
+};
+class <span style="color:#004000;">Country</span> : public <span style="color:#004000;">QObject</span> {
+ <span style="color:#004000;">Q_OBJECT</span>
+ <span style="color:#004000;">Q_PROPERTY</span>(River *mainriver READ mainriver WRITE setMainriver NOTIFY mainriverChanged)
+ <span style="color:#004000;">Q_PROPERTY</span>(<span style="color:#004000;">QQmlListProperty</span>&lt;River&gt; rivers READ rivers)
+ <span style="color:#004000;">Q_CLASSINFO</span>(<span style="color:#ff0000;">"DefaultProperty"</span>, <span style="color:#ff0000;">"rivers"</span>)
+public:
+ Country(QObject *parent = 0);
+ River *mainriver() const;
+ void setMainriver(River *);
+ <span style="color:#004000;">QQmlListProperty</span>&lt;<span style="color:#004000;">River</span>&gt; rivers();
+ int riverCount() const;
+ River *river(int) const;
+ static CountryAttached *qmlAttachedProperties(QObject *);
+signals:
+ void mainriverChanged();
+ void announcementChanged();
+private:
+ River *m_mainriver;
+ QList&lt;River *&gt; m_rivers;
+};
+<span style="color:#004000;">QML_DECLARE_TYPEINFO</span>(<span style="color:#004000;">Country</span>, QML_HAS_ATTACHED_PROPERTIES)
+#endif
+ 
+<span style="color:#0055cf;">&lt;country.cpp&gt;</span>
+#include "country.h"
+<span style="color:#004000;">CountryAttached</span>::<span style="color:#004000;">CountryAttached</span>(QObject *object) : QObject(object) { }
+QDate CountryAttached::<span style="color:#0055cf;">datadate()</span> const {
+ return m_datadate;
+}
+void CountryAttached::<span style="color:#0055cf;">setDatadate</span>(const QDate &d) {
+ if (d != m_datadate) {
+  m_datadate = d;
+  emit datadateChanged();
+ }
+}
+Country::Country(QObject *parent) : QObject(parent), m_mainriver(0) { }
+River *Country::<span style="color:#0055cf;">mainriver</span>() const {
+ return m_mainriver;
+}
+void Country::<span style="color:#0055cf;">setMainriver</span>(River *c) {
+ if (c != m_mainriver){
+  m_mainriver = c; </pre>
+<div style="width:376px;height:868px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:38px;top:6px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:38px;top:262px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p52</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:210px;float:left;" class="codeb">  emit mainriverChanged();
+ }
+}
+QQmlListProperty&lt;River&gt; Country::<span style="color:#0055cf;">rivers</span>() {
+ return QQmlListProperty&lt;River&gt;(this, m_rivers);
+}
+int Country::<span style="color:#0055cf;">riverCount()</span> const {
+ return m_rivers.count();
+}
+River *Country::<span style="color:#0055cf;">river(int index)</span> const {
+ return m_rivers.at(index);
+}
+CountryAttached *Country::<span style="color:#0055cf;">qmlAttachedProperties</span>(QObject *object) {
+ return new CountryAttached(object);
+} </pre>
+<div style="width:480px;height:210px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:672px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;countryprinting.h&gt;</span>
+#ifndef COUNTRYPRINTING_H
+#define COUNTRYPRINTING_H
+#<span style="color:#004000;">include</span> &lt;QQmlPropertyValueSource&gt;
+#<span style="color:#004000;">include</span> &lt;QQmlProperty&gt;
+#<span style="color:#004000;">include</span> &lt;QStringList&gt;
+#<span style="color:#004000;">include</span> &lt;river.h&gt;
+class <span style="color:#004000;">CountryPrint</span> : public <span style="color:#004000;">QObject</span>, public <span style="color:#004000;">QQmlPropertyValueSource</span> {
+ <span style="color:#004000;">Q_OBJECT</span>
+ <span style="color:#004000;">Q_INTERFACES</span>(<span style="color:#004000;">QQmlPropertyValueSource</span>)
+public:
+ CountryPrint(QObject *parent = 0);
+ virtual void setTarget(const QQmlProperty &);
+private slots:
+ void advance();
+private:
+ <span style="color:#004000;">QQmlProperty</span> m_target;
+};
+#endif 
+ 
+<span style="color:#0055cf;">&lt;countryprint.cpp&gt;</span>
+#include &lt;QDebug&gt;
+#include &lt;QTimer&gt;
+#<span style="color:#004000;">include</span> &lt;typeinfo&gt;
+#<span style="color:#004000;">include</span> "country.h"
+#<span style="color:#004000;">include</span> "river.h"
+#<span style="color:#004000;">include</span> "countryprint.h"
+CountryPrint::<span style="color:#0055cf;">CountryPrint</span>(QObject *parent) : QObject(parent) {
+    QTimer *timer = new QTimer(this);
+    QObject::connect(timer, &QTimer::timeout, this, &CountryPrint::advance);
+    timer-&gt;start(5000);
+}
+void CountryPrint::<span style="color:#0055cf;">setTarget</span>(const QQmlProperty &p) {
+    m_target = p;
+}
+void CountryPrint::<span style="color:#0055cf;">advance</span>() {
+ QDate datadate;
+ QObject *attached;
+ River *river;
+ river=m_target.object()-&gt;property(m_target.object()-&gt;metaObject()-&gt;property(m_target.object()-&gt;metaObject()-&gt;indexOfProperty("mainriver")).name()).value&lt;River*&gt;();
+ attached= qmlAttachedPropertiesObject&lt;Country&gt;(river, false);
+ if (attached) datadate = attached-&gt;property("datadate").toDate();
+ if (datadate.isNull()) qWarning() &lt;&lt;endl&lt;&lt;"   " &lt;&lt; river-&gt;name() &lt;&lt; "No data date "&lt;&lt; river-&gt;about()-&gt;length()&lt;&lt;" "&lt;&lt;river-&gt;about()-&gt;states()&lt;&lt;" "&lt;&lt;river-&gt;about()-&gt;meet();
+ else qDebug() &lt;&lt;endl&lt;&lt;"   " &lt;&lt; river-&gt;name() &lt;&lt; " "&lt;&lt; qPrintable(datadate.toString())&lt;&lt;river-&gt;about()-&gt;length()&lt;&lt;" "&lt;&lt;river-&gt;about()-&gt;states()&lt;&lt;" "&lt;&lt;river-&gt;about()-&gt;meet();
+} </pre>
+<div style="width:278px;height:672px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:210px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:415px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:448px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;main.cpp&gt;</span>
+#<span style="color:#004000;">include</span> &lt;QCoreApplication&gt;
+#<span style="color:#004000;">include</span> &lt;QQmlEngine&gt;
+#<span style="color:#004000;">include</span> &lt;QQmlComponent&gt;
+#<span style="color:#004000;">include</span> &lt;QDebug&gt;
+#<span style="color:#004000;">include</span> "country.h"
+#<span style="color:#004000;">include</span> "countryprint.h"
+#<span style="color:#004000;">include</span> "river.h"
+ 
+int <span style="color:#004000;">main</span>(int argc, char ** argv) {
+ <span style="color:#004000;">QCoreApplication</span> app(argc, argv);
+ <span style="color:#004000;">qmlRegisterType</span>&lt;<span style="color:#004000;">CountryAttached</span>&gt;();
+ <span style="color:#004000;">qmlRegisterType</span>&lt;<span style="color:#004000;">Country</span>&gt;("Country", 1,0, "Country");
+ <span style="color:#004000;">qmlRegisterType</span>&lt;<span style="color:#004000;">CountryPrint</span>&gt;("Country", 1,0, "CountryPrint");
+ <span style="color:#004000;">qmlRegisterType</span>&lt;<span style="color:#004000;">RiverDescription</span>&gt;();
+ <span style="color:#004000;">qmlRegisterType</span>&lt;<span style="color:#004000;">River</span>&gt;("Country", 1,0, "River");
+ 
+ <span style="color:#004000;">QQmlEngine</span> engine;
+ <span style="color:#004000;">QQmlComponent</span> component(&engine, QUrl("qrc:main.qml"));
+ <span style="color:#004000;">Country</span> *country = qobject_cast&lt;Country *&gt;(component.create());
+ if (country){
+  for (int ii = 0; ii &lt; country-&gt;riverCount(); ++ii) {
+   River *river = country-&gt;river(ii);
+   QDate datadate;
+   QObject *attached = qmlAttachedPropertiesObject&lt;Country&gt;(river, false);
+   if (attached) datadate = attached-&gt;property("datadate").toDate();
+   qDebug()&lt;&lt;"------------"&lt;&lt;endl&lt;&lt;"River Name : "&lt;&lt;river-&gt;name()&lt;&lt;endl&lt;&lt;"datedate :"&lt;&lt;(datadate.isNull()?"NO DATE":qPrintable(datadate.toString()))&lt;&lt;endl&lt;&lt;"Length : "&lt;&lt;river-&gt;about()-&gt;length()&lt;&lt;endl&lt;&lt;"States visiting : "&lt;&lt;river-&gt;about()-&gt;states()&lt;&lt;endl&lt;&lt;"Meets : "&lt;&lt;river-&gt;about()-&gt;meet();
+  }
+ } else qWarning() &lt;&lt; component.errors(); </pre>
+<div style="width:278px;height:448px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:39px;top:16px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:39px;top:232px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p53</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:28px;" class="codeb"> return app.exec();
+} </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:1288px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;river.h&gt;</span>
+#ifndef RIVER_H
+#define RIVER_H
+#<span style="color:#004000;">include</span> &lt;QObject&gt;
+#<span style="color:#004000;">include</span> &lt;QStringList&gt;
+class <span style="color:#004000;">RiverDescription</span> : public <span style="color:#004000;">QObject</span> {
+ <span style="color:#004000;">Q_OBJECT</span>
+ <span style="color:#004000;">Q_PROPERTY</span>(qreal length READ length WRITE setLength NOTIFY lengthChanged)
+ <span style="color:#004000;">Q_PROPERTY</span>(QStringList states READ states WRITE setStates NOTIFY statesChanged)
+ <span style="color:#004000;">Q_PROPERTY</span>(QString meet READ meet WRITE setMeet NOTIFY meetChanged)
+public:
+ RiverDescription(QObject *parent = 0);
+ qreal length() const;
+ void setLength(qreal);
+ QStringList& states();
+ void setStates(QStringList&);
+ QString state(int) const;
+ int stateCount();
+ QString meet() const;
+ void setMeet(const QString &);
+signals:
+ void lengthChanged();
+ void statesChanged();
+ void meetChanged();
+private:
+ qreal m_length;
+ QStringList m_states;
+ QString m_meet;
+};
+class <span style="color:#004000;">River</span> : public <span style="color:#004000;">QObject</span> {
+ <span style="color:#004000;">Q_OBJECT</span>
+ <span style="color:#004000;">Q_PROPERTY</span>(QString name READ name WRITE setName NOTIFY nameChanged)
+ <span style="color:#004000;">Q_PROPERTY</span>(RiverDescription *about READ about CONSTANT)
+public:
+ River(QObject *parent = 0);
+ QString name() const;
+ void setName(const QString &);
+ RiverDescription *about();
+signals:
+ void nameChanged();
+private:
+ QString m_name;
+ RiverDescription m_description;
+};
+#endif // RIVER_H
+ 
+<span style="color:#0055cf;">&lt;river.cpp&gt;</span>
+#<span style="color:#004000;">include</span> "river.h"
+RiverDescription::<span style="color:#004000;">RiverDescription</span>(QObject *parent) : QObject(parent), m_length(0) { }
+qreal RiverDescription::<span style="color:#0055cf;">length()</span> const {
+ return m_length;
+}
+void RiverDescription::<span style="color:#0055cf;">setLength(qreal s)</span> {
+ if (m_length!=s) {
+  m_length = s;
+  emit lengthChanged();
+ }
+}
+QStringList& RiverDescription::<span style="color:#0055cf;">states()</span> {
+ return m_states;
+}
+void RiverDescription::<span style="color:#0055cf;">setStates(QStringList& l)</span>{
+ if (m_states != l){
+ m_states=l;
+ emit statesChanged();
+ }
+}
+QString RiverDescription::<span style="color:#0055cf;">meet()</span> const {
+ return m_meet;
+}
+void RiverDescription::<span style="color:#0055cf;">setMeet(const QString& p)</span> {
+ if (m_meet!=p){
+  m_meet = p;
+  emit meetChanged();
+ }
+}
+QString RiverDescription::<span style="color:#0055cf;">state(int i)</span> const {
+ return m_states.at(i);
+}
+RiverDescription *River::<span style="color:#0055cf;">about()</span> {
+ return &m_description;
+}
+River::River(QObject *parent) : <span style="color:#004000;">QObject</span>(parent) { }
+QString River::name() const {
+ return m_name;
+}
+void River::<span style="color:#0055cf;">setName(const QString &n)</span> {
+ if(m_name!=n) {
+  m_name = n;
+  emit nameChanged();
+ }
+} </pre>
+<div style="width:383px;height:1288px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:41px;top:29px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:41px;top:658px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p54</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:476px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;main.qml&gt;</span>
+<span style="color:#004000;font-weight:bold">import</span> Country 1.0
+<span style="color:#004000;font-weight:bold">import</span> QtQuick 2.0
+<span style="color:#004000;font-weight:bold">Country</span> {
+ id: india
+ <span style="color:#004000;font-weight:bold">CountryPrint</span> on mainriver {}
+ <span style="color:#004000;font-weight:bold">mainriver</span>: <span style="color:#004000;">River</span> {
+  id:indusriver
+  name: <span style="color:#ff0000;">"Indus"</span>
+  Country.datadate: <span style="color:#ff0000;">"2009-07-06"</span>
+  about { length: 3180.0; states:[<span style="color:#ff0000;">"ladakh"</span>,<span style="color:#ff0000;">"punjab"</span>,<span style="color:#ff0000;">"sindh"</span>]; meet: <span style="color:#ff0000;">"sea"</span>}
+ }
+ <span style="color:#004000;font-weight:bold">rivers</span>:[River {
+  name: <span style="color:#ff0000;">"Cauvery"</span>
+  Country.datadate: <span style="color:#ff0000;">"2010-04-26"</span>
+  about { length: 805.0; states:[<span style="color:#ff0000;">"karnataka"</span>,<span style="color:#ff0000;">"tamilnadu"</span>]; meet: <span style="color:#ff0000;">"sea"</span>}
+ },
+ <span style="color:#004000;font-weight:bold">River</span> {
+  name: <span style="color:#ff0000;">"Godavari"</span>
+  about { length: 1465.0; states:[<span style="color:#ff0000;">"maharashtra"</span>,<span style="color:#ff0000;">"telangana"</span>,<span style="color:#ff0000;">"ap"</span>]; meet: <span style="color:#ff0000;">"sea"</span>}
+ },
+ <span style="color:#004000;font-weight:bold">River</span> {
+  name: <span style="color:#ff0000;">"Ganga"</span>
+  Country.datadate: <span style="color:#ff0000;">"2014-08-13"</span>
+  about { length: 2525.0; states:[<span style="color:#ff0000;">"uttrakhand"</span>,<span style="color:#ff0000;">"up"</span>,<span style="color:#ff0000;">"bihar"</span>,<span style="color:#ff0000;">"jharkhand"</span>,<span style="color:#ff0000;">"wb"</span>,<span style="color:#ff0000;">"bangladesh"</span>]; meet: <span style="color:#ff0000;">"sea"</span>}
+ },
+ <span style="color:#004000;font-weight:bold">River</span> {
+  name: <span style="color:#ff0000;">"Jhelum"</span>
+  about.length: 725.0
+  about.states:[<span style="color:#ff0000;">"j&k"</span>,<span style="color:#ff0000;">"pok"</span>,<span style="color:#ff0000;">"punjab"</span>]
+  about.meet:indusriver.name
+ }]
+} </pre>
+<div style="width:278px;height:476px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:8px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:216px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">Output </pre>
+<div class="clr"></div> <pre style="height:288px;float:left;" class="codec">$./binding
+------------ 
+River Name :  "Cauvery" 
+datedate : Mon Apr 26 2010 
+Length :  805 
+States visiting :  ("karnataka", "tamilnadu") 
+Meets :  "sea"
+------------ 
+River Name :  "Godavari" 
+datedate : NO DATE 
+Length :  1465 
+States visiting :  ("maharashtra", "telangana", "ap") 
+Meets :  "sea"
+------------ 
+River Name :  "Ganga" 
+datedate : Wed Aug 13 2014 
+Length :  2525 
+States visiting :  ("uttrakhand", "up", "bihar", "jharkhand", "wb", "bangladesh") 
+Meets :  "sea"
+------------ 
+River Name :  "Jhelum" 
+datedate : NO DATE 
+Length :  725 
+States visiting :  ("j&k", "pok", "punjab") 
+Meets :  "Indus"
+ 
+    "Indus"   Mon Jul 6 2009 3180   ("ladakh", "punjab", "sindh")   "sea"
+ 
+    "Indus"   Mon Jul 6 2009 3180   ("ladakh", "punjab", "sindh")   "sea"
+ 
+    "Indus"   Mon Jul 6 2009 3180   ("ladakh", "punjab", "sindh")   "sea"
+^C </pre>
+<div style="width:480px;height:288px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:4px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="slideheader" style="height:190px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. C++ Integration</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Declartive Envrionment
+ -QQmlApplicationEngine
+ -QQuickView
+</pre></li>   <li class="sml"><pre>Exporting C++ Objects to QML
+ -QQmlContext
+</pre></li>   <li class="sml"><pre>Exporting Classes to QML
+</pre></li>   <li class="big"><h2><a name="chap9_3">Exporting Non-GUI Classes</a></h2></li>   <li class="sml"><pre>Exporting Qpainter based GUI Classes
+ -QQuickPaintedItem
+</pre></li>   <li class="sml"><pre>Building an application as a Library
+</pre></li>   <li class="sml"><pre>Using Custom Types Plugins</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">Non Gui classess can be exported by subclassing QObject. </pre>
+<div class="clr"></div><div class="slideheader" style="height:201px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. C++ Integration</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Declartive Envrionment
+ -QQmlApplicationEngine
+ -QQuickView
+</pre></li>   <li class="sml"><pre>Exporting C++ Objects to QML
+ -QQmlContext
+</pre></li>   <li class="sml"><pre>Exporting Classes to QML
+</pre></li>   <li class="sml"><pre>Exporting Non-GUI Classes
+</pre></li>   <li class="big"><h2><a name="chap9_4">Exporting Qpainter based GUI Classes<br>-QQuickPaintedItem</a></h2></li>   <li class="sml"><pre>Building an application as a Library
+</pre></li>   <li class="sml"><pre>Using Custom Types Plugins</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p55</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="iframecontainer" style="float:left;width:640px;height:360px;"><iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/E7LfWTJr_is?enablejsapi=1&controls=1&autoplay=1&vq=hd240&cc_load_policy=1" frameborder="0"></iframe></div><div style="width:310px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:5px;top:55px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre style="height:57px;" class="slidecontent">Gui classeses can be exported by subclassing/extending <span style="color:#004000;">QQuickItem</span>. If painting is required then <span style="color:#004000;">QQuickPaintedItem</span> needs to be subclassed and <span style="color:#004000;">paint</span> function needs to overrriden. </pre>
+<div class="clr"></div> <pre style="height:189px;float:left;" class="codec"><span style="color:#0055cf;">&lt;main.pro&gt;</span>
+QT+=quick
+TEMPLATE = app
+TARGET = ellipse
+INCLUDEPATH += .
+ 
+MOC_DIR=build
+RCC_DIR=build
+UI_DIR=build
+OBJECTS_DIR=build
+ 
+HEADERS += ellipse.h
+SOURCES += ellipse.cpp main.cpp
+RESOURCES += main.qrc
+ 
+<span style="color:#0055cf;">main.qrc</span>
+&lt;RCC&gt;
+ &lt;qresource&gt;
+  &lt;file&gt;main.qml&lt;/file&gt;
+ &lt;/qresource&gt;
+&lt;/RCC&gt; </pre>
+<div style="width:480px;height:189px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:126px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:742px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;ellipse.h&gt;</span>
+#ifndef ELLIPSE_H
+#define ELLIPSE_H
+#<span style="color:#004000;">include</span> &lt;QtQuick/QQuickPaintedItem&gt;
+#<span style="color:#004000;">include</span> &lt;QColor&gt;
+ 
+class <span style="color:#004000;">Ellipsesub</span>:public <span style="color:#004000;">QQuickPaintedItem</span> {
+ <span style="color:#004000;">Q_OBJECT</span>
+ <span style="color:#004000;">Q_PROPERTY</span>(int angle READ angle WRITE setAngle)
+ <span style="color:#004000;">Q_PROPERTY</span>(QColor color READ color WRITE setColor NOTIFY colorChanged)
+ <span style="color:#004000;">Q_PROPERTY</span>(QString name READ name WRITE setName NOTIFY nameChanged)
+public:
+ <span style="color:#004000;">Ellipsesub</span>(QQuickItem *parent=0);
+ int angle()const;
+ void setAngle(const int);
+ QColor color() const;
+ void setColor(const QColor&);
+ QString name() const;
+ void setName(const QString&);
+ void paint(QPainter *);
+signals:
+ void nameChanged();
+ void colorChanged();
+private:
+ int _angle;
+ QString _name;
+ QColor _color;
+};
+class <span style="color:#004000;">Ellipse</span> : public <span style="color:#004000;">QQuickPaintedItem</span> {
+ <span style="color:#004000;">Q_OBJECT</span>
+ <span style="color:#004000;">Q_PROPERTY</span>(QQmlListProperty&lt;Ellipsesub&gt; ellipsesubs READ ellipsesubs)
+// Q_PROPERTY(Ellipsesub *ellipsesub READ ellipsesub WRITE setEllipsesub)
+ <span style="color:#004000;">Q_PROPERTY</span>(QString name READ name WRITE setName NOTIFY nameChanged)
+ <span style="color:#004000;">Q_PROPERTY</span>(QColor color READ color WRITE setColor NOTIFY colorChanged)
+public:
+ <span style="color:#004000;">Ellipse</span>(QQuickItem *parent = 0);
+ QString name() const;
+ void setName(const QString &name);
+ QColor color() const;
+ void setColor(const QColor &color);
+/* Ellipsesub* ellipsesub() const;
+ void setEllipsesub(Ellipsesub*); */
+ void paint(QPainter *painter);
+ static void appendellipsesub(QQmlListProperty&lt;Ellipsesub&gt; *ellipsesublist,Ellipsesub *ellipsesub);
+ 
+ QQmlListProperty&lt;Ellipsesub&gt; ellipsesubs();
+ Q_INVOKABLE void clearEllipse();
+signals:
+ void nameChanged();
+ void colorChanged();
+ void ellipseCleared();
+private:
+ QString _name; </pre>
+<div style="width:297px;height:742px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:23px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:23px;top:220px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:23px;top:480px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p56</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:70px;float:left;" class="codeb"> QColor _color;
+//Ellipsesub* _ellipsesub;
+ QList&lt;Ellipsesub*&gt; _ellipsesublist;
+};
+#endif </pre>
+<div style="width:480px;height:70px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:1176px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;ellipse.cpp&gt;</span>
+#<span style="color:#004000;">include</span> &lt;QPainter&gt;
+#<span style="color:#004000;">include</span> "ellipse.h"
+<span style="color:#004000;">Ellipsesub</span>::<span style="color:#0055cf;">Ellipsesub</span>(QQuickItem *parent):QQuickPaintedItem(parent),_angle(0){}
+/*Ellipsesub* Ellipse::ellipsesub() const { return _ellipsesub; }
+void Ellipse::setEllipsesub(Ellipsesub *ellipsesub){
+_ellipsesub=ellipsesub;
+_ellipsesub-&gt;setParentItem(this);
+}*/
+QString <span style="color:#004000;">Ellipsesub</span>::<span style="color:#0055cf;">name()</span> const { return _name; }
+void <span style="color:#004000;">Ellipsesub</span>::<span style="color:#0055cf;">setName(const QString& name)</span>{
+ if (_name!=name){
+  _name=name;
+  emit nameChanged();
+ }
+}
+QColor <span style="color:#004000;">Ellipsesub</span>::<span style="color:#0055cf;">color()</span> const { return _color; }
+void <span style="color:#004000;">Ellipsesub</span>::<span style="color:#0055cf;">setColor(const QColor& color)</span>{
+ if(_color!=color){
+  _color=color;
+  update();
+  emit colorChanged();
+ }
+}
+int <span style="color:#004000;">Ellipsesub</span>::<span style="color:#0055cf;">angle()</span> const { return _angle; }
+void <span style="color:#004000;">Ellipsesub</span>::<span style="color:#0055cf;">setAngle(const int angle)</span>{
+ if(_angle!=angle){
+  _angle=angle;
+//  emit angleChanged();
+ }
+}
+void <span style="color:#004000;">Ellipsesub</span>::<span style="color:#0055cf;">paint(QPainter *painter)</span>{
+ int sidemin=qMin(width(),height());
+ int sidemax=qMax(width(),height());
+ painter-&gt;setViewport((width()-sidemin)/2,(height()-sidemin)/2,sidemin,sidemin);
+ painter-&gt;setWindow(-sidemax/2,-sidemax/2,sidemax,sidemax);
+ painter-&gt;setPen(QPen(_color,2));
+ painter-&gt;setRenderHints(QPainter::Antialiasing,true);
+ painter-&gt;save();
+ painter-&gt;rotate(_angle);
+ painter-&gt;drawEllipse(QRect(-width()/2,-height()/2,width(),height()).adjusted(1,1,-1,-1));
+ painter-&gt;restore();
+}
+ 
+<span style="color:#004000;">Ellipse</span>::<span style="color:#0055cf;">Ellipse(QQuickItem *parent)</span>:QQuickPaintedItem(parent){}
+QString Ellipse::name() const { return _name; }
+void Ellipse::setName(const QString& name){
+ if (_name!=name){
+  _name=name;
+  emit nameChanged();
+ }
+}
+QColor <span style="color:#004000;">Ellipse</span>::<span style="color:#0055cf;">color()</span> const { return _color; }
+void Ellipse::setColor(const QColor& color){
+ if(_color!=color){
+  _color=color;
+  update();
+  emit colorChanged();
+ }
+}
+void <span style="color:#004000;">Ellipse</span>::<span style="color:#0055cf;">paint(QPainter *painter)</span>{
+ painter-&gt;setPen(QPen(_color,2));
+ painter-&gt;setRenderHints(QPainter::Antialiasing,true);
+ painter-&gt;drawEllipse(boundingRect().adjusted(1,1,-1,-1));
+}
+void <span style="color:#004000;">Ellipse</span>::<span style="color:#0055cf;">clearEllipse()</span>{
+ static QColor color=_color;
+ if(_color!=Qt::transparent)
+  setColor(QColor(Qt::transparent));
+ else
+  setColor(color);
+ emit ellipseCleared();
+}
+<span style="color:#004000;">QQmlListProperty&lt;Ellipsesub&gt;</span> <span style="color:#004000;">Ellipse</span>::<span style="color:#0055cf;">ellipsesubs()</span>{
+ return QQmlListProperty&lt;Ellipsesub&gt;(this,nullptr,&Ellipse::appendellipsesub,nullptr,nullptr,nullptr);
+}
+void <span style="color:#004000;">Ellipse</span>::<span style="color:#0055cf;">appendellipsesub(QQmlListProperty&lt;Ellipsesub&gt; *ellipsesublist,Ellipsesub *ellipsesub)</span>{
+ Ellipse *ellipse=qobject_cast&lt;Ellipse*&gt;(ellipsesublist-&gt;object);
+ if(ellipse){
+  ellipsesub-&gt;setParentItem(ellipse);
+  ellipse-&gt;_ellipsesublist.append(ellipsesub);
+ }
+} </pre>
+<div style="width:278px;height:1176px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:19px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_160_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:288px;display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="7132887972"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:907px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:84px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;main.cpp&gt;</span>
+#<span style="color:#004000;">include</span> &lt;QGuiApplication&gt;
+#<span style="color:#004000;">include</span> &lt;QQuickView&gt;
+#<span style="color:#004000;">include</span> &lt;QDebug&gt;
+#<span style="color:#004000;">include</span> "ellipse.h"
+  </pre>
+<div style="width:480px;height:84px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p57</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:140px;float:left;" class="codeb">int main(int argc, char ** argv) {
+ <span style="color:#004000;">QGuiApplication</span> app(argc, argv);
+ <span style="color:#004000;">qmlRegisterType</span>&lt;<span style="color:#004000;">Ellipse</span>&gt;(<span style="color:#ff0000;">"EllipseM"</span>, 1,0, <span style="color:#ff0000;">"Ellipse"</span>);
+ <span style="color:#004000;">qmlRegisterType</span>&lt;<span style="color:#004000;">Ellipsesub</span>&gt;(<span style="color:#ff0000;">"EllipseM"</span>, 1,0, <span style="color:#ff0000;">"Ellipsesub"</span>);
+ <span style="color:#004000;">QQuickView</span> view; 
+ view.setResizeMode(QQuickView::SizeRootObjectToView);
+ view.setSource(QUrl("qrc:main.qml"));
+ view.show();
+ return app.exec();
+} </pre>
+<div style="width:480px;height:140px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:6px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:72px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:770px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;main.qml&gt;</span>
+<span style="color:#004000;font-weight:bold">import</span> EllipseM 1.0
+<span style="color:#004000;font-weight:bold">import</span> QtQuick 2.0
+<span style="color:#004000;font-weight:bold">Item</span>{
+width:400;height:400
+ <span style="color:#004000;font-weight:bold">Row</span>{
+ anchors.centerIn:parent
+ spacing:20
+  <span style="color:#004000;font-weight:bold">Ellipse</span> {
+  id: ellipseid1
+  width:200;height:200
+  name:"ellipse1"
+  color:"red"
+  onEllipseCleared:{ console.log(<span style="color:#ff0000;">"Ellipse1 cleared"</span>); }
+  <span style="color:#004000;font-weight:bold">ellipsesubs</span>:[<span style="color:#004000;font-weight:bold">Ellipsesub</span>{
+   width:100;height:50
+   anchors.centerIn:parent
+   color:<span style="color:#ff0000;">"green"</span>
+   },
+   <span style="color:#004000;font-weight:bold">Ellipsesub</span>{
+   width:100;height:50
+   anchors.centerIn:parent
+   color:<span style="color:#ff0000;">"blue"</span>
+   angle:90
+   },
+   <span style="color:#004000;font-weight:bold">Ellipsesub</span>{
+   width:100;height:50
+   anchors.centerIn:parent
+   color:<span style="color:#ff0000;">"red"</span>
+   angle:45
+   }]
+   <span style="color:#004000;font-weight:bold">Text</span>{
+   text:ellipseid1.name
+   anchors{bottom:parent.bottom;horizontalCenter:parent.horizontalCenter;bottomMargin:-20}
+   }
+  }
+  <span style="color:#004000;font-weight:bold">Ellipse</span> {
+  id: ellipseid2
+  width:200;height:200
+  name:<span style="color:#ff0000;">"ellipse2"</span>
+  color:ellipseid1.color
+  onEllipseCleared:console.log(<span style="color:#ff0000;">"Ellipse2 cleared"</span>)
+   <span style="color:#004000;font-weight:bold">Text</span>{
+   text:ellipseid2.name
+   anchors{bottom:parent.bottom;horizontalCenter:parent.horizontalCenter;bottomMargin:-20}
+   }
+  }
+ }
+ <span style="color:#004000;font-weight:bold">MouseArea</span>{
+ id:mousearea
+ anchors{fill:parent}
+ onClicked:ellipseid1.clearEllipse()
+ onDoubleClicked:ellipseid2.color=<span style="color:#ff0000;">"blue"</span>;
+ }
+} </pre>
+<div style="width:356px;height:770px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:28px;top:85px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/qml-slide-cppintegration-qquickitem.png" /></div><div style="width:471px;height:279px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:7px;top:14px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:264px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">       Ellipse and EllipseSubsets 
+  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p58</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/qml-slide-cppintegration-qquickitem2.png" /></div><div style="width:471px;height:279px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:7px;top:14px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:264px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">  Ellipse1 color become transparent and so Ellipse2 due to property binding 
+  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/qml-slide-cppintegration-qquickitem3.png" /></div><div style="width:471px;height:279px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:7px;top:14px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:264px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">    Ellipse2 breaks binding on mouse doubleclick 
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:190px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. C++ Integration</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Declartive Envrionment
+ -QQmlApplicationEngine
+ -QQuickView
+</pre></li>   <li class="sml"><pre>Exporting C++ Objects to QML
+ -QQmlContext
+</pre></li>   <li class="sml"><pre>Exporting Classes to QML
+</pre></li>   <li class="sml"><pre>Exporting Non-GUI Classes
+</pre></li>   <li class="sml"><pre>Exporting Qpainter based GUI Classes
+ -QQuickPaintedItem
+</pre></li>   <li class="big"><h2><a name="chap9_5">Building an application as a Library</a></h2></li>   <li class="sml"><pre>Using Custom Types Plugins</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="iframecontainer" style="float:left;width:640px;height:360px;"><iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/19ibdDN0ZPo?enablejsapi=1&controls=1&autoplay=1&vq=hd240&cc_load_policy=1" frameborder="0"></iframe></div><div style="width:310px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:5px;top:55px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre style="height:63px;float:left;" class="codec"><span style="color:#004000;">QQmlExtensionPlugin</span>
+      / \
+       -
+       |
+       |
+          ::registerTypes() <span style="color:#0055cf;">//override</span>
+          ::initializeEngine() <span style="color:#0055cf;">//override</span> </pre>
+<div style="width:480px;height:63px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:95px;" class="slidecontent"> 
+Qml classes can be in application or can be pushed to a library to which application would link. In case of creating library,  <span style="color:#004000;">QQmlExtensionPlugin</span> needs to be subclassed overriding its <span style="color:#004000;">registerTypes</span> and <span style="color:#004000;">initializeEngine</span> methods.
+  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p59</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:219px;float:left;" class="slidecontent"><pre class="note">1. Subclass <span style="color:#004000;">QQmlExtensionPlugin</span>
+  &gt; Use the <span style="color:#004000;">Q_PLUGIN_METADATA()</span> macro to register the plugin with the Qt meta object system.
+  &gt; Override the <span style="color:#004000;">registerTypes()</span> method and call qmlRegisterType() to register the types to be exported by the plugin.
+  &gt; Override initializeEngine to initialize the extension from the uri using the engine. Here an application plugin may expose some data or objects to QML as context properties on the engine's root context.
+2. Write a project file for the plugin.
+3.Create a qmldir file to describe the plugin.</pre>
+  </pre>
+<div style="width:374px;height:219px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:9px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:30px;" class="code">$ ls imports/EllipseM/
+libqmlellipseplugin.so  qmldir </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:162px;float:left;" class="codec"><span style="color:#0055cf;">&lt;*.pro&gt;</span>
+QT+=qml quick
+TEMPLATE = lib
+CONFIG+=plugin
+DESTDIR=imports/EllipseM
+TARGET = qmlellipseplugin
+ 
+INCLUDEPATH += .
+ 
+HEADERS += ellipse.h ellipseplugin.h
+SOURCES += ellipse.cpp ellipseplugin.cpp
+ 
+<span style="color:#0055cf;">&lt;main.qrc&gt;</span>
+&lt;RCC&gt;
+ &lt;qresource&gt;
+  &lt;file&gt;main.qml&lt;/file&gt;
+ &lt;/qresource&gt;
+&lt;/RCC&gt; </pre>
+<div style="width:480px;height:162px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:88px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:154px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;ellipseplugin.h&gt;</span>
+#ifndef ELLIPSEPLUGIN_H
+#define ELLIPSEPLUGIN_H
+#include &lt;QQmlExtensionPlugin&gt;
+class <span style="color:#004000;">EllipsePlugin</span> : public <span style="color:#004000;">QQmlExtensionPlugin</span> {
+ Q_OBJECT
+ Q_PLUGIN_METADATA(IID QQmlExtensionInterface_iid)
+public:
+ void <span style="color:#0055cf;">registerTypes</span>(const char *uri);
+};
+#endif </pre>
+<div style="width:480px;height:154px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:11px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:82px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:98px;float:left;" class="codeb">#<span style="color:#004000;">include</span> "ellipseplugin.h"
+#<span style="color:#004000;">include</span> "ellipse.h"
+#<span style="color:#004000;">include</span> &lt;qqml.h&gt;
+void <span style="color:#004000;">EllipsePlugin</span>::<span style="color:#0055cf;">registerTypes</span>(const char *uri) {
+ <span style="color:#004000;">qmlRegisterType</span>&lt;<span style="color:#004000;">Ellipse</span>&gt;(uri, 1, 0, <span style="color:#ff0000;">"Ellipse"</span>);
+ <span style="color:#004000;">qmlRegisterType</span>&lt;<span style="color:#004000;">Ellipsesub</span>&gt;(uri, 1, 0, <span style="color:#ff0000;">"Ellipsesub"</span>);
+} </pre>
+<div style="width:480px;height:98px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:19px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:67px;float:left;" class="slidecontent"> 
+<pre class="note">Create a qmldir file to describe the plugin</pre>
+  </pre>
+<div style="width:480px;height:67px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:3px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:42px;" class="codeb"><span style="color:#0055cf;">&lt;imports/EllipseM/qmldir&gt;</span>
+module EllipseM
+plugin qmlellipseplugin </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;height:527px;">&lt;*.pro&gt;
+QT+=qml quick
+TEMPLATE = lib
+CONFIG+=plugin
+DESTDIR=imports/EllipseM
+TARGET = qmlellipseplugin
+ 
+INCLUDEPATH += .
+ 
+HEADERS += ellipse.h ellipseplugin.h
+SOURCES += ellipse.cpp ellipseplugin.cpp
+ 
+&lt;ellipse.h&gt;
+#ifndef ELLIPSE_H
+#define ELLIPSE_H
+#include &lt;QtQuick/QQuickPaintedItem&gt;
+#include &lt;QColor&gt;
+ 
+class Ellipsesub:public QQuickPaintedItem {
+ Q_OBJECT
+ Q_PROPERTY(int angle READ angle WRITE setAngle)
+ Q_PROPERTY(QColor color READ color WRITE setColor NOTIFY colorChanged)
+ Q_PROPERTY(QString name READ name WRITE setName NOTIFY nameChanged)
+public:
+ Ellipsesub(QQuickItem *parent=0);
+ int angle()const;
+ void setAngle(const int);
+ QColor color() const;
+ void setColor(const QColor&);
+ QString name() const;
+ void setName(const QString&);
+ void paint(QPainter *);
+signals:
+ void nameChanged();
+ void colorChanged();
+private:
+ int _angle;
+ QString _name;
+ QColor _color;
+};
+class Ellipse : public QQuickPaintedItem {
+ Q_OBJECT
+ Q_PROPERTY(QQmlListProperty&lt;Ellipsesub&gt; ellipsesubs READ ellipsesubs)
+// Q_PROPERTY(Ellipsesub *ellipsesub READ ellipsesub WRITE setEllipsesub)
+ Q_PROPERTY(QString name READ name WRITE setName NOTIFY nameChanged)
+ Q_PROPERTY(QColor color READ color WRITE setColor NOTIFY colorChanged)
+public:
+ Ellipse(QQuickItem *parent = 0);
+ QString name() const;
+ void setName(const QString &name);
+ QColor color() const;
+ void setColor(const QColor &color);
+/* Ellipsesub* ellipsesub() const;
+ void setEllipsesub(Ellipsesub*); */
+ void paint(QPainter *painter);
+ static void appendellipsesub(QQmlListProperty&lt;Ellipsesub&gt; *ellipsesublist,Ellipsesub *ellipsesub);
+ 
+ QQmlListProperty&lt;Ellipsesub&gt; ellipsesubs(); </pre>
+ <pre class="codes" style="float:left;height:527px;"> Q_INVOKABLE void clearEllipse();
+signals:
+ void nameChanged();
+ void colorChanged();
+ void ellipseCleared();
+private:
+ QString _name;
+ QColor _color;
+//Ellipsesub* _ellipsesub;
+ QList&lt;Ellipsesub*&gt; _ellipsesublist;
+};
+#endif
+ 
+&lt;ellipse.cpp&gt;
+#include &lt;QPainter&gt;
+#include "ellipse.h"
+Ellipsesub::Ellipsesub(QQuickItem *parent):QQuickPaintedItem(parent),_angle(0){}
+/*Ellipsesub* Ellipse::ellipsesub() const { return _ellipsesub; }
+void Ellipse::setEllipsesub(Ellipsesub *ellipsesub){
+_ellipsesub=ellipsesub;
+_ellipsesub-&gt;setParentItem(this);
+}*/
+QString Ellipsesub::name() const { return _name; }
+void Ellipsesub::setName(const QString& name){
+ if (_name!=name){
+  _name=name;
+  emit nameChanged();
+ }
+}
+QColor Ellipsesub::color() const { return _color; }
+void Ellipsesub::setColor(const QColor& color){
+ if(_color!=color){
+  _color=color;
+  update();
+  emit colorChanged();
+ }
+}
+int Ellipsesub::angle() const { return _angle; }
+void Ellipsesub::setAngle(const int angle){
+ if(_angle!=angle){
+  _angle=angle;
+//  emit angleChanged();
+ }
+}
+void Ellipsesub::paint(QPainter *painter){
+ int sidemin=qMin(width(),height());
+ int sidemax=qMax(width(),height());
+ painter-&gt;setViewport((width()-sidemin)/2,(height()-sidemin)/2,sidemin,sidemin);
+ painter-&gt;setWindow(-sidemax/2,-sidemax/2,sidemax,sidemax);
+ painter-&gt;setPen(QPen(_color,2));
+ painter-&gt;setRenderHints(QPainter::Antialiasing,true);
+ painter-&gt;save();
+ painter-&gt;rotate(_angle);
+ painter-&gt;drawEllipse(QRect(-width()/2,-height()/2,width(),height()).adjusted(1,1,-1,-1));
+ painter-&gt;restore();
+}
+ 
+Ellipse::Ellipse(QQuickItem *parent):QQuickPaintedItem(parent){} </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p60</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre class="codes" style="float:left;height:284px;">QString Ellipse::name() const { return _name; }
+void Ellipse::setName(const QString& name){
+ if (_name!=name){
+  _name=name;
+  emit nameChanged();
+ }
+}
+QColor Ellipse::color() const { return _color; }
+void Ellipse::setColor(const QColor& color){
+ if(_color!=color){
+  _color=color;
+  update();
+  emit colorChanged();
+ }
+}
+void Ellipse::paint(QPainter *painter){
+ painter-&gt;setPen(QPen(_color,2));
+ painter-&gt;setRenderHints(QPainter::Antialiasing,true);
+ painter-&gt;drawEllipse(boundingRect().adjusted(1,1,-1,-1));
+}
+void Ellipse::clearEllipse(){
+ static QColor color=_color;
+ if(_color!=Qt::transparent)
+  setColor(QColor(Qt::transparent));
+ else
+  setColor(color);
+ emit ellipseCleared();
+}
+QQmlListProperty&lt;Ellipsesub&gt; Ellipse::ellipsesubs(){
+ return QQmlListProperty&lt;Ellipsesub&gt;(this,nullptr,&Ellipse::appendellipsesub,nullptr,nullptr,nullptr);
+} </pre>
+ <pre class="codes" style="float:left;height:293px;">void Ellipse::appendellipsesub(QQmlListProperty&lt;Ellipsesub&gt; *ellipsesublist,Ellipsesub *ellipsesub){
+ Ellipse *ellipse=qobject_cast&lt;Ellipse*&gt;(ellipsesublist-&gt;object);
+ if(ellipse){
+  ellipsesub-&gt;setParentItem(ellipse);
+  ellipse-&gt;_ellipsesublist.append(ellipsesub);
+ }
+}
+ 
+&lt;ellipseplugin.h&gt;
+#ifndef ELLIPSEPLUGIN_H
+#define ELLIPSEPLUGIN_H
+#include &lt;QQmlExtensionPlugin&gt;
+class EllipsePlugin : public QQmlExtensionPlugin {
+ Q_OBJECT
+ Q_PLUGIN_METADATA(IID QQmlExtensionInterface_iid)
+public:
+ void registerTypes(const char *uri);
+};
+#endif
+ 
+&lt;ellipseplugin.cpp&gt;
+#include "ellipseplugin.h"
+#include "ellipse.h"
+#include &lt;qqml.h&gt;
+void EllipsePlugin::registerTypes(const char *uri) {
+ qmlRegisterType&lt;Ellipse&gt;(uri, 1, 0, "Ellipse");
+ qmlRegisterType&lt;Ellipsesub&gt;(uri, 1, 0, "Ellipsesub");
+}
+ 
+&lt;imports/EllipseM/qmldir&gt;
+module EllipseM
+plugin qmlellipseplugin </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:190px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. C++ Integration</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Declartive Envrionment
+ -QQmlApplicationEngine
+ -QQuickView
+</pre></li>   <li class="sml"><pre>Exporting C++ Objects to QML
+ -QQmlContext
+</pre></li>   <li class="sml"><pre>Exporting Classes to QML
+</pre></li>   <li class="sml"><pre>Exporting Non-GUI Classes
+</pre></li>   <li class="sml"><pre>Exporting Qpainter based GUI Classes
+ -QQuickPaintedItem
+</pre></li>   <li class="sml"><pre>Building an application as a Library
+</pre></li>   <li class="big"><h2><a name="chap9_6">Using Custom Types Plugins</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="iframecontainer" style="float:left;width:640px;height:360px;"><iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/UxnOiAejgtQ?enablejsapi=1&controls=1&autoplay=1&vq=hd240&cc_load_policy=1" frameborder="0"></iframe></div><div style="width:310px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:5px;top:55px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+ <pre style="height:114px;" class="slidecontent">Application needs to add module directory which contains qmldir file i.e imports/EllipseM. Here EllipseM is module name so only 'imports' directory needs to be added to QQmlEngine::addImportPath. It is expected that plugin library is available in the directory where qmldir file exists, otherwise plugin path needs to be added in QQmlEngine::addPluginPath.
+  </pre>
+<div class="clr"></div> <pre style="height:117px;float:left;" class="codec"><span style="color:#0055cf;">&lt;*.pro&gt;</span>
+QT+=quick
+TEMPLATE = app
+TARGET = ellipse
+INCLUDEPATH += .
+ 
+MOC_DIR=build
+RCC_DIR=build
+UI_DIR=build
+OBJECTS_DIR=build
+ 
+SOURCES += main.cpp
+RESOURCES += main.qrc </pre>
+<div style="width:480px;height:117px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:28px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:210px;float:left;" class="codeb"><span style="color:#0055cf;">&lt;main.cpp&gt;</span>
+#include &lt;QGuiApplication&gt;
+#include &lt;QQuickView&gt;
+#include &lt;QQmlEngine&gt;
+#include &lt;QDebug&gt;
+ 
+int main(int argc, char ** argv) {
+ QGuiApplication app(argc, argv);
+ QQuickView view; 
+ view.engine()-&gt;addImportPath(app.applicationDirPath()+"/imports");
+ view.setResizeMode(QQuickView::SizeRootObjectToView);
+ view.setSource(QUrl("qrc:main.qml"));
+ view.show();
+ return app.exec();
+} </pre>
+<div style="width:480px;height:210px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p61</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:120px;float:left;" class="code">$ ls imports/
+EllipseM
+$ ls imports/EllipseM/
+libqmlellipseplugin.so  qmldir
+$ cat imports/EllipseM/qmldir 
+module EllipseM
+plugin qmlellipseplugin
+$./ellipse </pre>
+<div style="width:480px;height:120px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/qml-slide-cppintegration-qquickitem.png" /></div><div style="width:471px;height:279px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:7px;top:14px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:264px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">       Ellipse and EllipseSubsets 
+  </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;height:428px;">&lt;*.pro&gt;
+QT+=quick
+TEMPLATE = app
+TARGET = ellipse
+INCLUDEPATH += .
+ 
+MOC_DIR=build
+RCC_DIR=build
+UI_DIR=build
+OBJECTS_DIR=build
+ 
+SOURCES += main.cpp
+RESOURCES += main.qrc
+ 
+&lt;main.qrc&gt;
+&lt;RCC&gt;
+ &lt;qresource&gt;
+  &lt;file&gt;main.qml&lt;/file&gt;
+ &lt;/qresource&gt;
+&lt;/RCC&gt;
+ 
+&lt;imports/EllipseM/qmldir&gt;
+module EllipseM
+plugin qmlellipseplugin
+ 
+&lt;main.cpp&gt;
+#include &lt;QGuiApplication&gt;
+#include &lt;QQuickView&gt;
+#include &lt;QQmlEngine&gt;
+#include &lt;QDebug&gt;
+ 
+int main(int argc, char ** argv) {
+ QGuiApplication app(argc, argv);
+ QQuickView view; 
+ view.engine()-&gt;addImportPath(app.applicationDirPath()+"/imports");
+ view.setResizeMode(QQuickView::SizeRootObjectToView);
+ view.setSource(QUrl("qrc:main.qml"));
+ view.show();
+ return app.exec();
+}
+ 
+&lt;main.qml&gt;
+import EllipseM 1.0
+import QtQuick 2.0
+Item{
+width:400;height:400
+ Row{ </pre>
+ <pre class="codes" style="float:left;height:446px;"> anchors.centerIn:parent
+ spacing:20
+  Ellipse {
+  id: ellipseid1
+  width:200;height:200
+  name:"ellipse1"
+  color:"red"
+  onEllipseCleared:{ console.log("Ellipse1 cleared"); }
+  ellipsesubs:[Ellipsesub{
+   width:100;height:50
+   anchors.centerIn:parent
+   color:"green"
+   },
+   Ellipsesub{
+   width:100;height:50
+   anchors.centerIn:parent
+   color:"blue"
+   angle:90
+   },
+   Ellipsesub{
+   width:100;height:50
+   anchors.centerIn:parent
+   color:"red"
+   angle:45
+   }]
+   Text{
+   text:ellipseid1.name
+   anchors{bottom:parent.bottom;horizontalCenter:parent.horizontalCenter;bottomMargin:-20}
+   }
+  }
+  Ellipse {
+  id: ellipseid2
+  width:200;height:200
+  name:"ellipse2"
+  color:ellipseid1.color
+  onEllipseCleared:console.log("Ellipse2 cleared")
+   Text{
+   text:ellipseid2.name
+   anchors{bottom:parent.bottom;horizontalCenter:parent.horizontalCenter;bottomMargin:-20}
+   }
+  }
+ }
+ MouseArea{
+ id:mousearea
+ anchors{fill:parent}
+ onClicked:ellipseid1.clearEllipse()
+ onDoubleClicked:ellipseid2.color="blue";
+ }
+} </pre>
+<div style="width:255px;height:446px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:27px;top:15px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:27px;top:230px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p62</a>
+</div>

@@ -1,0 +1,1981 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>Qt/Qml Essentials Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:150px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding fundamental and advance topics in Qt Programming
+Understanding signals and slots concept
+Understanding Widget
+Understanding QPainter and 2D painting
+Understanding QML/QtQuick</pre>
+  </div>
+ </div>
+ <div style="height:84px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <div style="height:62px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:84px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional embedded Software developers
+Professional GUI developers</pre>
+  </div>
+ </div>
+ <div style="height:436px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of C++ programming</b>
+Qt uses Template level advance C++ as language. Prior knowledge to C++
+is required.
+Advance Cpp training agenda is available at
+<a href=http://minhinc.42web.io/training/cpp/advance-cpp-slides.php>http://minhinc.42web.io/training/cpp/advance-cpp-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-cpp-slides.pdf>http://minhinc.42web.io/training/advance-cpp-slides.pdf</a>
+
+<b>Knowledge of Design Patterns Concepts</b>
+Qt uses GOF desing patterns in co-relating c++ classes.
+Get slides at
+<a href=http://minhinc.42web.io/training/dp/advance-dp-slides.php>http://minhinc.42web.io/training/dp/advance-dp-slides.php</a>
+
+<b>Knowledge of GUI and other concepts</b>
+Qt is used for GUI development and many other technologies including Networks,
+operating systems, Database, scripting. Basic knowledge of these domains are
+required as per the Qt is developed for the particular domain.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:62px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu 16/17 LTS, Qt 5.9/5.10</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-qt-slides.pdf">http://minhinc.42web.io/training/advance-qt-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Labs session would be completely hands on session where each example (with
+example data and execution instruction) would be provided to the students. Students
+can verify their results with the results provided in the material.</pre>
+ </div>
+ <div style="width:960px;height:396px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:9px;top:8px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:354px;top:8px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:699px;top:8px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:9px;top:296px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:297px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-qt-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php#chap1_0"><pre>GUI Programming Fundamentals
+ - Window registration and creation
+- Message loop
+ - Event callback handler</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_1"><pre>Qt Overview and Status
+ - Qt history and its presence
+ - Licensing (GPL, LGP, Commercial)</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_2"><pre>Meta Object and QObject</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_2"><pre>MOC compiler and MOC file generation</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_3"><pre>Hello World using Qt creator</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_4"><pre>QMake</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_5"><pre>Qt Resources</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_6"><pre>Installing Qt</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-qt-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qt Core</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=2#chap2_0"><pre>String Handling</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=2#chap2_1"><pre>Container Classes</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=2#chap2_2"><pre>Advanced Container Classes</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=2#chap2_3"><pre>File I/O</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=2#chap2_4"><pre>Memory Mapped Files</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:316px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-qt-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=3#chap3_0"><pre>QtObject Model</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=3#chap3_1"><pre>ObjectLife cycle
+- Stack allocation
+- Heap allocation
+- QPointer
+- QScopePointer
+- QWeakPointer</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=3#chap3_2"><pre>Qtclass relationships
+- Association
+- Containment(Aggregation and Composition)
+- Parent/Child relationships
+- Inheritance
+- Polymorphism</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=3#chap3_3"><pre>GarbageCollection</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:0px;height:373px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main4" href="#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Event Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap4_0"><pre>Event flow and Handling
+- Event handling through callback and polymorphism
+- Event handling through message map</pre></a></li>
+    <li><a href="#chap4_1"><pre>Synthetic and hardware events
+- Custom events
+- Sending and receiving custom events
+- Posting events</pre></a></li>
+    <li><a href="#chap4_2"><pre>Event loops
+- QCoreApplication
+- QEventDispatcher
+- exec()</pre></a></li>
+    <li><a href="#chap4_3"><pre>Event filters
+- Registering event filter
+- Installing event filter</pre></a></li>
+    <li><a href="#chap4_4"><pre>Timer event</pre></a></li>
+    <li><a href="#chap4_5"><pre>Signal & Slots communication & delivery</pre></a></li>
+    <li><a href="#chap4_6"><pre>Data passing and Signal mapper</pre></a></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:136px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Qt Creator,Qt Designer,Qt Debugging</pre></li>
+    <li><pre>qmake</pre></li>
+    <li><pre>Writing Hello World using Qt Creator</pre></li>
+    <li><pre>QString, QList</pre></li>
+    <li><pre>QFile, QTextStream and QDataStream</pre></li>
+    <li><pre>QPointer, QScopePointer and QSharedPointer</pre></li>
+    <li><pre>Custom event</pre></li>
+    <li><pre>Event filtering</pre></li>
+    <li><pre>Signal & Slot, Signal Mapper</pre></li>
+   </ul>
+ </div><div style="width:475px;height:221px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:158px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:2px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:297px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-qt-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Widgets</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=5#chap5_0"><pre>Introduction to Widgets</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_1"><pre>Writing custom widget</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_2"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_3"><pre>Event Processing and Paint Engine</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_4"><pre>MainWindow Widget</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_5"><pre>Dialog widget</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_6"><pre>Tabify dock widget</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_7"><pre>Drag and drop</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_8"><pre>Applying Qt style sheet on Widgets</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_9"><pre>Scrolling, QScrollArea</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-qt-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - QPainter and Image management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=6#chap6_0"><pre>QPainter and capabilities</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_1"><pre>Using QPainter with OpenGL functions</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_2"><pre>Image handling Qt</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_2"><pre>Classes for Image Handling (QImage, QPixmap,
+QBitMap etc)</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_3"><pre>I/O with Image Files</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_4"><pre>Pixel Handling</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_5"><pre>Image Transformation</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_6"><pre>OpenGL 3D Painting</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-qt-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Layout Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=7#chap7_0"><pre>Layout Concepts</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_1"><pre>Laying Rows and Columns</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_2"><pre>Vertical and Horizontal Layout</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_3"><pre>Grid Layout</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_4"><pre>Form Layout</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_5"><pre>Stacked Layout</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_6"><pre>Anchor Layout</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:0px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-qt-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Model View Controller(MVC)</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=8#chap8_0"><pre>Qt model view architecture
+- QTableWidget and QTableView
+- QAbstractItemModel QAbstractItemView</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=8#chap8_1"><pre>Predefined Model</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=8#chap8_2"><pre>Predefined Views</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=8#chap8_3"><pre>Proxy Model</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=8#chap8_4"><pre>Implementing custom delegates</pre></a></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:127px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>QMainWindow QMenu, QMenuBar, QToolBar,
+QStatusBar</pre></li>
+    <li><pre>Parent and Child Window</pre></li>
+    <li><pre>QPainter</pre></li>
+    <li><pre>Transformation Matrix</pre></li>
+    <li><pre>Box Layout</pre></li>
+    <li><pre>Grid Layout</pre></li>
+    <li><pre>Stack Layout</pre></li>
+    <li><pre>Custom Model</pre></li>
+    <li><pre>Custom Delegate</pre></li>
+   </ul>
+ </div><div style="width:475px;height:240px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:133px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:278px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-qt-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Plugin Architecture</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=9#chap9_0"><pre>Library concepts
+- Static linking
+- Dynamic linking (late binding)
+- Runtime linking (late late binding)</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=9#chap9_1"><pre>Extending qt with existing plugin
+ - Plugin macros
+ - Style sheets</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=9#chap9_2"><pre>Creating plugin from scratch</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=9#chap9_3"><pre>Linking to a plugin statically
+- creating static plugin
+- linking static plugin to application</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=9#chap9_3"><pre>Making application plugin-aware</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-qt-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Graphics Views</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=10#chap10_0"><pre>Graphics Views concept
+- Graphics scene
+- Graphics View
+- Graphics Items</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=10#chap10_1"><pre>OpenGL scene project model/view architecture</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=10#chap10_2"><pre>Image based rendering with graphics views</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:81px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-qt-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - XML and JSON Parsing</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=11#chap11_0"><pre>Basic XML APIs, QXmlStreamReader,
+  QXmlStreamWriter</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=11#chap11_1"><pre>XML Patterns : XPath, XQuery,
+  QtXmlPatterns and XML Schema</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=11#chap11_2"><pre>Implement writing and reading
+ through xml file</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:0px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-qt-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inter process Communication(IPC)</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=12#chap12_0"><pre>Running processes
+ - Parent/Child relationships
+ - Message passing
+ - popen</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=12#chap12_1"><pre>Shared memory with Qt</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Extending existing plugin
+Writing Plugin from scratch</pre></li>
+    <li><pre>Add custom item</pre></li>
+    <li><pre>Implement drag & drop on the item</pre></li>
+    <li><pre>Implement writing and reading
+ through xml file</pre></li>
+    <li><pre>Create and read data from subprocess</pre></li>
+    <li><pre>Use QSharedMemory to make singleton process</pre></li>
+   </ul>
+ </div><div style="width:475px;height:202px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:303px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:9px;top:11px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:354px;top:11px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:699px;top:11px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-qt-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Multithreading</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=13#chap13_0"><pre>Multithreading primitives</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=13#chap13_1"><pre>Creating Thread</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=13#chap13_2"><pre>Synchronizing threads
+ -QMutex
+ -QWaitCondition
+ -QSemaphore
+ -QReadWriteLock
+ -Producer/Consumer scenario</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=13#chap13_3"><pre>Thread local storage</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-qt-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Web Kit</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=14#chap14_0"><pre>Qt Web-Kit Architecture</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=14#chap14_1"><pre>Views, Frame and Page</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=14#chap14_2"><pre>Qt graphics view framework in web-kit</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=14#chap14_3"><pre>Qml webkit objects</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=14#chap14_4"><pre>Execute javascript through QWebView</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:109px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:9px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main15" href="./advance-qt-slides.php?chap=15#chap15" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Databases</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=15#chap15_0"><pre>Connecting to DB</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=15#chap15_1"><pre>Query, Viewing</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=15#chap15_2"><pre>Editing records</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=15#chap15_3"><pre>Tabular Data Presentation</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=15#chap15_4"><pre>Create mysql database to add row</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:0px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main16" href="./advance-qt-slides.php?chap=16#chap16" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Internationalization & Localization(I18N L10N)</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=16#chap16_0"><pre>I18N & L10N concepts</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=16#chap16_1"><pre>Working with Unicode</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=16#chap16_2"><pre>Multi language Support</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=16#chap16_3"><pre>Making Translation aware Applications</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=16#chap16_4"><pre>Dynamic Language Switching</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=16#chap16_5"><pre>Translating Applications</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=16#chap16_6"><pre>Qt supported tools on I18N an L10N</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=16#chap16_7"><pre>Use languate tool to create locale</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=16#chap16_8"><pre>Use I18N api to read user input
+ locale language</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p5</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main17" href="./advance-qt-slides.php?chap=17#chap17" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Networking</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=17#chap17_0"><pre>Socket programming
+ - TCP/UDP sockets
+ - SSL sockets</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=17#chap17_1"><pre>http ftp protocol</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=17#chap17_2"><pre>QNetworkAccessManager, QNetworkReply,
+QNetworkRequest</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=17#chap17_3"><pre>Write ftp client using QNetworkAccessManager</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Producer/Consumer with QWaitCondition,
+QSemaphore, QMutex</pre></li>
+    <li><pre>Passing object ownership among threads</pre></li>
+    <li><pre>Execute javascript through QWebView</pre></li>
+    <li><pre>Create mysql database to add row</pre></li>
+    <li><pre>Use languate tool to create
+locale</pre></li>
+    <li><pre>Use I18N api to read user input
+locale language</pre></li>
+    <li><pre>Write ftp client using QNetworkAccessManager</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:176px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:8px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:106px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:106px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:525px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main21" href="./advance-qt-slides.php?chap=21#chap21" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qml/QtQuick Basics</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=21#chap21_0"><pre>Introduction QtQuick and QML</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_1"><pre>Qml Architecture</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_2"><pre>Qt Properties</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_3"><pre>Building Blocks of QML</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_4"><pre>Composing UIs</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_5"><pre>User Input</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_6"><pre>Structures
+ - Components
+ - Modules</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_7"><pre>Modules
+ - Importing javascript code in QML</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_8"><pre>Dynamic creation of items</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_9"><pre>C++ Integration
+ - Using custom type plugins
+ - Building an applcation as a Library</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_10"><pre>Qt Quick Control</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_11"><pre>Presenting Data
+ - Data Models
+ - Using Views, Using Delegates</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_12"><pre>Write a QML document</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_13"><pre>Import javascript code in QML</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_14"><pre>Define componet dynamically</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_15"><pre>Implement Ecllipse as Qml class type
+ - do same and export in a Library</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_16"><pre>Implement List data model view through delegate</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main18" href="./advance-qt-slides.php?chap=18#chap18" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Drag & Drop</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=18#chap18_0"><pre>Enabling Drag and Drop</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=18#chap18_1"><pre>Supporting Custom Drag Types</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=18#chap18_2"><pre>Clipboard Handling</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=18#chap18_3"><pre>Implement drag and drop between
+QListWidgets</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:88px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main19" href="./advance-qt-slides.php?chap=19#chap19" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Deployment and Testing</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=19#chap19_0"><pre>Deployment</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=19#chap19_1"><pre>Development Tools of Linux</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=19#chap19_2"><pre>QMake</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=19#chap19_3"><pre>Qt Debugging Aids</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=19#chap19_4"><pre>QTestLib</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:145px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p6</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main20" href="./advance-qt-slides.php?chap=20#chap20" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Embedded Qt and HMI</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=20#chap20_0"><pre>Preparing cross compilation envrironment</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_1"><pre>Building Qt source code inorder to have libs
+in cross compliation envrionment</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_2"><pre>Building Qt application based on newly built
+ Qt libraries</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_3"><pre>Font handling</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_4"><pre>Wayland, QtComposite integration</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_5"><pre>Setting up IDE for cross compilation</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_6"><pre>Testing the application on hardware</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_7"><pre>Developing HMI with Qt/Qt Quick</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a QML document</pre></li>
+    <li><pre>Import javascript code in QML</pre></li>
+    <li><pre>Define componet dynamically</pre></li>
+    <li><pre>Implement Ecllipse as Qml class type
+ - do same and export in a Library</pre></li>
+    <li><pre>Implement List data model view through delegate</pre></li>
+    <li><pre>Implement drag and drop between 
+QListWidgets</pre></li>
+   </ul>
+ </div>
+
+
+</div>
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">Qt Essentials</pre><pre class="slidesubtitle">Qt Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-qt-slides.pdf">http://minhinc.42web.io/training/advance-qt-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-20-2021 
+
+Document contains 104 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap4">&nbsp;<div class="slideheader" style="height:266px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <h1><pre class="topic">  4. Event Management</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap4_0">Event flow and Handling<br>- Event handling through callback and polymorphism<br>- Event handling through message map</a></h2></li>   <li class="sml"><pre>Synthetic and hardware events
+- Custom events
+- Sending and receiving custom events
+- Posting events
+</pre></li>   <li class="sml"><pre>Event loops
+- QCoreApplication
+- QEventDispatcher
+- exec()
+</pre></li>   <li class="sml"><pre>Event filters
+- Registering event filter
+- Installing event filter
+</pre></li>   <li class="sml"><pre>Timer event
+</pre></li>   <li class="sml"><pre>Signal & Slots communication & delivery
+</pre></li>   <li class="sml"><pre>Data passing and Signal mapper</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:323px;float:left;" class="slidecontent"> 
+Event Processing
+ - Qt is an event driven UI toolkit
+ - QApplication::exec() runs the event loop
+ 
+1. Generate Events
+ - By input devices: keyboard, mouse, etc.
+ - By Qt itself (e.g. timers)
+2 Queue Events
+ - By event loop
+3 Dispatch Events
+ - By QApplication to receiver: QObject
+ - Key events sent to widget with focus
+ - Mouse events sent to widget under cursor
+4 Handle Events
+ - By QObject event handler methods
+  </pre>
+<div style="width:480px;height:323px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:21px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:360px;float:left;" class="code">------------------        ------------       ---------------------------------
+|hardware signals| -----&gt; | X Server | ----&gt; | Application thread            |
+------------------        ------------       | Event queue with display open |
+                                             ---------------------------------
+                                                            |
+                                                            | exec()
+                                                            v
+                                              ------------------------------
+                                              | Window handling the event  |
+                                              ------------------------------
+                                                            |
+                                                            V
+                                                           ---
+                                  ---------    Yes      /       \
+                                  |process|    &lt;-----  /  Pass   \
+                                  ---------            \ through /
+                                                        \event  /
+                                                         \filter/
+                                                           ---
+                                                            | NO
+                                                            v
+                                                      ------------
+                                                      | reject   |
+                                                      ------------ </pre>
+<div style="width:383px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:23px;top:40px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:110px;float:left;" class="slidecontent"> 
+- Event Handling through callback and polymorphism
+<pre class="codei"> QObject::event(QEvent *event)</pre>
+ - Handles all event for this object
+ 
+Qt's Widget Model - QWidget </pre>
+<div style="width:480px;height:110px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:25px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/qt-slide-qwidgethierarchy.png" /></div><div style="width:719px;height:273px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:39px;top:11px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:378px;top:11px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Derived from QObject </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main4" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p25</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:171px;float:left;" class="slidecontent"> - Adds visual representation
+ 
+Base of user interface objects
+ - Receives events e.g. mouse, keyboard events
+ 
+Paints itself on screen
+ - Using styles
+ 
+* Specialized event handlers </pre>
+<div style="width:480px;height:171px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:17px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre class="codes" style="float:left;height:113px;">QWidget::mousePressEvent(QMouseEvent*) for mouse click
+QWidget::keyPressEvent(QKeyEvent)* for key presses
+QWidget::actionEvent(QActionEvent * event)
+QWidget::changeEvent(QEvent * event)
+QWidget::closeEvent(QCloseEvent * event)
+QWidget::contextMenuEvent(QContextMenuEvent * event)
+QWidget::dragEnterEvent(QDragEnterEvent * event)
+QWidget::dragLeaveEvent(QDragLeaveEvent * event)
+QWidget::dragMoveEvent(QDragMoveEvent * event)
+QWidget::dropEvent(QDropEvent * event)
+QWidget::enterEvent(QEvent * event)
+QWidget::focusInEvent(QFocusEvent * event) </pre>
+ <pre class="codes" style="float:left;height:131px;">QWidget::focusOutEvent(QFocusEvent * event)
+QWidget::hideEvent(QHideEvent * event)
+QWidget::inputMethodEvent(QInputMethodEvent * event)
+QWidget::keyReleaseEvent(QKeyEvent * event)
+QWidget::leaveEvent(QEvent * event)
+QWidget::mouseDoubleClickEvent(QMouseEvent * event)
+QWidget::mouseMoveEvent(QMouseEvent * event)
+QWidget::mouseReleaseEvent(QMouseEvent * event)
+QWidget::moveEvent(QMoveEvent * event)
+QWidget::paintEvent(QPaintEvent * event)
+QWidget::resizeEvent(QResizeEvent * event)
+QWidget::showEvent(QShowEvent * event)
+QWidget::tabletEvent(QTabletEvent * event)
+QWidget::wheelEvent(QWheelEvent * event) </pre>
+<div style="width:480px;height:131px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:3px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:66px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:334px;float:left;" class="slidecontent"> 
+For all events
+<pre class="codei">virtual bool event(QEvent * event)</pre>
+ 
+Accepting an Event
+<pre class="codei"> - event-&gt;accept() / event-&gt;ignore()</pre>
+ - Accepts or ignores the event
+ - Accepted is the default.
+ 
+Event propagation
+ - Happens if event is ignored
+ - Might be propagated to parent widget
+ 
+Example of Event Handling
+* QCloseEvent delivered to top level widgets (windows)
+* Accepting event allows window to close
+* Ignoring event keeps window open
+  </pre>
+<div style="width:480px;height:334px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:27px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:120px;float:left;" class="code">void MyWidget::closeEvent(QCloseEvent *event) {
+if (maybeSave()) {
+writeSettings();
+event-&gt;accept(); // close window
+} else {
+event-&gt;ignore(); // keep window
+}
+} </pre>
+<div style="width:480px;height:120px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:228px;float:left;" class="slidecontent"> 
+- Event handling through message map
+Events and Signals
+Signals and slots are used instead of events:
+* To communicate between components.
+* In cases where there is a well-defined sender and receiver.
+* For example: a button and a slot to handle clicks.
+* For some events, there is no sender in Qt.
+* For example: redraw, keyboard and mouse events.
+* To describe high level logic and control flow. Developers can create custom events if they need to.
+  </pre>
+<div style="width:379px;height:228px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:89px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main4" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p26</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/qt-slide-signalslot.png" /></div><div style="width:462px;height:402px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:20px;top:0px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:240px;top:0px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:20px;top:200px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:240px;top:200px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Variations of Signal&Slot Connections </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">Signal(s)                      Slot(s)
+one                            many
+Many                           one
+one                            another signal </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:129px;float:left;" class="slidecontent"> 
+Signal to Signal connection
+<pre class="codei">connect(bt, SIGNAL(clicked()), this, SIGNAL(oksignal()));</pre>
+ 
+Making the Connection
+Rule for Signal & Slot Connection
+Can ignore arguments, but not create values from nothing </pre>
+<div style="width:480px;height:129px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:3px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:66px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:210px;float:left;" class="code">Signal                                          Slot
+rangeChanged(int,int)                           setValue(int)
+                                                setRange(int,int)
+                                                updateUi()
+ 
+valueChanged(int)                               setValue(int)
+                                                UpdateUi()
+                                x               setRange(int,int)
+                                x               setValue(float)
+ 
+textChanged(QString)            x               setValue(int)
+ 
+Clicked()                                       updateUi()
+                                x               setValue(int) </pre>
+<div style="width:479px;height:210px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:277px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  4. Event Management</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Event flow and Handling
+- Event handling through callback and polymorphism
+- Event handling through message map
+</pre></li>   <li class="big"><h2><a name="chap4_1">Synthetic and hardware events<br>- Custom events<br>- Sending and receiving custom events<br>- Posting events</a></h2></li>   <li class="sml"><pre>Event loops
+- QCoreApplication
+- QEventDispatcher
+- exec()
+</pre></li>   <li class="sml"><pre>Event filters
+- Registering event filter
+- Installing event filter
+</pre></li>   <li class="sml"><pre>Timer event
+</pre></li>   <li class="sml"><pre>Signal & Slots communication & delivery
+</pre></li>   <li class="sml"><pre>Data passing and Signal mapper</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main4" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p27</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="iframecontainer" style="float:left;width:640px;height:360px;"><iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/GVKHXRWX4Lk?enablejsapi=1&controls=1&autoplay=1&vq=hd240&cc_load_policy=1" frameborder="0"></iframe></div><div style="width:315px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:7px;top:55px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre style="height:532px;float:left;" class="slidecontent"> 
+Events have mainly two types
+a) User interface, ex, Keyboard, Mouse, Timer etc.. Processed through call backs, ex. paintEvent, processEvent etc.
+b) Synthetic events
+ 
+Synthetic Events
+* When calling postEvent(), the event must be allocated using new, and must not be deallocated (Qt takes ownership).
+* When calling sendEvent(), you must take care of deleting the instance afterwards (or allocate it on the stack).
+ 
+* You can create your own events by inheriting QEvent, and using an integer between QEvent::User (1000) and QEvent::MaxUser (65535).
+* The integer to use is best generated using the static method int QEvent::registerEventType(int hint = -1)
+* Naturally, Qt does not understand user events. You must therefore handle user events in inherited classes implementing QObject::customEvent() to deal with your custom events.
+* Alternatively, event filters can be used.
+ 
+Delayed Invocation
+* Sometimes, it is desirable to have some code invoked when the application is idle.
+* One way to do this is to post custom QEvent and put your code in the QObject::customEvent() handler of the receiving object.
+* Another way that is often easier and works when the code you want to invoke is available as a slot,
+  </pre>
+<div style="width:379px;height:532px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:21px;top:0px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:21px;top:280px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:45px;" class="code">QMetaObject::invokeMethod() with the connection type
+QueuedConnection can be used instead:
+QMetaObject::invokeMethod(myobject, "doDelayedStuff", Qt::QueuedConnection); </pre>
+<div class="clr"></div> <pre style="height:171px;" class="slidecontent"> 
+Invokes doDelayedStuff() subroutine
+ 
+Delayed Invocation
+* A typical use of this is to make a delayed call from a constructor.
+* This can be used to emit signals after the object has been created and connected.
+* Another use is idle processing.
+ 
+PingPong </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;height:260px;"><pre class="codei">&lt;*.pro&gt;</pre>
+QT+=core TEMPLATE = app TARGET = pingpong SOURCES += pingpong.cpp
+<pre class="codei">&lt;main.cpp&gt;</pre>
+#include &lt;QtCore&gt;
+#include &lt;QDebug&gt;
+class PingEvent : public QEvent {
+public:
+PingEvent() : QEvent(QEvent::Type(QEvent::User)){}
+};
+class PongEvent : public QEvent{
+public:
+PongEvent() : QEvent(QEvent::Type(QEvent::User+1)){}
+};
+class Pinger : public QState{
+public:
+Pinger(QState *parent=0):QState(parent) {}
+protected:
+virtual void onEntry(QEvent *){
+qDebug()&lt;&lt;"Pinger::onEntry";
+machine()-&gt;postDelayedEvent(new PingEvent(),30000);
+}
+};
+class Ponger : public QState{
+public:
+Ponger(QState *parent=0):QState(parent) {}
+protected:
+virtual void onEntry(QEvent *){ </pre>
+ <pre class="codes" style="float:left;height:266px;">qDebug()&lt;&lt;"Ponger::onEntry";
+machine()-&gt;postDelayedEvent(new PongEvent(),30000);
+}
+};
+class PingTransition : public QAbstractTransition {
+public:
+PingTransition() {}
+protected:
+virtual bool eventTest(QEvent *e) {
+qDebug()&lt;&lt;"PingTranstion::eventTest eventType :"&lt;&lt;e-&gt;type();
+return (e-&gt;type() == QEvent::User);
+}
+virtual void onTransition(QEvent *) {
+qDebug()&lt;&lt;"PingTransition::onTransition";
+}
+};
+class PongTransition : public QAbstractTransition{
+public:
+PongTransition() {}
+protected:
+virtual bool eventTest(QEvent *e) {
+qDebug()&lt;&lt;"PingTranstion::eventTest eventType :"&lt;&lt;e-&gt;type();
+return (e-&gt;type() == QEvent::User+1);
+}
+virtual void onTransition(QEvent *){
+qDebug()&lt;&lt;"PongTransition::onTransition";
+}
+};
+int main(int argc, char **argv) </pre>
+<div style="width:401px;height:266px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:50px;top:8px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main4" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p28</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre class="codes" style="float:left;height:95px;">{
+QCoreApplication app(argc, argv);
+QStateMachine machine;
+Pinger *pinger = new Pinger();
+pinger-&gt;setObjectName("pinger");
+Ponger *ponger = new Ponger();
+ponger-&gt;setObjectName("ponger");
+QAbstractTransition *pingertranstion=new PingTransition();
+pingertranstion-&gt;setTargetState(ponger);
+pinger-&gt;addTransition(pingertranstion); </pre>
+ <pre class="codes" style="float:left;height:104px;"> 
+QAbstractTransition *pongertransition=new PongTransition();
+pongertransition-&gt;setTargetState(pinger);
+ponger-&gt;addTransition(pongertransition);
+ 
+machine.addState(pinger);
+machine.addState(ponger);
+machine.setInitialState(pinger);
+machine.start();
+return app.exec();
+} </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">OUTPUT </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;height:86px;">./pingpong
+Pinger::onEntry
+PingTranstion::eventTest eventType : QEvent::Type(None)
+PingTranstion::eventTest eventType : QEvent::Type(None)
+PingTranstion::eventTest eventType : QEvent::Type(User)
+PingTransition::onTransition
+Ponger::onEntry
+PingTranstion::eventTest eventType : QEvent::Type(None)
+PingTranstion::eventTest eventType : QEvent::Type(None) </pre>
+ <pre class="codes" style="float:left;height:95px;">PingTranstion::eventTest eventType : QEvent::Type(1001)
+PongTransition::onTransition
+Pinger::onEntry
+PingTranstion::eventTest eventType : QEvent::Type(None)
+PingTranstion::eventTest eventType : QEvent::Type(None)
+PingTranstion::eventTest eventType : QEvent::Type(User)
+PingTransition::onTransition
+Ponger::onEntry
+PingTranstion::eventTest eventType : QEvent::Type(None)
+^C </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:277px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  4. Event Management</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Event flow and Handling
+- Event handling through callback and polymorphism
+- Event handling through message map
+</pre></li>   <li class="sml"><pre>Synthetic and hardware events
+- Custom events
+- Sending and receiving custom events
+- Posting events
+</pre></li>   <li class="big"><h2><a name="chap4_2">Event loops<br>- QCoreApplication<br>- QEventDispatcher<br>- exec()</a></h2></li>   <li class="sml"><pre>Event filters
+- Registering event filter
+- Installing event filter
+</pre></li>   <li class="sml"><pre>Timer event
+</pre></li>   <li class="sml"><pre>Signal & Slots communication & delivery
+</pre></li>   <li class="sml"><pre>Data passing and Signal mapper</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:228px;float:left;" class="slidecontent"> 
+*QEventLoop - The QEventLoop class provides a means of entering and leaving an event loop.
+*At any time, you can create a QEventLoop object and call exec() on it to start a local event loop. From within the event loop, calling exit() will force exec() to return.
+*QEventDispatcher - The QAbstractEventDispatcher class provides an interface to manage Qt's event queue.
+*An event dispatcher receives events from the window system and other sources. It then sends them to the QCoreApplication or QApplication instance for processing and delivery. QAbstractEventDispatcher provides fine-grained control over event delivery.
+  </pre>
+<div style="width:379px;height:228px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:89px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:285px;float:left;" class="code">          |                |                                     QWidgets
+          |                |                                   -------------
+          |                |                        hardware   |::event() |
+          |                |                        events +--&gt;|::mousePressEvent()|
+          |                |                               |   | .....             |
+|event    |                |                               |   ---------------------
+|arrival / \   checks for / \   send out                   |
+|       /   \   priority /   \  event to  ------------     |
+|      /event\ -------&gt; /event\ --------&gt; |checks for|     |
+---&gt;   \queue/          \queue/ target    |installed |-----+
+        \   /            \   /  window    |filters   |  syn|ev   QObject
+         \ /              \ /             ------------  the|ents-----------------
+          |                |                            tic|---&gt;|::customEvent()|
+          |                |                               |    -----------------
+          |                |                               |
+          |                |                           sign|     QObject
+          |                |                           als |     ----------
+                                                           |----&gt;| slots  |
+                                                                 ---------- </pre>
+<div style="width:339px;height:285px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:1px;top:2px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:266px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  4. Event Management</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Event flow and Handling
+- Event handling through callback and polymorphism
+- Event handling through message map
+</pre></li>   <li class="sml"><pre>Synthetic and hardware events
+- Custom events
+- Sending and receiving custom events
+- Posting events
+</pre></li>   <li class="sml"><pre>Event loops
+- QCoreApplication
+- QEventDispatcher
+- exec()
+</pre></li>   <li class="big"><h2><a name="chap4_3">Event filters<br>- Registering event filter<br>- Installing event filter</a></h2></li>   <li class="sml"><pre>Timer event
+</pre></li>   <li class="sml"><pre>Signal & Slots communication & delivery
+</pre></li>   <li class="sml"><pre>Data passing and Signal mapper</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main4" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p29</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="iframecontainer" style="float:left;width:640px;height:360px;"><iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/uAaxbROmymI?enablejsapi=1&controls=1&autoplay=1&vq=hd240&cc_load_policy=1" frameborder="0"></iframe></div><div style="width:315px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:7px;top:55px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre style="height:152px;" class="slidecontent"> 
+Event Filters
+ - The usual way to do this is to subclass each widget and implement the event.
+ - The alternative is to install an event filter for each instance.
+ 
+Event Filters
+* Subclass from QObject (or any subclass of QObject), and reimplement the method: </pre>
+<div class="clr"></div> <pre style="height:150px;" class="code">bool QObject::eventFilter(QObject* receiver, QEvent* event);
+                 --------------
+                 |  Qobject   | virutal eventfilter(QObject *receiver, Qevent *e)
+                 --------------
+                       / \
+                        -
+                        |
+               ---------------------
+               | EventFilterObject|virutal eventfilter(QObject *receiver, Qevent *e)
+               --------------------- </pre>
+<div class="clr"></div> <pre style="height:228px;float:left;" class="slidecontent">* The first parameter is the object for whom the event was intended, and the second argument is the event itself.
+* If this method returns true, then the event is considered "handled", otherwise it will be sent on to the next event filter, or the object itself, if no more event filters are installed.
+* Install the event filter for an object by invoking the method installEventFilter(). As the argument, pass an instance of the class you have created in the previous step.
+ 
+Event Filters
+* Installing an event filter on the QApplication instance will install a global event filter.
+* Event filters can be removed again by using the method </pre>
+<div style="width:379px;height:228px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:89px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:15px;" class="code">removeEventFilter(const QObject*) </pre>
+<div class="clr"></div> <pre style="height:76px;" class="slidecontent">* When multiple event filters are installed, the order they are called in is the reverse of the order in which they are installed, i.e., the most recent installed filter is the first one invoked.
+  </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;height:386px;"><pre class="codei">&lt;*.pro&gt;</pre>
+QT += core
+ 
+<pre class="codei">&lt;entity.h&gt;</pre>
+#ifndef ENTITY_H
+#define ENTITY_H
+#include &lt;QEvent&gt;
+#include &lt;QDebug&gt;
+class entity2;
+class event1:public QEvent {
+public:
+event1():QEvent(QEvent::Type(QEvent::User)){}
+};
+class event2:public QEvent {
+public:
+event2():QEvent(QEvent::Type(QEvent::User+1)){}
+};
+class entity1:public QObject {
+Q_OBJECT
+public:
+entity1(QObject *p=0);
+protected:
+void customEvent(QEvent *);
+public:
+void start();
+void setpartner(entity2*);
+private:
+entity2 *ent;
+};
+class entity2:public QObject {
+Q_OBJECT
+public:
+entity2(QObject *p=0);
+void setpartner(entity1* e);
+protected:
+void customEvent(QEvent *);
+private:
+entity1 *ent;
+};
+class event1filter:public QObject {
+Q_OBJECT </pre>
+ <pre class="codes" style="float:left;height:389px;">protected:
+bool eventFilter(QObject *obj, QEvent *event);
+};
+class event2filter:public QObject {
+Q_OBJECT
+protected:
+bool eventFilter(QObject *obj, QEvent *event);
+};
+#endif
+<pre class="codei">&lt;entity.cpp&gt;</pre>
+#include &lt;QCoreApplication&gt;
+#include "entity.h"
+entity1::entity1(QObject *p):QObject(p) {
+}
+void entity1::start() {
+qDebug()&lt;&lt;"entity1::start()";
+QCoreApplication::instance()-&gt;postEvent(ent, new event1());
+}
+void entity1::customEvent(QEvent *e) {
+qDebug()&lt;&lt;"entity1::customevent(), received event type-&gt;"&lt;&lt;e-&gt;type();
+QCoreApplication::instance()-&gt;postEvent(ent, new event1());
+QCoreApplication::instance()-&gt;postEvent(ent, new event2());
+}
+void entity1::setpartner(entity2 *part) {
+ent=part;
+}
+entity2::entity2(QObject *p):QObject(p) {}
+void entity2::customEvent(QEvent *e) {
+qDebug()&lt;&lt;"entity2::customevent, received custom event id"&lt;&lt;e-&gt;type();
+QCoreApplication::instance()-&gt;postEvent(ent, new event1());
+QCoreApplication::instance()-&gt;postEvent(ent, new event2());
+}
+void entity2::setpartner(entity1 *part) {
+ent=part;
+}
+bool event1filter::eventFilter(QObject *obj, QEvent *event) {
+if(event-&gt;type() == QEvent::User)
+return true;
+else
+return QObject::eventFilter(obj,event);
+}
+bool event2filter::eventFilter(QObject *obj, QEvent *event) { </pre>
+<div style="width:436px;height:389px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:50px;top:54px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main4" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p30</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre class="codes" style="float:left;height:101px;">if(event-&gt;type() == QEvent::User+1)
+return true;
+else
+return QObject::eventFilter(obj, event);
+}
+<pre class="codei">&lt;main.cpp&gt;</pre>
+#include &lt;QCoreApplication&gt;
+#include "entity.h"
+int main(int argc, char *argv[]) {
+QCoreApplication a(argc,argv); </pre>
+ <pre class="codes" style="float:left;height:122px;">int r;
+entity1 *ent1=new entity1;
+entity2 *ent2=new entity2;
+event1filter *ent1filter=new event1filter;
+event2filter *ent2filter=new event2filter;
+ent1-&gt;setpartner(ent2);
+ent2-&gt;setpartner(ent1);
+ent1-&gt;installEventFilter(ent1filter);
+ent2-&gt;installEventFilter(ent2filter);
+ent1-&gt;start();
+r=a.exec();
+return r;
+} </pre>
+<div style="width:480px;height:122px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">OUTPUT </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;height:95px;">./entity12
+entity1::start()
+entity2::customevent, received custom event id QEvent::Type(User)
+entity1::customevent(), received event type-&gt; QEvent::Type(1001)
+entity2::customevent, received custom event id QEvent::Type(User)
+entity1::customevent(), received event type-&gt; QEvent::Type(1001)
+entity2::customevent, received custom event id QEvent::Type(User)
+entity1::customevent(), received event type-&gt; QEvent::Type(1001)
+entity2::customevent, received custom event id QEvent::Type(User)
+entity1::customevent(), received event type-&gt; QEvent::Type(1001) </pre>
+ <pre class="codes" style="float:left;height:104px;">entity2::customevent, received custom event id QEvent::Type(User)
+entity1::customevent(), received event type-&gt; QEvent::Type(1001)
+entity2::customevent, received custom event id QEvent::Type(User)
+entity1::customevent(), received event type-&gt; QEvent::Type(1001)
+entity2::customevent, received custom event id QEvent::Type(User)
+entity1::customevent(), received event type-&gt; QEvent::Type(1001)
+entity2::customevent, received custom event id QEvent::Type(User)
+entity1::customevent(), received event type-&gt; QEvent::Type(1001)
+entity2::customevent, received custom event id QEvent::Type(User)
+entity1::customevent(), received event type-&gt; QEvent::Type(1001)
+entity2::customevent, received custom event id QEvent::Type(User) </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:244px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  4. Event Management</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Event flow and Handling
+- Event handling through callback and polymorphism
+- Event handling through message map
+</pre></li>   <li class="sml"><pre>Synthetic and hardware events
+- Custom events
+- Sending and receiving custom events
+- Posting events
+</pre></li>   <li class="sml"><pre>Event loops
+- QCoreApplication
+- QEventDispatcher
+- exec()
+</pre></li>   <li class="sml"><pre>Event filters
+- Registering event filter
+- Installing event filter
+</pre></li>   <li class="big"><h2><a name="chap4_4">Timer event</a></h2></li>   <li class="sml"><pre>Signal & Slots communication & delivery
+</pre></li>   <li class="sml"><pre>Data passing and Signal mapper</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:209px;float:left;" class="slidecontent"> 
+There are mainly two types of timers.
+QTimer  based
+ Single Shot
+ Periodic
+Event based
+ QObject::startTimer()
+callback
+ QOjbect::timerEvent()
+ 
+signal-slottimer </pre>
+<div style="width:480px;height:209px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:4px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:4px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:345px;float:left;" class="code">QTimer *timer = new QTimer(this);
+connect(timer, SIGNAL(timeout()), this, SLOT(update()));
+timer-&gt;start(1000);
+ 
+QTimer::singleShot(200, this, SLOT(updateCaption()));
+ 
+&lt;&lt;eventtimer.cpp&gt;&gt;
+class MyObject : public QObject{
+Q_OBJECT
+public:
+MyObject(QObject *parent = 0);
+protected:
+void timerEvent(QTimerEvent *event);
+};
+ 
+MyObject::MyObject(QObject *parent):QObject(parent){
+startTimer(50);     // 50-millisecond timer
+startTimer(1000);   // 1-second timer
+startTimer(60000);  // 1-minute timer
+}
+void MyObject::timerEvent(QTimerEvent *event){
+    qDebug() &lt;&lt; "Timer ID:" &lt;&lt; event-&gt;timerId();
+} </pre>
+<div style="width:480px;height:345px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:1px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:282px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:244px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  4. Event Management</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Event flow and Handling
+- Event handling through callback and polymorphism
+- Event handling through message map
+</pre></li>   <li class="sml"><pre>Synthetic and hardware events
+- Custom events
+- Sending and receiving custom events
+- Posting events
+</pre></li>   <li class="sml"><pre>Event loops
+- QCoreApplication
+- QEventDispatcher
+- exec()
+</pre></li>   <li class="sml"><pre>Event filters
+- Registering event filter
+- Installing event filter
+</pre></li>   <li class="sml"><pre>Timer event
+</pre></li>   <li class="big"><h2><a name="chap4_5">Signal & Slots communication & delivery</a></h2></li>   <li class="sml"><pre>Data passing and Signal mapper</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent"> 
+Signals & Slots </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main4" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p31</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:171px;float:left;" class="slidecontent"> - Object Communication
+ - Signal - emitted to notify other objects
+ - Slot - method called in response to signal
+ - Provides type-safe callbacks
+ - After getting used to it, they are
+ - easier to use than message maps,
+ - more secure than callbacks,
+ - more flexible than virtual methods
+ - Fosters component-based programming </pre>
+<div style="width:480px;height:171px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:17px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:60px;" class="code">QMetaObject::Connection QObject::connect(const QObject * sender, const char * signal, const QObject * receiver, const char * method, Qt::ConnectionType type = Qt::AutoConnection) [static]
+QObject::disconnect(...); </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre class="codes" style="float:left;height:233px;"><pre class="codei">&lt;*.pro&gt;</pre>
+QT += widgets
+ 
+<pre class="codei">&lt;lwidget.h&gt;</pre>
+#include &lt;QWidget&gt;
+#include &lt;QPushButton&gt;
+#include &lt;QLabel&gt;
+#include &lt;QColorDialog&gt;
+#include &lt;QColor&gt;
+ 
+class lwidget:public QWidget {
+Q_OBJECT;
+public:
+lwidget(QWidget* parent=0);
+private slots:
+void on_buttonclicked();
+void on_colorselected(QColor);
+private:
+QPushButton button;
+QLabel label1;
+QLabel label2;
+QColorDialog colord;
+};
+  </pre>
+ <pre class="codes" style="float:left;height:242px;"><pre class="codei">&lt;lwidget.cpp&gt;</pre>
+#include "lwidget.h"
+lwidget::lwidget(QWidget* parent):QWidget(parent), button("Select Color", this), label1("color is :", this),label2("", this) {
+label1.setGeometry(40,40,70,15);
+label2.setGeometry(140,40,100,15);
+button.setGeometry(40,100,100,35);
+connect(&button,SIGNAL(clicked()),this,SLOT(on_buttonclicked()));
+}
+void lwidget::on_buttonclicked() {
+colord.open(this,SLOT(on_colorselected(QColor)));
+}
+void lwidget::on_colorselected(QColor color) {
+label2.setText(color.name());
+}
+ 
+<pre class="codei">&lt;sigslot.cpp&gt;</pre>
+#include &lt;QApplication&gt;
+#include "lwidget.h"
+int main(int argc, char *argv[]) {
+QApplication a(argc,argv);
+lwidget container;
+container.show();
+return a.exec();
+} </pre>
+<div style="width:349px;height:242px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:74px;top:21px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">OUTPUT </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/qt-slide-signalslotcd.png" /></div><div style="width:398px;height:344px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:31px;top:32px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:244px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  4. Event Management</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Event flow and Handling
+- Event handling through callback and polymorphism
+- Event handling through message map
+</pre></li>   <li class="sml"><pre>Synthetic and hardware events
+- Custom events
+- Sending and receiving custom events
+- Posting events
+</pre></li>   <li class="sml"><pre>Event loops
+- QCoreApplication
+- QEventDispatcher
+- exec()
+</pre></li>   <li class="sml"><pre>Event filters
+- Registering event filter
+- Installing event filter
+</pre></li>   <li class="sml"><pre>Timer event
+</pre></li>   <li class="sml"><pre>Signal & Slots communication & delivery
+</pre></li>   <li class="big"><h2><a name="chap4_6">Data passing and Signal mapper</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:171px;" class="slidecontent"> 
+* The QSignalMapper class bundles signals from identifiable senders.
+* This class collects a set of parameterless signals, and re-emits them with integer, string or widget parameters corresponding to the object  that sent the signal.
+* The class supports the mapping of particular strings or integers with  particular objects using setMapping(). The objects' signals can then be connected to the map() slot which will emit the mapped() signal with the string or integer associated with the original signalling object. Mappings can be removed later using removeMappings(). </pre>
+<div class="clr"></div> <pre style="height:75px;" class="code">signalMapper = new QSignalMapper(this);
+signalMapper-&gt;setMapping(taxFileButton, QString("taxfile.txt"));
+signalMapper-&gt;setMapping(accountFileButton, QString("accountsfile.txt"));
+signalMapper-&gt;setMapping(reportFileButton, QString("reportfile.txt"));
+  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main4" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p32</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:45px;" class="code">connect(taxFileButton, &QPushButton::clicked, signalMapper, &QSignalMapper::map);
+connect(accountFileButton, &QPushButton::clicked, signalMapper, &QSignalMapper::map);
+connect(reportFileButton, &QPushButton::clicked, signalMapper, &QSignalMapper::map); </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent">Connect the mapped() signal to readFile() where a different file will be opened, depending on which push button is pressed. </pre>
+<div class="clr"></div> <pre style="height:345px;float:left;" class="code">connect(signalMapper, SIGNAL(mapped(QString)), this, SLOT(readFile(QString)));
+signalmapper
+class ButtonWidget : public QWidget
+{
+Q_OBJECT
+public:
+ButtonWidget(QStringList texts, QWidget *parent = 0);
+signals:
+void clicked(const QString &text);
+private:
+QSignalMapper *signalMapper;
+};
+ButtonWidget::ButtonWidget(QStringList texts, QWidget *parent) : QWidget(parent){
+signalMapper = new QSignalMapper(this);
+QGridLayout *gridLayout = new QGridLayout;
+for (int i = 0; i &lt; texts.size(); ++i) {
+QPushButton *button = new QPushButton(texts[i]);
+connect(button, SIGNAL(clicked()), signalMapper, SLOT(map()));
+signalMapper-&gt;setMapping(button, texts[i]); gridLayout-&gt;addWidget(button, i / 3, i % 3);
+}
+connect(signalMapper, SIGNAL(mapped(QString)), this, SIGNAL(clicked(QString)));
+setLayout(gridLayout);
+} </pre>
+<div style="width:310px;height:345px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:5px;top:47px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main4" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p33</a>
+</div>

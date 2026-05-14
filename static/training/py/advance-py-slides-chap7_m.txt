@@ -1,0 +1,537 @@
+<div class="pg" style="margin-top:40px">
+ <pre class=title>Python Essentials Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div align="center" style="width:100%;height:100px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:100px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:160px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding principles of Object Oriented Programming
+Understanding the structure of a Python program
+Understanding module, class and object
+Understanding Polymorphism and Inheritance
+Practical labs with Python 3.x Interprete</pre>
+  </div>
+ </div>
+ <div style="height:94px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:116px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional embedded Software developers
+Embedded developers.
+People supporting large scale products.</pre>
+  </div>
+ </div>
+ <div style="height:292px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of Shell Scripting programming</b>
+In particular, participants should be familiar with writing scripts in Unix
+Shell Programming. Basic syntax and execution flow knowledge is required.
+Shell Programming training agenda is available at
+<a href="http://minhinc.42web.io/training/li/advance-li-agenda.php">http://minhinc.42web.io/training/li/advance-li-agenda.php</a>
+
+and can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-li-agenda.pdf">http://minhinc.42web.io/training/advance-li-agenda.pdf</a>
+
+<b>Knowledge of Object Oriented Concepts</b>
+Oops concept like Abstraction, Inheritance, Polymorphism would help.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Machine with Python 3.x interpreter installed.</pre>
+  </div>
+ </div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-py-slides.pdf">http://minhinc.42web.io/training/advance-py-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:91px">Labs session would be completely hands on session where each example
+(with example data and execution instruction) would be provided to the
+students. Students can verify their results with the results provided in
+the material.</pre>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-py-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Basic structure of Python program</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php#chap1_0"><pre>Python Interpreter</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_1"><pre>Interactive Mode</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_2"><pre>Scripting mode</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_3"><pre>Main module</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_4"><pre>Library modules</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_5"><pre>Various namespaces scope</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_6"><pre>Python Identifiers</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_7"><pre>Lines and indentation</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_8"><pre>Quotation</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_9"><pre>Comments</pre></a></li>
+    <li><a href="./advance-py-slides.php#chap1_10"><pre>Multi Line statements</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-py-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Python execution model</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=2#chap2_0"><pre>Self-Organizing Maps</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=2#chap2_1"><pre>Boltzmann Machine</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=2#chap2_2"><pre>Auto Encoders</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-py-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Variable types</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=3#chap3_0"><pre>Number (integer, long, float, complex)</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_1"><pre>String</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_2"><pre>Declaring and initializing variable</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_3"><pre>Performing arithmetic calculation</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_4"><pre>Mutable types
+ -List
+ -Dictionary</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_5"><pre>Non mutable types
+ -Tuple</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=3#chap3_6"><pre>meta class</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Installing Python</pre></li>
+    <li><pre>Writing simple python program</pre></li>
+    <li><pre>Executing program on command shell</pre></li>
+    <li><pre>Executing program through interpreter</pre></li>
+    <li><pre>Converting various data types to other
+types</pre></li>
+    <li><pre>Practicing built in functions.</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-py-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Defining and Calling functions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=4#chap4_0"><pre>Function definition</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_1"><pre>Function arguments
+ -Pass by reference and value
+ -Required arguments
+ -Keyword arguments
+ -Default arguments
+ -Variable length arguments</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_2"><pre>Function local, non local and global
+variable.</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_3"><pre>Function object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_3"><pre>Method object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_4"><pre>runtime function object creation</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=4#chap4_5"><pre>decorator</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-py-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Control statement</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=5#chap5_0"><pre>if else elif statement</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_1"><pre>for in statement</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_2"><pre>while statement</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_3"><pre>break, continue and pass</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_4"><pre>Iterator</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=5#chap5_5"><pre>Generator</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-py-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Regular Expression</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=6#chap6_0"><pre>Module re</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=6#chap6_1"><pre>match(), search(), sub()</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=6#chap6_2"><pre>Modifiers</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main7" href="#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Basic Operators</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap7_0"><pre>Arithmetic operator</pre></a></li>
+    <li><a href="#chap7_1"><pre>Relation operator</pre></a></li>
+    <li><a href="#chap7_2"><pre>Assignment operator</pre></a></li>
+    <li><a href="#chap7_3"><pre>Bitwise operator</pre></a></li>
+    <li><a href="#chap7_4"><pre>Membership operator</pre></a></li>
+    <li><a href="#chap7_5"><pre>Identity operator</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write sample application with a function
+defined.</pre></li>
+    <li><pre>Pass arguments as
+ -Keyword arguments
+ -Default arguments
+ -Variable length arguments</pre></li>
+    <li><pre>Write regular expression to search and
+modify a string.</pre></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-py-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Module</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=8#chap8_0"><pre>Package and Module</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_0"><pre>Importing namespace to other</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_0"><pre>Loading a module and accessing symbols</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_1"><pre>Locating module</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_2"><pre>Namespaces in dictionary</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_3"><pre>dir function listing dictionary</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_4"><pre>globals(), locals() function</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_5"><pre>Reloading a module</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=8#chap8_6"><pre>Python Interpreter</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-py-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Class and Object</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=9#chap9_0"><pre>class</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_0"><pre>class object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_0"><pre>function object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_1"><pre>class instance object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_1"><pre>method object</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_2"><pre>public private variable</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=9#chap9_2"><pre>virtual methods</pre></a></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>List module namespace dictionary</pre></li>
+    <li><pre>Import a module in main module and call
+module functions</pre></li>
+    <li><pre>Import external modules symbols in
+current module' namespace</pre></li>
+    <li><pre>Reload a module</pre></li>
+    <li><pre>Write package and sub packages</pre></li>
+    <li><pre>Write a small class with class variable and</pre></li>
+    <li><pre>function object</pre></li>
+    <li><pre>Add object variable and method objects.</pre></li>
+    <li><pre>Call methods from other method</pre></li>
+    <li><pre>Inherit from the class and override</pre></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-py-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inheritance and Polymorphism</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=10#chap10_0"><pre>Reusing functionality through inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_1"><pre>class object inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_1"><pre>instance object inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_2"><pre>Polymorphism</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_2"><pre>Overriding methods</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_3"><pre>Multiple inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_3"><pre>super() function call</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=10#chap10_4"><pre>Similarity and dissimilarity with C++</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-py-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Meta Class</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=11#chap11_0"><pre>meta class</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_1"><pre>class object
+ - creation
+ - initialization</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_2"><pre>instance object
+ - Creation
+ - Initialization</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_3"><pre>Modify class in meta class</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_4"><pre>Inheritance</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=11#chap11_4"><pre>Singleton</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Inherit from the class and override
+methods</pre></li>
+    <li><pre>Instantiate base and derived class
+separately and check inheritance and
+polymorphism functionality.</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-py-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - File I/O</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=12#chap12_0"><pre>Introduct operator overloading</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__init__, __del__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__sub__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__add_</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_1"><pre>__or__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__repr__,__str__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__getattr_,__getattribute__,__setattr__,__delattr__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__getitem__,__setitem__,__delitem__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__len__,__bool__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_2"><pre>__lt__,__gt__,__le__,__ge__,__eq__,__ne__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__radd__,__iadd__,__iter__,__next__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__contains__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__index__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_3"><pre>__enter__,__exit__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_4"><pre>__get__,__set__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_4"><pre>__delete__</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=12#chap12_4"><pre>__new__</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-py-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Operator overloading</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-py-slides.php?chap=13#chap13_0"><pre>Exception objects</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_1"><pre>Assertion</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_2"><pre>try, except, finally</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_3"><pre>Raising an exception</pre></a></li>
+    <li><a href="./advance-py-slides.php?chap=13#chap13_4"><pre>User defined exceptions</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:159px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:159px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Implement operator overloading methods</pre></li>
+    <li><pre>Raise exception</pre></li>
+    <li><pre>Catch in except block</pre></li>
+    <li><pre>Implement finally</pre></li>
+   </ul>
+ </div>
+ 
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg">
+<pre class="slidetitle">Python Essentials</pre><pre class="slidesubtitle">Python Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer"></pre>
+</div>
+<div class="pg">
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div><div class="pg" style="margin-top:20px;">
+<a name="chap7">&nbsp;<div class="slideheader">
+  <pre class="day">Day 2 Afternoon</pre>
+  <h1><pre class="topic">  7. Basic Operators</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap7_0">Arithmetic operator</a></h2></li>   <li class="sml"><pre>Relation operator
+</pre></li>   <li class="sml"><pre>Assignment operator
+</pre></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="sml"><pre>Membership operator
+</pre></li>   <li class="sml"><pre>Identity operator</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main7"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 2 Afternoon</pre>
+  <pre class="topic">  7. Basic Operators</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Arithmetic operator
+</pre></li>   <li class="big"><h2><a name="chap7_1">Relation operator</a></h2></li>   <li class="sml"><pre>Assignment operator
+</pre></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="sml"><pre>Membership operator
+</pre></li>   <li class="sml"><pre>Identity operator</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main7"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 2 Afternoon</pre>
+  <pre class="topic">  7. Basic Operators</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Arithmetic operator
+</pre></li>   <li class="sml"><pre>Relation operator
+</pre></li>   <li class="big"><h2><a name="chap7_2">Assignment operator</a></h2></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="sml"><pre>Membership operator
+</pre></li>   <li class="sml"><pre>Identity operator</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main7"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 2 Afternoon</pre>
+  <pre class="topic">  7. Basic Operators</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Arithmetic operator
+</pre></li>   <li class="sml"><pre>Relation operator
+</pre></li>   <li class="sml"><pre>Assignment operator
+</pre></li>   <li class="big"><h2><a name="chap7_3">Bitwise operator</a></h2></li>   <li class="sml"><pre>Membership operator
+</pre></li>   <li class="sml"><pre>Identity operator</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main7"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 2 Afternoon</pre>
+  <pre class="topic">  7. Basic Operators</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Arithmetic operator
+</pre></li>   <li class="sml"><pre>Relation operator
+</pre></li>   <li class="sml"><pre>Assignment operator
+</pre></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="big"><h2><a name="chap7_4">Membership operator</a></h2></li>   <li class="sml"><pre>Identity operator</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main7"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 2 Afternoon</pre>
+  <pre class="topic">  7. Basic Operators</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Arithmetic operator
+</pre></li>   <li class="sml"><pre>Relation operator
+</pre></li>   <li class="sml"><pre>Assignment operator
+</pre></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="sml"><pre>Membership operator
+</pre></li>   <li class="big"><h2><a name="chap7_5">Identity operator</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main8"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>

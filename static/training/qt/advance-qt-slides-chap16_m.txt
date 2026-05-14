@@ -1,0 +1,797 @@
+<div class="pg" style="margin-top:40px">
+ <pre class=title>Qt/Qml Essentials Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div align="center" style="width:100%;height:100px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:100px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:150px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding fundamental and advance topics in Qt Programming
+Understanding signals and slots concept
+Understanding Widget
+Understanding QPainter and 2D painting
+Understanding QML/QtQuick</pre>
+  </div>
+ </div>
+ <div style="height:84px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <div style="height:62px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:84px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional embedded Software developers
+Professional GUI developers</pre>
+  </div>
+ </div>
+ <div style="height:436px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of C++ programming</b>
+Qt uses Template level advance C++ as language. Prior knowledge to C++
+is required.
+Advance Cpp training agenda is available at
+<a href=http://minhinc.42web.io/training/cpp/advance-cpp-slides.php>http://minhinc.42web.io/training/cpp/advance-cpp-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-cpp-slides.pdf>http://minhinc.42web.io/training/advance-cpp-slides.pdf</a>
+
+<b>Knowledge of Design Patterns Concepts</b>
+Qt uses GOF desing patterns in co-relating c++ classes.
+Get slides at
+<a href=http://minhinc.42web.io/training/dp/advance-dp-slides.php>http://minhinc.42web.io/training/dp/advance-dp-slides.php</a>
+
+<b>Knowledge of GUI and other concepts</b>
+Qt is used for GUI development and many other technologies including Networks,
+operating systems, Database, scripting. Basic knowledge of these domains are
+required as per the Qt is developed for the particular domain.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:62px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu 16/17 LTS, Qt 5.9/5.10</pre>
+  </div>
+ </div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-qt-slides.pdf">http://minhinc.42web.io/training/advance-qt-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Labs session would be completely hands on session where each example (with
+example data and execution instruction) would be provided to the students. Students
+can verify their results with the results provided in the material.</pre>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-qt-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php#chap1_0"><pre>GUI Programming Fundamentals
+ - Window registration and creation
+- Message loop
+ - Event callback handler</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_1"><pre>Qt Overview and Status
+ - Qt history and its presence
+ - Licensing (GPL, LGP, Commercial)</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_2"><pre>Meta Object and QObject</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_2"><pre>MOC compiler and MOC file generation</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_3"><pre>Hello World using Qt creator</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_4"><pre>QMake</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_5"><pre>Qt Resources</pre></a></li>
+    <li><a href="./advance-qt-slides.php#chap1_6"><pre>Installing Qt</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-qt-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qt Core</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=2#chap2_0"><pre>String Handling</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=2#chap2_1"><pre>Container Classes</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=2#chap2_2"><pre>Advanced Container Classes</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=2#chap2_3"><pre>File I/O</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=2#chap2_4"><pre>Memory Mapped Files</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-qt-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=3#chap3_0"><pre>QtObject Model</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=3#chap3_1"><pre>ObjectLife cycle
+- Stack allocation
+- Heap allocation
+- QPointer
+- QScopePointer
+- QWeakPointer</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=3#chap3_2"><pre>Qtclass relationships
+- Association
+- Containment(Aggregation and Composition)
+- Parent/Child relationships
+- Inheritance
+- Polymorphism</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=3#chap3_3"><pre>GarbageCollection</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-qt-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Event Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=4#chap4_0"><pre>Event flow and Handling
+- Event handling through callback and polymorphism
+- Event handling through message map</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=4#chap4_1"><pre>Synthetic and hardware events
+- Custom events
+- Sending and receiving custom events
+- Posting events</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=4#chap4_2"><pre>Event loops
+- QCoreApplication
+- QEventDispatcher
+- exec()</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=4#chap4_3"><pre>Event filters
+- Registering event filter
+- Installing event filter</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=4#chap4_4"><pre>Timer event</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=4#chap4_5"><pre>Signal & Slots communication & delivery</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=4#chap4_6"><pre>Data passing and Signal mapper</pre></a></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Qt Creator,Qt Designer,Qt Debugging</pre></li>
+    <li><pre>qmake</pre></li>
+    <li><pre>Writing Hello World using Qt Creator</pre></li>
+    <li><pre>QString, QList</pre></li>
+    <li><pre>QFile, QTextStream and QDataStream</pre></li>
+    <li><pre>QPointer, QScopePointer and QSharedPointer</pre></li>
+    <li><pre>Custom event</pre></li>
+    <li><pre>Event filtering</pre></li>
+    <li><pre>Signal & Slot, Signal Mapper</pre></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-qt-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Widgets</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=5#chap5_0"><pre>Introduction to Widgets</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_1"><pre>Writing custom widget</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_2"><pre>QPainter and capabilites
+- Drawing curves
+- Drawing Pixmap
+- Drawing Fonts</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_3"><pre>Event Processing and Paint Engine</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_4"><pre>MainWindow Widget</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_5"><pre>Dialog widget</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_6"><pre>Tabify dock widget</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_7"><pre>Drag and drop</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_8"><pre>Applying Qt style sheet on Widgets</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=5#chap5_9"><pre>Scrolling, QScrollArea</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-qt-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - QPainter and Image management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=6#chap6_0"><pre>QPainter and capabilities</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_1"><pre>Using QPainter with OpenGL functions</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_2"><pre>Image handling Qt</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_2"><pre>Classes for Image Handling (QImage, QPixmap,
+QBitMap etc)</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_3"><pre>I/O with Image Files</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_4"><pre>Pixel Handling</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_5"><pre>Image Transformation</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=6#chap6_6"><pre>OpenGL 3D Painting</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-qt-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Layout Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=7#chap7_0"><pre>Layout Concepts</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_1"><pre>Laying Rows and Columns</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_2"><pre>Vertical and Horizontal Layout</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_3"><pre>Grid Layout</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_4"><pre>Form Layout</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_5"><pre>Stacked Layout</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=7#chap7_6"><pre>Anchor Layout</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-qt-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Model View Controller(MVC)</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=8#chap8_0"><pre>Qt model view architecture
+- QTableWidget and QTableView
+- QAbstractItemModel QAbstractItemView</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=8#chap8_1"><pre>Predefined Model</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=8#chap8_2"><pre>Predefined Views</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=8#chap8_3"><pre>Proxy Model</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=8#chap8_4"><pre>Implementing custom delegates</pre></a></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>QMainWindow QMenu, QMenuBar, QToolBar,
+QStatusBar</pre></li>
+    <li><pre>Parent and Child Window</pre></li>
+    <li><pre>QPainter</pre></li>
+    <li><pre>Transformation Matrix</pre></li>
+    <li><pre>Box Layout</pre></li>
+    <li><pre>Grid Layout</pre></li>
+    <li><pre>Stack Layout</pre></li>
+    <li><pre>Custom Model</pre></li>
+    <li><pre>Custom Delegate</pre></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-qt-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Plugin Architecture</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=9#chap9_0"><pre>Library concepts
+- Static linking
+- Dynamic linking (late binding)
+- Runtime linking (late late binding)</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=9#chap9_1"><pre>Extending qt with existing plugin
+ - Plugin macros
+ - Style sheets</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=9#chap9_2"><pre>Creating plugin from scratch</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=9#chap9_3"><pre>Linking to a plugin statically
+- creating static plugin
+- linking static plugin to application</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=9#chap9_3"><pre>Making application plugin-aware</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-qt-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Graphics Views</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=10#chap10_0"><pre>Graphics Views concept
+- Graphics scene
+- Graphics View
+- Graphics Items</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=10#chap10_1"><pre>OpenGL scene project model/view architecture</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=10#chap10_2"><pre>Image based rendering with graphics views</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-qt-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - XML and JSON Parsing</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=11#chap11_0"><pre>Basic XML APIs, QXmlStreamReader,
+  QXmlStreamWriter</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=11#chap11_1"><pre>XML Patterns : XPath, XQuery,
+  QtXmlPatterns and XML Schema</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=11#chap11_2"><pre>Implement writing and reading
+ through xml file</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-qt-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inter process Communication(IPC)</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=12#chap12_0"><pre>Running processes
+ - Parent/Child relationships
+ - Message passing
+ - popen</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=12#chap12_1"><pre>Shared memory with Qt</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Extending existing plugin
+Writing Plugin from scratch</pre></li>
+    <li><pre>Add custom item</pre></li>
+    <li><pre>Implement drag & drop on the item</pre></li>
+    <li><pre>Implement writing and reading
+ through xml file</pre></li>
+    <li><pre>Create and read data from subprocess</pre></li>
+    <li><pre>Use QSharedMemory to make singleton process</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-qt-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Multithreading</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=13#chap13_0"><pre>Multithreading primitives</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=13#chap13_1"><pre>Creating Thread</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=13#chap13_2"><pre>Synchronizing threads
+ -QMutex
+ -QWaitCondition
+ -QSemaphore
+ -QReadWriteLock
+ -Producer/Consumer scenario</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=13#chap13_3"><pre>Thread local storage</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-qt-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Web Kit</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=14#chap14_0"><pre>Qt Web-Kit Architecture</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=14#chap14_1"><pre>Views, Frame and Page</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=14#chap14_2"><pre>Qt graphics view framework in web-kit</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=14#chap14_3"><pre>Qml webkit objects</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=14#chap14_4"><pre>Execute javascript through QWebView</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main15" href="./advance-qt-slides.php?chap=15#chap15" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Databases</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=15#chap15_0"><pre>Connecting to DB</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=15#chap15_1"><pre>Query, Viewing</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=15#chap15_2"><pre>Editing records</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=15#chap15_3"><pre>Tabular Data Presentation</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=15#chap15_4"><pre>Create mysql database to add row</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:0px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main16" href="#chap16" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Internationalization & Localization(I18N L10N)</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap16_0"><pre>I18N & L10N concepts</pre></a></li>
+    <li><a href="#chap16_1"><pre>Working with Unicode</pre></a></li>
+    <li><a href="#chap16_2"><pre>Multi language Support</pre></a></li>
+    <li><a href="#chap16_3"><pre>Making Translation aware Applications</pre></a></li>
+    <li><a href="#chap16_4"><pre>Dynamic Language Switching</pre></a></li>
+    <li><a href="#chap16_5"><pre>Translating Applications</pre></a></li>
+    <li><a href="#chap16_6"><pre>Qt supported tools on I18N an L10N</pre></a></li>
+    <li><a href="#chap16_7"><pre>Use languate tool to create locale</pre></a></li>
+    <li><a href="#chap16_8"><pre>Use I18N api to read user input
+ locale language</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main17" href="./advance-qt-slides.php?chap=17#chap17" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Networking</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=17#chap17_0"><pre>Socket programming
+ - TCP/UDP sockets
+ - SSL sockets</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=17#chap17_1"><pre>http ftp protocol</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=17#chap17_2"><pre>QNetworkAccessManager, QNetworkReply,
+QNetworkRequest</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=17#chap17_3"><pre>Write ftp client using QNetworkAccessManager</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Producer/Consumer with QWaitCondition,
+QSemaphore, QMutex</pre></li>
+    <li><pre>Passing object ownership among threads</pre></li>
+    <li><pre>Execute javascript through QWebView</pre></li>
+    <li><pre>Create mysql database to add row</pre></li>
+    <li><pre>Use languate tool to create
+locale</pre></li>
+    <li><pre>Use I18N api to read user input
+locale language</pre></li>
+    <li><pre>Write ftp client using QNetworkAccessManager</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main21" href="./advance-qt-slides.php?chap=21#chap21" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qml/QtQuick Basics</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=21#chap21_0"><pre>Introduction QtQuick and QML</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_1"><pre>Qml Architecture</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_2"><pre>Qt Properties</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_3"><pre>Building Blocks of QML</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_4"><pre>Composing UIs</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_5"><pre>User Input</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_6"><pre>Structures
+ - Components
+ - Modules</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_7"><pre>Modules
+ - Importing javascript code in QML</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_8"><pre>Dynamic creation of items</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_9"><pre>C++ Integration
+ - Using custom type plugins
+ - Building an applcation as a Library</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_10"><pre>Qt Quick Control</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_11"><pre>Presenting Data
+ - Data Models
+ - Using Views, Using Delegates</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_12"><pre>Write a QML document</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_13"><pre>Import javascript code in QML</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_14"><pre>Define componet dynamically</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_15"><pre>Implement Ecllipse as Qml class type
+ - do same and export in a Library</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=21#chap21_16"><pre>Implement List data model view through delegate</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main18" href="./advance-qt-slides.php?chap=18#chap18" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Drag & Drop</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=18#chap18_0"><pre>Enabling Drag and Drop</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=18#chap18_1"><pre>Supporting Custom Drag Types</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=18#chap18_2"><pre>Clipboard Handling</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=18#chap18_3"><pre>Implement drag and drop between
+QListWidgets</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main19" href="./advance-qt-slides.php?chap=19#chap19" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Deployment and Testing</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=19#chap19_0"><pre>Deployment</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=19#chap19_1"><pre>Development Tools of Linux</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=19#chap19_2"><pre>QMake</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=19#chap19_3"><pre>Qt Debugging Aids</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=19#chap19_4"><pre>QTestLib</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main20" href="./advance-qt-slides.php?chap=20#chap20" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Embedded Qt and HMI</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qt-slides.php?chap=20#chap20_0"><pre>Preparing cross compilation envrironment</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_1"><pre>Building Qt source code inorder to have libs
+in cross compliation envrionment</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_2"><pre>Building Qt application based on newly built
+ Qt libraries</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_3"><pre>Font handling</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_4"><pre>Wayland, QtComposite integration</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_5"><pre>Setting up IDE for cross compilation</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_6"><pre>Testing the application on hardware</pre></a></li>
+    <li><a href="./advance-qt-slides.php?chap=20#chap20_7"><pre>Developing HMI with Qt/Qt Quick</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a QML document</pre></li>
+    <li><pre>Import javascript code in QML</pre></li>
+    <li><pre>Define componet dynamically</pre></li>
+    <li><pre>Implement Ecllipse as Qml class type
+ - do same and export in a Library</pre></li>
+    <li><pre>Implement List data model view through delegate</pre></li>
+    <li><pre>Implement drag and drop between 
+QListWidgets</pre></li>
+   </ul>
+ </div>
+
+
+</div>
+<div style="clear:both;"></div>
+<div class="pg">
+<pre class="slidetitle">Qt Essentials</pre><pre class="slidesubtitle">Qt Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer"></pre>
+</div>
+<div class="pg">
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div><div class="pg" style="margin-top:20px;">
+<a name="chap16">&nbsp;<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <h1><pre class="topic">  16. Internationalization & Localization(I18N L10N)</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap16_0">I18N & L10N concepts</a></h2></li>   <li class="sml"><pre>Working with Unicode
+</pre></li>   <li class="sml"><pre>Multi language Support
+</pre></li>   <li class="sml"><pre>Making Translation aware Applications
+</pre></li>   <li class="sml"><pre>Dynamic Language Switching
+</pre></li>   <li class="sml"><pre>Translating Applications
+</pre></li>   <li class="sml"><pre>Qt supported tools on I18N an L10N
+</pre></li>   <li class="sml"><pre>Use languate tool to create locale
+</pre></li>   <li class="sml"><pre>Use I18N api to read user input
+ locale language</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main16"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  16. Internationalization & Localization(I18N L10N)</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>I18N & L10N concepts
+</pre></li>   <li class="big"><h2><a name="chap16_1">Working with Unicode</a></h2></li>   <li class="sml"><pre>Multi language Support
+</pre></li>   <li class="sml"><pre>Making Translation aware Applications
+</pre></li>   <li class="sml"><pre>Dynamic Language Switching
+</pre></li>   <li class="sml"><pre>Translating Applications
+</pre></li>   <li class="sml"><pre>Qt supported tools on I18N an L10N
+</pre></li>   <li class="sml"><pre>Use languate tool to create locale
+</pre></li>   <li class="sml"><pre>Use I18N api to read user input
+ locale language</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main16"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  16. Internationalization & Localization(I18N L10N)</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>I18N & L10N concepts
+</pre></li>   <li class="sml"><pre>Working with Unicode
+</pre></li>   <li class="big"><h2><a name="chap16_2">Multi language Support</a></h2></li>   <li class="sml"><pre>Making Translation aware Applications
+</pre></li>   <li class="sml"><pre>Dynamic Language Switching
+</pre></li>   <li class="sml"><pre>Translating Applications
+</pre></li>   <li class="sml"><pre>Qt supported tools on I18N an L10N
+</pre></li>   <li class="sml"><pre>Use languate tool to create locale
+</pre></li>   <li class="sml"><pre>Use I18N api to read user input
+ locale language</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main16"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  16. Internationalization & Localization(I18N L10N)</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>I18N & L10N concepts
+</pre></li>   <li class="sml"><pre>Working with Unicode
+</pre></li>   <li class="sml"><pre>Multi language Support
+</pre></li>   <li class="big"><h2><a name="chap16_3">Making Translation aware Applications</a></h2></li>   <li class="sml"><pre>Dynamic Language Switching
+</pre></li>   <li class="sml"><pre>Translating Applications
+</pre></li>   <li class="sml"><pre>Qt supported tools on I18N an L10N
+</pre></li>   <li class="sml"><pre>Use languate tool to create locale
+</pre></li>   <li class="sml"><pre>Use I18N api to read user input
+ locale language</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main16"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  16. Internationalization & Localization(I18N L10N)</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>I18N & L10N concepts
+</pre></li>   <li class="sml"><pre>Working with Unicode
+</pre></li>   <li class="sml"><pre>Multi language Support
+</pre></li>   <li class="sml"><pre>Making Translation aware Applications
+</pre></li>   <li class="big"><h2><a name="chap16_4">Dynamic Language Switching</a></h2></li>   <li class="sml"><pre>Translating Applications
+</pre></li>   <li class="sml"><pre>Qt supported tools on I18N an L10N
+</pre></li>   <li class="sml"><pre>Use languate tool to create locale
+</pre></li>   <li class="sml"><pre>Use I18N api to read user input
+ locale language</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main16"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  16. Internationalization & Localization(I18N L10N)</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>I18N & L10N concepts
+</pre></li>   <li class="sml"><pre>Working with Unicode
+</pre></li>   <li class="sml"><pre>Multi language Support
+</pre></li>   <li class="sml"><pre>Making Translation aware Applications
+</pre></li>   <li class="sml"><pre>Dynamic Language Switching
+</pre></li>   <li class="big"><h2><a name="chap16_5">Translating Applications</a></h2></li>   <li class="sml"><pre>Qt supported tools on I18N an L10N
+</pre></li>   <li class="sml"><pre>Use languate tool to create locale
+</pre></li>   <li class="sml"><pre>Use I18N api to read user input
+ locale language</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main16"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  16. Internationalization & Localization(I18N L10N)</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>I18N & L10N concepts
+</pre></li>   <li class="sml"><pre>Working with Unicode
+</pre></li>   <li class="sml"><pre>Multi language Support
+</pre></li>   <li class="sml"><pre>Making Translation aware Applications
+</pre></li>   <li class="sml"><pre>Dynamic Language Switching
+</pre></li>   <li class="sml"><pre>Translating Applications
+</pre></li>   <li class="big"><h2><a name="chap16_6">Qt supported tools on I18N an L10N</a></h2></li>   <li class="sml"><pre>Use languate tool to create locale
+</pre></li>   <li class="sml"><pre>Use I18N api to read user input
+ locale language</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main16"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  16. Internationalization & Localization(I18N L10N)</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>I18N & L10N concepts
+</pre></li>   <li class="sml"><pre>Working with Unicode
+</pre></li>   <li class="sml"><pre>Multi language Support
+</pre></li>   <li class="sml"><pre>Making Translation aware Applications
+</pre></li>   <li class="sml"><pre>Dynamic Language Switching
+</pre></li>   <li class="sml"><pre>Translating Applications
+</pre></li>   <li class="sml"><pre>Qt supported tools on I18N an L10N
+</pre></li>   <li class="big"><h2><a name="chap16_7">Use languate tool to create locale</a></h2></li>   <li class="sml"><pre>Use I18N api to read user input
+ locale language</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre  class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main16"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  16. Internationalization & Localization(I18N L10N)</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>I18N & L10N concepts
+</pre></li>   <li class="sml"><pre>Working with Unicode
+</pre></li>   <li class="sml"><pre>Multi language Support
+</pre></li>   <li class="sml"><pre>Making Translation aware Applications
+</pre></li>   <li class="sml"><pre>Dynamic Language Switching
+</pre></li>   <li class="sml"><pre>Translating Applications
+</pre></li>   <li class="sml"><pre>Qt supported tools on I18N an L10N
+</pre></li>   <li class="sml"><pre>Use languate tool to create locale
+</pre></li>   <li class="big"><h2><a name="chap16_8">Use I18N api to read user input<br>locale language</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main17"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>

@@ -1,0 +1,783 @@
+<div class="pg" style="margin-top:40px">
+ <pre class=title>Linux Internals Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div align="center" style="width:100%;height:100px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:100px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:186px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding Virtual memory, Process concepts, IPC, File Systems EXT2
+Understanding Shell programming
+Understanding Boot process
+Understanding cross compilation and installing Linux installation on
+embedded hardware
+Understanding developing application for embedded systems</pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:76px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting embedded and medium scale products.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:230px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of c programming</b>
+All examples are provided through c programming language.
+Knowledge of c programming is required.
+C training slides can browsed at
+<a href=http://minhinc.42web.io/training/c/advance-c-slides.php>http://minhinc.42web.io/training/c/advance-c-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-c-slides.pdf>http://minhinc.42web.io/training/advance-c-slides.pdf</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu 16.0x LTS
+Raspberry Pi3</pre>
+  </div>
+ </div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:91px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries. Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-li-slides.pdf">http://minhinc.42web.io/training/advance-li-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.</pre>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-li-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Linux</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php#chap1_0"><pre>GNU Project/GPL Licensing</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_1"><pre>Evolution of Linux & Development Model</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_2"><pre>Device Identities in Linux-Partitioning Schema</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-li-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Kernel</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=2#chap2_0"><pre>History of Linux</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_1"><pre>Types of kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_2"><pre>The Linux Kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_3"><pre>Kernel Architecture</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-li-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Shell commands & Shell</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=3#chap3_0"><pre>Basic Shell commands</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_0"><pre>Bash Shell Essentials
+- Introduction</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_1"><pre> - Process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_2"><pre>-Shell Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_3"><pre> - Shell Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_4"><pre>-Programming commands</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_5"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_6"><pre>Creating Makefiles</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>mknod</pre></li>
+    <li><pre>Write a Makefile to compile file</pre></li>
+    <li><pre>Create a static library using Makefile</pre></li>
+    <li><pre>Create a dynamic library using Makefile</pre></li>
+    <li><pre>Write application using static library and
+dynamic library generated</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-li-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Creating Libraries</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Static Library
+ - Using Static Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Shared Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_1"><pre> -Using Shared Library</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-li-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The Boot Process</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=5#chap5_0"><pre>The Boot Process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_1"><pre>BIOS Level</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre> - Boot Loader - Setup
+  - startup_32 functions</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre>The start_kernel() function</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Cross compiling kernel</pre></li>
+    <li><pre>Board Support packages</pre></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-li-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The File System</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=6#chap6_0"><pre>The File System</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_1"><pre>Virtual File system & its role</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_2"><pre>Files associated with a process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_3"><pre>proc file system</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_4"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-li-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Process Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=7#chap7_0"><pre>Process Defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_1"><pre>Process Descriptor Structures in the kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_2"><pre>Process States</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_3"><pre>Process Scheduling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_4"><pre>Process Creation</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_5"><pre>System calls related to process management</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-li-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=8#chap8_0"><pre>Defining and Creating secondary memory
+areas</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_1"><pre>Memory allocation & deallocation system
+calls malloc, calloc, alloca, free</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_2"><pre>Virtual Memory Management</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_3"><pre>Address Translation and page fault
+handling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_4"><pre>Demand Paging defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_5"><pre>Process Organization in Memory</pre></a></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Implement late binding</pre></li>
+    <li><pre>Create hard link</pre></li>
+    <li><pre>Create soft link</pre></li>
+    <li><pre>Write a program to enumerate stat structure
+for both hard link and soft link. Illustrate which
+field is different</pre></li>
+    <li><pre>Create a child process and validates if all
+open descriptors are copied to child process also.
+ - Use file seek from parent and see child's
+  descriptor also got seeked.</pre></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-li-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Multi Thread Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=9#chap9_0"><pre>Creating multiple threads</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=9#chap9_1"><pre>Parent synchronization with other Thread</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=9#chap9_2"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-li-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inter process communication</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=10#chap10_0"><pre>Pipes</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_1"><pre>Fifo's</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_2"><pre>Signals</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_3"><pre>System-V IPC's
+ - Message queues</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_4"><pre> - Shared memory</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_5"><pre> - Semaphore</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-li-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Sockets</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=11#chap11_0"><pre>An Overview</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_1"><pre>System calls related to
+ - TCP</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_2"><pre>-UDP</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a multi threaded application and check if
+global variables are shared.
+ - Protect them using semaphores</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main12" href="#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Network Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap12_0"><pre>TCP Server Client Programming</pre></a></li>
+    <li><a href="#chap12_1"><pre>UDP Server Client Programming</pre></a></li>
+    <li><a href="#chap12_2"><pre>UDP Server Cient Programming</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-li-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Programming and Debugging tools</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=13#chap13_0"><pre>strace - Tracing system calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_1"><pre>ltrace - Tracing library calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_2"><pre>Tools used to detect memory access
+error; and memory leakage in linux
+mtrace</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-li-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Device Driver Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=14#chap14_0"><pre>Introduction</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_1"><pre>Kernel modules</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_2"><pre>Character device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_3"><pre>Block device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_4"><pre>Hardware and Interrupt Handling</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:177px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:177px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+  </ul>
+ </div>
+ 
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg">
+<pre class="slidetitle">Linux Internals Essentials</pre><pre class="slidesubtitle">Linux Internals Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer"></pre>
+</div>
+<div class="pg">
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div><div class="pg" style="margin-top:20px;">
+<a name="chap12">&nbsp;<div class="slideheader">
+  <pre class="day">Day 5 Morning</pre>
+  <h1><pre class="topic">  12. Network Programming</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap12_0">TCP Server Client Programming</a></h2></li>   <li class="sml"><pre>UDP Server Client Programming
+</pre></li>   <li class="sml"><pre>UDP Server Cient Programming</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Tcpclient
+  </pre>
+ <pre " class="codec">#include&lt;sys/socket.h&gt;
+#include&lt;sys/types.h&gt;
+#include&lt;netinet/in.h&gt;
+#include&lt;arpa/inet.h&gt;
+#include&lt;stdio.h&gt;
+ 
+#define PORT 1034
+ 
+struct sockaddr_in server;
+main()
+{
+int n,sd,length;
+char msg[40];
+//length=sizeof(client);
+if((sd=socket(PF_INET,SOCK_STREAM,0))==-1) {
+ perror("socket");
+ exit(1);
+}
+server.sin_family=PF_INET;
+server.sin_port=htons(PORT);
+//server.sin_addr.s_addr=inet_addr("192.168.1.2");
+server.sin_addr.s_addr=inet_addr("127.0.0.1");
+if(connect(sd,(struct sockaddr *)&server,sizeof(server))==-1) {
+ perror("connect");
+ exit(1);
+}
+ 
+printf("Enter the message you want to send to server
+");
+fgets(msg,40,stdin);
+send(sd,msg,40,0);
+printf("Waiting for message from server..............
+");
+n=recv(sd,msg,40,0);
+msg[n]='\0';
+ 
+printf("Message received from server is:%s
+",msg);
+close(sd);	
+} </pre>
+<div align="center" style="width:100%;height:90px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:90px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">Tcpserver
+  </pre>
+ <pre " class="codec">#include&lt;stdio.h&gt;
+#include&lt;sys/types.h&gt;
+#include&lt;sys/socket.h&gt;
+#include&lt;netinet/in.h&gt;
+#include&lt;arpa/inet.h&gt;
+#define MYPORT 1034
+main()
+{
+int sd,pid,nsd,dat,yes=1;
+char message[40];
+struct sockaddr_in server,client;
+socklen_t length;
+if((sd=socket(PF_INET,SOCK_STREAM,0))==-1) {
+ perror("socket");
+ exit(1);
+}
+server.sin_port=htons(MYPORT);
+server.sin_family=PF_INET;
+//server.sin_addr.s_addr=inet_addr("192.168.1.2");
+server.sin_addr.s_addr=inet_addr("127.0.0.1");
+ 
+/*if(setsockopt(sd,SOL_SOCKET,SO_REUSEADDR,&yes,sizeof(int))==-1) {
+ perror("setsockopt");
+ exit(1);
+}*/
+	
+if(bind(sd,(struct sockaddr  *)&server,sizeof(server))==-1) {
+ perror("bind");
+ exit(1);
+}
+ 
+if(listen(sd,5)==-1) {
+ perror("listen");
+ exit(1);
+}
+printf("Waiting for connection.............
+");
+if((nsd=accept(sd,(struct sockaddr *)&client,&length))==-1) {
+ perror("accept");
+ exit(1);
+}
+printf("Got connection from client:%s
+",inet_ntoa(client.sin_addr));
+ 
+if((dat=recv(nsd,message,40,0))==-1) {
+ perror("recv");
+ exit(1);
+}
+message[dat]='\0';
+printf("Data received is : %s
+",message);
+printf("Enter the data you want to send to client
+");
+fgets(message,40,stdin);
+send(nsd,message,40,0);
+		
+close(sd);
+} </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main12"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 5 Morning</pre>
+  <pre class="topic">  12. Network Programming</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>TCP Server Client Programming
+</pre></li>   <li class="big"><h2><a name="chap12_1">UDP Server Client Programming</a></h2></li>   <li class="sml"><pre>UDP Server Cient Programming</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+udpclient </pre>
+ <pre " class="codec">#include&lt;sys/socket.h&gt;
+#include&lt;sys/types.h&gt;
+#include&lt;netinet/in.h&gt;
+#include&lt;arpa/inet.h&gt;
+#include&lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#define PORT 1034
+ 
+main()
+{
+int n,sd,length;
+char msg[40];
+struct sockaddr_in server,client;
+if((sd=socket(PF_INET,SOCK_DGRAM,0))==-1) {
+ perror("socket");
+ exit(1);
+}
+ 
+client.sin_family=PF_INET;
+client.sin_port=htons(PORT);
+//client.sin_addr.s_addr=inet_addr("192.168.1.2");
+client.sin_addr.s_addr=inet_addr("127.0.0.1");
+ 
+printf("Enter the message you want to send to server
+");
+fgets(msg,40,stdin);
+if(sendto(sd,msg,40,0,(struct sockaddr *)&client,sizeof(server))==-1) {
+ perror("sendto");
+ exit(1);
+}
+printf("Waiting for message from server..............
+");
+length=sizeof(client);
+n=recvfrom(sd,msg,40,0,(struct sockaddr *)&server,&length);
+msg[n]='\0';
+ 
+printf("Message received from server is:%s
+",msg);
+} </pre>
+<div align="center" style="width:100%;height:87px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:87px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+udpserver </pre>
+ <pre " class="codec">#include&lt;stdio.h&gt;
+#include&lt;sys/types.h&gt;
+#include&lt;sys/socket.h&gt;
+#include&lt;netinet/in.h&gt;
+#include&lt;arpa/inet.h&gt;
+#include&lt;stdlib.h&gt;
+#define MYPORT 1034
+ 
+ 
+main()
+{
+int sd,nsd,dat,length,yes=1;
+char message[40];
+struct sockaddr_in server,client;
+ 
+if((sd=socket(PF_INET,SOCK_DGRAM,0))==-1) {
+ perror("socket");
+ exit(1);
+}
+server.sin_port=htons(MYPORT);
+server.sin_family=PF_INET;
+//server.sin_addr.s_addr=inet_addr("192.168.1.2");
+server.sin_addr.s_addr=inet_addr("127.0.0.1");
+ 
+/*if(setsockopt(sd,SOL_SOCKET,SO_REUSEADDR,&yes,sizeof(int))==-1) {
+ perror("setsockopt");
+ exit(1);
+}*/
+ 
+if(bind(sd,(struct sockaddr  *)&server,sizeof(server))==-1) {
+ perror("bind");
+ exit(1);
+}
+ 
+length=sizeof(client);
+if((dat=recvfrom(sd,message,40,0,(struct sockaddr *)&client,&length))==-1) {
+ perror("recvfrom");
+ exit(1);
+}
+ 
+printf("Got connection from client:%s
+",inet_ntoa(client.sin_addr));
+ 
+message[dat]='\0';
+ 
+printf("Data received is : %s
+",message);
+printf("Enter the data you want to send to client
+");
+fgets(message,40,stdin);
+sendto(sd,message,40,0,(struct sockaddr *)&client,length);
+} </pre>
+<div align="center" style="width:100%;height:117px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:117px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main12"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 5 Morning</pre>
+  <pre class="topic">  12. Network Programming</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>TCP Server Client Programming
+</pre></li>   <li class="sml"><pre>UDP Server Client Programming
+</pre></li>   <li class="big"><h2><a name="chap12_2">UDP Server Cient Programming</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+netlink - Communication between kernel and userspace (PF_NETLINK)
+  </pre>
+ <pre " class="code">#include &lt;asm/types.h&gt;
+#include &lt;sys/socket.h&gt;
+#include &lt;linux/netlink.h&gt;
+ 
+netlink_socket = socket(PF_NETLINK, socket_type, netlink_family); </pre>
+ <pre " class="slidecontent"> 
+Netlink is used to transfer information between kernel and userspace processes. It consists of a standard sockets-based interface for userspace processes and an internal kernel API for kernel modules.
+ 
+Netlink is a datagram-oriented service. Both SOCK_RAW and SOCK_DGRAM are valid values for socket_type. However, the netlink protocol does not distinguish between datagram and raw sockets.
+ 
+netlink_family selects the kernel module or netlink group to communicate with. The currently assigned netlink families are:
+ 
+<pre class="codei">NETLINK_ROUTE</pre>
+ Receives routing and link updates and may be used to modify the routing tables (both IPv4 and IPv6), IP addresses, link parameters, neighbour setups, queueing disciplines, traffic classes and packet classifiers
+ 
+<pre class="codei">NETLINK_W1</pre>
+ Messages from 1-wire subsystem.
+ 
+Example creates a NETLINK_ROUTE netlink socket which will listen to the RTM-GRP_LINK (network interface create/delete/up/down events) and RTMGRP_IPV4_IFADDR (IPv4 addresses add/delete events) multicast groups.
+  </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">struct sockaddr_nl sa;
+ 
+memset (&sa, 0, sizeof(sa));
+snl.nl_family = AF_NETLINK;
+snl.nl_groups = RTMGRP_LINK | RTMGRP_IPV4_IFADDR;
+ 
+fd = socket(AF_NETLINK, SOCK_RAW, NETLINK_ROUTE);
+bind(fd, (struct sockaddr*)&sa, sizeof(sa)); </pre>
+ <pre " class="slidecontent"> 
+Example demonstrates how to send a netlink message to the kernel (pid 0). Note
+that application must take care of message sequence numbers in order to reliably track acknowledgements.
+  </pre>
+ <pre " class="code">struct nlmsghdr *nh;    /* The nlmsghdr with payload to send. */
+struct sockaddr_nl sa;
+struct iovec iov = { (void *) nh, nh-&gt;nlmsg_len };
+struct msghdr msg;
+ 
+msg = { (void *)&sa, sizeof(sa), &iov, 1, NULL, 0, 0 };
+memset (&sa, 0, sizeof(sa));
+sa.nl_family = AF_NETLINK;
+nh-&gt;nlmsg_pid = 0;
+nh-&gt;nlmsg_seq = ++sequence_number;
+/* Request an ack from kernel by setting NLM_F_ACK. */
+nh-&gt;nlmsg_flags |= NLM_F_ACK;
+ 
+sendmsg (fd, &msg, 0); </pre>
+<div align="center" style="width:100%;height:52px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:52px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+And the last example is about reading netlink message.
+  </pre>
+ <pre " class="code">int len;
+char buf[4096];
+struct iovec iov = { buf, sizeof(buf) };
+struct sockaddr_nl sa;
+struct msghdr msg;
+struct nlmsghdr *nh;
+ 
+msg = { (void *)&sa, sizeof(sa), &iov, 1, NULL, 0, 0 };
+len = recvmsg (fd, &msg, 0);
+ 
+for (nh = (struct nlmsghdr *) buf; NLMSG_OK (nh, len);
+nh = NLMSG_NEXT (nh, len)) {
+/* The end of multipart message. */ </pre>
+ <pre " class="code">if (nh-&gt;nlmsg_type == NLMSG_DONE)
+ return;
+ 
+if (nh-&gt;nlmsg_type == NLMSG_ERROR)
+/* Do some error handling. */
+...
+ 
+/* Continue with parsing payload. */
+...
+} </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main13"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>

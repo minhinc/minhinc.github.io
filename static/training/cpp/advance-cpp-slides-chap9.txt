@@ -1,0 +1,1140 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>C++ Essentials Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:162px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding principles of Object Oriented Programming Overview
+Understanding the structure of a c++ program
+Understanding Polymorphism
+Understanding UML modeling
+Practical labs with GNU g++ compiler</pre>
+  </div>
+ </div>
+ <div style="height:96px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Three days - 40 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:74px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:96px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting large scale products.</pre>
+  </div>
+ </div>
+ <div style="height:294px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of C programming</b>
+In particular, participants must be familiar with creating and dealing with
+complex data types and structures, with pointers to such symbols, as well as
+with function pointers.
+Advance C training agenda is available at
+<a href="http://minhinc.42web.io/training/c/advance-c-slide.php">http://minhinc.42web.io/training/c/advance-c-slide.php</a>
+and can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-c-slide.pdf">http://minhinc.42web.io/training/advance-c-slide.pdf</a>
+
+<b>Knowledge of Object Oriented Concepts</b>
+Oops concept like Abstraction, Inheritance, Polymorphism would help.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:74px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Linux machine with GNU g++ compiler installed.</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-cpp-slides.pdf">http://minhinc.42web.io/training/advance-cpp-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:91px">Labs session would be completely hands on session where each example
+(with example data and execution instruction) would be provided to the
+students. Students can verify their results with the results provided in
+the material.</pre>
+ </div>
+ <div style="width:960px;height:201px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:0px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:90px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:278px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-cpp-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php#chap1_0"><pre>Source File</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_1"><pre>Header file</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_2"><pre>Object File</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_3"><pre>Declaration and Definition</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_4"><pre>Pre-processing, Compiling, Linking, Loading and Running</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_5"><pre>Executable File Format</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_6"><pre> Segments (.bss, .code, .data etc)</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_7"><pre>Creating static library</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_8"><pre>Creating dynamic library</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_9"><pre>Function calling convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_10"><pre>Function naming convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_11"><pre>Function prototype</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:297px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-cpp-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Functions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=2#chap2_0"><pre>Function calling convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_1"><pre>Function naming convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_2"><pre>Function prototype</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_3"><pre>Function stack frame</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_3"><pre>Return</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_4"><pre>Inline functions</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_5"><pre>Virtual function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_6"><pre>Function overloading</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_7"><pre>Function default parameters</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_8"><pre>Pass by value, pass by reference</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_9"><pre>Unamed function parameter</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_10"><pre>Variable parameter list</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_11"><pre>Static functions</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:92px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:1px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-cpp-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Array Pointers References</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=3#chap3_0"><pre>Defining and initializing Array</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_1"><pre>Definining and Initializing Pointers</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_2"><pre>Using pointers to access array elements</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_3"><pre>Pointers and const qualifiers</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_4"><pre>Dynamically allocated arrays</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_5"><pre>References</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_6"><pre>Independent references and restriction</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_7"><pre>Multidimensional array argument to function</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:202px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-cpp-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Namespaces</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=4#chap4_0"><pre>What is namespace</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_1"><pre>Scope resolution</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_2"><pre>Using declaration</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_3"><pre>Aliases</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_4"><pre>Unnamed namespace</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_5"><pre>Overloading and namespaces</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_6"><pre>Namespace and templates</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:259px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a cpp file and make static and
+ shared library. Call library in main.</pre></li>
+    <li><pre>Write a function to accept multidimentional 
+array as an argument</pre></li>
+    <li><pre>Modify function argument to accept
+ reference to array.</pre></li>
+    <li><pre>Implement a function to accept pointer to
+ int and check were boundary overflow is
+ not checked by the compiler.</pre></li>
+    <li><pre>Emulate file scope static variable with
+ unnamed namespace</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:194px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:4px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:98px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:297px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-cpp-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Overview of C++</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=5#chap5_0"><pre>Object oriented programmming</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_1"><pre>C++ class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_2"><pre>Attribute and method</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_3"><pre>Private, protected and public access controls</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_4"><pre>Constructor, synthesised default constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_5"><pre>Copy control</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_6"><pre>Object</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_7"><pre>Array of objects</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_8"><pre>Virtual methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_9"><pre>Mutable data members and const methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_10"><pre>Class relationships, inheritance and containment</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_11"><pre>Static attributes and static methods.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_12"><pre>Friend function and class</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-cpp-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Virtual concepts</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=6#chap6_0"><pre>Object slicing</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_1"><pre>Calling virtual function for constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_2"><pre>Calling virtual function from non virtual function.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_3"><pre>Non member virtual function.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_4"><pre>Dual dispatching</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:148px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:9px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:9px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:78px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:78px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-cpp-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Copy Control</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=7#chap7_0"><pre>Copy constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_1"><pre>Synthesized copy constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_2"><pre>Explicit qualifier</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_3"><pre>Preventing copies</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_4"><pre>Assignment operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_5"><pre>Destructor</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a simple class with overriden
+ constructor and destrutor</pre></li>
+    <li><pre>Write copy control for a class</pre></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-cpp-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Object Model and Polymorphism</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=8#chap8_0"><pre>Table driven model</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_1"><pre>Object model with single inheritance (SI)</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_2"><pre>Object model with multiple inheritance(MI)</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_3"><pre>Vtable</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_4"><pre>Vtable with virtual methods with SI and MI</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_5"><pre>Virtual base class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_6"><pre>Thunk based and Offset based object model</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_7"><pre>Thunk based and offset based object model</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main9" href="#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inheritance</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap9_0"><pre>Base class and drive class</pre></a></li>
+    <li><a href="#chap9_1"><pre>Virtual methods</pre></a></li>
+    <li><a href="#chap9_2"><pre>Pure virtual methods</pre></a></li>
+    <li><a href="#chap9_3"><pre> Changing scope of base member in derived classes</pre></a></li>
+    <li><a href="#chap9_4"><pre>Multiple inheritance</pre></a></li>
+    <li><a href="#chap9_5"><pre>Polymorphism</pre></a></li>
+    <li><a href="#chap9_6"><pre>Friend function and friend class</pre></a></li>
+    <li><a href="#chap9_7"><pre>Function overriding</pre></a></li>
+    <li><a href="#chap9_8"><pre>Function overloading and default parameter</pre></a></li>
+    <li><a href="#chap9_9"><pre>Interface and Implementation inheritance</pre></a></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:162px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:4px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:98px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:98px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-cpp-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Generic Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=10#chap10_0"><pre>What is generic programming</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_1"><pre>Iterator vs pointer</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_2"><pre>Read only and write to container algorithms</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_3"><pre>Five iterator categories</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_4"><pre>Insert iterators</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_5"><pre>Iostream iterator</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Check vtable entry through gdb</pre></li>
+    <li><pre>Write multiple inheritance class</pre></li>
+    <li><pre>Use Iostream iterator</pre></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:237px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:12px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:12px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:114px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-cpp-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Operator overloading</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=11#chap11_0"><pre> Basics of operator overloading</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_1"><pre>Overloading as method and non member function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_2"><pre>Overloading binary operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_3"><pre>Overloading relational and logical operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_4"><pre>Overloading unary operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_5"><pre>Overloading assignment operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_6"><pre>Overloading [] operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_7"><pre> Creating a conversion function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_8"><pre> Conversion & class types</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-cpp-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Templates</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=12#chap12_0"><pre>Generic class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_1"><pre>Class template</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_2"><pre>Template argument deduction</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_3"><pre>Function template explicit arguments</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_4"><pre> Function template friend function and class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_5"><pre>Specialization</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_6"><pre> Template bloating</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_7"><pre>Sequential standard template libraries</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_8"><pre>Associative standard template libraries</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-cpp-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Exception handling</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=13#chap13_0"><pre>Resumption and termination</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_1"><pre>Stack unwinding</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_2"><pre>Throwing and catching exception</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_3"><pre>Polymorphism</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_4"><pre>set_terminate function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_5"><pre>Function try block and exception.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_6"><pre>Exception specification</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_7"><pre>Function pointer exception specifications</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Impement prefix and postfix operator</pre></li>
+    <li><pre>write specialized template for adding any two
+ entities</pre></li>
+    <li><pre>Use object slicing to get base class
+exception object from derived object</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:127px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:278px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-cpp-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=14#chap14_0"><pre>New and delete operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_1"><pre>Exception bad_alloc from new</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_2"><pre>Allocator allocate</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_3"><pre>Allocator construct</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_4"><pre>Operator new, operator delete</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_5"><pre>Placement new</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_6"><pre>Array operator new[] and operator delete[]</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_7"><pre>Allocator construct vs placement new</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_8"><pre>Class specific new and delete</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_8"><pre>Member new and delete</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_9"><pre>Singleton pattern</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_10"><pre>Identifying object on heap or stack</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main15" href="./advance-cpp-slides.php?chap=15#chap15" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - RTTI</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=15#chap15_0"><pre>typeid operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_1"><pre>dynamic_cast operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_2"><pre>type_info class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_3"><pre>dynamic_cast vs static_cast</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_4"><pre>reinterpret_cast</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:80px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main16" href="./advance-cpp-slides.php?chap=16#chap16" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Modern C++ Ox,11x,14x,17x,20x versions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=16#chap16_0"><pre>C++11 Intro</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_1"><pre>Explicit Virtual Overrides</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_2"><pre>Uniform Initialization</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_3"><pre>Constructors</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_4"><pre>Type Interface</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_5"><pre> Range based for loop</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_6"><pre>Lambdas</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_7"><pre>Functional programming</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:202px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:125px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:62px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:62px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main17" href="./advance-cpp-slides.php?chap=17#chap17" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Pointer to class member</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=17#chap17_0"><pre>Declaring pointer to class member</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=17#chap17_1"><pre> Using pointer to class member</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=17#chap17_2"><pre>Command design pattern</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main18" href="./advance-cpp-slides.php?chap=18#chap18" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Nested class and volatile operator</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=18#chap18_0"><pre>Defining nested class members</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=18#chap18_1"><pre>Defining nested class outside the enclosing class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=18#chap18_2"><pre>Volatile qualifier</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p5</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>overload new and delete operator</pre></li>
+    <li><pre>Print RTTI of base and drive class
+ object</pre></li>
+   </ul>
+ </div><div style="width:475px;height:107px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:23px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+
+</div>
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">C++ Essentials</pre><pre class="slidesubtitle">C++ Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-cpp-slides.pdf">http://minhinc.42web.io/training/advance-cpp-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-15-2021 
+
+Document contains 97 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap9">&nbsp;<div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <h1><pre class="topic">  9. Inheritance</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap9_0">Base class and drive class</a></h2></li>   <li class="sml"><pre>Virtual methods
+</pre></li>   <li class="sml"><pre>Pure virtual methods
+</pre></li>   <li class="sml"><pre> Changing scope of base member in derived classes
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Friend function and friend class
+</pre></li>   <li class="sml"><pre>Function overriding
+</pre></li>   <li class="sml"><pre>Function overloading and default parameter
+</pre></li>   <li class="sml"><pre>Interface and Implementation inheritance</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:228px;float:left;" class="slidecontent"> 
+- Base class
+Class from which another class inherits. The members of the base class become members of the derived class.
+ 
+ 
+- Derived class
+A class inherits from another class. Member of the base class are also members of the derived class. Parent attributes and methods can be called in Derived class context. Base class object comes inside of derive class
+object.
+  </pre>
+<div style="width:374px;height:228px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:105px;float:left;" class="code">struct A:B{
+};
+A *, B* --&gt; +-------------+
+            |   B::b:int  |
+            ---------------
+            |   A::a:int  |
+            +-------------+ </pre>
+<div style="width:480px;height:105px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:22px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:399px;float:left;" class="slidecontent"> 
+A derived class can redefine the members of its base (function overriding) and can define new members. A derived-class scope is nested in the scope of its base class, so the derived class can access members of the base class
+directly.
+ 
+- Inheritance allows us to define a class in terms of another class, which makes it easier to create and maintain an application.
+- This also provides an opportunity to reuse the code functionality and fast implementation time.
+- When creating a class, instead of writing completely new data members and member functions, the programmer can designate that the new class should inherit the members of an existing class. This existing class is called the base class, and the new class is referred to as the derived class.
+- The idea of inheritance implements the is a relationship. For example,
+mammal IS-A animal, dog IS-A mammal hence dog IS-A animal.
+ 
+- A class can be derived from more than one classes, which means it can inherit data and functions from multiple base classes.  class derived-class: access-specifier base-class
+  </pre>
+<div style="width:374px;height:399px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:59px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:60px;float:left;" class="code">Access                public  protected  private
+Same class            yes     yes        yes
+Derived classes       yes     yes        no
+Outside classes       yes     no         no </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:114px;" class="slidecontent"> 
+- A derived class inherits all base class methods with following exceptions:
+Constructors, destructors and copy constructors of the base class.
+Overloaded operators of the base class.
+The friend functions of the base class.
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. Inheritance</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Base class and drive class
+</pre></li>   <li class="big"><h2><a name="chap9_1">Virtual methods</a></h2></li>   <li class="sml"><pre>Pure virtual methods
+</pre></li>   <li class="sml"><pre> Changing scope of base member in derived classes
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Friend function and friend class
+</pre></li>   <li class="sml"><pre>Function overriding
+</pre></li>   <li class="sml"><pre>Function overloading and default parameter
+</pre></li>   <li class="sml"><pre>Interface and Implementation inheritance</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:95px;" class="slidecontent"> 
+- A member function that defines type-specific behaviour. Calls to a virtual made through a reference or pointer are resolved at run time, based on the type of the object to which the reference or pointer is bound.
+  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p60</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. Inheritance</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Base class and drive class
+</pre></li>   <li class="sml"><pre>Virtual methods
+</pre></li>   <li class="big"><h2><a name="chap9_2">Pure virtual methods</a></h2></li>   <li class="sml"><pre> Changing scope of base member in derived classes
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Friend function and friend class
+</pre></li>   <li class="sml"><pre>Function overriding
+</pre></li>   <li class="sml"><pre>Function overloading and default parameter
+</pre></li>   <li class="sml"><pre>Interface and Implementation inheritance</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:133px;" class="slidecontent"> 
+- A virtual function declared in the class header using =0 at the end of the function's parameter list.  A pure virtual is one that need not be (but may be) defined by the class. A class with a pure virtual is an abstract class. If a derived class does not define its own version of an inherited pure virtual, then the derived class is abstract as well.
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. Inheritance</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Base class and drive class
+</pre></li>   <li class="sml"><pre>Virtual methods
+</pre></li>   <li class="sml"><pre>Pure virtual methods
+</pre></li>   <li class="big"><h2><a name="chap9_3">Changing scope of base member in derived classes</a></h2></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Friend function and friend class
+</pre></li>   <li class="sml"><pre>Function overriding
+</pre></li>   <li class="sml"><pre>Function overloading and default parameter
+</pre></li>   <li class="sml"><pre>Interface and Implementation inheritance</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent"> 
+  </pre>
+<div class="clr"></div> <pre style="height:135px;float:left;" class="code">public      protected   private (inheritance type)
+ 
+public     public      protected   private
+protected  protected   protected   private
+private    private     private     private
+  ^
+  |
+  |
+  +----dbase class access control </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. Inheritance</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Base class and drive class
+</pre></li>   <li class="sml"><pre>Virtual methods
+</pre></li>   <li class="sml"><pre>Pure virtual methods
+</pre></li>   <li class="sml"><pre> Changing scope of base member in derived classes
+</pre></li>   <li class="big"><h2><a name="chap9_4">Multiple inheritance</a></h2></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Friend function and friend class
+</pre></li>   <li class="sml"><pre>Function overriding
+</pre></li>   <li class="sml"><pre>Function overloading and default parameter
+</pre></li>   <li class="sml"><pre>Interface and Implementation inheritance</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:190px;" class="slidecontent"> 
+- Inheritance in which a class has more than one immediate base class.
+The derived class inherits the members of all its base classes. Multiple base classes are defined by naming more than one base class in the class derivation list. A separate access label is required for each base class.
+ 
+- Multiple inheritance is useful when an entity carries multiple identity.
+Multiple type of task can be performed on the same object.  A multi homed computer can be a router or a server.
+  </pre>
+<div class="clr"></div> <pre style="height:300px;float:left;" class="code">-----------                 ------------
+|  server |                 | router   |
+-----------                 ------------
+    /\                          / \
+     -                            -
+     |                            |
+     +----------------------------+
+                    |
+             --------------
+             | machine    |
+             --------------
+ 
+class A{}
+class B{}
+class C:A,B{};
+---------- &lt;-- A*, C*
+| A Part |
+---------- &lt;-- B*
+| B Part |
+---------- </pre>
+<div style="width:480px;height:300px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:10px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p61</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:90px;float:left;" class="code">| C Part |
+----------
+ 
+C* pc;
+pc-&gt;bg(2);//bg is class B function
+bg_F1B((B*)((char*)pc+delta(B)),2); </pre>
+<div style="width:480px;height:90px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. Inheritance</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Base class and drive class
+</pre></li>   <li class="sml"><pre>Virtual methods
+</pre></li>   <li class="sml"><pre>Pure virtual methods
+</pre></li>   <li class="sml"><pre> Changing scope of base member in derived classes
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="big"><h2><a name="chap9_5">Polymorphism</a></h2></li>   <li class="sml"><pre>Friend function and friend class
+</pre></li>   <li class="sml"><pre>Function overriding
+</pre></li>   <li class="sml"><pre>Function overloading and default parameter
+</pre></li>   <li class="sml"><pre>Interface and Implementation inheritance</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:133px;" class="slidecontent"> 
+- Polymorphism means "many forms". It refers to obtain type specific behaviour based on the dynamic type of a reference or pointer.
+ 
+In inheritance base class shows polymorphic behaviour. Base class pointer accept down the line derived class concrete objects.
+  </pre>
+<div class="clr"></div> <pre style="height:165px;" class="code">                                          f()
+                                       &lt;|---- B
+                            A  &lt;|----- |      &lt;|------ D
+                            f()        &lt;|---- C        f(),g()
+                                          g()
+ 
+void func(A* pa){  &lt;--- A* is polymorphic and accepts object of derived class B,C,D
+pa-&gt;f();// always bound to base A::f(). A::f() is not polymorphic
+func(new B);
+func(new C);
+func(new D); </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+When a function in base class is virtual then function becomes polymorphic </pre>
+<div class="clr"></div> <pre style="height:165px;float:left;" class="code">                                      virtual f()
+                                       &lt;|---- B
+                            A  &lt;|----- |      &lt;|------ D
+                    virtual f()        &lt;|---- C        f(),g()
+                                      Virtual g()
+ 
+void func(A* pa){
+ps-&gt;f();// polymorphic
+}
+func(new B);//pa-&gt;f() calls B::f()
+func(new D);// pa-&gt;f() calls D::f() </pre>
+<div style="width:480px;height:165px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. Inheritance</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Base class and drive class
+</pre></li>   <li class="sml"><pre>Virtual methods
+</pre></li>   <li class="sml"><pre>Pure virtual methods
+</pre></li>   <li class="sml"><pre> Changing scope of base member in derived classes
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="big"><h2><a name="chap9_6">Friend function and friend class</a></h2></li>   <li class="sml"><pre>Function overriding
+</pre></li>   <li class="sml"><pre>Function overloading and default parameter
+</pre></li>   <li class="sml"><pre>Interface and Implementation inheritance</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:76px;" class="slidecontent"> 
+- Friend function and friend class does not follow inheritance rule and class A friend to class B will not be friend to class C that is either parent or derived from class B.
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. Inheritance</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Base class and drive class
+</pre></li>   <li class="sml"><pre>Virtual methods
+</pre></li>   <li class="sml"><pre>Pure virtual methods
+</pre></li>   <li class="sml"><pre> Changing scope of base member in derived classes
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Friend function and friend class
+</pre></li>   <li class="big"><h2><a name="chap9_7">Function overriding</a></h2></li>   <li class="sml"><pre>Function overloading and default parameter
+</pre></li>   <li class="sml"><pre>Interface and Implementation inheritance</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:114px;" class="slidecontent"> 
+- If base class function(non virtual) is also defined in device class, derive class function override the base class function.
+ 
+- No polymorphism in case of overriding. Base class function call through base class pointer always resolves to base class function only. </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p62</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. Inheritance</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Base class and drive class
+</pre></li>   <li class="sml"><pre>Virtual methods
+</pre></li>   <li class="sml"><pre>Pure virtual methods
+</pre></li>   <li class="sml"><pre> Changing scope of base member in derived classes
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Friend function and friend class
+</pre></li>   <li class="sml"><pre>Function overriding
+</pre></li>   <li class="big"><h2><a name="chap9_8">Function overloading and default parameter</a></h2></li>   <li class="sml"><pre>Interface and Implementation inheritance</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent"> 
+- Function overloading and default parameter does not support polymorphism. </pre>
+<div class="clr"></div> <pre style="height:285px;float:left;" class="code">$ cat main.cpp
+#include &lt;iostream&gt;
+using namespace std;
+struct A{
+virtual void func(int x){
+cout&lt;&lt;"A::func"&lt;&lt;endl;
+}
+};
+struct B:A{
+void func(float y){
+cout&lt;&lt;"B::func"&lt;&lt;endl;
+}
+};
+ 
+int main(){
+A* pa=new B;
+pa-&gt;func(10); // resolves to A::func
+return 0;
+} </pre>
+<div style="width:480px;height:285px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:2px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+$ ./a.out </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">A::func </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:184px;width:432px;">
+  <pre class="day">Day 3 Morning</pre>
+  <pre class="topic">  9. Inheritance</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Base class and drive class
+</pre></li>   <li class="sml"><pre>Virtual methods
+</pre></li>   <li class="sml"><pre>Pure virtual methods
+</pre></li>   <li class="sml"><pre> Changing scope of base member in derived classes
+</pre></li>   <li class="sml"><pre>Multiple inheritance
+</pre></li>   <li class="sml"><pre>Polymorphism
+</pre></li>   <li class="sml"><pre>Friend function and friend class
+</pre></li>   <li class="sml"><pre>Function overriding
+</pre></li>   <li class="sml"><pre>Function overloading and default parameter
+</pre></li>   <li class="big"><h2><a name="chap9_9">Interface and Implementation inheritance</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:209px;float:left;" class="slidecontent"> 
+-A publicly derived class inherits the interface of its base class. It has the same interface as its base class. In well designed class hierarchies object of a publicly derived class can be used wherever an object of the base
+class is expected.
+Classes derived using protected or private inheritance do not inherit the base class interface. Instead these derivations are often referred to as implementation inheritance. The derived class uses the inherited class in its implementation but does not expose the fact of the inheritance as part of its interface..
+ 
+$ cat main.cpp </pre>
+<div style="width:374px;height:209px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:4px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:315px;float:left;" class="code">#include &lt;iostream&gt;
+using namespace std;
+class A{
+public:
+int pl;
+private:
+int pr;
+};
+class B:private A{ //implementation inheritance
+public:
+using A::pl; //still pl can be accessible
+B(){pl=20;}
+//using A::pr;//error
+private:
+//using A::pr;//error
+};
+int main(){
+B b;
+cout&lt;&lt;"B::pl"&lt;&lt;b.pl&lt;&lt;endl;
+return 0;
+} </pre>
+<div style="width:480px;height:315px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:17px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+$ ./a.out </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">B::pl20 </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p63</a>
+</div>

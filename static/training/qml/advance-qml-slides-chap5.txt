@@ -1,0 +1,1168 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>Qml QtQuick Essentials Training</pre>
+ <pre class=subtitle>3-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:182px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Qt Quick scene graph concept
+Understanding Qml Component/Document/Module Architecute
+Understanding QtQuick classes
+Exporting C++ class to Qml as object and class type
+Three layers software development with qml and c++
+Dynamic Properties</pre>
+  </div>
+ </div>
+ <div style="height:94px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Three days - 24 hours
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:336px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of Qt programming</b>
+Knowledge of Qt programming is important. Technically Qml is javascript
+counter part of C++ Qt. Knowing Qt will help fast understanding of Qml.
+Qt slides can browsed at
+<a href=http://minhinc.42web.io/training/qt/advance-qt-slides.php>http://minhinc.42web.io/training/qt/advance-qt-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-qt-slides.pdf>http://minhinc.42web.io/training/advance-qt-slides.pdf</a>
+
+<b>Knowledge of GUI and other concepts</b>
+Qt/Qml is used for GUI development and many other technologies including 
+Networks, operating systems, Database, scripting. Basic knowledge of these domains 
+are required as per the Qt/Qml is developed for the particular domain.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu LTS 16.04, Qt 5.[>6]</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:91px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries. Lecture content can be downloaded at 
+<a href=http://minhinc.42web.io/training/advance-qml-slides.pdf>http://minhinc.42web.io/training/advance-qml-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Labs session would be completely hands on session where each example (with
+example data and execution instruction) would be provided to the students. Students
+can verify their results with the results provided in the material.</pre>
+ </div>
+ <div style="width:960px;height:253px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-qml-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Qt Quick and QML</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php#chap1_0"><pre>QObject Meta Object System</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_1"><pre>Defining Qml Component</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_2"><pre>Tree of QML Objects</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_3"><pre>Qml Types
+ - Visual
+ - Non Visual</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_4"><pre>Qt Quick classes</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_5"><pre>Data Type Conversion Between QML and C++</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-qml-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qt Properties</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=2#chap2_0"><pre>Combination of Get/Set/Notifiy</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_1"><pre>Declaration of a Qt property</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_2"><pre>Qt Property with Enum</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_3"><pre>Getting & Setting Qt Properties</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_4"><pre>Dynamic Properties</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=2#chap2_5"><pre>Signal and Slots</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:101px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-qml-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Building Blocks of QML</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=3#chap3_0"><pre>QuickItem</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=3#chap3_1"><pre>Variant
+ - QVariant and QML</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=3#chap3_2"><pre>Variant Containers
+ - QVariantList
+ - QVariantMap
+ - QList
+ - QQmlListProperty</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=3#chap3_3"><pre>Import QML document in another QML
+document as a package</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:240px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-qml-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Composing UIs</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=4#chap4_0"><pre>Nested Items</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=4#chap4_1"><pre>Graphical QML Types</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=4#chap4_2"><pre>Text Type</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=4#chap4_3"><pre>Anchor Layouts</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a QML document</pre></li>
+    <li><pre>Import QML document in another QML
+document as a package</pre></li>
+    <li><pre>Use anchor layout to place current window
+with imported window in some layout fashion.</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:274px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:392px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main5" href="#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - User Input</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap5_0"><pre>Keyboard Navigation and Focus</pre></a></li>
+    <li><a href="#chap5_1"><pre>Input Focus
+ - Focus property
+ - Focus Order
+ - Active Focus
+ - Focus Scope</pre></a></li>
+    <li><a href="#chap5_2"><pre>Handling Keyboard input
+ - Key-Specific Handlers
+ - All keys Handler
+ - Key Event Propogation
+ - Event Propogation is Convenient</pre></a></li>
+    <li><a href="#chap5_3"><pre>Multi-Touch
+ - Common Multi-Touch Gestures
+ - Handling Overlapping Touch Areas</pre></a></li>
+    <li><a href="#chap5_4"><pre>Mouse/Single-Touch
+ - Tap
+ - Double-Tap
+ - Top and Hold</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-qml-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Components and Structures</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=6#chap6_0"><pre>Components</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_1"><pre>Dividing code into Components
+ - Creating new Items through new .qml file
+ - Creating Component dynamically</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_2"><pre>Modules</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_3"><pre>Write qml component as a separate .qml file</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_4"><pre>qmldir file
+ - Directory import
+ - Module import</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:104px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:7px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-qml-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qt Quick Controls</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=12#chap12_0"><pre>Qt Quick Designer</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_1"><pre>Qt Quick Controls</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_2"><pre>Application Window</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_3"><pre>Controls and Views</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_4"><pre>Layouts</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_5"><pre>Styling</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_6"><pre>Qml Transformation</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:183px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-qml-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - State and Transitions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=7#chap7_0"><pre>States</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=7#chap7_1"><pre>State Conditions</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=7#chap7_2"><pre>Transitions</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Emit signal when mouse moves over an area</pre></li>
+    <li><pre>Write qml component as a separate .qml file</pre></li>
+    <li><pre>Place Anchor layout inside Vertical layout</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:157px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:2px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-qml-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Dynamic Creation of Items</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=8#chap8_0"><pre>Creating custom Item</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=8#chap8_1"><pre>Creating Items Dynamically
+ - Procedural Method
+ - Procedural/Declarative Creation
+ - Declarative Method</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=8#chap8_2"><pre>Creating Multiple Items</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=8#chap8_3"><pre>Repeaters</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:259px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-qml-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - C++ Integration</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=9#chap9_0"><pre>Declartive Envrionment
+ -QQmlApplicationEngine
+ -QQuickView</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_1"><pre>Exporting C++ Objects to QML
+ -QQmlContext</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_2"><pre>Exporting Classes to QML</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_3"><pre>Exporting Non-GUI Classes</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_4"><pre>Exporting Qpainter based GUI Classes
+ -QQuickPaintedItem</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_5"><pre>Building an application as a Library</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_6"><pre>Using Custom Types Plugins</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:85px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-qml-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Graphical Effects</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=10#chap10_0"><pre>Canvas</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=10#chap10_1"><pre>Particles</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=10#chap10_2"><pre>Shaders</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:107px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:23px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:135px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-qml-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Animations</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=11#chap11_0"><pre>Animations
+ - PropertyAnimation
+ - ParallelAnimation
+ - SequentialAnimation
+ - PathAnimation</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_1"><pre>Behaviour on <property></pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_1"><pre>Animation on <property></pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_1"><pre>StandAlone Animation</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_2"><pre>Easing Curves</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_3"><pre>Animation Groups</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-qml-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Presenting Data</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=13#chap13_0"><pre>Data Item
+- Arranging Items
+  - Positioners
+  - Repeaters</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=13#chap13_1"><pre>Scene Graph
+ - Data Models
+ - Using Views
+ - Using Delegates</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=13#chap13_2"><pre>Implement List data model view through delegate</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Define component dynamically</pre></li>
+    <li><pre>Implement Ecllipse as Qml Class type</pre></li>
+    <li><pre>Place the Ecllipse class type as Library</pre></li>
+    <li><pre>Implement List data model view through
+delegate</pre></li>
+   </ul>
+ </div><div style="width:475px;height:145px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+
+</div>
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">Qml Essentials</pre><pre class="slidesubtitle">Qml Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-qml-slides.pdf">http://minhinc.42web.io/training/advance-qml-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-13-2021 
+
+Document contains 77 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap5">&nbsp;<div class="slideheader" style="height:251px;width:432px;">
+  <pre class="day">Day 2 Morning</pre>
+  <h1><pre class="topic">  5. User Input</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap5_0">Keyboard Navigation and Focus</a></h2></li>   <li class="sml"><pre>Input Focus
+ - Focus property
+ - Focus Order
+ - Active Focus
+ - Focus Scope
+</pre></li>   <li class="sml"><pre>Handling Keyboard input
+ - Key-Specific Handlers
+ - All keys Handler
+ - Key Event Propogation
+ - Event Propogation is Convenient
+</pre></li>   <li class="sml"><pre>Multi-Touch
+ - Common Multi-Touch Gestures
+ - Handling Overlapping Touch Areas
+</pre></li>   <li class="sml"><pre>Mouse/Single-Touch
+ - Tap
+ - Double-Tap
+ - Top and Hold</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:247px;float:left;" class="slidecontent"> 
+When the user presses or releases a key, the following occurs:
+1) Qt receives the key action and generates a key event.
+2) If a QQuickWindow is the active window, the key event is delivered to it.
+3) The key event is delivered by the scene to the Item with active focus. If no item has active focus, the key event is ignored.
+4) If the QQuickItem with active focus accepts the key event, propagation stops. Otherwise the event is sent to the Item's parent until the event is accepted, or the root item is reached.
+ 
+Rectangle has active focus and the A key is pressed, the event will not be propagated further. Upon pressing the B key, the event will propagate to the root item and thus be ignored. </pre>
+<div style="width:374px;height:247px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:23px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:150px;float:left;" class="code">Rectangle {
+ width: 100; height: 100
+ focus: true    &lt;-----------------item with focus attribute
+ Keys.onPressed: {
+  if (event.key == Qt.Key_A) {
+   console.log('Key A was pressed');
+   event.accepted = true;
+  }
+ }
+} </pre>
+<div style="width:480px;height:150px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:80px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:95px;" class="slidecontent"> 
+If the root Item is reached, the key event is ignored and regular Qt key handling continues.
+ 
+  </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="slideheader" style="height:295px;width:432px;">
+  <pre class="day">Day 2 Morning</pre>
+  <pre class="topic">  5. User Input</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Keyboard Navigation and Focus
+</pre></li>   <li class="big"><h2><a name="chap5_1">Input Focus<br>- Focus property<br>- Focus Order<br>- Active Focus<br>- Focus Scope</a></h2></li>   <li class="sml"><pre>Handling Keyboard input
+ - Key-Specific Handlers
+ - All keys Handler
+ - Key Event Propogation
+ - Event Propogation is Convenient
+</pre></li>   <li class="sml"><pre>Multi-Touch
+ - Common Multi-Touch Gestures
+ - Handling Overlapping Touch Areas
+</pre></li>   <li class="sml"><pre>Mouse/Single-Touch
+ - Tap
+ - Double-Tap
+ - Top and Hold</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:57px;" class="slidecontent"> 
+ - <b>Focus property</b>
+SubItem containing the 'focus' property true recieves the focus </pre>
+<div class="clr"></div> <pre style="height:240px;float:left;" class="code">Rectangle {
+ color: "lightsteelblue"; width: 240; height: 25
+ Text { id: myText }
+ Item {
+  id: keyHandler
+  focus: true
+  Keys.onPressed: {
+   if (event.key == Qt.Key_A)
+    myText.text = 'Key A was pressed'
+   else if (event.key == Qt.Key_B)
+    myText.text = 'Key B was pressed'
+   else if (event.key == Qt.Key_C)
+    myText.text = 'Key C was pressed'
+  }
+ }
+} </pre>
+<div style="width:480px;height:240px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+ - <b>Focus Order</b> </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main5" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p23</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:95px;" class="slidecontent">Focus Order is decided among items for which 'focus' attributes are set true. If Item is reused in other component then last item with focus attribute would receive the focus.
+ 
+//Window code that imports MyWidget </pre>
+<div class="clr"></div> <pre style="height:210px;float:left;" class="code">Rectangle {
+ id: window
+ color: "white"; width: 240; height: 150
+ Column {
+  anchors.centerIn: parent; spacing: 15
+  MyWidget {
+   focus: true             //set this MyWidget to receive the focus
+   color: "lightblue"
+  }
+  MyWidget {
+   color: "palegreen"
+  }
+ }
+} </pre>
+<div style="width:459px;height:210px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:238px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+The MyWidget code: </pre>
+<div class="clr"></div> <pre style="height:210px;float:left;" class="code">Rectangle {
+ id: widget
+ color: "lightsteelblue"; width: 175; height: 25; radius: 10; antialiasing: true
+ Text { id: label; anchors.centerIn: parent}
+ focus: true
+ Keys.onPressed: {
+  if (event.key == Qt.Key_A)
+   label.text = 'Key A was pressed'
+  else if (event.key == Qt.Key_B)
+   label.text = 'Key B was pressed'
+  else if (event.key == Qt.Key_C)
+   label.text = 'Key C was pressed'
+ }
+} </pre>
+<div style="width:364px;height:210px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:82px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">focus order can be shifted to other userinput through KeyNavigation.tab press.
+  </pre>
+<div class="clr"></div> <pre style="height:300px;float:left;" class="code">import QtQuick 2.0
+Rectangle{
+width:200:height:200
+color:"steelblue"
+ TextInput{
+ id:input1
+ x:8;y:8
+ width:96;height:20
+ focus:true
+ text:"Text Input 1"
+ KeyNavigation.tab:input2
+ }
+ TextInput {
+ id:input2
+ x:8;y:32
+ width:96;height:20
+ text:"Text Input 2"
+ KeyNavigation.tab:input1
+ }
+} </pre>
+<div style="width:480px;height:300px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:10px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+ -<b>Active focus</b>
+Which Item has the focus can be decided with property activeFocus. </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">Text {
+ text: activeFocus ? "I have active focus!" : "I do not have active focus"
+} </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+ -<b>Focus Scope</b> </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main5" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p24</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="iframecontainer" style="float:left;width:640px;height:360px;"><iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/lIAway_X3E8?enablejsapi=1&controls=1&autoplay=1&vq=hd240&cc_load_policy=1" frameborder="0"></iframe></div><div style="width:310px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:5px;top:55px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre style="height:76px;" class="slidecontent">two textinput inside an Item container can recieve KeyNavigation.tab but to textinput inside two Item container can not receive KyNavigation.tab. In this case Item container is placed in Focus scope.inside a focus scope last textinput with 'focus:true' would receive the key focus. </pre>
+<div class="clr"></div> <pre style="height:525px;float:left;" class="code">import QtQuick 2.5
+FocusScope{
+width:96;height:input.height+8
+ Rectangle{
+ anchors.fill:parent
+ color:"lightsteelblue"
+ border.color:"gray"
+ }
+ property alias text:input.text
+ TextInput{
+ id:input
+ height:30
+ anchors.fill:parent
+ anchors.margins:4
+ focus:true
+ }
+}
+import QtQuick 2.0
+Rectangle{
+width:200;height:200
+ Column{
+ anchors.centerIn:parent
+ spacing:20
+  FocusScopeTextInput{
+  id:input1
+  text:"Input1"
+  KeyNavigation.tab:input2
+  }
+  FocusScopeTextInput{
+  id:input2
+  text:"Input2"
+  KeyNavigation.tab:input1
+  }
+ }
+} </pre>
+<div style="width:480px;height:525px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:8px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:266px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:270px;top:266px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/qml-slide-inputfocusscope.png" /></div><div style="width:480px;height:200px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:0px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:0px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main5" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p25</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:295px;width:432px;">
+  <pre class="day">Day 2 Morning</pre>
+  <pre class="topic">  5. User Input</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Keyboard Navigation and Focus
+</pre></li>   <li class="sml"><pre>Input Focus
+ - Focus property
+ - Focus Order
+ - Active Focus
+ - Focus Scope
+</pre></li>   <li class="big"><h2><a name="chap5_2">Handling Keyboard input<br>- Key-Specific Handlers<br>- All keys Handler<br>- Key Event Propogation<br>- Event Propogation is Convenient</a></h2></li>   <li class="sml"><pre>Multi-Touch
+ - Common Multi-Touch Gestures
+ - Handling Overlapping Touch Areas
+</pre></li>   <li class="sml"><pre>Mouse/Single-Touch
+ - Tap
+ - Double-Tap
+ - Top and Hold</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:152px;" class="slidecontent">Any visual item can receive keyboard input through the Keys attached type.
+Keys can be handled via the onPressed and onReleased signal properties.
+The signal properties have a KeyEvent parameter, named event which contains details of the event. If a key is handled event.accepted should be set to true to prevent the event from propagating up the item hierarchy. 
+ 
+Kyes
+Properties </pre>
+<div class="clr"></div> <pre style="height:27px;" class="codec">enabled : bool
+forwardTo : list&lt;Object&gt;
+priority : enumeration  </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Signals </pre>
+<div class="clr"></div> <pre style="height:270px;float:left;" class="codec">asteriskPressed(KeyEvent event)
+backPressed(KeyEvent event)
+backtabPressed(KeyEvent event)
+callPressed(KeyEvent event)
+cancelPressed(KeyEvent event)
+context1Pressed(KeyEvent event)
+context2Pressed(KeyEvent event)
+context3Pressed(KeyEvent event)
+context4Pressed(KeyEvent event)
+deletePressed(KeyEvent event)
+digit[0-9]Pressed(KeyEvent event)
+downPressed(KeyEvent event)
+enterPressed(KeyEvent event)
+escapePressed(KeyEvent event)
+flipPressed(KeyEvent event)
+hangupPressed(KeyEvent event)
+leftPressed(KeyEvent event)
+menuPressed(KeyEvent event)
+noPressed(KeyEvent event)
+pressed(KeyEvent event)
+released(KeyEvent event)
+returnPressed(KeyEvent event)
+rightPressed(KeyEvent event)
+selectPressed(KeyEvent event)
+spacePressed(KeyEvent event)
+tabPressed(KeyEvent event)
+upPressed(KeyEvent event)
+volumeDownPressed(KeyEvent event)
+volumeUpPressed(KeyEvent event)
+yesPressed(KeyEvent event)  </pre>
+<div style="width:480px;height:270px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:10px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:270px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;float:left;" class="slidecontent"> 
+ <b>- Key-Specific Handlers</b>
+ <b>- All keys Handler</b>
+  </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:150px;float:left;" class="code">Item {
+anchors.fill: parent
+focus: true
+ Keys.onPressed: {
+  if (event.key == Qt.Key_Left) {
+  console.log("move left");
+  event.accepted = true;
+  }
+ }
+} </pre>
+<div style="width:480px;height:150px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:80px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+ <b>-Key Event Propagation</b>
+  </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">forwardTo : list&lt;Object&gt; </pre>
+<div class="clr"></div> <pre style="height:171px;" class="slidecontent"> 
+This property provides a way to forward key presses, key releases, and keyboard input coming from input methods to other items. This can be useful when you want one item to handle some keys (e.g. the up and down arrow keys), and another item to handle other keys (e.g. the left and right arrow keys). Once an item that has been forwarded keys accepts the event it is no longer forwarded to items later in the list.
+This example forwards key events to two lists:
+  </pre>
+<div class="clr"></div> <pre style="height:120px;float:left;" class="code">Item {
+ ListView {
+ id: list1
+ // ...
+ }
+ ListView {
+ id: list2
+ // ... </pre>
+<div style="width:480px;height:120px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main5" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p26</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:60px;float:left;" class="code"> }
+ Keys.forwardTo: [list1, list2]
+ focus: true
+} </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:273px;width:432px;">
+  <pre class="day">Day 2 Morning</pre>
+  <pre class="topic">  5. User Input</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Keyboard Navigation and Focus
+</pre></li>   <li class="sml"><pre>Input Focus
+ - Focus property
+ - Focus Order
+ - Active Focus
+ - Focus Scope
+</pre></li>   <li class="sml"><pre>Handling Keyboard input
+ - Key-Specific Handlers
+ - All keys Handler
+ - Key Event Propogation
+ - Event Propogation is Convenient
+</pre></li>   <li class="big"><h2><a name="chap5_3">Multi-Touch<br>- Common Multi-Touch Gestures<br>- Handling Overlapping Touch Areas</a></h2></li>   <li class="sml"><pre>Mouse/Single-Touch
+ - Tap
+ - Double-Tap
+ - Top and Hold</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:76px;float:left;" class="slidecontent"> 
+MultiPointTouchArea
+ 
+Properties </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:36px;" class="codec">maximumTouchPoints : int
+minimumTouchPoints : int
+mouseEnabled : bool
+touchPoints : list&lt;TouchPoint&gt;  </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Signals </pre>
+<div class="clr"></div> <pre style="height:54px;" class="codec">canceled(list&lt;TouchPoint&gt; touchPoints)
+gestureStarted(GestureEvent gesture)
+pressed(list&lt;TouchPoint&gt; touchPoints)
+released(list&lt;TouchPoint&gt; touchPoints)
+touchUpdated(list&lt;TouchPoint&gt; touchPoints)
+updated(list&lt;TouchPoint&gt; touchPoints)  </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+A MultiPointTouchArea is an invisible item that is used to track multiple touch points.
+  </pre>
+<div class="clr"></div> <pre style="height:345px;float:left;" class="code">import QtQuick 2.0
+Rectangle {
+width: 400; height: 400
+ MultiPointTouchArea {
+ anchors.fill: parent
+  touchPoints: [
+  TouchPoint { id: point1 },
+  TouchPoint { id: point2 }
+  ]
+ }
+ Rectangle {
+ width: 30; height: 30
+ color: "green"
+ x: point1.x
+ y: point1.y
+ }
+ Rectangle {
+ width: 30; height: 30
+ color: "yellow"
+ x: point2.x
+ y: point2.y
+ }
+} </pre>
+<div style="width:480px;height:345px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:1px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:282px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:284px;width:432px;">
+  <pre class="day">Day 2 Morning</pre>
+  <pre class="topic">  5. User Input</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Keyboard Navigation and Focus
+</pre></li>   <li class="sml"><pre>Input Focus
+ - Focus property
+ - Focus Order
+ - Active Focus
+ - Focus Scope
+</pre></li>   <li class="sml"><pre>Handling Keyboard input
+ - Key-Specific Handlers
+ - All keys Handler
+ - Key Event Propogation
+ - Event Propogation is Convenient
+</pre></li>   <li class="sml"><pre>Multi-Touch
+ - Common Multi-Touch Gestures
+ - Handling Overlapping Touch Areas
+</pre></li>   <li class="big"><h2><a name="chap5_4">Mouse/Single-Touch<br>- Tap<br>- Double-Tap<br>- Top and Hold</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main5" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p27</a>
+</div>

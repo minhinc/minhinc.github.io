@@ -1,0 +1,1178 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>Linux Internals Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:186px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding Virtual memory, Process concepts, IPC, File Systems EXT2
+Understanding Shell programming
+Understanding Boot process
+Understanding cross compilation and installing Linux installation on
+embedded hardware
+Understanding developing application for embedded systems</pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:76px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting embedded and medium scale products.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:230px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of c programming</b>
+All examples are provided through c programming language.
+Knowledge of c programming is required.
+C training slides can browsed at
+<a href=http://minhinc.42web.io/training/c/advance-c-slides.php>http://minhinc.42web.io/training/c/advance-c-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-c-slides.pdf>http://minhinc.42web.io/training/advance-c-slides.pdf</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu 16.0x LTS
+Raspberry Pi3</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:91px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries. Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-li-slides.pdf">http://minhinc.42web.io/training/advance-li-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.</pre>
+ </div>
+ <div style="width:960px;height:253px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-li-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Linux</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php#chap1_0"><pre>GNU Project/GPL Licensing</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_1"><pre>Evolution of Linux & Development Model</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_2"><pre>Device Identities in Linux-Partitioning Schema</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-li-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Kernel</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=2#chap2_0"><pre>History of Linux</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_1"><pre>Types of kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_2"><pre>The Linux Kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_3"><pre>Kernel Architecture</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:101px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:316px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-li-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Shell commands & Shell</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=3#chap3_0"><pre>Basic Shell commands</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_0"><pre>Bash Shell Essentials
+- Introduction</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_1"><pre> - Process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_2"><pre>-Shell Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_3"><pre> - Shell Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_4"><pre>-Programming commands</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_5"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_6"><pre>Creating Makefiles</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:316px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:69px;top:18px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>mknod</pre></li>
+    <li><pre>Write a Makefile to compile file</pre></li>
+    <li><pre>Create a static library using Makefile</pre></li>
+    <li><pre>Create a dynamic library using Makefile</pre></li>
+    <li><pre>Write application using static library and
+dynamic library generated</pre></li>
+   </ul>
+ </div><div style="width:475px;height:164px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:88px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:150px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-li-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Creating Libraries</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Static Library
+ - Using Static Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Shared Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_1"><pre> -Using Shared Library</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-li-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The Boot Process</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=5#chap5_0"><pre>The Boot Process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_1"><pre>BIOS Level</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre> - Boot Loader - Setup
+  - startup_32 functions</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre>The start_kernel() function</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:133px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:88px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Cross compiling kernel</pre></li>
+    <li><pre>Board Support packages</pre></li>
+   </ul>
+ </div><div style="width:475px;height:88px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:150px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-li-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The File System</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=6#chap6_0"><pre>The File System</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_1"><pre>Virtual File system & its role</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_2"><pre>Files associated with a process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_3"><pre>proc file system</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_4"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-li-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Process Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=7#chap7_0"><pre>Process Defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_1"><pre>Process Descriptor Structures in the kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_2"><pre>Process States</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_3"><pre>Process Scheduling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_4"><pre>Process Creation</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_5"><pre>System calls related to process management</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-li-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=8#chap8_0"><pre>Defining and Creating secondary memory
+areas</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_1"><pre>Memory allocation & deallocation system
+calls malloc, calloc, alloca, free</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_2"><pre>Virtual Memory Management</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_3"><pre>Address Translation and page fault
+handling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_4"><pre>Demand Paging defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_5"><pre>Process Organization in Memory</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:221px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:140px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:6px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:6px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:72px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:72px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Implement late binding</pre></li>
+    <li><pre>Create hard link</pre></li>
+    <li><pre>Create soft link</pre></li>
+    <li><pre>Write a program to enumerate stat structure
+for both hard link and soft link. Illustrate which
+field is different</pre></li>
+    <li><pre>Create a child process and validates if all
+open descriptors are copied to child process also.
+ - Use file seek from parent and see child's
+  descriptor also got seeked.</pre></li>
+   </ul>
+ </div><div style="width:475px;height:240px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:171px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:7px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:104px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:104px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main9" href="#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Multi Thread Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap9_0"><pre>Creating multiple threads</pre></a></li>
+    <li><a href="#chap9_1"><pre>Parent synchronization with other Thread</pre></a></li>
+    <li><a href="#chap9_2"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-li-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inter process communication</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=10#chap10_0"><pre>Pipes</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_1"><pre>Fifo's</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_2"><pre>Signals</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_3"><pre>System-V IPC's
+ - Message queues</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_4"><pre> - Shared memory</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_5"><pre> - Semaphore</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:87px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:13px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:13px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-li-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Sockets</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=11#chap11_0"><pre>An Overview</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_1"><pre>System calls related to
+ - TCP</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_2"><pre>-UDP</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:126px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a multi threaded application and check if
+global variables are shared.
+ - Protect them using semaphores</pre></li>
+   </ul>
+ </div><div style="width:475px;height:107px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:23px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:159px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:3px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:96px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:96px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-li-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Network Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=12#chap12_0"><pre>TCP Server Client Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=12#chap12_1"><pre>UDP Server Client Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=12#chap12_2"><pre>UDP Server Cient Programming</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-li-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Programming and Debugging tools</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=13#chap13_0"><pre>strace - Tracing system calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_1"><pre>ltrace - Tracing library calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_2"><pre>Tools used to detect memory access
+error; and memory leakage in linux
+mtrace</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:85px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-li-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Device Driver Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=14#chap14_0"><pre>Introduction</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_1"><pre>Kernel modules</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_2"><pre>Character device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_3"><pre>Block device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_4"><pre>Hardware and Interrupt Handling</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:136px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:50px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+  </ul>
+ </div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p5</a>
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">Linux Internals Essentials</pre><pre class="slidesubtitle">Linux Internals Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-li-slides.pdf">http://minhinc.42web.io/training/advance-li-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-15-2021 
+
+Document contains 97 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap9">&nbsp;<div class="slideheader" style="height:114px;width:432px;">
+  <pre class="day">Day 4 Morning</pre>
+  <h1><pre class="topic">  9. Multi Thread Programming</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap9_0">Creating multiple threads</a></h2></li>   <li class="sml"><pre>Parent synchronization with other Thread
+</pre></li>   <li class="sml"><pre>System calls</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:1254px;float:left;" class="slidecontent"> 
+Introduction
+* Thread is a sequential flow of control through a program.
+* If a process is defined as a program in execution then a thread is defined as a function in execution.
+* If a thread is created, it will execute a specified function.
+* Two type of threading:
+- Single Threading
+- Multi threading
+ 
+ 
+POSIX Thread
+The created threads within a process share
+instructions of a process
+process address space and data
+open file descriptors
+pwd, uid and gid
+ 
+The created threads maintain its own:
+thread identification number (tid)
+pc, sp, set of registers
+stack
+Signal Handlers priority of the threads scheduling policy
+ 
+Advantages of Threads:
+Takes less time for:
+* Creation of a new thread
+* Termination of a thread
+* Communication between threads are easier.
+ 
+ 
+There are two broad categories of thread
+implementation:
+1. User level Threads (ULT)
+2. Kernel level threads (or kernel-supported threads or Light weight processes)
+ 
+Thread management
+Thread management is done by the application and the kernel is not aware of the existence of threads.
+* Thread library contains code for creating and destroying threads, passing messages and data between threads, for scheduling thread execution and for saving and restoring
+thread contexts.
+* This thread application are allocated to a single process managed by the kernel.
+* All the activity takes place in user space and within a single process. The kernel continues to schedule the process as a unit and assigns a single execution state to that process.
+ 
+ 
+ULT
+Advantages:
+* Thread switching does not require kernel mode.
+* Scheduling can be application specific.
+* Can run on any OS.
+Disadvantages:
+* When it executes a system call, not only is that thread is
+blocked, but all the threads within the process are blocked.
+ 
+KLT
+Kernel Level Threads:
+* Thread management is done by the kernel
+- Advantage: If one thread in a process is blocked, kernel can schedule another thread of the same process.
+- Disadvantage: Transfer of control from one thread to another within the same process requires a mode switch to the kernel
+  </pre>
+<div style="width:374px;height:1254px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:37px;top:18px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:37px;top:636px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p68</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:228px;float:left;" class="slidecontent"> 
+Advantages of Multi Threading
+Improve application responsiveness
+Use multiprocessors more efficiently
+Improve program structure
+use fewer system resources
+Specific applications in uniprocessor machines
+Applications
+ A file server on a LAN
+ Graphical User Interfaces (GUIs)
+  web applications
+  </pre>
+<div style="width:480px;height:228px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div class="slideheader" style="height:114px;width:432px;">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  9. Multi Thread Programming</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Creating multiple threads
+</pre></li>   <li class="big"><h2><a name="chap9_1">Parent synchronization with other Thread</a></h2></li>   <li class="sml"><pre>System calls</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:57px;" class="slidecontent"> 
+Parent wait on join() system call to let children join them
+Hello Thread Example </pre>
+<div class="clr"></div> <pre style="height:180px;float:left;" class="code">#include &lt;pthread.h&gt;
+void thread_function (void) {
+printf (" Hello POSIX Thread
+");
+printf ("Thread id: %d
+", pthread_self());
+}
+main ( ) {
+pthread_t mythread;
+pthread_create ( &mythread, NULL, thread_function, NULL);
+pthread_join (mythread, NULL);
+} </pre>
+<div style="width:480px;height:180px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">$cc thread.c -lpthread
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:114px;width:432px;">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  9. Multi Thread Programming</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Creating multiple threads
+</pre></li>   <li class="sml"><pre>Parent synchronization with other Thread
+</pre></li>   <li class="big"><h2><a name="chap9_2">System calls</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:57px;" class="slidecontent"> 
+<b>1. pthread_create</b>
+  </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:15px;" class="code">#include &lt;pthread.h&gt; </pre>
+<div class="clr"></div> <pre style="height:190px;" class="slidecontent"> 
+int pthread_create(pthread_t *restrict thread,  const pthread_attr_t *restrict attr, void *(*start_routine)(void*), void *restrict arg);
+ 
+The pthread_create() function shall create a new thread, with attributes specified by attr, within a process. If attr is NULL, the default attributes shall be used. If the attributes specified by attr are modified later, the thread's attributes shall not be affected. Upon  successful completion, pthread_create() shall store the ID of the created thread in the location referenced by thread.
+  </pre>
+<div class="clr"></div> <pre style="height:378px;float:left;" class="codec">#include&lt;stdio.h&gt;
+#include&lt;unistd.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;pthread.h&gt;
+#include&lt;string.h&gt;
+ 
+void *thread_fun(void *arg);
+ 
+char message[]="hello world";
+ 
+int main()
+{
+int res;
+pthread_t a_thread;
+void *thread_result;
+ 
+res=pthread_create(&a_thread,NULL,thread_fun,(void *)message);
+if(res !=0){
+ perror("unable to create thread
+");
+ exit(1);
+}
+printf("waiting for thread to finish
+");
+//Thread joining, catch exit value from the thread	
+res=pthread_join(a_thread,&thread_result);
+ 
+if(res !=0){
+ perror("unable to join thread
+");
+ exit(1);
+}
+ 
+printf("thread joined , it returned %s
+",(char *)thread_result);
+printf("Message is now %s
+",message);
+exit(0);
+}
+ 
+void *thread_fun(void *arg)
+{ </pre>
+<div style="width:480px;height:378px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:12px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:304px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p69</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:63px;float:left;" class="codec">printf("thread fun ,arg is %s
+",(char *)arg);
+sleep(3);
+strcpy(message,"bye");
+//exit with return value
+pthread_exit("thank you");
+} </pre>
+<div style="width:480px;height:63px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+<b>2. pthread_key_create</b> </pre>
+<div class="clr"></div> <pre style="height:60px;" class="code">#include &lt;pthread.h&gt;
+ 
+int pthread_key_create(pthread_key_t *key, void (*destructor)(void*));
+ pthread_key_create - thread-specific data key creation </pre>
+<div class="clr"></div> <pre style="height:228px;float:left;" class="slidecontent"> 
+The pthread_key_create() function shall create a thread-specific data key visible to all threads in the process. Key values provided by pthread_key_create() are opaque objects used to locate thread-specific data. Although the same key value may be used by different threads, the values bound to the key by pthread_setspecific() are maintained on a per-thread basis and persist for the life of the calling thread.
+ 
+Upon key creation, the value NULL shall be associated with the new key in all active threads. Upon thread creation, the value NULL shall be associated with all defined keys in the new thread.
+  </pre>
+<div style="width:374px;height:228px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:540px;float:left;" class="codec">#include &lt;malloc.h&gt;
+#include &lt;pthread.h&gt;
+#include &lt;stdio.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;unistd.h&gt;
+ 
+/* The key used to associate a log file pointer with each thread. */
+static pthread_key_t thread_log_key;
+ 
+/* Write MESSAGE to the log file for the current thread. */
+ 
+void write_to_thread_log (const char* message)
+{
+FILE* thread_log = (FILE*) pthread_getspecific (thread_log_key);
+fprintf (thread_log, "%s
+", message);
+}
+ 
+/* Close the log file pointer THREAD_LOG. */
+void close_thread_log (void* thread_log)
+{
+fclose ((FILE*) thread_log);
+}
+ 
+ 
+void* thread_function (void* args)
+{
+char thread_log_filename[20];
+FILE* thread_log;
+/* Generate the filename for this thread's log file. */
+sprintf (thread_log_filename, "thread%d.log", (int) pthread_self ());
+/* Open the log file. */
+thread_log = fopen (thread_log_filename, "w");
+/* Store the file pointer in thread-specific data under thread_log_key. */
+pthread_setspecific (thread_log_key, thread_log);
+write_to_thread_log ("Thread starting.");
+/* Do work here... */
+return NULL;
+}
+main ()
+{
+int i;
+pthread_t threads[5];
+ 
+/* Create a key to associate thread log file pointers in
+thread-specific data. Use close_thread_log to clean up the file
+pointers. */
+ 
+pthread_key_create (&thread_log_key, close_thread_log);
+ 
+/* Create threads to do the work. */
+for (i = 0; i &lt; 5; ++i)
+pthread_create (&(threads[i]), NULL, thread_function, NULL);
+ 
+/* Wait for all threads to finish. */
+ 
+for (i = 0; i &lt; 5; ++i)
+pthread_join (threads[i], NULL);
+return 0;
+} </pre>
+<div style="width:480px;height:540px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:3px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:256px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+<b>3. pthread_mutex_init</b> </pre>
+<div class="clr"></div> <pre style="height:90px;" class="code">#include &lt;pthread.h&gt;
+ 
+int pthread_mutex_destroy(pthread_mutex_t *mutex);
+int pthread_mutex_init(pthread_mutex_t *restrict mutex, const pthread_mutexattr_t *restrict attr);
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER; </pre>
+<div class="clr"></div> <pre style="height:304px;float:left;" class="slidecontent"> 
+The pthread_mutex_destroy() function shall destroy the mutex object referenced by mutex; the mutex object becomes, in effect, uninitialized. An implementation may cause pthread_mutex_destroy() to set the object referenced by mutex to an invalid value. A destroyed mutex object can be reinitialized using pthread_mutex_init(); the results of oth erwise referencing the object after it has been destroyed are undefined.
+It shall be safe to destroy an initialized mutex that is unlocked. Attempting to destroy a locked mutex results in undefined behavior.
+ 
+The pthread_mutex_init() function shall initialize the mutex referenced by mutex with attributes specified by attr. If attr is NULL, the default mutex attributes are used; the effect shall be the same as passing the address of a default mutex attributes object. Upon successful initialization, the state of the mutex becomes initialized and unlocked.
+  </pre>
+<div style="width:374px;height:304px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:12px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p70</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:711px;float:left;" class="codec">#include&lt;stdio.h&gt;
+#include&lt;unistd.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;string.h&gt;
+#include&lt;pthread.h&gt;
+#include&lt;semaphore.h&gt;
+ 
+void *thread_fun(void *arg);
+ 
+pthread_mutex_t work_mutex;
+ 
+char work_area[1024];
+int time_to_exit=0;
+int main()
+{
+int res;
+pthread_t a_thread;
+void *thread_result;
+	
+res=pthread_mutex_init(&work_mutex,NULL);//initialize mutex  default attr
+res=pthread_create(&a_thread,NULL,thread_fun,NULL);
+pthread_mutex_lock(&work_mutex); //put a lock to the main thread, then enjoy
+	
+printf("input some text enter end to finish
+");
+while(!time_to_exit)	{
+ fgets(work_area,1024,stdin);
+ 
+ //unlock the main thread,your subordinate is waiting
+ pthread_mutex_unlock(&work_mutex);
+ while(1){
+  pthread_mutex_lock(&work_mutex);//lock it is your turn
+  if(work_area[0] != '\0') {
+   pthread_mutex_unlock(&work_mutex);
+   sleep(1);
+  }
+  else
+  break;
+ 
+ }
+}
+ 
+pthread_mutex_unlock(&work_mutex);
+printf("waiting for thread to finish
+");
+res=pthread_join(a_thread,&thread_result);
+printf("thread joined , it returned %s
+",(char *)thread_result);
+pthread_mutex_destroy(&work_mutex);
+exit(0);
+}
+ 
+ 
+void *thread_fun(void *arg)
+{
+sleep(1);//Sleep well Let main thread send some data
+pthread_mutex_lock(&work_mutex);//lock the curr thread
+while(strncmp("end",work_area,3) !=0)
+{
+ printf("you entered %d characters
+",strlen(work_area) -1);	
+ work_area[0]='\0';
+ pthread_mutex_unlock(&work_mutex);//unlock the current thread
+ sleep(1);//Sleep well , Let main thread do it's job
+ pthread_mutex_lock(&work_mutex);
+ while(work_area[0] == '\0')
+ {
+  pthread_mutex_unlock(&work_mutex);
+  sleep(1);
+  pthread_mutex_lock(&work_mutex);
+ }
+}
+time_to_exit=1;
+work_area[0]='\0';	
+pthread_mutex_unlock(&work_mutex);
+ 
+pthread_exit("thank you");
+ 
+}//End of the function </pre>
+<div style="width:480px;height:711px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:4px;top:17px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_160_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:308px;top:17px;display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="7132887972"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:4px;top:634px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main9" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p71</a>
+</div>

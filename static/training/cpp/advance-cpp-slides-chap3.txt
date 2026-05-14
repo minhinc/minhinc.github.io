@@ -1,0 +1,1258 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>C++ Essentials Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:162px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding principles of Object Oriented Programming Overview
+Understanding the structure of a c++ program
+Understanding Polymorphism
+Understanding UML modeling
+Practical labs with GNU g++ compiler</pre>
+  </div>
+ </div>
+ <div style="height:96px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Three days - 40 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:74px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:96px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting large scale products.</pre>
+  </div>
+ </div>
+ <div style="height:294px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of C programming</b>
+In particular, participants must be familiar with creating and dealing with
+complex data types and structures, with pointers to such symbols, as well as
+with function pointers.
+Advance C training agenda is available at
+<a href="http://minhinc.42web.io/training/c/advance-c-slide.php">http://minhinc.42web.io/training/c/advance-c-slide.php</a>
+and can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-c-slide.pdf">http://minhinc.42web.io/training/advance-c-slide.pdf</a>
+
+<b>Knowledge of Object Oriented Concepts</b>
+Oops concept like Abstraction, Inheritance, Polymorphism would help.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:74px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Linux machine with GNU g++ compiler installed.</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-cpp-slides.pdf">http://minhinc.42web.io/training/advance-cpp-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:91px">Labs session would be completely hands on session where each example
+(with example data and execution instruction) would be provided to the
+students. Students can verify their results with the results provided in
+the material.</pre>
+ </div>
+ <div style="width:960px;height:201px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:0px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:90px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:278px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-cpp-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php#chap1_0"><pre>Source File</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_1"><pre>Header file</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_2"><pre>Object File</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_3"><pre>Declaration and Definition</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_4"><pre>Pre-processing, Compiling, Linking, Loading and Running</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_5"><pre>Executable File Format</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_6"><pre> Segments (.bss, .code, .data etc)</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_7"><pre>Creating static library</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_8"><pre>Creating dynamic library</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_9"><pre>Function calling convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_10"><pre>Function naming convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_11"><pre>Function prototype</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:297px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-cpp-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Functions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=2#chap2_0"><pre>Function calling convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_1"><pre>Function naming convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_2"><pre>Function prototype</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_3"><pre>Function stack frame</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_3"><pre>Return</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_4"><pre>Inline functions</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_5"><pre>Virtual function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_6"><pre>Function overloading</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_7"><pre>Function default parameters</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_8"><pre>Pass by value, pass by reference</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_9"><pre>Unamed function parameter</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_10"><pre>Variable parameter list</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=2#chap2_11"><pre>Static functions</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:92px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:1px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:202px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main3" href="#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Array Pointers References</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap3_0"><pre>Defining and initializing Array</pre></a></li>
+    <li><a href="#chap3_1"><pre>Definining and Initializing Pointers</pre></a></li>
+    <li><a href="#chap3_2"><pre>Using pointers to access array elements</pre></a></li>
+    <li><a href="#chap3_3"><pre>Pointers and const qualifiers</pre></a></li>
+    <li><a href="#chap3_4"><pre>Dynamically allocated arrays</pre></a></li>
+    <li><a href="#chap3_5"><pre>References</pre></a></li>
+    <li><a href="#chap3_6"><pre>Independent references and restriction</pre></a></li>
+    <li><a href="#chap3_7"><pre>Multidimensional array argument to function</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:202px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-cpp-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Namespaces</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=4#chap4_0"><pre>What is namespace</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_1"><pre>Scope resolution</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_2"><pre>Using declaration</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_3"><pre>Aliases</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_4"><pre>Unnamed namespace</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_5"><pre>Overloading and namespaces</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_6"><pre>Namespace and templates</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:259px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a cpp file and make static and
+ shared library. Call library in main.</pre></li>
+    <li><pre>Write a function to accept multidimentional 
+array as an argument</pre></li>
+    <li><pre>Modify function argument to accept
+ reference to array.</pre></li>
+    <li><pre>Implement a function to accept pointer to
+ int and check were boundary overflow is
+ not checked by the compiler.</pre></li>
+    <li><pre>Emulate file scope static variable with
+ unnamed namespace</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:194px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:4px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:98px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:297px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-cpp-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Overview of C++</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=5#chap5_0"><pre>Object oriented programmming</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_1"><pre>C++ class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_2"><pre>Attribute and method</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_3"><pre>Private, protected and public access controls</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_4"><pre>Constructor, synthesised default constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_5"><pre>Copy control</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_6"><pre>Object</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_7"><pre>Array of objects</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_8"><pre>Virtual methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_9"><pre>Mutable data members and const methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_10"><pre>Class relationships, inheritance and containment</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_11"><pre>Static attributes and static methods.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_12"><pre>Friend function and class</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-cpp-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Virtual concepts</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=6#chap6_0"><pre>Object slicing</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_1"><pre>Calling virtual function for constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_2"><pre>Calling virtual function from non virtual function.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_3"><pre>Non member virtual function.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_4"><pre>Dual dispatching</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:148px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:9px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:9px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:78px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:78px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-cpp-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Copy Control</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=7#chap7_0"><pre>Copy constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_1"><pre>Synthesized copy constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_2"><pre>Explicit qualifier</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_3"><pre>Preventing copies</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_4"><pre>Assignment operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_5"><pre>Destructor</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a simple class with overriden
+ constructor and destrutor</pre></li>
+    <li><pre>Write copy control for a class</pre></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-cpp-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Object Model and Polymorphism</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=8#chap8_0"><pre>Table driven model</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_1"><pre>Object model with single inheritance (SI)</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_2"><pre>Object model with multiple inheritance(MI)</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_3"><pre>Vtable</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_4"><pre>Vtable with virtual methods with SI and MI</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_5"><pre>Virtual base class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_6"><pre>Thunk based and Offset based object model</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_7"><pre>Thunk based and offset based object model</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-cpp-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inheritance</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=9#chap9_0"><pre>Base class and drive class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_1"><pre>Virtual methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_2"><pre>Pure virtual methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_3"><pre> Changing scope of base member in derived classes</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_4"><pre>Multiple inheritance</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_5"><pre>Polymorphism</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_6"><pre>Friend function and friend class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_7"><pre>Function overriding</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_8"><pre>Function overloading and default parameter</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_9"><pre>Interface and Implementation inheritance</pre></a></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:162px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:4px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:98px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:98px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-cpp-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Generic Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=10#chap10_0"><pre>What is generic programming</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_1"><pre>Iterator vs pointer</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_2"><pre>Read only and write to container algorithms</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_3"><pre>Five iterator categories</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_4"><pre>Insert iterators</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_5"><pre>Iostream iterator</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Check vtable entry through gdb</pre></li>
+    <li><pre>Write multiple inheritance class</pre></li>
+    <li><pre>Use Iostream iterator</pre></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:237px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:12px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:12px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:220px;top:114px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-cpp-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Operator overloading</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=11#chap11_0"><pre> Basics of operator overloading</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_1"><pre>Overloading as method and non member function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_2"><pre>Overloading binary operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_3"><pre>Overloading relational and logical operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_4"><pre>Overloading unary operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_5"><pre>Overloading assignment operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_6"><pre>Overloading [] operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_7"><pre> Creating a conversion function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_8"><pre> Conversion & class types</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-cpp-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Templates</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=12#chap12_0"><pre>Generic class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_1"><pre>Class template</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_2"><pre>Template argument deduction</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_3"><pre>Function template explicit arguments</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_4"><pre> Function template friend function and class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_5"><pre>Specialization</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_6"><pre> Template bloating</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_7"><pre>Sequential standard template libraries</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_8"><pre>Associative standard template libraries</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-cpp-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Exception handling</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=13#chap13_0"><pre>Resumption and termination</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_1"><pre>Stack unwinding</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_2"><pre>Throwing and catching exception</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_3"><pre>Polymorphism</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_4"><pre>set_terminate function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_5"><pre>Function try block and exception.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_6"><pre>Exception specification</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_7"><pre>Function pointer exception specifications</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Impement prefix and postfix operator</pre></li>
+    <li><pre>write specialized template for adding any two
+ entities</pre></li>
+    <li><pre>Use object slicing to get base class
+exception object from derived object</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:127px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:278px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-cpp-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=14#chap14_0"><pre>New and delete operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_1"><pre>Exception bad_alloc from new</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_2"><pre>Allocator allocate</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_3"><pre>Allocator construct</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_4"><pre>Operator new, operator delete</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_5"><pre>Placement new</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_6"><pre>Array operator new[] and operator delete[]</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_7"><pre>Allocator construct vs placement new</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_8"><pre>Class specific new and delete</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_8"><pre>Member new and delete</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_9"><pre>Singleton pattern</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_10"><pre>Identifying object on heap or stack</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main15" href="./advance-cpp-slides.php?chap=15#chap15" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - RTTI</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=15#chap15_0"><pre>typeid operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_1"><pre>dynamic_cast operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_2"><pre>type_info class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_3"><pre>dynamic_cast vs static_cast</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_4"><pre>reinterpret_cast</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:80px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main16" href="./advance-cpp-slides.php?chap=16#chap16" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Modern C++ Ox,11x,14x,17x,20x versions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=16#chap16_0"><pre>C++11 Intro</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_1"><pre>Explicit Virtual Overrides</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_2"><pre>Uniform Initialization</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_3"><pre>Constructors</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_4"><pre>Type Interface</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_5"><pre> Range based for loop</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_6"><pre>Lambdas</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_7"><pre>Functional programming</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:202px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:1px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:125px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:62px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:62px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main17" href="./advance-cpp-slides.php?chap=17#chap17" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Pointer to class member</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=17#chap17_0"><pre>Declaring pointer to class member</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=17#chap17_1"><pre> Using pointer to class member</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=17#chap17_2"><pre>Command design pattern</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main18" href="./advance-cpp-slides.php?chap=18#chap18" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Nested class and volatile operator</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=18#chap18_0"><pre>Defining nested class members</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=18#chap18_1"><pre>Defining nested class outside the enclosing class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=18#chap18_2"><pre>Volatile qualifier</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p5</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>overload new and delete operator</pre></li>
+    <li><pre>Print RTTI of base and drive class
+ object</pre></li>
+   </ul>
+ </div><div style="width:475px;height:107px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:23px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+
+</div>
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">C++ Essentials</pre><pre class="slidesubtitle">C++ Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-cpp-slides.pdf">http://minhinc.42web.io/training/advance-cpp-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-15-2021 
+
+Document contains 97 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap3">&nbsp;<div class="slideheader" style="height:164px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <h1><pre class="topic">  3. Array Pointers References</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap3_0">Defining and initializing Array</a></h2></li>   <li class="sml"><pre>Definining and Initializing Pointers
+</pre></li>   <li class="sml"><pre>Using pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamically allocated arrays
+</pre></li>   <li class="sml"><pre>References
+</pre></li>   <li class="sml"><pre>Independent references and restriction
+</pre></li>   <li class="sml"><pre>Multidimensional array argument to function</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent"> 
+- Array has to be initialized with constant variable that is qualified at compile time </pre>
+<div class="clr"></div> <pre style="height:60px;" class="code">int ia[get_size()]  // get_size() is function and resolved at run time
+const int size=get_size(); // size resolved at run time
+int ia[size]; // error
+int ia[10*2-10]; // resolved at compile time </pre>
+<div class="clr"></div> <pre style="height:95px;" class="slidecontent"> 
+- Local copy are uninitialized where as global copy is initialized to 0.
+- Array carrying objects are initialized with default constructor where ever they are declared. If default constructors are not available then array has to be initialized explicitly. </pre>
+<div class="clr"></div> <pre style="height:300px;float:left;" class="code">#include &lt;iostream&gt;
+using namespace std;
+ 
+const int array_size=3;
+class classA{
+public:
+classA(){}
+classA(const char* name):_name(name){}
+const char* name(){return _name.c_str();}
+private:
+string _name;
+};
+int main(int argc, char *argv[]) {
+classA arrayclA[array_size]={"one","two","three"};
+const classA *arrayc2A=new const classA[array_size];
+classA *arrayc3A=new classA[array_size]();
+const int *pa=new const int[array_size];
+//const int *pa=new const int[array_size]();
+return 0;
+} </pre>
+<div style="width:480px;height:300px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:10px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+$ g++ main.cpp </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">main.cpp: In function 'int main(int, char**)':
+main.cpp:17: error: uninitialized const in 'new' of 'const int' </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- Array can not be copied or assigned </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">int ia2[](ia); // error
+ia2 = ia1; //error </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- Array size can not be known. </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">sizeof(arr)/sizeof(&arr[0]) </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- Array memory management is in users hand. Chance of memory overwriting </pre>
+<div class="clr"></div> <pre style="height:225px;float:left;" class="code">const int array_size = 4;
+ int main(int argc, char *argv[]) {
+ int ia[] = {0, 1, 2};
+ char ca[] = "C++";
+ char cal[] = {'C', '+', '+', '\0' };
+ 
+ /* array of objects */
+ /* equivalent to "hi", "bye", "", ""*/
+ string str_arr[array_size] = {"hi", "bye"};
+ cout&lt;&lt;ia[0]&lt;&lt;" : "&lt;&lt;ia[1]&lt;&lt;" : "&lt;&lt;ia[2]&lt;&lt;endl;
+ cout&lt;&lt;ca&lt;&lt;endl;
+ cout&lt;&lt;cal&lt;&lt;endl;
+ cout&lt;&lt;str_arr[0]&lt;&lt;" : "&lt;&lt;str_arr[1]&lt;&lt;" : "&lt;&lt;str_arr[2]&lt;&lt;" : "&lt;&lt;str_arr[3]&lt;&lt;endl;
+ return 0;
+ } </pre>
+<div style="width:356px;height:225px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:78px;top:12px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+- In case of character strings use strn, i.e strncpy, strncat.
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:164px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defining and initializing Array
+</pre></li>   <li class="big"><h2><a name="chap3_1">Definining and Initializing Pointers</a></h2></li>   <li class="sml"><pre>Using pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamically allocated arrays
+</pre></li>   <li class="sml"><pre>References
+</pre></li>   <li class="sml"><pre>Independent references and restriction
+</pre></li>   <li class="sml"><pre>Multidimensional array argument to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p29</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:75px;float:left;" class="code">type * pointer_name[,*pointer,name2,..];
+char * terry = "hello"; //character string
+const char *terry;//pointer to constant char
+char *const terry;//const pointer to char
+const char *const terry;//const pointer to char const </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Various library function involving char pointer manipulation </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">str[n]cpy,str[n]cat,str[n]cmp,strdup,bcopy,memccopy,
+memcpy,memmove,string,wcscpy,wcsncpy,index, rindex,
+strcasecmp, strchr, strcmp, strcoll, strcspn,  strfry,
+strlen,  strncasecmp,  strpbrk, strrchr, strsep, strspn,
+strstr, strtok, strxfrm </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+Dynamically allocating array
+ - allocating on heap, size of array can be estimated at run time. </pre>
+<div class="clr"></div> <pre style="height:105px;" class="code"> - int *pia = new int[10]; // uninitialized
+            = new int [size_arrary]; // const int size_array=size_of_array();
+            = new int[size_of_array()];
+ - int *pia2 = new int[10](); // value initialized
+ - const int *pci = new int[10]; //error, not initialized
+ - const int *pci = new int[10]();// ok, initialized
+ - const string *pcs = new string[10]; // empty string </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Its legal to dynamically allocate empty array unless dereferenced </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">char arr[0]; // error
+char arr = new char[0];// ok
+char arr = new char[get_size()];//get_size() can return 0; </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+Dynamically allocated array can be deleted with delete [] pia;
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:164px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defining and initializing Array
+</pre></li>   <li class="sml"><pre>Definining and Initializing Pointers
+</pre></li>   <li class="big"><h2><a name="chap3_2">Using pointers to access array elements</a></h2></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamically allocated arrays
+</pre></li>   <li class="sml"><pre>References
+</pre></li>   <li class="sml"><pre>Independent references and restriction
+</pre></li>   <li class="sml"><pre>Multidimensional array argument to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:114px;float:left;" class="slidecontent"> 
+- Pointer works in dynamic allocation
+- Array of pointers
+  classA *arrp=new classA[10];
+ 
+- Pointer to array of size 10 </pre>
+<div style="width:480px;height:114px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:27px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:375px;float:left;" class="code">  classA (*ptoarr)=new classA[10];
+  classA arryofarry[3][10];
+  ptoarr=&arryofarry[2];
+ 
+int (*pa)[10]; // pointer to array of size 10
+               // array of 10 ints
+++pa;// incrementing will increment 10 ints
+int pi[10];//array of int*
+ 
+int arr[4][10]
+pa=arr;
+pa++
+ 
+int (*pa)[10];
+int arr[4][10];
+pa=arr;
+i=0;
+for(j=0;j&lt;4;j++){
+for(k=0;k&lt;10;k++)
+arr[j][k]=i;
+++i;
+}
+++pa;
+for(j=0;j&lt;10;j++)
+cout&lt;&lt;pa[0][j]; </pre>
+<div style="width:480px;height:375px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:11px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:302px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Multi dimensional array </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">void func(int (*a)[10]);
+void func(int a[][10]);
+void func(int a[4][10]);
+int a[4][10];
+func(a); </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p30</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:164px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defining and initializing Array
+</pre></li>   <li class="sml"><pre>Definining and Initializing Pointers
+</pre></li>   <li class="sml"><pre>Using pointers to access array elements
+</pre></li>   <li class="big"><h2><a name="chap3_3">Pointers and const qualifiers</a></h2></li>   <li class="sml"><pre>Dynamically allocated arrays
+</pre></li>   <li class="sml"><pre>References
+</pre></li>   <li class="sml"><pre>Independent references and restriction
+</pre></li>   <li class="sml"><pre>Multidimensional array argument to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent"> 
+read from the right to left. </pre>
+<div class="clr"></div> <pre style="height:105px;float:left;" class="code">const char *terry;//pointer to constant char
+char *const terry;//const pointer to char
+const char *const terry;//const pointer to char const
+ 
+Constant pointers must be initialized at the time of construction
+const int *pa=new const int[10]; //error not initialized
+const int *pa=new const int[10](); // value initialized </pre>
+<div style="width:474px;height:105px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:22px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:164px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defining and initializing Array
+</pre></li>   <li class="sml"><pre>Definining and Initializing Pointers
+</pre></li>   <li class="sml"><pre>Using pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="big"><h2><a name="chap3_4">Dynamically allocated arrays</a></h2></li>   <li class="sml"><pre>References
+</pre></li>   <li class="sml"><pre>Independent references and restriction
+</pre></li>   <li class="sml"><pre>Multidimensional array argument to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:114px;" class="slidecontent"> 
+- new is used for dynamic allocation
+- new operator calls operator new to allocate byte memory followed by calling default constructor to initialize the object.
+- new without parentheses does not initialize built in types where as calls default constructor for class types </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">int *pi = new int; // uninitialized
+string *ps = new string; // initialized to empty string </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+ 
+new when unsuccessful throws bad_alloc exception. </pre>
+<div class="clr"></div> <pre style="height:225px;float:left;" class="code">                           ----------------
+                           |  exception   |
+                           ----------------
+                                   |
+       +---------------------------------------------------+
+       |                  |             |                  |
+--------------    ---------------  -------------    -------------
+|  bad_cast  |    |runtime_error|  |logic_error|    | bad_alloc |
+--------------    ---------------  -------------    -------------
+ 
+ 
+ 
+new[] operator can be used to allocate array of values
+new[] operator calls operator new[] followed by calling default constructor.
+int *pi=new int[100]; </pre>
+<div style="width:393px;height:225px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:96px;top:12px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;" class="slidecontent"> 
+- value initialized then built in types are initialized where as class types as per the argument. When no argument is passed then default constructor is called.
+- value initialized </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">string *ps = new string() ; // default constructor
+int *pi = new int(); // pi points to an int value-initialized to 0
+int *pi = new int(210); // pi points to an int value-initialized to 210 </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+- new calls operator new to allocate the bytes of memory followed by object creation by calling default constructor. </pre>
+<div class="clr"></div> <pre style="height:180px;float:left;" class="code">class classA{
+public:
+classA(const char* name):_name(name){}
+const char* name(){return _name.c_str();}
+private:
+string _name;
+};
+int main(int argc, char *argv[]) {
+classA *pc=new classA("heapallocation");
+cout&lt;&lt;pc-&gt;name()&lt;&lt;endl;
+return 0;
+} </pre>
+<div style="width:480px;height:180px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:95px;" class="slidecontent"> 
+- delete can not be used on a pointer that is not allocated through new
+- delete can happen on NULL pointers.
+- After deletion pointer can still be used but its illegal and undefined.
+- Dynamic allocation to const objects uses new const statement </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p31</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:30px;" class="code">const int *pci = new const int(1024);
+delete pci; </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- delete[] operator deletes the array allocated through new[] </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">int *pa=new int[4];
+delete [] pa; </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:164px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defining and initializing Array
+</pre></li>   <li class="sml"><pre>Definining and Initializing Pointers
+</pre></li>   <li class="sml"><pre>Using pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamically allocated arrays
+</pre></li>   <li class="big"><h2><a name="chap3_5">References</a></h2></li>   <li class="sml"><pre>Independent references and restriction
+</pre></li>   <li class="sml"><pre>Multidimensional array argument to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:133px;" class="slidecontent"> 
+- A reference serves as an alternative name for an object.
+- A reference is a compound type that is defined by preceding a variable name by the & symbol. A compound type is defined in terms of other types.
+- Think of a variable name as a label attached to the variables location in the memory. Think of a reference as a second label attached to that memory location.
+  </pre>
+<div class="clr"></div> <pre style="height:525px;float:left;" class="code">int ival = 1024;
+int &refVal = ival;
+int &refVal2; // error
+int &refVal3=10; //error
+int &refVal4=refVal;
+int &ref[];// array of reference not valid error
+int (&ref)[10];//reference to array
+void printValuesRef(int (&ref)[10]);
+void printValuesArr(int arr[]);
+void printValuesArr1(int *arr);
+void printValuesArr2(int arr[20]);
+int main(int argc, char *argv[]) {
+int k[10]={0,1,2,3,4,5,6,7,8,9};
+printValuesRef(k);
+printValuesArr(k);
+printValuesArr1(k);
+printValuesArr2(k);
+return 0;
+}
+void printValuesRef(int (&ref)[10]) {
+for(size_t i=0; i != 10; ++i)
+cout&lt;&lt;ref[i]&lt;&lt;endl;
+}
+void printValuesArr(int arr[]) {
+for(size_t i=0; i != 10; ++i)
+cout&lt;&lt;arr[i]&lt;&lt;endl;
+}
+void printValuesArr1(int *arr){
+for(size_t i=0; i != 10; ++i)
+cout&lt;&lt;arr[i]&lt;&lt;endl;
+}
+void printValuesArr2(int arr[20]){
+for(size_t i=0; i != 10; ++i)
+cout&lt;&lt;arr[i]&lt;&lt;endl;
+} </pre>
+<div style="width:480px;height:525px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:8px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:10px;top:266px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:270px;top:266px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:133px;" class="slidecontent"> 
+v Passing references to objects
+- Reference to object is important when object is big in size and copy is costly operation. const reference is also useful when object need not be modified.
+- Reference to object is mostly useful in stream objects where single object copy is maintained.
+  </pre>
+<div class="clr"></div> <pre style="height:105px;float:left;" class="code">ofstream out1, out2;
+ofstream print(ofstream);
+out2 = print(out2); // error; cannot copy stream objects
+ofstream print(ofstream&);//ok
+bool isShorter(const string &s1, const string &s2){
+return s1.size() &lt; s2.size();
+} </pre>
+<div style="width:480px;height:105px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:22px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:190px;" class="slidecontent"> 
+- Its always good to have const reference as parameter.
+ 
+v Returning references
+- When a function returns a reference, it returns an implicit pointer to its return value. This way, a function can be used on the left side of an assignment statement.
+- When returning a reference, be careful that the object being referred to does not go out of scope.
+- It is not legal to return a reference to local var. But you can always return a reference on a static variable. </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p32</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:164px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defining and initializing Array
+</pre></li>   <li class="sml"><pre>Definining and Initializing Pointers
+</pre></li>   <li class="sml"><pre>Using pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamically allocated arrays
+</pre></li>   <li class="sml"><pre>References
+</pre></li>   <li class="big"><h2><a name="chap3_6">Independent references and restriction</a></h2></li>   <li class="sml"><pre>Multidimensional array argument to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:76px;" class="slidecontent"> 
+- Independent reference can not exist. Its only possible as class member variable then it has to be initialized in constructor.
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:164px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defining and initializing Array
+</pre></li>   <li class="sml"><pre>Definining and Initializing Pointers
+</pre></li>   <li class="sml"><pre>Using pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamically allocated arrays
+</pre></li>   <li class="sml"><pre>References
+</pre></li>   <li class="sml"><pre>Independent references and restriction
+</pre></li>   <li class="big"><h2><a name="chap3_7">Multidimensional array argument to function</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:360px;float:left;" class="code">#include &lt;iostream&gt;
+using namespace std;
+ 
+void printarray(int (&arr)[4][4]){
+int i=0,j=0;
+for (i=0;i&lt;4;i++){
+for (j=0;j&lt;4;j++)
+cout&lt;&lt;arr[i][j]&lt;&lt;" ";
+cout&lt;&lt;endl;
+}
+}
+void preparearray(int (&arr)[4][4]){
+int i=0,j=0;
+for (i=0;i&lt;4;i++)
+for (j=0;j&lt;4;j++)
+arr[i][j]=i;
+}
+ 
+int main(int argc,char *argv[]){
+int arr[4][4];
+preparearray(arr);
+printarray(arr);
+return 0;
+} </pre>
+<div style="width:480px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:6px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:292px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">$ g++ valueref.cpp
+$ ./a.out </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">0 0 0 0
+1 1 1 1
+2 2 2 2
+3 3 3 3 </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p33</a>
+</div>

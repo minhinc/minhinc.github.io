@@ -1,0 +1,1257 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>Qml QtQuick Essentials Training</pre>
+ <pre class=subtitle>3-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:182px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Qt Quick scene graph concept
+Understanding Qml Component/Document/Module Architecute
+Understanding QtQuick classes
+Exporting C++ class to Qml as object and class type
+Three layers software development with qml and c++
+Dynamic Properties</pre>
+  </div>
+ </div>
+ <div style="height:94px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Three days - 24 hours
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:336px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of Qt programming</b>
+Knowledge of Qt programming is important. Technically Qml is javascript
+counter part of C++ Qt. Knowing Qt will help fast understanding of Qml.
+Qt slides can browsed at
+<a href=http://minhinc.42web.io/training/qt/advance-qt-slides.php>http://minhinc.42web.io/training/qt/advance-qt-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-qt-slides.pdf>http://minhinc.42web.io/training/advance-qt-slides.pdf</a>
+
+<b>Knowledge of GUI and other concepts</b>
+Qt/Qml is used for GUI development and many other technologies including 
+Networks, operating systems, Database, scripting. Basic knowledge of these domains 
+are required as per the Qt/Qml is developed for the particular domain.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:72px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu LTS 16.04, Qt 5.[>6]</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:91px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries. Lecture content can be downloaded at 
+<a href=http://minhinc.42web.io/training/advance-qml-slides.pdf>http://minhinc.42web.io/training/advance-qml-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Labs session would be completely hands on session where each example (with
+example data and execution instruction) would be provided to the students. Students
+can verify their results with the results provided in the material.</pre>
+ </div>
+ <div style="width:960px;height:253px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:202px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-qml-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Qt Quick and QML</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php#chap1_0"><pre>QObject Meta Object System</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_1"><pre>Defining Qml Component</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_2"><pre>Tree of QML Objects</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_3"><pre>Qml Types
+ - Visual
+ - Non Visual</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_4"><pre>Qt Quick classes</pre></a></li>
+    <li><a href="./advance-qml-slides.php#chap1_5"><pre>Data Type Conversion Between QML and C++</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main2" href="#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qt Properties</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap2_0"><pre>Combination of Get/Set/Notifiy</pre></a></li>
+    <li><a href="#chap2_1"><pre>Declaration of a Qt property</pre></a></li>
+    <li><a href="#chap2_2"><pre>Qt Property with Enum</pre></a></li>
+    <li><a href="#chap2_3"><pre>Getting & Setting Qt Properties</pre></a></li>
+    <li><a href="#chap2_4"><pre>Dynamic Properties</pre></a></li>
+    <li><a href="#chap2_5"><pre>Signal and Slots</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:101px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-qml-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Building Blocks of QML</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=3#chap3_0"><pre>QuickItem</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=3#chap3_1"><pre>Variant
+ - QVariant and QML</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=3#chap3_2"><pre>Variant Containers
+ - QVariantList
+ - QVariantMap
+ - QList
+ - QQmlListProperty</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=3#chap3_3"><pre>Import QML document in another QML
+document as a package</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:240px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-qml-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Composing UIs</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=4#chap4_0"><pre>Nested Items</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=4#chap4_1"><pre>Graphical QML Types</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=4#chap4_2"><pre>Text Type</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=4#chap4_3"><pre>Anchor Layouts</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a QML document</pre></li>
+    <li><pre>Import QML document in another QML
+document as a package</pre></li>
+    <li><pre>Use anchor layout to place current window
+with imported window in some layout fashion.</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:274px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:392px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-qml-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - User Input</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=5#chap5_0"><pre>Keyboard Navigation and Focus</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=5#chap5_1"><pre>Input Focus
+ - Focus property
+ - Focus Order
+ - Active Focus
+ - Focus Scope</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=5#chap5_2"><pre>Handling Keyboard input
+ - Key-Specific Handlers
+ - All keys Handler
+ - Key Event Propogation
+ - Event Propogation is Convenient</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=5#chap5_3"><pre>Multi-Touch
+ - Common Multi-Touch Gestures
+ - Handling Overlapping Touch Areas</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=5#chap5_4"><pre>Mouse/Single-Touch
+ - Tap
+ - Double-Tap
+ - Top and Hold</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-qml-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Components and Structures</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=6#chap6_0"><pre>Components</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_1"><pre>Dividing code into Components
+ - Creating new Items through new .qml file
+ - Creating Component dynamically</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_2"><pre>Modules</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_3"><pre>Write qml component as a separate .qml file</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=6#chap6_4"><pre>qmldir file
+ - Directory import
+ - Module import</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:104px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:7px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-qml-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Qt Quick Controls</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=12#chap12_0"><pre>Qt Quick Designer</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_1"><pre>Qt Quick Controls</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_2"><pre>Application Window</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_3"><pre>Controls and Views</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_4"><pre>Layouts</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_5"><pre>Styling</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=12#chap12_6"><pre>Qml Transformation</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:183px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-qml-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - State and Transitions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=7#chap7_0"><pre>States</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=7#chap7_1"><pre>State Conditions</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=7#chap7_2"><pre>Transitions</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Emit signal when mouse moves over an area</pre></li>
+    <li><pre>Write qml component as a separate .qml file</pre></li>
+    <li><pre>Place Anchor layout inside Vertical layout</pre></li>
+   </ul>
+ </div>
+
+ <div style="width:960px;height:157px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:2px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-qml-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Dynamic Creation of Items</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=8#chap8_0"><pre>Creating custom Item</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=8#chap8_1"><pre>Creating Items Dynamically
+ - Procedural Method
+ - Procedural/Declarative Creation
+ - Declarative Method</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=8#chap8_2"><pre>Creating Multiple Items</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=8#chap8_3"><pre>Repeaters</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:259px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-qml-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - C++ Integration</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=9#chap9_0"><pre>Declartive Envrionment
+ -QQmlApplicationEngine
+ -QQuickView</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_1"><pre>Exporting C++ Objects to QML
+ -QQmlContext</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_2"><pre>Exporting Classes to QML</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_3"><pre>Exporting Non-GUI Classes</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_4"><pre>Exporting Qpainter based GUI Classes
+ -QQuickPaintedItem</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_5"><pre>Building an application as a Library</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=9#chap9_6"><pre>Using Custom Types Plugins</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:85px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-qml-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Graphical Effects</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=10#chap10_0"><pre>Canvas</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=10#chap10_1"><pre>Particles</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=10#chap10_2"><pre>Shaders</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:107px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:23px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:135px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-qml-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Animations</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=11#chap11_0"><pre>Animations
+ - PropertyAnimation
+ - ParallelAnimation
+ - SequentialAnimation
+ - PathAnimation</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_1"><pre>Behaviour on <property></pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_1"><pre>Animation on <property></pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_1"><pre>StandAlone Animation</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_2"><pre>Easing Curves</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=11#chap11_3"><pre>Animation Groups</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-qml-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Presenting Data</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-qml-slides.php?chap=13#chap13_0"><pre>Data Item
+- Arranging Items
+  - Positioners
+  - Repeaters</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=13#chap13_1"><pre>Scene Graph
+ - Data Models
+ - Using Views
+ - Using Delegates</pre></a></li>
+    <li><a href="./advance-qml-slides.php?chap=13#chap13_2"><pre>Implement List data model view through delegate</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Define component dynamically</pre></li>
+    <li><pre>Implement Ecllipse as Qml Class type</pre></li>
+    <li><pre>Place the Ecllipse class type as Library</pre></li>
+    <li><pre>Implement List data model view through
+delegate</pre></li>
+   </ul>
+ </div><div style="width:475px;height:145px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+
+</div>
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">Qml Essentials</pre><pre class="slidesubtitle">Qml Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-qml-slides.pdf">http://minhinc.42web.io/training/advance-qml-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-13-2021 
+
+Document contains 77 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap2">&nbsp;<div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <h1><pre class="topic">  2. Qt Properties</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap2_0">Combination of Get/Set/Notifiy</a></h2></li>   <li class="sml"><pre>Declaration of a Qt property
+</pre></li>   <li class="sml"><pre>Qt Property with Enum
+</pre></li>   <li class="sml"><pre>Getting & Setting Qt Properties
+</pre></li>   <li class="sml"><pre>Dynamic Properties
+</pre></li>   <li class="sml"><pre>Signal and Slots</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:152px;" class="slidecontent"> 
+Get, Set and Notify are getter, setter and setter notification signal function addition to Meta Object System. A new property is introducted in Meta Object System which is visible on QML side. Same thing can be achieved on Qml side when a new property and assiciated functions gets added to Meta Object System. As per Qml design those property as visible on C++ side also and signal handler to signal added in Qml side can be introduced in C++ side.
+  </pre>
+<div class="clr"></div> <pre style="height:285px;float:left;" class="code">class Message : public QObject
+{
+ Q_OBJECT
+ Q_PROPERTY(QString author READ author WRITE setAuthor NOTIFY authorChanged)
+public:
+ void setAuthor(const QString &a) {
+  if (a != m_author) {
+   m_author = a;
+   emit authorChanged();
+  }
+ }
+ QString author() const {
+  return m_author;
+ }
+ signals:
+  void authorChanged();
+ private:
+  QString m_author;
+}; </pre>
+<div style="width:393px;height:285px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:28px;top:2px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:171px;" class="slidecontent"> 
+Here whenever author is modified in QML side, authorChanged signal is emitted. Qml engine attache a empty signal handler for it, named 'onAuthorChanged' in template on&lt;propertyname&gt;Changed.
+ 
+This can be added to qml meta object system as object type or as instantiated object.
+ 
+<b>Instantiated object</b> </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:135px;float:left;" class="code">int main(int argc, char *argv[]) {
+ QGuiApplication app(argc, argv);
+ QQuickView view;
+ Message msg;
+ view.engine()-&gt;rootContext()-&gt;setContextProperty("msg", &msg);
+ view.setSource(QUrl::fromLocalFile("MyItem.qml"));
+ view.show();
+ return app.exec();
+} </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+// MyItem.qml </pre>
+<div class="clr"></div> <pre style="height:120px;" class="code">import QtQuick 2.0
+Text {
+ width: 100; height: 100
+ text: msg.author    // invokes Message::author() to get this value
+ Component.onCompleted: {
+  msg.author = "Jonah"  // invokes Message::setAuthor()
+}
+} </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+<b>Registrered type</b> </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">main(.....){
+...
+qmlRegisterType&lt;Message&gt;("Messaging", 1, 1, "Message")
+...
+} </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">// MyItem.qml </pre>
+<div class="clr"></div> <pre style="height:150px;float:left;" class="code">import QtQuick 2.0
+import Messaging 1.1
+Text {
+ width: 100; height: 100
+ Component.onCompleted: {
+  text: Message{
+   author="Jonah"
+  }
+ }
+} </pre>
+<div style="width:480px;height:150px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:80px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main2" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p11</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Qt Properties</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Combination of Get/Set/Notifiy
+</pre></li>   <li class="big"><h2><a name="chap2_1">Declaration of a Qt property</a></h2></li>   <li class="sml"><pre>Qt Property with Enum
+</pre></li>   <li class="sml"><pre>Getting & Setting Qt Properties
+</pre></li>   <li class="sml"><pre>Dynamic Properties
+</pre></li>   <li class="sml"><pre>Signal and Slots</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:247px;float:left;" class="slidecontent"> 
+An object can have following attributes
+a) The id attribute
+b) property attributes
+c) signal attributes
+d) signal handler attributes
+e) method attributes
+f) attached properties and attached signal handler attributes
+ 
+<b>a) The id attrubute</b> 
+The id attribute is unique for each instance of the class and it must start with lower case. Id is "component scoed". Id can be used to idenify the object as 
+if it is object name. </pre>
+<div style="width:374px;height:247px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:23px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:90px;float:left;" class="code">import QtQuick 2.0
+ Column {
+  width: 200; height: 200
+  TextInput { id: myTextInput; text: "Hello World" }
+  Text { text: myTextInput.text }
+ } </pre>
+<div style="width:480px;height:90px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:209px;float:left;" class="slidecontent"> 
+<b>b) property attributes</b>
+Qml has baisc types and object types. Object types can have property value that is static in value or bound to dynamic expression.
+ 
+1) Defining property
+ A proprty can be inserted in QML object type through adding Q_PROPERY on C++ couter part class.
+2) A property can be inserted in QML object through adding 
+ <pre class="codei">'[default] property &lt;propertyType&gt; &lt;propertyName&gt;'</pre>
+ex.  </pre>
+<div style="width:374px;height:209px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:87px;top:4px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:270px;float:left;" class="code"> Item {
+//Basic types
+  property int someNumber
+  property string someString
+  property url someUrl
+//Var is takes any kind
+  property var someNumber: 1.5
+  property var someString: "abc"
+  property var someBool: true
+  property var someList: [1, 2, "three", "four"]
+  property var someObject: Rectangle { width: 100; height: 100; color: "red" }
+//Object type
+  property Item someItem
+  property Rectangle someRectangle
+  property color nextColor: "blue" // declaration and initialization
+//Custom type
+  Property BasicButton bbtn // BasicButton.qml exists
+ } </pre>
+<div style="width:378px;height:270px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:39px;top:10px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+Property binding does not work on staticvalue returned through Javascript statement </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main2" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p12</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="iframecontainer" style="float:left;width:640px;height:360px;"><iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/nXfqFRJnk0s?enablejsapi=1&controls=1&autoplay=1&vq=hd240&cc_load_policy=1" frameborder="0"></iframe></div><div style="width:310px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:5px;top:55px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre style="height:135px;float:left;" class="code">import QtQuick 2.0
+Rectangle {
+ width: 100
+ height: width * 2
+ focus: true
+ Keys.onSpacePressed: {
+  height = width * 3 // once come here height is frozen
+ }
+} </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Qt.binding() should be used instead </pre>
+<div class="clr"></div> <pre style="height:180px;" class="code">import QtQuick 2.0
+Item {
+width:500;height:500
+Rectangle{
+ id:rect
+ width:100;  height:width*2
+ focus:true
+ Keys.onSpacePressed:{
+  rect.height=Qt.binding(function() {return this.width*3})//'this' is component 
+                                                          // not rect
+ }                                                // this must be in Qt binding
+} </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:19px;" class="slidecontent">3) property alias </pre>
+<div class="clr"></div><div class="iframecontainer" style="float:left;width:640px;height:360px;"><iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/CJSdQBs9AxM?enablejsapi=1&controls=1&autoplay=1&vq=hd240&cc_load_policy=1" frameborder="0"></iframe></div><div style="width:310px;height:360px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:5px;top:55px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre style="height:76px;" class="slidecontent">Property alias is used to create alias to other property similar to reference in C++. It is mostly used in component property making alias to child items property. While creating object type only component level properties are visible outside.
+  </pre>
+<div class="clr"></div> <pre style="height:165px;" class="code">       +------------------------+
+       | Rectangle {            |
+       |property alias bx x.text|-------o 
+       +---------------|--------+       \
+       |               |        |        .... component bx actually
+       |  Text {       |        |        referring to child Text.text
+       |   id x &lt;------+        |
+       |  }                     |
+       | }                      |
+       +------------------------+
+           Button.qml </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent">  [default] property alias &lt;name&gt;: &lt;alias reference&gt;
+  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main2" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p13</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:19px;" class="slidecontent">// Button.qml </pre>
+<div class="clr"></div> <pre style="height:90px;float:left;" class="code">import QtQuick 2.0
+Rectangle {
+property alias buttonText: textItem.text
+width: 100; height: 30; color: "yellow"
+Text { id: textItem }
+} </pre>
+<div style="width:480px;height:90px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Now Button.qml can be used in other qml document as </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">Button { buttonText: "Click Me" } </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+4) List property
+List of valus can be declared as  </pre>
+<div class="clr"></div> <pre style="height:150px;" class="code">[default] property list&lt;&lt;objectType&gt;&gt; propertyName: &lt;value&gt;
+&lt;&lt;MyRectangle.qml&gt;&gt;
+import QtQuick 2.0
+Rectangle {
+// declaration without initialization
+ property list&lt;Rectangle&gt; siblingRects
+// declaration with initialization
+property list&lt;Rectangle&gt; childRects: [Rectangle { color: "red" },Rectangle { color: "blue"} ]
+} </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+5) Grouped property
+class member of  object type can be field inititalized in curly braces </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">Text {
+//dot notation
+ font.pixelSize: 12;; font.b: true
+} </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+font object properites can be grouped in curly braces </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">Text {
+//group notation
+font { pixelSize: 12; b: true }
+} </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:190px;" class="slidecontent"> 
+4) Default property
+Default property come into the picture when a object type is getting instantiated in a parent object type without gettig assigned to any of the parent properties. In this fashon parent default property holds the children.
+ 
+<b>c) Signal property</b>
+Signal is function that gets rasied by hardware or just by calling the function. Like unix signal, qml signal has handler associated to it.
+signal can be declared as  </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">  signal &lt;signalName&gt;[([&lt;type&gt; &lt;parameter name&gt;[, -]])] </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">&lt;MySignal.qml&gt; </pre>
+<div class="clr"></div> <pre style="height:90px;float:left;" class="code">import QtQuick 2.0
+Item {
+ signal clicked // with no argument, braces are not required
+ signal hovered()
+ signal actionPerformed(string action, var actionResult)
+} </pre>
+<div style="width:480px;height:90px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:95px;" class="slidecontent"> 
+<b>d)signal handler property</b>
+Qml also supports inbuilt handler for properites in the format "on&lt;Property&gt;Changed"
+&lt;&lt;MyTextInput.qml&gt;&gt; </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">import QtQuick 2.0
+TextInput {
+ text: "Change this!"
+ onTextChanged: console.log("Text has changed to:", text)
+} </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;" class="slidecontent"> 
+Signal handler must be in nomenculture on&lt;SignalName&gt; or any method can also be nominated as signal handler.
+&lt;SquareButton.qml&gt; </pre>
+<div class="clr"></div> <pre style="height:195px;" class="code">Rectangle {
+id: root
+signal activated(real xPosition, real yPosition)
+signal deactivated
+property int side: 100
+idth: side; height: side
+MouseArea {
+anchors.fill: parent
+onPressed: root.activated(mouse.x, mouse.y)//handler has not arguments declaration explictly
+onReleased: root.deactivated()
+}
+} </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main2" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p14</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:38px;" class="slidecontent"> 
+class method can also be used as signal hander </pre>
+<div class="clr"></div> <pre style="height:285px;float:left;" class="code">Rectangle {
+id: relay
+signal messageReceived(string person, string notice)
+Component.onCompleted: {
+relay.messageReceived.connect(sendToPost)
+relay.messageReceived.connect(sendToTelegraph)
+relay.messageReceived.connect(sendToEmail)
+relay.messageReceived("Tom", "Happy Birthday")
+}
+function sendToPost(person, notice) {
+console.log("Sending to post: " + person + ", " + notice)
+}
+function sendToTelegraph(person, notice) {
+console.log("Sending to telegraph: " + person + ", " + notice)
+}
+function sendToEmail(person, notice) {
+console.log("Sending to email: " + person + ", " + notice)
+}
+} </pre>
+<div style="width:480px;height:285px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:2px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;" class="slidecontent"> 
+<b>e) Mehtod property</b>
+In c++ counterpart method can be declared through Q_PROPERTY() and Q_SLOT() for slots. In qml it through </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">function &lt;functionName&gt;([&lt;parameterName&gt;[, ...]]) { &lt;body&gt; } </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">&lt;&lt;MyText.qml&gt;&gt; </pre>
+<div class="clr"></div> <pre style="height:240px;float:left;" class="code">import QtQuick 2.0
+Item {
+width: 200; height: 200
+MouseArea {
+anchors.fill: parent
+onClicked: label.moveTo(mouse.x, mouse.y)
+}
+Text {
+id: label
+function moveTo(newX, newY) {
+label.x = newX;
+label.y = newY;
+}
+text: "Move me!"
+}
+} </pre>
+<div style="width:480px;height:240px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:171px;" class="slidecontent"> 
+ 
+<b>f) Attached property</b>
+attached properties are kind of static member in C++ where attributes are accessed through class. Here it is accessed through object type rather than instantiated objects. attached properties can be accessed only in current level and not to its children.
+ 
+it is declared as  </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:180px;float:left;" class="code">&lt;AttachingType&gt;.&lt;propertyName&gt;
+&lt;AttachingType&gt;.on&lt;SignalName&gt;
+&lt;&lt;MyListView.qml&gt;&gt;
+import QtQuick 2.0
+ListView {
+width: 240; height: 320
+model: 3
+delegate: Rectangle {
+width: 100; height: 30
+color: ListView.isCurrentItem ? "red" : "yellow"
+}
+} </pre>
+<div style="width:480px;height:180px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Qt Properties</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Combination of Get/Set/Notifiy
+</pre></li>   <li class="sml"><pre>Declaration of a Qt property
+</pre></li>   <li class="big"><h2><a name="chap2_2">Qt Property with Enum</a></h2></li>   <li class="sml"><pre>Getting & Setting Qt Properties
+</pre></li>   <li class="sml"><pre>Dynamic Properties
+</pre></li>   <li class="sml"><pre>Signal and Slots</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:57px;" class="slidecontent"> 
+Enum from c++ side is availabe at qml side through Q_ENUMS() macro
+c++ </pre>
+<div class="clr"></div> <pre style="height:120px;float:left;" class="code">class Person:public QObject {
+Q_OBJECT
+Q_ENUMS(Height)
+Q_PROPERTY(Height height READ height WRITE setHeight)
+public:
+Person(QObject *p=0);
+enum Height{SHORT=0,MID,TALL};
+Height height() const; </pre>
+<div style="width:480px;height:120px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main2" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p15</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:75px;float:left;" class="code">void setHeight(Height);
+private:
+Height _height;
+};
+#endif </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+qml </pre>
+<div class="clr"></div> <pre style="height:180px;" class="code">import QtQuick 2.0
+import Person 1.0
+Item{
+property list&lt;Person&gt; personmodel:[Person{height:Person.MID}, Person{height:Person.TALL} ]
+ListView{
+width:200;height:400
+model:personmodel
+delegate:Text{
+text:height
+}
+}
+} </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Qt Properties</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Combination of Get/Set/Notifiy
+</pre></li>   <li class="sml"><pre>Declaration of a Qt property
+</pre></li>   <li class="sml"><pre>Qt Property with Enum
+</pre></li>   <li class="big"><h2><a name="chap2_3">Getting & Setting Qt Properties</a></h2></li>   <li class="sml"><pre>Dynamic Properties
+</pre></li>   <li class="sml"><pre>Signal and Slots</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:57px;" class="slidecontent">Qt properties can be get as set through READ and WRITE keyword in Q_PROPERTY macro
+  </pre>
+<div class="clr"></div> <pre style="height:300px;float:left;" class="code"><span style="color:#0055cf;">&lt;person.h&gt;</span>
+class Person:public QObject {
+Q_OBJECT
+Q_PROPERTY(QString name READ name WRITE setName)
+public:
+Person(QObject *p=0);
+QString name() const;
+void setName(const QString&);
+private:
+QString name;
+};
+ 
+<span style="color:#0055cf;">person.cpp</span>
+QString Person::name() const{ return _name; }
+void Person::setName(const QString& name){
+if (name!=_name){
+_name=name;
+//emit nameChanged();
+}
+} </pre>
+<div style="width:480px;height:300px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:10px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Qt Properties</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Combination of Get/Set/Notifiy
+</pre></li>   <li class="sml"><pre>Declaration of a Qt property
+</pre></li>   <li class="sml"><pre>Qt Property with Enum
+</pre></li>   <li class="sml"><pre>Getting & Setting Qt Properties
+</pre></li>   <li class="big"><h2><a name="chap2_4">Dynamic Properties</a></h2></li>   <li class="sml"><pre>Signal and Slots</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent">Properies in QMetaObject of QObject can be added dynamically. It is less type safe though. </pre>
+<div class="clr"></div> <pre style="height:105px;float:left;" class="code">void func(QObject *obj){
+obj-&gt;setProperty("newintname",1);
+obj-&gt;setProperty("newstringname","anotherstring");
+obj-&gt;setProperty("newvariantname",QVariant::fromValue(25));
+int propint=obj-&gt;property("newintname").toInt();
+QString propstring=obj-&gt;property("newstringname").toString();
+QVariant propvariant=obj-&gt;property("newvariantname").toInt(); </pre>
+<div style="width:480px;height:105px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:22px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Qt Properties</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Combination of Get/Set/Notifiy
+</pre></li>   <li class="sml"><pre>Declaration of a Qt property
+</pre></li>   <li class="sml"><pre>Qt Property with Enum
+</pre></li>   <li class="sml"><pre>Getting & Setting Qt Properties
+</pre></li>   <li class="sml"><pre>Dynamic Properties
+</pre></li>   <li class="big"><h2><a name="chap2_5">Signal and Slots</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent">Signals are added through signals macro. A property provide binding when NOTIFY keyword is added in Q_PROPERTY </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main2" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p16</a>
+</div>

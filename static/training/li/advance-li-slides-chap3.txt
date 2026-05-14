@@ -1,0 +1,2362 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>Linux Internals Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:186px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding Virtual memory, Process concepts, IPC, File Systems EXT2
+Understanding Shell programming
+Understanding Boot process
+Understanding cross compilation and installing Linux installation on
+embedded hardware
+Understanding developing application for embedded systems</pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:76px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting embedded and medium scale products.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:230px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of c programming</b>
+All examples are provided through c programming language.
+Knowledge of c programming is required.
+C training slides can browsed at
+<a href=http://minhinc.42web.io/training/c/advance-c-slides.php>http://minhinc.42web.io/training/c/advance-c-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-c-slides.pdf>http://minhinc.42web.io/training/advance-c-slides.pdf</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu 16.0x LTS
+Raspberry Pi3</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:91px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries. Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-li-slides.pdf">http://minhinc.42web.io/training/advance-li-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.</pre>
+ </div>
+ <div style="width:960px;height:253px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:1px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-li-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Linux</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php#chap1_0"><pre>GNU Project/GPL Licensing</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_1"><pre>Evolution of Linux & Development Model</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_2"><pre>Device Identities in Linux-Partitioning Schema</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-li-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Kernel</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=2#chap2_0"><pre>History of Linux</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_1"><pre>Types of kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_2"><pre>The Linux Kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_3"><pre>Kernel Architecture</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:101px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:316px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main3" href="#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Shell commands & Shell</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap3_0"><pre>Basic Shell commands</pre></a></li>
+    <li><a href="#chap3_0"><pre>Bash Shell Essentials
+- Introduction</pre></a></li>
+    <li><a href="#chap3_1"><pre> - Process</pre></a></li>
+    <li><a href="#chap3_2"><pre>-Shell Programming</pre></a></li>
+    <li><a href="#chap3_3"><pre> - Shell Programming</pre></a></li>
+    <li><a href="#chap3_4"><pre>-Programming commands</pre></a></li>
+    <li><a href="#chap3_5"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution</pre></a></li>
+    <li><a href="#chap3_6"><pre>Creating Makefiles</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:316px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:69px;top:18px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>mknod</pre></li>
+    <li><pre>Write a Makefile to compile file</pre></li>
+    <li><pre>Create a static library using Makefile</pre></li>
+    <li><pre>Create a dynamic library using Makefile</pre></li>
+    <li><pre>Write application using static library and
+dynamic library generated</pre></li>
+   </ul>
+ </div><div style="width:475px;height:164px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:88px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:150px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-li-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Creating Libraries</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Static Library
+ - Using Static Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Shared Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_1"><pre> -Using Shared Library</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-li-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The Boot Process</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=5#chap5_0"><pre>The Boot Process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_1"><pre>BIOS Level</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre> - Boot Loader - Setup
+  - startup_32 functions</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre>The start_kernel() function</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:133px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:88px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Cross compiling kernel</pre></li>
+    <li><pre>Board Support packages</pre></li>
+   </ul>
+ </div><div style="width:475px;height:88px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:150px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:90px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-li-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The File System</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=6#chap6_0"><pre>The File System</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_1"><pre>Virtual File system & its role</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_2"><pre>Files associated with a process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_3"><pre>proc file system</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_4"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-li-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Process Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=7#chap7_0"><pre>Process Defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_1"><pre>Process Descriptor Structures in the kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_2"><pre>Process States</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_3"><pre>Process Scheduling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_4"><pre>Process Creation</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_5"><pre>System calls related to process management</pre></a></li>
+   </ul>
+ </div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheaderleft" style="margin-top:0px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-li-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=8#chap8_0"><pre>Defining and Creating secondary memory
+areas</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_1"><pre>Memory allocation & deallocation system
+calls malloc, calloc, alloca, free</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_2"><pre>Virtual Memory Management</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_3"><pre>Address Translation and page fault
+handling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_4"><pre>Demand Paging defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_5"><pre>Process Organization in Memory</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:221px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:140px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:6px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:6px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:72px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:72px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Implement late binding</pre></li>
+    <li><pre>Create hard link</pre></li>
+    <li><pre>Create soft link</pre></li>
+    <li><pre>Write a program to enumerate stat structure
+for both hard link and soft link. Illustrate which
+field is different</pre></li>
+    <li><pre>Create a child process and validates if all
+open descriptors are copied to child process also.
+ - Use file seek from parent and see child's
+  descriptor also got seeked.</pre></li>
+   </ul>
+ </div><div style="width:475px;height:240px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:180px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <div style="width:960px;height:171px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:7px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:104px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:104px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-li-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Multi Thread Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=9#chap9_0"><pre>Creating multiple threads</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=9#chap9_1"><pre>Parent synchronization with other Thread</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=9#chap9_2"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-li-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inter process communication</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=10#chap10_0"><pre>Pipes</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_1"><pre>Fifo's</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_2"><pre>Signals</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_3"><pre>System-V IPC's
+ - Message queues</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_4"><pre> - Shared memory</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=10#chap10_5"><pre> - Semaphore</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:87px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:13px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:13px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:126px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-li-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Sockets</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=11#chap11_0"><pre>An Overview</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_1"><pre>System calls related to
+ - TCP</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_2"><pre>-UDP</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:126px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:2px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:64px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a multi threaded application and check if
+global variables are shared.
+ - Protect them using semaphores</pre></li>
+   </ul>
+ </div><div style="width:475px;height:107px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:23px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:159px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:3px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:96px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:96px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:107px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-li-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Network Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=12#chap12_0"><pre>TCP Server Client Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=12#chap12_1"><pre>UDP Server Client Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=12#chap12_2"><pre>UDP Server Cient Programming</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-li-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Programming and Debugging tools</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=13#chap13_0"><pre>strace - Tracing system calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_1"><pre>ltrace - Tracing library calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_2"><pre>Tools used to detect memory access
+error; and memory leakage in linux
+mtrace</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:85px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:12px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:145px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-li-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Device Driver Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=14#chap14_0"><pre>Introduction</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_1"><pre>Kernel modules</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_2"><pre>Character device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_3"><pre>Block device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_4"><pre>Hardware and Interrupt Handling</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:136px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:50px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+  </ul>
+ </div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p5</a>
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">Linux Internals Essentials</pre><pre class="slidesubtitle">Linux Internals Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-li-slides.pdf">http://minhinc.42web.io/training/advance-li-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-15-2021 
+
+Document contains 97 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap3">&nbsp;<div class="slideheader" style="height:239px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <h1><pre class="topic">  3. Shell commands & Shell</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap3_0">Basic Shell commands<br></a></h2></li>   <li class="big"><h2><a name="chap3_0">Bash Shell Essentials<br>- Introduction</a></h2></li>   <li class="sml"><pre> - Process
+</pre></li>   <li class="sml"><pre>-Shell Programming
+</pre></li>   <li class="sml"><pre> - Shell Programming
+</pre></li>   <li class="sml"><pre>-Programming commands
+</pre></li>   <li class="sml"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution
+</pre></li>   <li class="sml"><pre>Creating Makefiles</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:306px;float:left;" class="slidecontent"> 
+<pre class="blue">Shell structure</pre>
+Shell scripting has four components
+1) Kernel
+2) Shell Process
+3) Command Process
+4) Redirectors, Pipes, Filters etc.
+ 
+Kernel does
+- I/O management
+- Process management
+- File management
+- Memory management
+ 
+ 
+  </pre>
+<div style="width:480px;height:306px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:13px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:120px;float:left;" class="code">-----------          -----------------            -------------
+|  User   | ------&gt;  |   Linux Shell | ---------&gt; |  Kernel   |
+-----------          -----------------            -------------
+                             |
+                             V
+                    -------------------
+                    | command process |
+                    ------------------- </pre>
+<div style="width:480px;height:120px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellstructure.png" /></div><div style="width:480px;height:289px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:4px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:59px;" class="slidecontent"> 
+<pre class="blue">Shells</pre>
+  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellstructure1.png" /></div><div style="width:404px;height:213px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:1px;top:6px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:202px;top:6px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:116px;float:left;" class="slidecontent"> 
+NOTE: To find your shell type following command
+$ echo $SHELL
+ 
+<pre class="blue">Linux Common Commands</pre>
+$ date --help </pre>
+<div style="width:480px;height:116px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:28px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p12</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:38px;" class="slidecontent"> 
+$ ls --help | more </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">Syntax: command-name --help
+Syntax: man command-name
+Syntax: info command-name </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+$ man ls
+$ info bash </pre>
+<div class="clr"></div> <pre style="height:90px;" class="code">NOTE: In MS-DOS, you get help by using /? clue or by typing help command as
+C:\&gt; dir /?
+C:\&gt; date /?
+C:\&gt; help time
+C:\&gt; help date
+C:\&gt; help </pre>
+<div class="clr"></div> <pre style="height:496px;float:left;" class="slidecontent"> 
+<pre class="black">Linux Command</pre>
+$ date
+$ who
+$ pwd
+$ ls
+$ cat &gt; myfile
+$ more    myfile
+$ mv sales
+ 
+ 
+$ ln  Page1  Book1
+$ rm    myfile
+$ rm -rf  oldfiles
+$ chmod u+x,g+wx,o+x   myscript
+$ mail
+$ who am i
+$ logout
+$ mail ashish
+$ wc    myfile
+$ grep  fox
+$ sort  myfile
+$ tail +5   myfile
+$ cmp myfile
+$ pr  myfile
+  </pre>
+<div style="width:480px;height:496px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:210px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="slideheader" style="height:218px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Shell commands & Shell</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Basic Shell commands
+</pre></li>   <li class="sml"><pre>Bash Shell Essentials
+- Introduction
+</pre></li>   <li class="big"><h2><a name="chap3_1">- Process</a></h2></li>   <li class="sml"><pre>-Shell Programming
+</pre></li>   <li class="sml"><pre> - Shell Programming
+</pre></li>   <li class="sml"><pre>-Programming commands
+</pre></li>   <li class="sml"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution
+</pre></li>   <li class="sml"><pre>Creating Makefiles</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:403px;float:left;" class="slidecontent"> 
+<pre class="blue">Process</pre>
+A process is program (command given by user) to perform some Job. In Linux when you start process, it gives a number (called PID or process-id), PID starts from 0 to 65535.
+$ ls -lR , is command or a request to list files in a directory and all sub directory in your current directory.
+ 
+<pre class="black">Why Process required</pre>
+Linux is multi-user, multitasking o/s. It means you can run more than two process simultaneously if you wish. For e.g.. To find how many files do you have on your system you may give command like
+$ ls / -R | wc -l
+This command will take lot of time to search all files on your system. So you can run such command in Background or simultaneously by giving command like
+$ ls / -R | wc -l &
+The ampersand (&) at the end of command tells shells start command (ls / -R | wc -l) and run it in background takes next command immediately. An instance of
+running command is called process and the number printed by shell is called process-id (PID), this PID can be use to refer specific running process.
+  </pre>
+<div style="width:374px;height:403px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:61px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p13</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:218px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Shell commands & Shell</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Basic Shell commands
+</pre></li>   <li class="sml"><pre>Bash Shell Essentials
+- Introduction
+</pre></li>   <li class="sml"><pre> - Process
+</pre></li>   <li class="big"><h2><a name="chap3_2">-Shell Programming</a></h2></li>   <li class="sml"><pre> - Shell Programming
+</pre></li>   <li class="sml"><pre>-Programming commands
+</pre></li>   <li class="sml"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution
+</pre></li>   <li class="sml"><pre>Creating Makefiles</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:59px;" class="slidecontent"> 
+<pre class="blue">Redirection of Standard output/input or Input - Output redirection</pre>
+(1) &gt; Redirector Symbol (Truncate to zero and write) </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">Syntax: Linux-command &gt; filename </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">$ ls &gt; myfiles </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">(2) &gt;&gt; Redirector Symbol  (Append)
+Syntax: Linux-command &gt;&gt; filename </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent">$ date &gt;&gt; myfiles
+(3) &lt; Redirector Symbol </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">Syntax: Linux-command &lt; filename
+To take input to Linux-command from file instead of key-board. For e.g. To take input for cat command give </pre>
+<div class="clr"></div> <pre style="height:135px;" class="slidecontent">$ cat &lt; myfiles
+ 
+<pre class="black">Pipes</pre>
+A pipe is a way to connect the output of one program to the input of another program without any temporary file.
+ 
+  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellpipe.png" /></div><div style="width:480px;height:185px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:62px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:123px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;" class="slidecontent"> 
+A pipe is nothing but a temporary storage place where the output of one command is stored and then passed as the input for second command. Pipes are used to run more than two commands ( Multiple commands) from same command line. </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">Syntax: command1 | command2 </pre>
+<div class="clr"></div> <pre style="height:171px;" class="slidecontent"> 
+Filter
+A filter command takes input from a pipe and constricts the output of the previous program.
+$ tail +20 &lt; hotel.txt | head -n30 &gt;hlist
+Here head is filter which takes its input from tail command (tail command start
+selecting from line number 20 of given file i.e. hotel.txt) and passes this lines to
+input to head, whose output is redirected to 'hlist' file.
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:218px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Shell commands & Shell</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Basic Shell commands
+</pre></li>   <li class="sml"><pre>Bash Shell Essentials
+- Introduction
+</pre></li>   <li class="sml"><pre> - Process
+</pre></li>   <li class="sml"><pre>-Shell Programming
+</pre></li>   <li class="big"><h2><a name="chap3_3">- Shell Programming</a></h2></li>   <li class="sml"><pre>-Programming commands
+</pre></li>   <li class="sml"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution
+</pre></li>   <li class="sml"><pre>Creating Makefiles</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:135px;" class="slidecontent"> 
+<pre class="blue">Introduction to Shell Programming</pre>
+Shell program is series of Linux commands.
+ 
+Variables in Linux
+Sometimes to process our data/information,  variables are remembered by shell Process. </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p14</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:114px;" class="slidecontent"> 
+1) System variables - Created and maintained by Linux itself. This type of variable defined in CAPITAL LETTERS.
+2) User defined variables (UDV) - Created and maintained by user. This type of variable defined in lower LETTERS.
+  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellsystemvariable.png" /></div><div style="width:410px;height:294px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:37px;top:7px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+$ echo $USERNAME
+$ echo $HOME </pre>
+<div class="clr"></div> <pre style="height:120px;" class="code">Caution: Do not modify System variable this can some time create problems.
+ 
+<pre class="black">User Defined Variable</pre>
+Syntax: variablename=value
+NOTE: Here 'value' is assigned to given 'variablename' and Value must be on right side = sign For
+e.g. </pre>
+<div class="clr"></div> <pre style="height:304px;float:left;" class="slidecontent">$ no=10           # this is ok
+$ 10=no           # Error, NOT Ok, Value must be on right side of = sign.
+To define variable called 'vech' having value Bus
+ 
+$ vech=Bus
+To define variable called n having value 10
+$ n=10
+ 
+You can define NULL variable as follows (NULL variable is variable which has no value at the time of definition) For e.g.
+$ vech=
+$ vech=""
+Try to print it's value $ echo $vech , Here nothing will be shown because variable has no value i.e. NULL variable.
+ 
+To print or access variables use following syntax </pre>
+<div style="width:374px;height:304px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:12px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:30px;" class="code">Syntax: $variablename
+For eg. To print contains of variable 'vech' </pre>
+<div class="clr"></div> <pre style="height:78px;" class="slidecontent">$ echo $vech
+ 
+<pre class="black">How to Run Shell Scripts</pre>
+(1) Use chmod command as follows to give execution permission to our script </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">Syntax: chmod +x shell-script-name
+OR Syntax: chmod 777 shell-script-name
+(2) Run our script as
+Syntax: ./your-shell-program-name
+For e.g. </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:190px;" class="slidecontent">$ ./first
+ 
+OR /bin/sh your-shell-program-name
+For e.g.
+$ bash first
+$ /bin/sh first
+ 
+Script file name complete path is required OR  PATH variable needs to be set.
+To run the script, file name complete path is required
+  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p15</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-filepath.png" /></div><div class="clr"></div> <pre style="height:135px;float:left;" class="slidecontent"> 
+OR  PATH variable needs to be set.
+ 
+<pre class="blue">Commands Related with Shell Programming</pre>
+(1)echo [options] [string, variables...]
+Displays text or variables value on screen.
+Options </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:150px;" class="code">-n Do not output the trailing new line.
+-e Enable interpretation of the following backslash escaped characters in the strings:
+\a alert (bell)
+\b backspace
+\c suppress trailing new line
+ 
+ new line
+\r carriage return
+\t horizontal tab
+\\ backslash </pre>
+<div class="clr"></div> <pre style="height:95px;float:left;" class="slidecontent">For eg. $ echo -e "An apple a day keeps away \a\t\tdoctor
+"
+ 
+(2)More about Quotes
+There are three types of quotes </pre>
+<div style="width:480px;height:95px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:17px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:105px;" class="code">" i.e. Double Quotes
+' i.e. Single quotes
+` i.e. Back quote
+1."Double Quotes" - Anything enclose in double quotes removed meaning of that characters (except \ and $).
+2. 'Single quotes' - Enclosed in single quotes remains unchanged.
+3. `Back quote` - To execute command. </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent">For eg.
+$ echo "Today is date" </pre>
+<div class="clr"></div> <pre style="height:75px;" class="code">Can't print message with today's date.
+$ echo "Today is `date`".
+Now it will print today's date as, Today is Tue Jan ....,See the `date` statement uses back quote,
+(See also Shell Arithmetic NOTE). </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+3) Shell Arithmetic </pre>
+<div class="clr"></div> <pre style="height:255px;float:left;" class="code">Use to perform arithmetic operations For e.g.
+$ expr 1 + 3
+$ expr 2 - 1
+$ expr 10 / 2
+$ expr 20 % 3 # remainder read as 20 mod 3 and remainder is 2)
+$ expr 10 \* 3 # Multiplication use \* not * since its wild card)
+$ echo `expr 6 + 3`
+For the last statement note the following points
+1) First, before expr keyword we used ` (back quote) sign not the (single quote i.e. ') sign. Back
+quote is generally found on the key under tilde (~) on PC keyboards OR To the above of TAB key.
+2) Second, expr is also end with ` i.e. back quote.
+3) Here expr 6 + 3 is evaluated to 9, then echo command prints 9 as sum
+4) Here if you use double quote or single quote, it will NOT work, For eg.
+$ echo "expr 6 + 3" # It will print expr 6 + 3
+$ echo 'expr 6 + 3' </pre>
+<div style="width:278px;height:255px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:2px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:80px;float:left;" class="slidecontent"> 
+<pre class="black">Command Line arguments
+$ myshell foo bar</pre>
+  </pre>
+<div style="width:480px;height:80px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p16</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellcommandlineargument.png" /></div><div style="width:402px;height:377px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:33px;top:48px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellcommandlineargument1.png" /></div><div class="clr"></div> <pre style="height:59px;" class="slidecontent"> 
+<pre class="black">Command line arguments or Function arguments</pre>
+  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellcommandlineargument2.png" /></div><div style="width:397px;height:213px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:98px;top:6px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:306px;float:left;" class="slidecontent"> 
+<pre class="black">Exit Status</pre>
+By default in Linux if particular command is executed, it return two type of values,
+if return value is zero (0), command is successful
+If return value is nonzero (&gt;0), command is not successful or some sort of error executing command/shell script.
+This value is know as Exit Status of that command.
+To determine this exit Status we use $? variable of shell. For eg.
+$ rm unknow1file
+rm: cannot remove 'unkowm1file': No such file or directory
+and after that if you give command $ echo $?
+it will print nonzero value(&gt;0) to indicate error. Now give command
+$ ls
+$ echo $?
+It will print 0 to indicate command is successful.
+  </pre>
+<div style="width:374px;height:306px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:13px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellreturn.png" /></div><div style="width:480px;height:159px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:13px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:86px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p17</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:218px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Shell commands & Shell</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Basic Shell commands
+</pre></li>   <li class="sml"><pre>Bash Shell Essentials
+- Introduction
+</pre></li>   <li class="sml"><pre> - Process
+</pre></li>   <li class="sml"><pre>-Shell Programming
+</pre></li>   <li class="sml"><pre> - Shell Programming
+</pre></li>   <li class="big"><h2><a name="chap3_4">-Programming commands</a></h2></li>   <li class="sml"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution
+</pre></li>   <li class="sml"><pre>Creating Makefiles</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:59px;" class="slidecontent"> 
+<pre class="blue">If-then-fi for decision making is shell script</pre>
+$ bc </pre>
+<div class="clr"></div> <pre style="height:135px;float:left;" class="code">follows type 5 + 2 as
+5+2
+7
+7 is response of bc i.e. addition of 5 + 2 you can even try
+5-2
+5/2
+Now what happened if you type 5 &gt; 2 as follows
+5&gt;2
+0 </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellprogrammingcommand.png" /></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:120px;float:left;" class="code">Syntax:
+if condition
+ then
+    command1 if condition is true or if exit status
+    of condition is 0 (zero)
+     ...
+     ...
+fi </pre>
+<div style="width:480px;height:120px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:40px;" class="slidecontent"> 
+<pre class="black">$ cat &gt; showfile</pre> </pre>
+<div class="clr"></div> <pre style="height:150px;float:left;" class="code">#!/bin/sh
+#
+#Script to print file
+#
+if cat $1
+then
+    echo -e "
+ 
+File $1, found and successfully echoed"
+fi </pre>
+<div style="width:480px;height:150px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:80px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:154px;" class="slidecontent"> 
+<pre class="blue">test command or [ expr ]</pre>
+test command or [ expr ] is used to see if an expression is true, and if it is true it return zero(0),
+otherwise returns nonzero(&gt;0) for false. Syntax: test expression OR [ expression ]
+Now will write script that determine whether given argument number is positive. Write script as follows
+$ cat &gt; ispostive </pre>
+<div class="clr"></div> <pre style="height:150px;float:left;" class="code">#!/bin/sh
+#
+# Script to see whether argument is positive
+#
+if test $1 -gt 0
+then
+    echo "$1 number is positive"
+fi
+ 
+Or </pre>
+<div style="width:480px;height:150px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:10px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:80px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+$ cat &gt; ispostive </pre>
+<div class="clr"></div> <pre style="height:90px;float:left;" class="code">#!/bin/sh
+#
+# Script to see whether argument is positive
+#
+If [ test $1 -gt 0 ]
+then </pre>
+<div style="width:480px;height:90px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p18</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:30px;" class="code">    echo "$1 number is positive"
+fi </pre>
+<div class="clr"></div> <pre style="height:133px;float:left;" class="slidecontent"> 
+test or [ expr] works with
+1.Integer ( Number without decimal point)
+2.File types
+3.Character strings
+For Mathematics use following operator in Shell Script
+  </pre>
+<div style="width:480px;height:133px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellprogrammingcommand1.png" /></div><div style="width:407px;height:249px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:2px;top:24px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:204px;top:24px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;float:left;" class="slidecontent"> 
+NOTE: == is equal, != is not equal.
+For string Comparisons use
+  </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellprogrammingcommand2.png" /></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+Shell also test for file and directory types
+  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-shellprogrammingcommand3.png" /></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:97px;" class="slidecontent"> 
+<pre class="blue">if...else...fi</pre>
+If given condition is true then command1 is executed otherwise command2 is executed.
+Syntax: </pre>
+<div class="clr"></div> <pre style="height:180px;float:left;" class="code">if condition
+then
+  command1 if condition is true or if exit status
+  of condition is 0(zero)
+  ...
+  ...
+else
+ command2 if condition is false or if exit status
+ of condition is &gt;0 (nonzero)
+ ...
+ ...
+fi </pre>
+<div style="width:480px;height:180px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:120px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">$ cat &gt; isnump_n </pre>
+<div class="clr"></div> <pre style="height:210px;float:left;" class="code">#!/bin/sh
+# Script to see whether argument is positive or negative
+#
+if [ $# -eq 0 ]
+then
+      echo "$0 : You must give/supply one integers"
+      exit 1
+fi
+if test $1 -gt 0
+then
+      echo "$1 number is positive"
+else
+      echo "$1 number is negative"
+fi </pre>
+<div style="width:480px;height:210px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p19</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:40px;" class="slidecontent"><pre class="blue">Multilevel if-then-else</pre>
+Syntax: </pre>
+<div class="clr"></div> <pre style="height:345px;float:left;" class="code">if condition
+then
+ condition is zero (true - 0)
+ execute all commands up to elif statement
+elif condition1
+ condition1 is zero (true - 0)
+ execute all commands up to elif statement
+elif condition2
+ condition2 is zero (true - 0)
+ execute all commands up to elif statement
+else
+ None of the above condtion,condtion1,condtion2 are true (i.e.
+ all of the above nonzero or false)
+ execute all commands up to fi
+fi
+ 
+<pre class="blue">for loop Syntax:</pre>
+ for { variable name } in { list }
+ do
+   execute one for each item in the list until the list is
+   not finished (And repeat all statement between do and done)
+ done </pre>
+<div style="width:480px;height:345px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:1px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:282px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+Suppose,
+$ cat &gt; testfor </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">for i in 1 2 3 4 5
+do
+    echo "Welcome $i times"
+done </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:116px;float:left;" class="slidecontent">Run it as,
+$ chmod +x testfor
+$ ./testfor
+ 
+<pre class="blue">while loop</pre>
+Syntax: </pre>
+<div style="width:480px;height:116px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:28px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:120px;float:left;" class="code">while [ condition ]
+do
+ command1
+ command2
+ command3
+ ..
+ ....
+done </pre>
+<div style="width:480px;height:120px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:60px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;float:left;" class="slidecontent"> 
+$cat &gt; nt1
+#!/bin/sh
+#Script to test while statement </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:210px;float:left;" class="code">if [ $# -eq 0 ]
+then
+     echo "Error - Number missing form command line argument"
+     echo "Syntax : $0 number"
+     echo " Use to print multiplication table for given number"
+     exit 1
+fi
+n=$1
+i=1
+while [ $i -le 10 ]
+do
+   echo "$n * $i = `expr $i \* $n`"
+   i=`expr $i + 1`
+done </pre>
+<div style="width:480px;height:210px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:116px;" class="slidecontent"> 
+<pre class="blue">The case Statement</pre>
+The case statement is good alternative to Multilevel if-then-else-fi statement. It enable you to match several values against one variable. Its easier to read and write.
+Syntax: </pre>
+<div class="clr"></div> <pre style="height:210px;float:left;" class="code">case     $variable-name in
+pattern1)             command
+ ..
+ command;;
+pattern2)             command
+ ..
+ command;;
+patternN) command
+ ..
+ command;;
+ *)           command
+ ..
+ command;;
+esac </pre>
+<div style="width:480px;height:210px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:5px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p20</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:114px;" class="slidecontent"> 
+The $variable-name is compared against the patterns until a match is found. The shell then executes all the statements up to the two semicolons that are next to each other. The default is *) and its executed if no match is found. For eg. Create script as follows
+$ cat &gt; car </pre>
+<div class="clr"></div> <pre style="height:300px;float:left;" class="code">#
+# if no vehicle name is given
+# i.e. -z $1 is defined and it is NULL
+#
+# if no command line arg
+if [ -z $1 ]
+then
+      rental="*** Unknown vehicle ***"
+elif [ -n $1 ]
+then
+# otherwise make first arg as rental
+      rental=$1
+fi
+case $rental in
+   "car") echo "For $rental Rs.20 per k/m";;
+   "van") echo "For $rental Rs.10 per k/m";;
+   "jeep") echo "For $rental Rs.5 per k/m";;
+   "bicycle") echo "For $rental 20 paisa per k/m";;
+   *) echo "Sorry, I can not gat a $rental for you";;
+esac </pre>
+<div style="width:480px;height:300px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:10px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:173px;float:left;" class="slidecontent"> 
+Save it by pressing CTRL+D
+$ chmod +x car
+$ car van
+$ car car
+$ car Maruti-800
+ 
+<pre class="blue">The read Statement</pre>
+Use to get input from keyboard and store them to variable. </pre>
+<div style="width:480px;height:173px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:17px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:94px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:15px;" class="code">Syntax: read varible1, varible2,...varibleN </pre>
+<div class="clr"></div> <pre style="height:95px;float:left;" class="slidecontent">Create script as
+$ cat &gt; sayH
+#
+#Script to read your name from key-board
+# </pre>
+<div style="width:480px;height:95px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:17px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:60px;float:left;" class="code">echo "Your first name please:"
+read fname
+echo "Hello $fname, Lets be friend!"
+Run it as follows </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent">$ chmod +x sayH
+$ ./sayH </pre>
+<div class="clr"></div> <pre style="height:285px;float:left;" class="code"> 
+<pre class="blue">Filename Shorthand or meta Characters (i.e. wild cards)</pre>
+* or ? or [...] is one of such shorthand character.
+* Matches any string or group of characters.
+For e.g. $ ls * , will show all files, $ ls a* - will show all files whose first name is starting with letter
+'a', $ ls *.c ,will show all files having extension .c $ ls ut*.c, will show all files having extension .c but first two letters of file name must be 'ut'.
+? Matches any single character.
+For e.g. $ ls ? , will show one single letter file name, $ ls fo? , will show all files whose names are 3 character long and file name begin with fo
+[...] Matches any one of the enclosed characters.
+For e.g. $ ls [abc]* - will show all files beginning with letters a,b,c
+[..-..] A pair of characters separated by a minus sign denotes a range;
+For eg. $ ls /bin/[a-c]* - will show all files name beginning with letter a,b or c like
+/bin/arch        /bin/awk       /bin/bsh    /bin/chmod         /bin/cp
+/bin/ash         /bin/basename  /bin/cat    /bin/chown         /bin/cpio
+/bin/ash.static  /bin/bash      /bin/chgrp  /bin/consolechars  /bin/csh </pre>
+<div style="width:278px;height:285px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:14px;top:17px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:268px;float:left;" class="slidecontent"> 
+But
+ 
+$ ls /bin/[!a-o]
+$ ls /bin/[^a-o]
+ 
+<pre class="blue">command1;command2</pre>
+To run two command with one command line.For eg. $ date;who ,Will print today's date followed
+ http://www.freeos.com/guides/lsst/shellprog.htm (18 of 19) [17/08/2001 17.42.21]
+ Linux Shell Script Tutorial
+by users who are currently login.
+  </pre>
+<div style="width:374px;height:268px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:37px;top:9px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p21</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:273px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Shell commands & Shell</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Basic Shell commands
+</pre></li>   <li class="sml"><pre>Bash Shell Essentials
+- Introduction
+</pre></li>   <li class="sml"><pre> - Process
+</pre></li>   <li class="sml"><pre>-Shell Programming
+</pre></li>   <li class="sml"><pre> - Shell Programming
+</pre></li>   <li class="sml"><pre>-Programming commands
+</pre></li>   <li class="big"><h2><a name="chap3_5">- Advance Shell Programming<br>&nbsp;&nbsp;- Function<br>&nbsp;&nbsp;- Array<br>&nbsp;&nbsp;- I/O Redirection and file descriptor<br>&nbsp;&nbsp;- Local and Global variables<br>&nbsp;&nbsp;- Conditional Execution</a></h2></li>   <li class="sml"><pre>Creating Makefiles</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:1093px;float:left;" class="slidecontent"> 
+<pre class="blue">/dev/null - Use to send unwanted output of program</pre>
+Syntax: command &gt; /dev/null
+For e.g. $ ls &gt; /dev/null , output of this command is not shown on screen its send to this special file. The /dev directory contains other device files. The files in this directory mostly represent peripheral devices such disks liks floppy disk, sound card, line printers etc.
+<pre class="blue">local and Global Shell variable (export command)</pre>
+Normally all our variables are local. Local variable can be used in same shell, if you load another copy of shell (by typing the /bin/bash at the $ prompt) then new shell ignored all old shell's variable. For e.g.
+Consider following example
+$ vech=Bus
+$ echo $vech
+Bus
+$ /bin/bash
+$ echo $vech
+NOTE:-Empty line printed
+$ vech=Car
+$ echo $vech
+Car
+$ exit
+$ echo $vech
+ 
+<pre class="blue">Syntax: export variable1, variable2,.....variableN</pre>
+For e.g.
+$ vech=Bus
+$ echo $vech
+Bus
+$ export vech
+$ /bin/bash
+$ echo $vech
+Bus
+$ exit
+$ echo $vech
+ 
+<pre class="blue">Conditional execution i.e. && and ||</pre>
+The control operators are && (read as AND) and || (read as OR). An AND list has the
+Syntax: command1 && command2
+Here command2 is executed if, and only if, command1 returns an exit status of zero. An OR list has the
+Syntax: command1 || command2
+Here command2 is executed if and only if command1 returns a non-zero exit status. You can use both as follows
+command1 && comamnd2 if exist status is zero || command3 if exit status is non-zero
+Here if command1 is executed successfully then shell will run command2 and if command1 is not successful then command3 is executed. For e.g.
+$ rm myf && echo File is removed successfully || echo File is not removed
+If file (myf) is removed successful (exist status is zero) then "echo File is removed successfully" statement is executed, otherwise "echo File is not removed" statement is executed (since exist status is non-zero)
+ 
+<pre class="blue">Functions</pre>
+Function is series of instruction/commands. Function performs particular activity in shell. To define function use following </pre>
+<div style="width:374px;height:1093px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:3px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:206px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:489px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p22</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:19px;" class="slidecontent">Syntax: </pre>
+<div class="clr"></div> <pre style="height:135px;float:left;" class="code">function-name ( )
+{
+ command1
+ command2
+ .....
+ ...
+ commandN
+ return
+} </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:76px;" class="slidecontent"> 
+Where function-name is name of you function, that executes these commands. A return statement will terminate the function. For e.g. Type SayHello() at $ prompt as follows </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">$ SayHello()
+{
+echo "Hello $LOGNAME, Have nice computing"
+return
+} </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:116px;" class="slidecontent">$ SayHello
+Hello xxxxx, Have nice computing
+Edit /etc/bashrc (as root) or ~/.bashrc for executing function at login time.
+ 
+<pre class="blue">I/O Redirection and file descriptors</pre>
+$ cat &gt; myf </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">      This is my file
+      ^D </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent">Above command send output of cat command to myf file. Redirection can be used to send output to stderr, stdout and can be used to read input for stdin files
+  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-standarddescriptor.png" /></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:135px;float:left;" class="code">[sc@localhost ~]$ rm &gt; tmp1
+<b>rm: missing operand
+Try 'rm --help' for more information.
+[sc@localhost ~]$ cat tmp1
+[sc@localhost ~]$ rm &gt; tmp1 2&gt;&1
+[sc@localhost ~]$ cat tmp1
+rm: missing operand
+Try 'rm --help' for more information.</b>
+[sc@localhost ~]$ </pre>
+<div style="width:480px;height:135px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:5px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:70px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:401px;float:left;" class="slidecontent"> 
+ 
+<pre class="blue">Array</pre>
+Arrays are define as
+ar=(one two three)
+ 
+for i in 2 4 5 6; do
+done
+ 
+for i in {1..6}; do
+done
+ 
+${ar[1]} ${ar[2]} ...
+ 
+$ar[*] or $ar[@]  # for list
+ 
+${#ar[*]}  # for number of elements
+ 
+for i in ${ar[@]}; do
+done
+  </pre>
+<div style="width:480px;height:401px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:280px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:340px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p23</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:218px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Shell commands & Shell</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Basic Shell commands
+</pre></li>   <li class="sml"><pre>Bash Shell Essentials
+- Introduction
+</pre></li>   <li class="sml"><pre> - Process
+</pre></li>   <li class="sml"><pre>-Shell Programming
+</pre></li>   <li class="sml"><pre> - Shell Programming
+</pre></li>   <li class="sml"><pre>-Programming commands
+</pre></li>   <li class="sml"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution
+</pre></li>   <li class="big"><h2><a name="chap3_6">Creating Makefiles</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:247px;float:left;" class="slidecontent"> 
+Constituents of a make file
+* Rules
+* Variables
+* Directives
+  - Inclusion of another make
+  - Conditional directives
+* Comments
+  - Text that follows # symbol is treated as comment
+  - To include # literally, prefix with \
+ 
+Rules
+Syntax </pre>
+<div style="width:480px;height:247px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:1px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:62px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:123px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:184px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:45px;" class="code">target1 [target2] : [prerequisite1] [prerequisite2]
+&lt;TAB&gt;command-1
+&lt;TAB&gt;command-2 </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div style="float:left;"><img class="img" src="http://minhinc.42web.io/image/li-slide-makefile.png" /></div><div style="width:446px;height:266px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:73px;top:8px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:570px;float:left;" class="slidecontent"> 
+* Explicit rule
+  - explicitly specify the prerequisites for a specific target
+* Implicit rules
+  - Take advantage of the knowledge make has about known patterns of files (e.g., .c, .cpp .o, .s)
+  - Further classified into pattern rules & suffix rules
+ 
+ Variables
+Predefined
+o Some commonly used variables predefined by GNU make CC , FLAGS , CFLAGS, LDFLAGS, $@, $^, $&lt;
+ 
+$@ name of the target
+               foo1.o: foo1.c foo1.h
+$&lt;    name of the first prerequisite
+               gcc -c $&lt;
+$^       names of all prerequisites
+ 
+foo: foo1.o foo2.o
+	gcc -o $@ $^
+ 
+foo: foo1.o foo2.o
+	gcc -o foo foo1.o foo2.o
+ 
+foo2.o: foo2.c foo2.h
+	gcc -c $&lt;
+foo2.o: foo2.c foo2.h foo1.h
+ gcc -c foo2.c
+  </pre>
+<div style="width:374px;height:570px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:3px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:19px;top:286px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p24</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:1368px;float:left;" class="slidecontent">User defined
+ABC:=10  # const assigment
+ABC=10 # non const assignment
+ 
+Command line  variables
+Variables can be defined or redefined from command line
+$ make
+$ make VAR1=abc VAR2=xyz
+ 
+Use <b>override</b> directive to let undesirable command line redefines for a variable be ignored
+ex.
+VAR1=dummy
+VAR2=
+All:
+	echo  VAR1 =  $(VAR1)
+	echo VAR2 = override    $(VAR2)
+	VAR1=dummy
+ 
+Conditional assingment
+ARCH ?= x86
+Append
+SRC += x.c
+ 
+Implicit rules
+ 
+Wildcard
+foo: *.o
+gcc -o $@ $^X
+ 
+Functions
+General syntax
+  $(function-name arg1[,argn])
+       SRC := x.c y.c z.c
+* String functions
+- $(subst search-str,replace-str,text)
+           OBJS := $(subst .c,.o,$(SRC))
+- $(patsubst search-pat,replace-pat,text)
+           OBJS := $(patsubst %.c, obj/%.o, x.c y.c z.c)
+ 
+* Warning function
+   - Very useful for debugging
+   - Can be placed anywhere in a makefile
+             $(warning TARGET not defined)
+     outputs in the format
+     &lt;filename&gt;:&lt;linenum&gt;:TARGET not defined
+* Shell function
+   - Can be used to invoke any external program
+             today := $(shell date)
+ 
+Wildcard function
+SRCS := $(wildcard *.c)
+OBJS := $(subst .c,.o,$(SRCS))
+ 
+foo: $(OBJS)
+	gcc -c $&lt; cc -o $@ $^
+foo2.o: foo2.c foo2.h foo1.h
+  gcc -c $&lt;
+foo1.o: foo1.c foo1.h
+ gcc -c $&lt;
+ 
+ 
+Pattern rule
+foo : foo1.o foo2.o
+	g++ -o $@ $^
+foo2.o: foo2.h  foo1.h
+foo1.o: foo1.h
+ 
+# pattern rule for .cpp to .o
+ %.o : %.cpp
+	g++ -c $&lt;
+  </pre>
+<div style="width:374px;height:1368px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:37px;top:56px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_600 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:37px;top:712px;display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="9990985608"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p25</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:475px;float:left;" class="slidecontent">More advanced
+  %.o:%.c
+       $(COMPILE.c) $(OUTPUT_OPTION) $&lt;
+where
+   COMPILE.c =$(CC) $(CFLAGS) $(CPPFLAGS ) $(TARGET_ARCH) -c
+   CC =cc
+   OUTPUT_OPTION =-o $@
+ 
+ 
+conditionals
+conditional-directive
+    text-if-true
+endif
+ 
+conditional-directive
+    text-if-true
+else
+    text-if-false
+endif
+ 
+Conditional directives
+ - ifeq
+ - ifneq
+ - ifdef variable-name
+ - ifndef variable-name </pre>
+<div style="width:477px;height:475px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:8px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:266px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:266px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p26</a>
+</div>

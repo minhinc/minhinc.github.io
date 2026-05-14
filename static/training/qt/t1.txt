@@ -1,0 +1,288 @@
+<h>
+*GUI Programming Fundamentals
+ - Window registration and creation
+- Message loop
+ - Event callback handler
+</h>
+<a><b>Abstract</b>:It describes X11 gui fundamentals, as how a basic window is created in client server model of X11. This section also describes the flow of hardware event generation to event dispatching to app event queue. It mentions role of X11 server and Window manager entities on Server side. On client side how a event callback function is registered (against a window) with the X11 server and Window manager then how events generated on window are routed to registered callback function of application. Events are further processed through event loop processing manner quite different from sequential processing of non gui application. This section also lists the various Qt classes against each section in GUI programming.</a>
+
+<b>Window registration and creation.</b>
+<m>http://minhinc.42web.io/image/qt-slide-winregcreation.gif</m>
+<c>
+Display *dis;
+int screen;
+Window win;
+GC gc;
+void init_x() {
+/* get the colors black and white (see section for details) */
+ unsigned long black,white;
+/* use the information from the environment variable DISPLAY to create the X connection:*/
+ dis=XOpenDisplay((char *)0);
+ screen=DefaultScreen(dis);
+ black=BlackPixel(dis,screen),/* get color black */
+ white=WhitePixel(dis, screen);  /* get color white */
+/* once the display is initialized, create the window. This window will be have be 200 pixels across and 300 down. It will have the foreground white and background black */
+ win=XCreateSimpleWindow(dis,DefaultRootWindow(dis),0,0,200, 300, 5, white, black);
+/* here is where some properties of the window can be set. The third and fourth items indicate the name which appears at the top of the window and the name of the minimized window respectively. */
+ XSetStandardProperties(dis,win,"My Window","HI!",None,NULL,0,NULL);
+/* this routine determines which types of input are allowed in the input.  see the appropriate section for details... */
+ XSelectInput(dis, win, ExposureMask|ButtonPressMask|KeyPressMask);
+/* create the Graphics Context */
+ gc=XCreateGC(dis, win, 0,0);
+/* here is another routine to set the foreground and background colors _currently_ in use in the window. */
+ XSetBackground(dis,gc,white);
+ XSetForeground(dis,gc,black);
+/* clear the window and bring it on top of the other windows */
+ XClearWindow(dis, win);
+ XMapRaised(dis, win);
+}
+void close_x() {
+/* it is good programming practice to return system resources to the system... */
+ XFreeGC(dis, gc);
+ XDestroyWindow(dis,win);
+ XCloseDisplay(dis);
+ exit(1);
+}
+</c>
+
+<b>Event Callback</b>
+<m>http://minhinc.42web.io/image/qt-slide-x11eventflow.png</m>
+
+<b>Message Loop</b>
+<m>http://minhinc.42web.io/image/qt-slide-messageloop.png</m>
+
+- Message loop
+  1. setting up the input masks
+  2. creating an instance of the XEvent
+  3. checking for events
+  4. handling events.
+
+<c>
+XEvent event;/* the XEvent declaration !!! */
+KeySym key;/* a dealie-bob to handle KeyPress Events */
+char text[255];/* a char buffer for KeyPress Events */
+/* look for events forever... */
+while(1) {
+ /* get the next event and stuff it into our event variable.  Note:  only events we set the mask for are detected! */
+ XNextEvent(dis, &event);
+ if (event.type==Expose && event.xexpose.count==0) {
+ /* the window was exposed redraw it! */
+  redraw();
+ }
+ if (event.type==KeyPress && XLookupString(&event.xkey,text,255,&key,0)==1) {
+ /* use the XLookupString routine to convert the invent KeyPress data into regular text.  Weird but necessary...  */
+  if (text[0]==\'q\') {
+   close_x();
+  }
+  printf("You pressed the %c key!",text[0]);
+ }
+ if (event.type==ButtonPress) {
+  /* tell where the mouse Button was Pressed */
+  printf("You pressed a button at (%i,%i)", event.xbutton.x,event.xbutton.y);
+ }
+}
+</c>
+
+- Event callback handler.
+ i- Registering window callback function with the Window Manager.
+   Qt Class - QWidget
+ ii- Initializing Thread Event loop.
+   Qt class - QCoreApplication
+ iii- Creating window.
+   Qt class - QWidget
+ iv-  Generate the event, Hardware event, synthetic events
+   Qt class - QEvent
+ v- Handling events specific to the window in event callback funciton.
+   Qt class - QWidget
+
+<m>http://minhinc.42web.io/image/qt-slide-x11architecture.png</m>
+<m>http://minhinc.42web.io/image/qt-slide-eventcallback.png</m>
+
+<c>
+QObject  - Event mechanism, signal-slot, timer, Thread
+
+  / \\
+   -
+   |
+QCoreApplication - Event loop for console Qt application
+                   Network event, Timer event, Non GUI etc.
+                   exec() - starts queue
+                   quit() - ends queue, returns
+  / \\
+   -
+   |
+QGuiApplication - Event loop, communicates with Window Manager
+                                          Provides session
+  / \\
+   -
+   |
+QApplication - Event loop for GUI events
+</c>
+
+Single Instance of Q[Core|Gui]Application
+
+<h>
+*Qt Overview and Status
+ - Qt history and its presence
+ - Licensing (GPL, LGP, Commercial)
+</h>
+<a><b>Abstract</b>:This section lists various licensing policies supported by Qt. GPL is completely free where as LGPL is less free to Commeriacial which is completely charged.</a>
+
+Meet Qt
+Qt Development Frameworks founded in 1994
+Trolltech acquired by Nokia in 2008
+Digia tool control of Qt in 2012
+Qt Company formed in 2013
+80 employees worldwide
+Trusted by over 6,500 companies worldwide
+8 companies out of 10 top companies uses Qt
+Qt: a coss-platform application and UI framework
+For desktop, mobile and embedded development
+Used by more than 350,000 commercial and open source developers
+Backed by Qt consulting, support and training
+
+<m>http://minhinc.42web.io/image/qt-slide-meetqt.png</m>
+
+<c>
+                  Licensing Options
+License     Cost     Runtime Support  Prop.Apps. Changes
+Commercial  Charged  Yes     Included Yes        Closed
+LGPL        Free     No      Add-On   Yes        Contribute
+GPL         Free     No      Add-On   No         Contribute
+</c>
+
+* Cost: License fee charged (Charged | Free)
+* Runtime: Charge for Runtimes (Yes | No)
+* Support: (Included | Add-On)
+* Prop.Apps: Can create proprietary applications
+* Yes: In accordance with the license terms
+* No: Source code must be made available
+* Changes: Must provide source code changes to Qt
+* Closed - No source code must be disclosed
+* Contribute: Source code must be provided
+
+<b>GPL</b>
+a) You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
+b) You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License.
+c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this License. (Exception: if the Program itself is interactive but does not normally print such an announcement, your work based on the Program is not required to print an announcement.)
+
+<b>LGPL</b>
+a)If a program uses LGPL libraries then source code is not required to be given to user when used commercially.
+b)If LGPL library is integrated (statically) or program is derived from then LGPL or LGPL library is modified then user source code must be provided when requested through the end user.
+
+<b>Qt Modules</b>
+<m>http://minhinc.42web.io/image/qt-slide-module2_s.png</m>
+
+<h>
+*Meta Object and QObject
+*MOC compiler and MOC file generation
+</h>
+<a><b>Abstract</b>: Qt has meta object system which creates extra information for the classes dervied from QObject and has Q_OBJECT MACRO in class private area. Extra information is stored in spearate moc_<classname> file  which extends Q_OBJECT class to have meta information in it.</a>
+
+* QObject is the heart of Qt\'s object model
+* It is base class of all qt classes
+* Based on parent-child relationship
+* Adds features to C++, like ...
+  - Signals and slots
+  - Properties
+  - Event handling
+  - Memory Management
+  - ...
+* Some features are standard C++
+* Some use Qt\'s meta-object system
+* QObject has no visual representation
+
+<m>http://minhinc.42web.io/image/qt-slide-qobjecttree.png</m>
+
+Qt\'s meta-object system provides the signals and slots mechanism for inter-object communication, run-time type information, and the dynamic property system.
+The meta-object system is based on three things:
+ 1. The QObject class
+ 2. The Q_OBJECT macro inside the private section of the class
+ 3. The Meta-Object Compiler (moc) extends class with meta object information
+
+Extra information pushed by moc compiler are
+ * QObject::metaObject()
+ * QMetaObject::className()
+ * QObject::inherits()
+ * QObject::tr() and QObject::trUtf8() translate strings for internationalization.
+ * QObject::setProperty() and QObject::property() dynamically set and get properties by name.
+ * QMetaObject::newInstance() constructs a new instance of the class.
+
+<b>MOC compiler</b>
+C++ code in Qt contains few QT specific tags and these tags are first parsed through MOC (Meta object compiler) generating final C++ code for g++ compiler.
+<c>
+struct myobject:QObject{
+private:
+Q_OBJECT  // for moc compiler, required for signal/slot support
+public slots:        // moc term
+void myslot();
+signals:            // moc term
+void mysignal();
+};
+</c>
+
+Sending signal
+<c>
+emit mysignal(); // emit is moc keyword
+</c>
+
+moc creates meta-object information
+<c>
+moc -o moc_myclass.cpp myclass.h
+c++ -c myclass.cpp; c++ -c moc_myclass.cpp
+c++ -o myapp moc_myclass.o myclass.o
+</c>
+
+<h>
+*Hello World using Qt creator
+</h>
+
+<b>Creator</b>
+<m>http://minhinc.42web.io/image/qt-slide-creator_s.png</m>
+
+<b>Debugger</b>
+<m>http://minhinc.42web.io/image/qt-slide-debugger_s.png</m>
+
+<c>
+<<main.cpp>>
+#include <QApplication>
+#include <QPushButton>
+int main(int argc, char *argv[]){
+QApplication app(argc,argv);
+QPushButton *button=new QPushButton("Hello World");
+button->show();
+return app.exec();
+}
+</c>
+
+<h>
+*QMake
+</h>
+<a><b>Abstract</b>: qmake application keeps information about all qt library and other dependent library an application would need. qmake typically reads .pro file in the current directry and generate Makefile.</a>
+
+Qt Build system has project file. Project file contains all build related information.
+qmake is an application which converts project file to unix Makefile.
+Supports MOC, UI and QRC file.
+qmake typically contains various keyword (in capital alphabets) which is required to get assigned for a particular result
+QT - Qt modules/libraries required
+CONFIG - config parameters i.e console for console output
+win32 for win32 specific settings
+SOURCES, HEADERS for source and header files
+RESOURCES for qrc file
+LIBS for linking to external library specially non Qt
+
+To create a project file
+$qmake -project QT+=core widgets // to create .pro file
+$qmake // creates Makefile
+
+To build
+$make
+
+<c>
+<<helloworld.pro>>
+QT += core widgets
+TARGET = helloworld
+TEMPLATE = app
+SOURCES + = main.cpp
+HEADERS +=
+</c>

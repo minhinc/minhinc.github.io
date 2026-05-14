@@ -1,0 +1,1781 @@
+<div class="pg" style="margin-top:40px">
+ <pre class=title>Linux Internals Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div align="center" style="width:100%;height:100px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:100px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:186px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding Virtual memory, Process concepts, IPC, File Systems EXT2
+Understanding Shell programming
+Understanding Boot process
+Understanding cross compilation and installing Linux installation on
+embedded hardware
+Understanding developing application for embedded systems</pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Five days - 40 hours (8hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:76px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting embedded and medium scale products.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:230px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of c programming</b>
+All examples are provided through c programming language.
+Knowledge of c programming is required.
+C training slides can browsed at
+<a href=http://minhinc.42web.io/training/c/advance-c-slides.php>http://minhinc.42web.io/training/c/advance-c-slides.php</a>
+
+Pdf document can be downloaded from
+<a href=http://minhinc.42web.io/training/advance-c-slides.pdf>http://minhinc.42web.io/training/advance-c-slides.pdf</a></pre>
+  </div>
+ </div>
+ <div style="height:98px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Ubuntu 16.0x LTS
+Raspberry Pi3</pre>
+  </div>
+ </div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:91px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries. Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-li-slides.pdf">http://minhinc.42web.io/training/advance-li-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:69px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.</pre>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-li-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Linux</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php#chap1_0"><pre>GNU Project/GPL Licensing</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_1"><pre>Evolution of Linux & Development Model</pre></a></li>
+    <li><a href="./advance-li-slides.php#chap1_2"><pre>Device Identities in Linux-Partitioning Schema</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-li-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction to Kernel</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=2#chap2_0"><pre>History of Linux</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_1"><pre>Types of kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_2"><pre>The Linux Kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=2#chap2_3"><pre>Kernel Architecture</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-li-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Shell commands & Shell</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=3#chap3_0"><pre>Basic Shell commands</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_0"><pre>Bash Shell Essentials
+- Introduction</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_1"><pre> - Process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_2"><pre>-Shell Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_3"><pre> - Shell Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_4"><pre>-Programming commands</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_5"><pre>- Advance Shell Programming
+   - Function
+   - Array
+   - I/O Redirection and file descriptor
+   - Local and Global variables
+   - Conditional Execution</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=3#chap3_6"><pre>Creating Makefiles</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>mknod</pre></li>
+    <li><pre>Write a Makefile to compile file</pre></li>
+    <li><pre>Create a static library using Makefile</pre></li>
+    <li><pre>Create a dynamic library using Makefile</pre></li>
+    <li><pre>Write application using static library and
+dynamic library generated</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-li-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Creating Libraries</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Static Library
+ - Using Static Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_0"><pre>Creating Shared Library</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=4#chap4_1"><pre> -Using Shared Library</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-li-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The Boot Process</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=5#chap5_0"><pre>The Boot Process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_1"><pre>BIOS Level</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre> - Boot Loader - Setup
+  - startup_32 functions</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=5#chap5_2"><pre>The start_kernel() function</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Cross compiling kernel</pre></li>
+    <li><pre>Board Support packages</pre></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-li-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - The File System</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=6#chap6_0"><pre>The File System</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_1"><pre>Virtual File system & its role</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_2"><pre>Files associated with a process</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_3"><pre>proc file system</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=6#chap6_4"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-li-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Process Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=7#chap7_0"><pre>Process Defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_1"><pre>Process Descriptor Structures in the kernel</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_2"><pre>Process States</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_3"><pre>Process Scheduling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_4"><pre>Process Creation</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=7#chap7_5"><pre>System calls related to process management</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-li-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=8#chap8_0"><pre>Defining and Creating secondary memory
+areas</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_1"><pre>Memory allocation & deallocation system
+calls malloc, calloc, alloca, free</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_2"><pre>Virtual Memory Management</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_3"><pre>Address Translation and page fault
+handling</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_4"><pre>Demand Paging defined</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=8#chap8_5"><pre>Process Organization in Memory</pre></a></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Implement late binding</pre></li>
+    <li><pre>Create hard link</pre></li>
+    <li><pre>Create soft link</pre></li>
+    <li><pre>Write a program to enumerate stat structure
+for both hard link and soft link. Illustrate which
+field is different</pre></li>
+    <li><pre>Create a child process and validates if all
+open descriptors are copied to child process also.
+ - Use file seek from parent and see child's
+  descriptor also got seeked.</pre></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-li-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Multi Thread Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=9#chap9_0"><pre>Creating multiple threads</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=9#chap9_1"><pre>Parent synchronization with other Thread</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=9#chap9_2"><pre>System calls</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main10" href="#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inter process communication</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap10_0"><pre>Pipes</pre></a></li>
+    <li><a href="#chap10_1"><pre>Fifo's</pre></a></li>
+    <li><a href="#chap10_2"><pre>Signals</pre></a></li>
+    <li><a href="#chap10_3"><pre>System-V IPC's
+ - Message queues</pre></a></li>
+    <li><a href="#chap10_4"><pre> - Shared memory</pre></a></li>
+    <li><a href="#chap10_5"><pre> - Semaphore</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-li-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Sockets</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=11#chap11_0"><pre>An Overview</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_1"><pre>System calls related to
+ - TCP</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=11#chap11_2"><pre>-UDP</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a multi threaded application and check if
+global variables are shared.
+ - Protect them using semaphores</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-li-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Network Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=12#chap12_0"><pre>TCP Server Client Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=12#chap12_1"><pre>UDP Server Client Programming</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=12#chap12_2"><pre>UDP Server Cient Programming</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-li-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Programming and Debugging tools</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=13#chap13_0"><pre>strace - Tracing system calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_1"><pre>ltrace - Tracing library calls</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=13#chap13_2"><pre>Tools used to detect memory access
+error; and memory leakage in linux
+mtrace</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-li-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Device Driver Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-li-slides.php?chap=14#chap14_0"><pre>Introduction</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_1"><pre>Kernel modules</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_2"><pre>Character device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_3"><pre>Block device drivers</pre></a></li>
+    <li><a href="./advance-li-slides.php?chap=14#chap14_4"><pre>Hardware and Interrupt Handling</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:177px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:177px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+  </ul>
+ </div>
+ 
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg">
+<pre class="slidetitle">Linux Internals Essentials</pre><pre class="slidesubtitle">Linux Internals Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer"></pre>
+</div>
+<div class="pg">
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div><div class="pg" style="margin-top:20px;">
+<a name="chap10">&nbsp;<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <h1><pre class="topic">  10. Inter process communication</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap10_0">Pipes</a></h2></li>   <li class="sml"><pre>Fifo's
+</pre></li>   <li class="sml"><pre>Signals
+</pre></li>   <li class="sml"><pre>System-V IPC's
+ - Message queues
+</pre></li>   <li class="sml"><pre> - Shared memory
+</pre></li>   <li class="sml"><pre> - Semaphore</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Persistence of various ipcs </pre>
+<div><img class="img" src="http://minhinc.42web.io/image/li-slide-ipc.png" /></div><div align="center" style="width:100%;height:100px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:100px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+Unnamed Pipe or Pipe
+ 
+On command line pipe is represented as "|"
+* It can be used in the shell to link two or more commands
+- For example ls <pre class="codei">-Rl | wc</pre>
+* Two ends of a pipe is represented as a set of two descriptors.
+* A pipe is used to communicate between related Processes (common ancestor). Normally, a pipe is created by a process, that process calls fork, and the pipe is used between the parent and the child.
+ 
+* Half duplex
+* Data is passed in order.
+* Pipe uses circular buffer and it has zero buffering capacity
+* The read and write system calls are blocking calls.
+  </pre>
+<div align="center" style="width:100%;height:76px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:76px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">#include &lt;unistd.h&gt;
+int fd[2]; </pre>
+ <pre " class="slidecontent">  </pre>
+<div><img class="img" src="http://minhinc.42web.io/image/li-slide-pipesimplex.png" /></div><div align="center" style="width:100%;height:57px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:57px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+ <pre " class="code">int pipe(int fd[2]); </pre>
+ <pre " class="slidecontent">  </pre>
+<div><img class="img" src="http://minhinc.42web.io/image/li-slide-pipekernelsimplex.png" /></div><div align="center" style="width:100%;height:103px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:103px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+One Way Communication between parent and child
+ 
+Create a pipe.
+* Call fork.
+* Parent can send data and child can read the data or vice versa.
+* Unused ends (descriptors) should be closed.
+  </pre>
+<div><img class="img" src="http://minhinc.42web.io/image/li-slide-pipefork.png" /></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+parent closes the read end of the pipe (fd[0]), and the child closes the write end (fd[1]).
+  </pre>
+<div><img class="img" src="http://minhinc.42web.io/image/li-slide-pipeforksimplex.png" /></div><div align="center" style="width:100%;height:86px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:86px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+Two way Communication
+* Create two pipes say fd1, fd2.
+* Four descriptors for each process (<pre class="codei">fd1[0],fd1[1],fd2[0],fd2[1]</pre>)
+* Parent closes read end of fd1 and write end of fd2 </pre>
+ <pre " class="code">- close(fd1[0], fd2[1]); </pre>
+ <pre " class="slidecontent">* child closes read end of fd2 and write end of fd1 </pre>
+ <pre " class="code">- close(fd2[0], fd1[1]); </pre>
+ <pre " class="slidecontent">  </pre>
+<div><img class="img" src="http://minhinc.42web.io/image/li-slide-pipetwowaycommunication.png" /></div><div align="center" style="width:100%;height:91px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:91px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+Pipe : Advantages & Disadvantages
+Advantages:
+* Simplest form of IPC
+* Persistence in process level
+* Can be used in shell
+ 
+Disadvantages:
+* Cannot be used to communicate between unrelated processes
+ 
+<b>popen</b> and <b>pclose</b> Functions
+ 
+The function popen does a fork and exec to execute the cmdstring and returns a standard I/O file pointer. If type is "r", the file pointer is connected to the standard output of cmdstring.
+If type is "w", the file pointer is connected to the standard input of cmdstring.
+  </pre>
+<div align="center" style="width:100%;height:80px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">#include &lt;stdio.h&gt;
+FILE *popen(const char *cmdstring, const char *type);
+          Returns: file pointer if OK, NULL on error
+int pclose(FILE *fp);
+          Returns: termination status of cmdstring, or -1 on error </pre>
+ <pre " class="slidecontent">  </pre>
+<div><img class="img" src="http://minhinc.42web.io/image/li-slide-pipepopen.png" /></div> <pre " class="slidecontent"> 
+Result of <pre class="codei">fp = popen(cmdstring, "r")</pre> </pre>
+<div><img class="img" src="http://minhinc.42web.io/image/li-slide-pipepopenresult.png" /></div><div align="center" style="width:100%;height:53px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:53px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+SIMPLEX PIPE
+  </pre>
+ <pre " class="code">#include&lt;stdio.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;unistd.h&gt;
+main() {
+int pipefd[2],n;
+char buff[100];
+ 
+if(pipe(pipefd) &lt; 0) //create a pipe with two descriptors
+ perror("filed in openning pipe
+");
+printf("read fd = %d, write fd = %d
+",pipefd[0],pipefd[1]);
+ 
+//write into the pipe's write decriptor
+if(write(pipefd[1],"hello world.....!",18)!= 18)
+ perror("filed in writing pipe
+");
+ 
+//read from the pipe's read decriptor
+if((n = read(pipefd[0],buff,sizeof(buff))) &lt; 0)
+ perror("filed in writing pipe
+");
+ 
+write(1 , buff, n);     //write to the stdout
+exit(0);
+} </pre>
+<div align="center" style="width:100%;height:97px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:97px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+DUPLEX PIPE
+  </pre>
+ <pre " class="codec">#include &lt;stdio.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;unistd.h&gt;
+#include &lt;string.h&gt;
+# define MAXBUF 1024
+void client(int  readfd,  int writefd) {
+char buff[MAXBUF];
+int n;
+puts("Enter file name
+");
+scanf("%s",buff);
+n = strlen(buff);
+if(buff[n-1] == '
+') n--;
+if(write(writefd,buff, n) !=n) perror("client: write error
+");
+while((n = read(readfd,buff,MAXBUF)) &gt; 0){
+ if(write(1,buff,n)!= n)
+  perror("client: error
+");
+}
+if(n &lt; 0)
+ perror("Client: write error
+");
+}
+ 
+void server(int readfd,int  writefd) {
+char    buff[MAXBUF];
+int     n, fd;
+if((n = read(readfd, buff, MAXBUF)) &lt;= 0) perror("server: read error
+");
+buff[n] = '\0';
+if((fd = open(buff,0)) &lt; 0) perror("server:open error
+");
+while((n = read(fd,buff,MAXBUF)) &gt; 0) if(write(writefd,buff,n)!= n) perror("server: write error
+");
+ if(n &lt; 0) perror("server : read error
+");
+}
+ 
+main() {
+int     pipefd1[2], pipefd2[2], childfd, n;
+char    buff[100];
+if(pipe(pipefd1) &lt; 0 || pipe(pipefd2) &lt; 0) perror("filed in openning pipes
+");
+if((childfd = fork()) &lt; 0){
+perror("can't fork");
+close(pipefd1[0]);
+close(pipefd1[1]);
+close(pipefd2[0]);
+close(pipefd2[1]);
+}
+else if(childfd &gt; 0){           //Parent process
+close(pipefd1[0]);      //read1
+close(pipefd2[1]);      //write2
+client(pipefd2[0],pipefd1[1]);
+while(wait(( int *) 0)!= childfd);
+close(pipefd1[1]);
+close(pipefd2[0]);
+} else {                        // child process
+close(pipefd1[1]);      // write1
+close(pipefd2[0]);      // read2
+server(pipefd1[0],pipefd2[1]);
+close(pipefd1[0]);
+close(pipefd2[1]);
+}
+exit(0);
+} </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main10"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  10. Inter process communication</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Pipes
+</pre></li>   <li class="big"><h2><a name="chap10_1">Fifo's</a></h2></li>   <li class="sml"><pre>Signals
+</pre></li>   <li class="sml"><pre>System-V IPC's
+ - Message queues
+</pre></li>   <li class="sml"><pre> - Shared memory
+</pre></li>   <li class="sml"><pre> - Semaphore</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+FIFO: Introduction
+* FIFO works much like a pipe
+ -Half duplex, data passed in FIFO order, circular buffer
+and zero buffering capacity.
+* FIFO is created on a file system as a device
+special file
+* It can be used to communicate between unrelated
+processes
+* It can be reused.
+* Persist till the file is deleted.
+ 
+ 
+FIFO Creation
+* FIFO can be created in a shell by using mknod or
+mkfifo command.
+ - mknod myfifo p
+ - mkfifo a=rw myfifo
+* In a C program mknod system call or mkfifo library function can be used.
+ - int mkfifo ( char *file_name, mode_t mode);
+ - int mknod (char *file_name, mode_t mode, dev_t dev);
+* mknod("./MYFIFO", S_IFIFO|0666, 0);
+ 
+Using FIFO
+* Once a FIFO is created either from a shell or through a program, file's related system calls (open, read, write, select, close etc., ) are used to access the FIFO.
+* For example: Process 1 may open a FIFO in write only mode and write some data.
+* Process 2 may open the FIFO in read only mode, read the data and display on the monitor.
+ 
+FIFO: Disadvantages
+* Data cannot be broadcast to multiple receivers.
+* If there are multiple receivers, there is no way to direct to a specific reader or vice versa.
+* Cannot be used across network
+* Less secure than a pipe, since any process with valid access permission can access data.
+* Cannot store data
+* No message boundaries. Data is treated as a stream of Bytes.
+  </pre>
+<div align="center" style="width:100%;height:194px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:194px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="codec">#include &lt;stdio.h&gt;
+#include&lt;stdio.h&gt;
+#include&lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+ 
+# define FIFO1  "/tmp/fifo1" //fifos can be created in users home
+# define FIFO2  "/tmp/fifo2" //directory also.
+ 
+# define MAXBUF 1024
+ 
+void client(int  readfd,  int writefd) {
+char buff[MAXBUF];
+int n;
+puts("Enter file name
+");
+scanf("%s",buff);       //reading file name
+n = strlen(buff);
+if(buff[n-1] == '
+') n--;
+if(write(writefd,buff, n) !=n) //writing file name into fifo
+perror("client: write error
+");
+while((n = read(readfd,buff,MAXBUF)) &gt; 0) if(write(1,buff,n)!= n) perror("client: error
+");
+if(n &lt; 0) perror("Client: write error
+");
+}
+ 
+void server(int readfd,int  writefd) {
+char buff[MAXBUF];
+int n, fd;
+if((n = read(readfd, buff, MAXBUF)) &lt;= 0) perror("server: read error
+");
+buff[n] = '\0';
+if((fd = open(buff,0)) &lt; 0) perror("server:open error
+");
+while((n = read(fd,buff,MAXBUF)) &gt; 0) if(write(writefd,buff,n)!= n) perror("server: write error
+");
+if(n &lt; 0) perror("server : read error
+");
+}
+ 
+main() {
+int     readfd, writefd ,pid;
+//fifo is created with user read and write //permission.
+if((mkfifo(FIFO1, 0666)) &lt; 0){
+perror("Fifo1 failed
+");
+exit(1); </pre>
+<div align="center" style="width:100%;height:110px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:110px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="codec">}
+if((mkfifo(FIFO2, 0666)) &lt; 0){
+perror("Fifo1 failed
+");
+exit(2);
+}
+if((pid = fork()) == 0){
+readfd = open(FIFO1, 0, 0);//child opens fifo1 for read
+writefd = open(FIFO2, 1, 0);//child opens fifo2 for write
+//child process calls server function
+server(readfd, writefd);
+exit(3);
+}
+writefd = open(FIFO1, 1, 0);
+readfd = open(FIFO2, 0, 0);
+//Parent becomes client process
+client(readfd, writefd);
+ 
+//parent wait till exit status returned is equal to pid(current child)
+waitpid(pid,NULL,0);
+close(readfd);
+close(writefd);
+ 
+unlink(FIFO1);  //removing fifo from /tmp
+unlink(FIFO2);
+exit(0);
+} </pre>
+<div align="center" style="width:100%;height:60px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:60px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main10"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  10. Inter process communication</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Pipes
+</pre></li>   <li class="sml"><pre>Fifo's
+</pre></li>   <li class="big"><h2><a name="chap10_2">Signals</a></h2></li>   <li class="sml"><pre>System-V IPC's
+ - Message queues
+</pre></li>   <li class="sml"><pre> - Shared memory
+</pre></li>   <li class="sml"><pre> - Semaphore</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+The common communication channel between user space program and kernel is given by the system calls.
+But there is a different channel, that of the signals, used both between user processes and from kernel to user process.
+ 
+Sending Signals
+A program can signal a different program using the kill() system call with prototype </pre>
+ <pre " class="code">int kill(pid_t pid, int sig); </pre>
+ <pre " class="slidecontent">This will send the signal with number sig to the process with process ID pid . Signal numbers are small positive integers.
+ 
+Receiving signals </pre>
+ <pre " class="code">typedef void (*sighandler_t)(int);
+sighandler_t signal(int sig, sighandler_t handler);
+ 
+Signal     Value     Action   Comment
+-------------------------------------------------
+SIGHUP        1       Term    Hangup detected on controlling terminal or death of controlling process
+SIGINT        2       Term    Interrupt from keyboard
+SIGQUIT       3       Core    Quit from keyboard
+SIGILL        4       Core    Illegal Instruction
+SIGABRT       6       Core    Abort signal from abort(3)
+SIGFPE        8       Core    Floating point exception
+SIGKILL       9       Term    Kill signal
+SIGSEGV      11       Core    Invalid memory reference
+SIGPIPE      13       Term    Broken pipe: write to pipe with no
+readers
+SIGALRM      14       Term    Timer signal from alarm(2)
+SIGTERM      15       Term    Termination signal
+SIGUSR1   30,10,16    Term    User-defined signal 1
+SIGUSR2   31,12,17    Term    User-defined signal 2
+SIGCHLD   20,17,18    Ign     Child stopped or terminated
+SIGCONT   19,18,25    Cont    Continue if stopped
+SIGSTOP   17,19,23    Stop    Stop process
+SIGTSTP   18,20,24    Stop    Stop typed at terminal
+SIGTTIN   21,21,26    Stop    Terminal input for background process
+SIGTTOU   22,22,27    Stop    Terminal output for background process </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+The signals SIGKILL and SIGSTOP cannot be caught, blocked, or ignored.
+ 
+Signals not in the POSIX.1-1990 standard but described in SUSv2 and POSIX.1-2001. </pre>
+ <pre " class="code">Signal       Value     Action   Comment
+--------------------------------------------------------------
+SIGBUS      10,7,10     Core    Bus error (bad memory access)
+SIGPOLL                 Term    Pollable event (Sys V).
+Synonym for SIGIO
+SIGPROF     27,27,29    Term    Profiling timer expired
+SIGSYS      12,31,12    Core    Bad argument to routine (SVr4)
+SIGTRAP        5        Core    Trace/breakpoint trap
+SIGURG      16,23,21    Ign     Urgent condition on socket (4.2BSD)
+SIGVTALRM   26,26,28    Term    Virtual alarm clock (4.2BSD)
+SIGXCPU     24,24,30    Core    CPU time limit exceeded (4.2BSD)
+SIGXFSZ     25,25,31    Core    File size limit exceeded (4.2BSD) </pre>
+ <pre " class="slidecontent"> 
+various other signals. </pre>
+ <pre " class="code">Signal       Value     Action   Comment
+-------------------------------------------------
+SIGIOT         6        Core    IOT trap. A synonym for SIGABRT
+SIGEMT       7,-,7      Term
+SIGSTKFLT    -,16,-     Term    Stack fault on coprocessor (unused)
+SIGIO       23,29,22    Term    I/O now possible (4.2BSD)
+SIGCLD       -,-,18     Ign     A synonym for SIGCHLD
+SIGPWR      29,30,19    Term    Power failure (System V)
+SIGINFO      29,-,-             A synonym for SIGPWR
+SIGLOST      -,-,-      Term    File lock lost (unused)
+SIGWINCH    28,28,20    Ign     Window resize signal (4.3BSD, Sun)
+SIGUNUSED    -,31,-     Core    Synonymous with SIGSYS </pre>
+ <pre " class="slidecontent"> 
+Blocking signals
+Each process has a list (bitmask) of currently blocked signals. When a signal is blocked, it is not delivered (that is, no signal handling routine is called), but remains pending. </pre>
+ <pre " class="code">The sigprocmask() system call serves to change the list of blocked signals. See sigprocmask(2).
+The sigpending() system call reveals what signals are (blocked and) pending.
+The sigsuspend() system call suspends the calling process until a specified signal is received. </pre>
+ <pre " class="slidecontent">When a signal is blocked, it remains pending, even when otherwise the process would ignore it.
+ 
+wait and SIGCHLD
+Whenever the child (it exits, crashes, traps, stops, continues), and in particular
+when it dies, the parent is sent a SIGCHLD signal. If parent handles it then
+ 
+The parent can use the system call wait() or waitpid() or so, there are a few variations, to learn about the status of its stopped or deceased children. In the case of a deceased child, as soon as a status has been reported, the zombie vanishes.
+ 
+If the parent is not interested it can say so explicitly (before the fork) using
+  </pre>
+<div align="center" style="width:100%;height:61px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:61px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">signal(SIGCHLD, SIG_IGN);
+or
+struct sigaction act;
+act.sa_handler = something;
+act.sa_flags = SA_NOCLDWAIT;
+sigaction (SIGCHLD, &act, NULL); </pre>
+ <pre " class="slidecontent"> 
+and as a result it will not hear about deceased children, and children will not be transformed into zombies. Default action for SIGCHLD is to ignore the signal but it would create zombie child process.
+ 
+Returning from a signal handler
+When the program was interrupted by a signal, its status (including all integer and floating point registers) was saved, to be restored just before execution continues at the point of interruption.
+This means that the return from the signal handler is more complicated than an arbitrary procedure return - the saved state must be restored.
+To this end, the kernel arranges that the return from the signal handler causes a jump
+  </pre>
+<div align="center" style="width:100%;height:66px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:66px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code"># include &lt;stdio.h&gt;
+# include &lt;signal.h&gt;
+# include &lt;unistd.h&gt;
+void    sig_fun(int);
+main() {
+struct sigaction  signalact;
+signalact.sa_handler = sig_fun;
+sigemptyset(&signalact.sa_mask);
+signalact.sa_flags =0;
+sigaction(SIGINT, &signalact, 0);
+while(1){
+ printf("hello world
+");
+ sleep(1);
+}
+}
+void    sig_fun(int signal) {
+ printf("Hi, I got signal: %d
+",signal);
+} </pre>
+<div align="center" style="width:100%;height:75px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:75px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+SIGCHLD </pre>
+ <pre " class="code"># include &lt;signal.h&gt;
+void sig_init(void);
+main() {
+ unsigned int pid, i;
+ if((pid = fork()) == 0) sleep(1);
+ else {
+  signal(SIGCHLD,sig_init);
+  for(i=0;i &lt; 1000000000;i++) ;
+  printf("parent exiting
+");
+ }
+}
+void sig_init(void)
+{
+ printf("child terminated
+");
+} </pre>
+<div align="center" style="width:100%;height:63px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:63px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+SIGUSER
+  </pre>
+ <pre " class="codec">#include&lt;stdio.h&gt;
+#include&lt;signal.h&gt;
+static void sighandler(int);
+int main(void) {
+int i,parentpid,childpid,status; </pre>
+ <pre " class="codec">/*prepare the sighandler routine to catch SIGUSR1 and SIGUSR2 */
+if(signal(SIGUSR1,sighandler)==SIG_ERR) printf("Parent:Unable to create handler for SIGUSR1
+");
+parentpid=getpid();
+if((childpid=fork())==0) {
+ kill(parentpid,SIGUSR1);/* raise the SIGUSR1 signal*/
+ printf("
+Hi,child, I am here .............!
+ 
+");
+ if(signal(SIGUSR2,sighandler)==SIG_ERR) printf("Child:Unable to create handler for SIGUSR2
+");
+ /*Child Process begins busy-wait for a signal*/
+ printf("child,waiting for singnal
+");
+ pause();
+ //sleep(4);
+ printf("child done %d
+",getpid());
+}
+else {
+ kill(childpid,SIGUSR2);/* raise the SIGUSR2 signal*/
+ printf("Parent:waiting for child to terminate.....
+");
+ //sleep(1);
+ wait(&status);/*Parent waiting for the child termination*/
+ //kill(parentpid,SIGTERM);/*Parent  raising the SIGTERM signal*/
+ printf("parent done %d
+",getpid());
+}
+}
+static void sighandler(int signo) {
+switch(signo)
+{
+ case SIGUSR1:/* Incoming SIGUSR1 signal*/
+  printf("Parent:Recieved SIGUSR1
+");
+  break;
+ case SIGUSR2:/*Incoming SIGUSR2 signal*/
+  printf("Recieved SIGUSR2
+");
+  break;
+ default:
+  printf("This should not be printed
+");
+}
+ return;
+} </pre>
+<div align="center" style="width:100%;height:108px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:108px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main10"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  10. Inter process communication</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Pipes
+</pre></li>   <li class="sml"><pre>Fifo's
+</pre></li>   <li class="sml"><pre>Signals
+</pre></li>   <li class="big"><h2><a name="chap10_3">System-V IPC's<br>- Message queues</a></h2></li>   <li class="sml"><pre> - Shared memory
+</pre></li>   <li class="sml"><pre> - Semaphore</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Introduction
+* Sys V IPC is implemented as a single unit.
+* System V IPC Provides three mechanisms namely:
+ - Message Queues
+ - Shared Memory
+ - Semaphores
+* Persist till explicitly delete or reboot the system.
+ 
+Common Attributes
+Each IPC objects has the following attributes.
+ key
+ id
+ Owner
+ Permission
+ Size
+    - Message queue - used-bytes, number of messages
+    - Shared memory - size, number of attach, status
+    - Semaphore - number of semaphores in a set
+    - The ipc_perm structure holds the common attributes of the resources.
+ 
+System Limitations
+$ ipcs -l </pre>
+<div align="center" style="width:100%;height:109px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:109px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">------ Shared Memory Limits --------
+max number of segments = 4096
+max seg size (kbytes) = 32768
+max total shared memory (kbytes) = 8388608
+min seg size (bytes) = 1
+------ Semaphore Limits --------
+max number of arrays = 128
+max semaphores per array = 250
+max semaphores system wide = 32000
+max ops per semop call = 32
+semaphore max value = 32767
+------ Messages: Limits --------
+max queues system wide = 16
+max size of message (bytes) = 8192
+default max size of queue (bytes) = 16384 </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+Get a Key
+* If we wish to communicate between different processes using an IPC resource, the first step is to create a shared unique identifier.
+* The simplest form of the identifier is a number - the system generates this number dynamically for a given mechanism by using the ftok library function.
+* But apart from the creator, other processes that want to communicate with the creator process should agree to the key value.
+* Syntax: key_t ftok (const char *filename, int id);
+ 
+ 
+Get an id
+The syntax for a get function is: </pre>
+<div align="center" style="width:100%;height:61px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:61px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">  int xxxget (key_t key, int xxxflg); </pre>
+ <pre " class="slidecontent">  (xxx may be msg or shm or sem)
+If successful, returns to an identifier; otherwise -1 for error.
+The key can be generated in three different ways
+  - from the ftok library function
+  - by choosing some static positive integer value
+  - by using the IPC_PRIVATE macro
+flags commonly used with this function are IPC_CREAT and IPC_EXCL.
+ 
+ 
+Control an Object
+The syntax for the control function is: </pre>
+<div align="center" style="width:100%;height:52px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:52px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">   int xxxctl (int xxxid, int cmd, struct xxxid_ds *buffer); </pre>
+ <pre " class="slidecontent">   (xxx may be msg or shm or sem);
+If successful, the xxxctl function returns zero, otherwise it returns -1.
+The command argument may be </pre>
+ <pre " class="slidecontent"> <pre class="codei">IPC_STAT</pre>
+ <pre class="codei">IPC_SET</pre>
+ <pre class="codei">IPC_RMID</pre>
+ 
+Message Queues
+* Message queue overcomes FIFO limitation like storing data and setting message boundaries.
+* Create a message queue
+* Send message (s) to the queue
+* Any process who has permission to access the queue can retrieve message (s).
+* Remove the message queue.
+ 
+Each queue has the following msqid_ds structure associated with it:
+  </pre>
+<div align="center" style="width:100%;height:66px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:66px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">struct msqid_ds {
+struct ipc_perm msg_perm;
+msgqnum_t msg_qnum; /*# of messages on queue */
+msglen_t msg_qbytes; /*max # of bytes on queue */
+pid_t msg_lspid; /*pid of last msgsnd() */
+pid_t msg_lrpid; /*pid of last msgrcv() */
+time_t msg_stime; /*last-msgsnd() time */
+time_t msg_rtime; /*last-msgrcv() time */
+ime_t msg_ctime; /*last-change time */
+..
+..
+}; </pre>
+ <pre " class="slidecontent"> 
+msgget </pre>
+ <pre " class="code">* int msgget (key_t key, int msgflg);
+* The first argument key can be passed from the return value of the ftok function or made IPC_PRIVATE.
+* To create a message queue, IPC_CREAT ORed with access permission is set for the msgflg argument.
+* Ex: msgid = msgget (key, IPC_CREAT | 0744);
+msgid = msgget (key, 0); </pre>
+ <pre " class="slidecontent"> 
+msgsnd </pre>
+ <pre " class="code">* The syntax of the function is:
+* int msgsnd (int msqid, structu msgbuf *msgp, size_t msgsz, int msgflg);
+* Arguments:
+- message queue ID
+- address of the structure.
+- size of the message text
+- message flag
+* 0 or IPC_NOWAIT
+struct mymesg {
+long mtype;
+/* positive message type */
+char mtext[512]; /* message data, of length nbytes */
+}; </pre>
+ <pre " class="slidecontent"> 
+msgrcv
+ Syntax of the function is: </pre>
+ <pre " class="code">ssize_t msgrcv (int msqid, struct msgbuf *msgp, size_t msgsz, long msgtype, int msgflg); </pre>
+ <pre " class="slidecontent"> 
+msgtype argument is used to retrieve a particular
+message.
+ 0 -retrieve in FIFO order
+ +ve - retrieve the the exact value of the message type
+ -ve - first message or &lt;= to the absolute value. on success, msgrcv returns with the number of bytes actually copied into the message text
+ 
+Destroying a Message Queue
+There are many ways:
+* From command line, using one of the ways
+- $ ipcrm msg msqid
+- $ ipcrm -q msqid
+- $ ipcrm -Q msgkey
+* Using system call
+- msgctl (msgid, IPC_RMID, 0);
+ 
+ 
+Message Queue: Pseudo Code </pre>
+<div align="center" style="width:100%;height:90px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:90px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">key = ftok (".", 'a');
+msqid = msgget (key, IPC_CREAT|0666);
+msgsnd (msqid, &struct, sizeof (struct), 0);
+msgrcv (msqid, &struct, sizeof (struct), mtype, 0);
+msgctl (msqid, IPC_RMID, NULL); </pre>
+ <pre " class="slidecontent">$ipcrm msg msqid
+  </pre>
+ <pre " class="slidecontent">Limitations
+* Message queues are effective if a small amount of data is transferred.
+* Very expensive for large transfers.
+* During message sending and receiving, the message is copied from user buffer into kernel buffer and vice versa
+* So each message transfer involves two data copy operations, which results in poor performance of a system.
+* A message in a queue can not be reused
+Message send tests.c </pre>
+ <pre class="codes" style="float:left;">#include&lt;sys/ipc.h&gt;
+#include&lt;sys/types.h&gt;
+#include&lt;sys/msg.h&gt;
+#include&lt;unistd.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;stdio.h&gt;
+struct message
+{
+long mtype;
+char mtext[50];
+};
+main()
+{
+struct message m1;
+int msgid;
+if((msgid=msgget(1,0666|IPC_CREAT))==-1) {
+ perror("msgget");
+ exit(1);
+}
+m1.mtype=getpid();
+printf("Process id of the current process is:%ld
+",getpid());
+printf("Enter the message you want to send to the queue
+");
+fgets(m1.mtext,50,stdin);
+if((n=msgsnd(msgid,&m1,50,0))==-1) {
+ perror("msgsnd");
+ exit(1);
+}
+printf("Message successfully sent
+");
+}
+ 
+<pre class="codei">Message receive testr.c</pre>
+ 
+#include&lt;sys/ipc.h&gt;
+#include&lt;sys/types.h&gt;
+#include&lt;sys/msg.h&gt;
+#include&lt;unistd.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;stdio.h&gt; </pre>
+ <pre class="codes" style="float:left;">struct message {
+ long mtype;
+ char mtext[50];
+};
+ 
+main() {
+struct message m1;
+int msgid;
+if((msgid=msgget(1,0666|IPC_CREAT))==-1) {
+ perror("msgget");
+ exit(1);
+}
+if(msgrcv(msgid,&m1,10,0,MSG_NOERROR)==-1) {
+ perror("msgsnd");
+ exit(1);
+}
+printf("Message received from the process whose pid is:%ld
+",m1.mtype);
+printf("And the message is:%s
+",m1.mtext);
+}
+ 
+<pre class="codei">Message control testc.c</pre>
+ 
+#include&lt;sys/ipc.h&gt;
+#include&lt;sys/types.h&gt;
+#include&lt;sys/msg.h&gt;
+#include&lt;unistd.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;stdio.h&gt;
+main(){
+int msgid;
+if((msgid=msgget(1,0))==-1) {
+ perror("msgget");
+ exit(1);
+}
+if(msgctl(msgid,IPC_RMID,0)==-1) {
+ perror("msgctl");
+ exit(1);
+}
+printf("Message queue successfully deleted
+");
+} </pre>
+<div class="clr"></div><div align="center" style="width:100%;height:99px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:99px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main10"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  10. Inter process communication</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Pipes
+</pre></li>   <li class="sml"><pre>Fifo's
+</pre></li>   <li class="sml"><pre>Signals
+</pre></li>   <li class="sml"><pre>System-V IPC's
+ - Message queues
+</pre></li>   <li class="big"><h2><a name="chap10_4">- Shared memory</a></h2></li>   <li class="sml"><pre> - Semaphore</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Shared Memory
+* Very flexible and ease of use.
+* Fastest IPC mechanisms
+* shared memory is used to provide access to
+  Global variable
+  Shared libraries
+  Word processors
+  Multi-player gaming environment
+  Http daemons
+  Other programs written in languages like Perl, C etc.,
+  </pre>
+<div align="center" style="width:100%;height:57px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:57px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div><img class="img" src="http://minhinc.42web.io/image/li-slide-sharedmemory.png" /></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+Shared Memory: Data Structures
+The data structures used in shared memory are
+  * shmid_ds
+  * ipc_perm
+  * Shminfo
+  * shm_info
+  * shmid_kernel
+ 
+ipc_perm Structure </pre>
+ <pre " class="codec">struct ipc_perm {
+__key_t __key;  - Key
+__uid_t uid     - Owner's user ID
+__gid_t gid;    - Owner's group ID
+__uid_t cuid;   - Creator's user ID
+__gid_t cgid;   - Creator's group ID
+unsigned short int mode; - r/w permission unsigned short int
+__seq;                  - Sequence number
+}; </pre>
+ <pre " class="slidecontent"> 
+ 
+shmid_ds </pre>
+ <pre " class="codec">struct shmid_ds
+{
+struct ipc_perm shm_perm;
+size_t shm_segsz;
+__time_t shm_atime;
+__time_t shm_dtime;
+__time_t shm_ctime;
+__pid_t shm_cpid;
+__pid_t shm_lpid;
+shmatt_t shm_nattch;
+}; </pre>
+ <pre " class="slidecontent"> 
+Steps to Access Shared Memory
+The steps involved are:
+* Creating shared memory
+* Connecting to the memory & obtaining a pointer to the memory </pre>
+ <pre " class="slidecontent">* Reading/Writing & changing access mode to the memory
+* Detaching from memory
+* Deleting the shared segment
+shmat
+* Used to attach the created shared memory segment onto a process address space.
+* void *shmat(int shmid,void *shmaddr,int shmflg)
+* Example: data=shmat(shmid,(void *)0,0);
+* A pointer is returned on the successful execution of the system call and the process can read or write to the segment using the pointer.
+ 
+ 
+Reading / Writing to Shared Memory
+* Reading or writing to a shared memory is the easiest
+part.
+* The data is written on to the shared memory as we do it
+with normal memory using the pointers
+* Eg. Read:
+printf("SHM contents : %s
+", data);
+* Eg. Write:
+prinf("Enter a String : ");
+scanf(" %[^
+]",data);
+ 
+ 
+shmdt and shmctl
+* The detachment of an attached shared memory segment is done by shmdt to pass the address of the pointer as an argument.
+* Syntax: int shmdt(void *shmaddr);
+* To remove shared memory call:
+int shmctl(shmid,IPC_RMID,NULL);
+* These functions return -1 on error and 0 on successful execution.
+ 
+Shared Memory: Pseudo Code
+* shmid = shmget (key, 1024, IPC_CREAT|0744);
+* void *shmat (int shmid, void *shmaddr, int shmflg);
+      if the shm is read only pass SHM_RDONLY else 0
+* (void *)data = shmat (shmid, (void *)0, 0);
+* int shmdt (void *shmaddr);
+* int shmctl (shmid, IPC_RMID, NULL);
+ 
+Limitations
+* Data can either be read or written only. Append is not allowed.
+* Race condition
+- Since many processes can access the shared memory, any modification done by one process in the address space is visible to all other processes. Since the address space is a shared resource, the developer should implement a proper locking mechanism to prevent the race condition in the shared memory.
+ 
+Shared memory create </pre>
+<div align="center" style="width:100%;height:242px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:242px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre class="codes" style="float:left;">#include&lt;sys/ipc.h&gt;
+#include&lt;sys/shm.h&gt;
+#include&lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+main()
+{
+int shmid,pos;
+char *msg;
+ 
+if((shmid=shmget(110,1024,IPC_CREAT|0666))==-1) {
+ perror("shmget");
+ exit(1);
+}
+ 
+msg=shmat(shmid,0,0);
+ 
+printf("Enter the data you want to write into shared memory
+");
+fgets(msg,1024,stdin);
+pos = strlen(msg);
+strcpy(msg+pos-1,"World");
+printf("Data successfully written
+");
+ 
+shmdt(msg);
+}
+ 
+<pre class="codei">Shared memory read</pre>
+#include&lt;sys/ipc.h&gt;
+#include&lt;sys/shm.h&gt;
+#include&lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+main()
+{ </pre>
+ <pre class="codes" style="float:left;">int shmid;
+char *msg;
+ 
+if((shmid=shmget(110,1024,0666|IPC_CREAT))==-1) {
+ perror("shmget"); //get shrdmry id
+ exit(1);
+}
+ 
+msg=shmat(shmid,0,0);
+printf("Data written in the shared memory is:%s
+",msg);
+ 
+shmdt(msg); //to detach the memory location for further use
+}
+ 
+<pre class="codei">Shared memory control</pre>
+#include&lt;sys/ipc.h&gt;
+#include&lt;sys/shm.h&gt;
+#include&lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+ 
+main()
+{
+int shmid;
+ 
+if((shmid=shmget(110,0,0))==-1)  //110 is key
+{
+ perror("shmid");
+ exit(1);
+}
+ 
+if(shmctl(shmid,IPC_RMID,0)==-1) {
+ perror("shmctl");
+ exit(1);
+}
+printf("Shared memory successfully removed
+");
+} </pre>
+<div class="clr"></div><div align="center" style="width:100%;height:88px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:88px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main10"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 4 Morning</pre>
+  <pre class="topic">  10. Inter process communication</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Pipes
+</pre></li>   <li class="sml"><pre>Fifo's
+</pre></li>   <li class="sml"><pre>Signals
+</pre></li>   <li class="sml"><pre>System-V IPC's
+ - Message queues
+</pre></li>   <li class="sml"><pre> - Shared memory
+</pre></li>   <li class="big"><h2><a name="chap10_5">- Semaphore</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Semaphores
+* If a process wants to use the shared object, it will "lock" it by asking the semaphore to decrement the counter
+* Depending upon the current value of the counter, the semaphore will either be able to carry out this operation, or will have to wait until the operation becomes possible
+* The current value of counter is &gt;0, the decrement operation will be possible. Otherwise, the process will have to wait
+ 
+System V IPC: Semaphores
+* System V semaphore provides a semaphore set
+- that can include a number of semaphores. It is up to user to decide the number of semaphores in the set.
+* Each semaphore in the set can be a binary or a counting semaphore. Each semaphore can be used to control access to one resource - by changing the value of semaphore count.
+ 
+Semaphore: Initialization </pre>
+<div align="center" style="width:100%;height:90px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:90px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="codec">union semun {
+int val;
+// value for SETVAL
+struct semid_ds *buf; // buffer for IPC_STAT, IPC_SET
+unsigned short int *array; // array for GETALL, SETALL
+};
+union semun arg;
+semid = semget (key, 1, IPC_CREAT | 0644);
+arg.val = 1; /* 1 for binary else &gt; 1 for Counting Semaphore */
+semctl (semid, 0, SETVAL, arg); </pre>
+ <pre " class="slidecontent"> 
+Semaphore: Implementation </pre>
+ <pre " class="codec">struct sembuf {
+short sem_num; /* semaphore number: 0 means first */
+short sem_op; /* semaphore operation: lock or unlock */
+short sem_flg; /* operation flags : 0, SEM_UNDO, IPC_NOWAIT */
+};
+struct sembuf buf = {0, -1, 0}; /* (-1 + previous value) */
+semid = semget (key, 1, 0);
+semop (semid, &buf, 1); /* locked */
+-----Critical section--------
+buf.sem_op = 1;
+semop (semid, &buf, 1); /* unlocked */
+ 
+# include &lt;sys/types.h&gt;
+# include &lt;sys/sem.h&gt;
+# include &lt;sys/ipc.h&gt;
+# include &lt;stdio.h&gt;
+# include&lt;pthread.h&gt;
+# include&lt;unistd.h&gt;
+union semun{
+	int val;
+	struct semid_ds   *buf;
+	unsigned short  array;
+ 
+	struct seminfo    *__buff;
+};
+ 
+void * th_fun(void *);
+ 
+union semun  u;
+int    sid;
+key_t  key;
+int    pid,   sid;
+struct sembuf su, sl;
+ 
+ 
+main()
+{
+pthread_t	t1, t2, t3, t4;
+ 
+unsigned short int  key;
+key = ftok("semaphore.c",100);
+sid = semget(key,1,IPC_CREAT | 0666);
+printf("semaphore created by %d
+",getpid());
+u.val = 2;
+semctl(sid,0,SETVAL,u);
+printf("Semaphore initialized to %d
+",u.val);
+ 
+pid = getpid();
+ 
+sl.sem_num = 0;
+sl.sem_op = -1;
+sl.sem_flg = SEM_UNDO ;
+su = sl;
+su.sem_op = 1;
+ 
+pthread_create(&t1, NULL, th_fun,"Thread One");
+pthread_create(&t2, NULL, th_fun,"Thread two");
+pthread_create(&t3, NULL, th_fun,"Thread three");
+pthread_create(&t4, NULL, th_fun,"Thread four");
+ 
+pthread_join(t1,NULL);
+pthread_join(t2,NULL);
+pthread_join(t3,NULL);
+pthread_join(t4,NULL);
+ 
+//semctl(sid,0,IPC_RMID);
+printf("Semaphore removed
+");
+}
+void * th_fun(void *p)
+{
+char   *str;
+int i = 0;
+ 
+str = (char * )p;
+printf("%s is Trying to lock semaphore  %d
+ 
+",str, pid);
+if(semop(sid,&sl,1) == 0) </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="codec"> printf("%s   Succedd in LOck   %d
+ 
+",str,pid);
+ 
+while(++i &lt; 3)	{
+ printf("%s   Resourec use here %d
+ 
+",str,pid);
+ sleep(6);
+}
+semop(sid,&su,1);
+printf("%s  Unlock and Bye   %d
+ 
+",str,pid);
+} </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main11"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>

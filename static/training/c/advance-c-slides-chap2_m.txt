@@ -1,0 +1,1011 @@
+<div class="pg" style="margin-top:40px">
+ <pre class=title>C Essentials Training</pre>
+ <pre class=subtitle>3-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div align="center" style="width:100%;height:100px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:100px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:179px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding structural programming
+Understanding advance pointer and arrays
+Practical labs with GNU gcc compiler, gdb debugger</pre>
+  </div>
+ </div>
+ <div style="height:157px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Three days - 24 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:135px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:157px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting embedded and medium scale products.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:135px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Linux machine with GNU gcc compiler installed.</pre>
+  </div>
+ </div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-c-slides.pdf">http://minhinc.42web.io/training/advance-c-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:91px">Labs session would be completely hands on session where each example
+(with example data and execution instruction) would be provided to the
+students. Students can verify their results with the results provided in
+the material.</pre>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-c-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php#chap1_0"><pre>Source File</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_1"><pre>Header file</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_2"><pre>Object File</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_3"><pre>Declaration and Definition</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_4"><pre>Pre-processing, Compiling, Linking, Loading and Running</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_5"><pre>Executable File Format</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_6"><pre> Segments (.bss, .code, .data etc)</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_7"><pre>Creating static library</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_8"><pre>Creating dynamic library</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_9"><pre>Discussion on where c fits</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main2" href="#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Data type, Operator and expression</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap2_0"><pre>Data types and sizes
+  - Integer
+  - Floating point type
+  - Pointer
+ - Array
+ - Enum</pre></a></li>
+    <li><a href="#chap2_1"><pre>Constant</pre></a></li>
+    <li><a href="#chap2_2"><pre>Variable Declaration and Definition</pre></a></li>
+    <li><a href="#chap2_3"><pre> Operator
+ - Assignment operator and expression
+ - Arithmetic operator
+ - Relational operator
+ - Conditional operator</pre></a></li>
+    <li><a href="#chap2_4"><pre>Bitwise operator</pre></a></li>
+    <li><a href="#chap2_5"><pre>Type conversion</pre></a></li>
+    <li><a href="#chap2_6"><pre>Conditional expression</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-c-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Array Pointers References</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=3#chap3_0"><pre>Defnining and Initialzing Array</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=3#chap3_1"><pre>Defining and initializing Pointers</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=3#chap3_2"><pre>Using Pointers to access array elements</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=3#chap3_3"><pre>Pointers and const qualifiers</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=3#chap3_4"><pre>Dynamic allocated arrays</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=3#chap3_5"><pre>Multidimensional array arugment to function</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a c file and make static and
+ shared library. Call library in main.</pre></li>
+    <li><pre>Write a funtion to accept multidimensional array
+ as an argument.</pre></li>
+    <li><pre>Modify function argument to accept
+ pointer to array.</pre></li>
+    <li><pre>Implement a function to accept pointer to
+ int and check were boundary overflow is
+ not checked by the compiler.</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-c-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Control structures</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=4#chap4_0"><pre>Statement and Block</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=4#chap4_1"><pre>Statements
+ - If
+ - Switch
+ - While
+ - For
+ - do while</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=4#chap4_2"><pre>Break and Continue</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=4#chap4_3"><pre>Goto and Labels</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-c-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Function</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=5#chap5_0"><pre>struct
+ - Structures and functions
+ - Array of structure
+ - Self referential structure
+ - Typedef
+ - Unions
+ - Bit-fields</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-c-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Complex Data Types</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=6#chap6_0"><pre>Function Introduction</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_1"><pre>Scope rule</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_2"><pre>Header rule</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_3"><pre>Block structure</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_4"><pre>Function declaration and Definition</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_5"><pre>Value and reference parameters</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_6"><pre>Inline function</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_7"><pre>Recursion</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_8"><pre>Preprocessor
+ - File inclusion
+  - Macro
+  - Conditional inclusion</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Modify for loop to while loop</pre></li>
+    <li><pre>Recursion
+ - Implement fibonacci series
+ -Implement factorial</pre></li>
+    <li><pre>Check machine is little endian or big endian using union</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-c-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Input and Output</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=7#chap7_0"><pre>Standard Input and Output</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_1"><pre>Buffered i/o</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_2"><pre>Variable length argument list</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_3"><pre>File access</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_4"><pre>Line input and output</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_5"><pre>Error handling - stderr and exit</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-c-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Storage class Specifier</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=8#chap8_0"><pre>Automatic</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_1"><pre>Const</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_2"><pre>Global</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_3"><pre>Extern</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_4"><pre>Register</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_5"><pre>Static</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_6"><pre>Volatile</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-c-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Misc</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=9#chap9_0"><pre>Debugging with gdb</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=9#chap9_1"><pre>64 bit data i/o</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:157px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:157px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Try various buffering, character, line and file
+ buffering. Check out speed differences.</pre></li>
+    <li><pre>Modify global variable defined in one in other c file
+Build binary with -g option
+ set break point on a function enter
+ inside function print pointer to struct fields</pre></li>
+   </ul>
+ </div>
+ 
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg">
+<pre class="slidetitle">C Essentials</pre><pre class="slidesubtitle">C Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer"></pre>
+</div>
+<div class="pg">
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div><div class="pg" style="margin-top:20px;">
+<a name="chap2">&nbsp;<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <h1><pre class="topic">  2. Data type, Operator and expression</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap2_0">Data types and sizes<br>&nbsp;- Integer<br>&nbsp;- Floating point type<br>&nbsp;- Pointer<br>- Array<br>- Enum</a></h2></li>   <li class="sml"><pre>Constant
+</pre></li>   <li class="sml"><pre>Variable Declaration and Definition
+</pre></li>   <li class="sml"><pre> Operator
+ - Assignment operator and expression
+ - Arithmetic operator
+ - Relational operator
+ - Conditional operator
+</pre></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="sml"><pre>Type conversion
+</pre></li>   <li class="sml"><pre>Conditional expression</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+C provides a standard, minimal set of basic data types. Sometimes these are called "primitive" types.
+More complex data structures can be built up from these basic types.
+ 
+Integer Types
+The "integral" types in C form a family of integer types.
+ 
+- char ASCII character -- at least 8 bits.  8 bits provides a signed range of -128..127  or an unsigned range is 0..255. char is also required to be the "smallest addressable unit"
+ 
+- short Small integer -- at least 16 bits which provides a signed range of
+-32768..32767. Typical size is 16 bits.
+ 
+- int Default integer -- at least 16 bits, with 32 bits being typical. Defined
+to be  the "most comfortable" size for the computer.
+ 
+- long Large integer -- at least 32 bits. Typical size is 32 bits which gives a signed range of about -2 billion ..+2 billion. Some compilers support "long long" for 64 bit  ints.
+ 
+The integer types can be preceded by the qualifier unsigned which disallows representing negative numbers, but doubles the largest positive number representable.
+ 
+Extra: Portability Problems
+It is a good idea to use typedefs to set up types like Int32 for 32 bit int and Int16 for 16 bit int. It makes it processor architecture independent.  Various typedef are available in stdint.h
+ 
+&lt;&lt;stdint.h&gt; </pre>
+<div align="center" style="width:100%;height:152px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:152px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="codec">#ifndef __int8_t_defined
+# define __int8_t_defined
+typedef signed char             int8_t;
+typedef short int               int16_t;
+typedef int                     int32_t;
+# if __WORDSIZE == 64
+typedef long int                int64_t;
+# else
+__extension__
+typedef long long int           int64_t;
+# endif
+#endif
+ 
+/* Unsigned.  */
+typedef unsigned char           uint8_t;
+typedef unsigned short int      uint16_t;
+#ifndef __uint32_t_defined
+typedef unsigned int            uint32_t;
+# define __uint32_t_defined
+#endif
+#if __WORDSIZE == 64
+typedef unsigned long int       uint64_t;
+#else
+__extension__
+typedef unsigned long long int  uint64_t;
+#endif
+.
+.
+. </pre>
+<div align="center" style="width:100%;height:65px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:65px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+char Constants </pre>
+ <pre " class="code">'A' uppercase 'A' character
+'
+' newline character
+'	' tab character
+'x00' the "null" character -- integer value 0 (different from the char digit '0')
+'\012' the character with value 12 in octal, which is decimal 10 </pre>
+ <pre " class="slidecontent"> 
+ 
+Integer constants </pre>
+ <pre " class="slidecontent">Numbers in the source code such as 234 default to type int. They may be followed by  an 'L' (upper or lower case) to designate that the constant should be a long such as 42L.  An integer constant can be written with a leading 0x to indicate that it is expressed in hexadecimal -- 0x10 is way of expressing the number 16. Similarly, a constant may be written in octal by preceding it with "0" - 012 is a way of expressing the number 10.
+ 
+Type Combination and Promotion
+The integral types may be mixed together in arithmetic expressions since they are all basically just integers with variation in their width. For example, char and int can be combined in arithmetic expressions such as ('b' + 5), int and long like (5+10L).
+ 
+Pitfall -- int Overflow
+(k*1024) may not work when k is int in low address bit memory. Way to fix the code is to   rewrite it as (k * 1024L) -- the long constant forced the promotion of the int.
+ 
+Floating point Types
+float Single precision floating point number typical size: 32 bits double precision floating point number typical size: 64 bits long double possibly even bigger floating point number (somewhat obscure)
+ 
+Constants in the source code such as 3.14 default to type double unless the are suffixed with an 'f' (float) or 'l' (long double). Single precision equates to about 6 digits of precision and double is about 15 digits of precision.
+ 
+floating point numbers is that they are inexact (1.0/3.0 + 1.0/3.0 + 1.0/3.0) // is this equal to 1.0 exactly?
+- Do not Use  equality (==) -- use inequality (&lt;) comparisons instead.
+ 
+ 
+Array
+An array is a data structure which can store a fixed-size sequential collection of elements of the same type.
+  </pre>
+<div align="center" style="width:100%;height:166px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:166px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">score
+ |
+ v
+0       1       2        3                   99     100
+---------------------------------           -----------
+|      |       |       |          . . . .   |      |   x &lt;-do not use
+---------------------------------           -----------
+int score[100];
+ 
+Array declaration
+ 
+- type arrayname[arraysize]
+float a[5];
+int x,y,b[5];
+ 
+Array Initialization
+int a[5]=(1,3,5,};//rest initialized with 0
+int a[]={1,3,5,7,9};
+int age[2][3]={{4,8,12},{19,6,-1}}
+ 
+ 
+           0th col     1st col        2nd col
+         ---------------------------------------
+0th row  |           |            |
+         ---------------------------------------
+1st row  |           |            |
+         ---------------------------------------
+ 
+0th row                                     1st row
+0th col     1st col     2nd col             0th col         1st col       2nd col
+---------------------------------------     ---------------------------------------
+|          |           |            |       |           |           |           |
+---------------------------------------     --------------------------------------- </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+Passing array argument </pre>
+ <pre " class="code">int func(int score[2][3])
+int func(int score[][3]){}
+int func(int (*score)[3]){}
+func(a);//pass by address, value changed in func </pre>
+ <pre " class="slidecontent"> 
+ 
+Pointer
+A pointer is a value which represents a reference to another value sometimes known as the pointer's "pointee".
+  </pre>
+ <pre " class="slidecontent">Pointer operators </pre>
+ <pre " class="code"> * (Deference operator)   - means "the value of"
+ & (address-of operator)   - means "address of"
+ 
+ int a=5;
+ 
+        5000|               |
+    a-&gt; 5004|     5         |&lt;----+
+                                  |
+ int *pa=&a;                |     |
+        6000|               |     |
+   pa-&gt; 6004|   5004        |&lt;----+
+ 
+struct fraction {
+int numerator;
+int denominator;
+};
+ 
+ 
+struct fraction *f1, *f2;
+ 
+ 
+                                                -------------
+      -------------                             |     7     | denominator
+ f1 |             |  -------------+             +-----------+
+      -------------               |             |     22    | numerator
+               ^                  +----------&gt;  -------------
+               |                                  /
+    struct fraction*                           struct fraction
+                                              (the whole block
+                                              of memory) </pre>
+<div align="center" style="width:100%;height:112px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:112px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+expression                  Type </pre>
+ <pre " class="code">f1                          struct fraction*
+*f1                         struct fraction
+(*f1).numerator             int </pre>
+ <pre " class="slidecontent"> 
+complex declarations </pre>
+ <pre " class="code">struct fraction** fp; a pointer to a pointer to a struct fraction
+struct fraction fract_array[20]; array of 20 struct fraction
+struct fraction *fract_ptr_array[20]; an array of 20 pointers to struct fraction
+struct fraction (*pfa)[100];
+struct fraction (*(*pf)())();
+ 
+f(int daytab[2][13]) { ... }
+ 
+It could also be
+f(int daytab[][13]) { ... }
+ 
+Since the number of rows is irrelevant, or it could be
+f(int (*daytab)[13]) { ... }
+ 
+Which says that the parameter is a pointer to an array of 13 integers.
+The parentheses are necessary since brackets [] have higher precedence
+than *. Without parentheses, the declaration would be
+ 
+int *daytab[13] // array of pointer to ints </pre>
+<div align="center" style="width:100%;height:71px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:71px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+There is an important difference between these definitions: </pre>
+ <pre " class="code">char amessage[] = "now is the time"; /* an array */
+char *pmessage = "now is the time"; /* a pointer */
+char (*(*x())[])()
+x: function returning pointer to array[] of pointer to function returning char
+char (*(*x[3])())[5]
+x: array[3] of pointer to function returning pointer to array[5] of char </pre>
+ <pre " class="slidecontent"> 
+Dynamic allocation </pre>
+ <pre " class="code">malloc : memory allocation
+free      : memory deallocation
+ 
+int *intptr;
+char *charpt;
+intptr=(int*)malloc(sizeof(int));
+charptr=(char*)malloc(sizeof(char)*6);
+free(intptr);
+free(charptr); </pre>
+ <pre " class="slidecontent"> 
+Memory leak - Memory allocated is not de-allocated.
+Dangling pointer - A pointer that points to a variable that has been de-allocated.
+ 
+Pointer arithmetic </pre>
+ <pre " class="code">int *pi;
+char *pc;
+++pi;//jumps 4 bytes in 32 bit processor
+++pc;//jumps 1 byte </pre>
+ <pre " class="slidecontent"> 
+Array & Pointers </pre>
+ <pre " class="code">int a[10];
+int *b=&a[0];
+ 
+const char *pc="string";
+char ac[]="string";
+ 
+           -------------------------------------
+pc -------&gt;|
+           ------------------------------------- </pre>
+ <pre " class="slidecontent">Pointer to a block of memeory </pre>
+ <pre " class="code"> 
+ac
+-----------------------------------
+|
+------------------------------------
+Array of memory fragments. No address </pre>
+ <pre " class="slidecontent"> 
+Enum
+An enumeration is a list of constant integer values. </pre>
+ <pre " class="code">enum boolean { NO, YES };
+enum months { JAN = 1, FEB, MAR, APR, MAY, JUN,
+JUL, AUG, SEP, OCT, NOV, DEC };
+/* FEB = 2, MAR = 3, etc. */
+eum {No,YES}; // global
+ 
+boolean value=NO;
+ 
+$cat main.c
+#include &lt;stdio.h&gt;
+struct SomeItem{
+enum {MOVIE,MUSIC} itemType;
+union{
+int movieid;
+char moviename[255];
+};
+};
+ 
+ 
+int main(int argc, char *argv[]){
+struct SomeItem someitem;
+someitem.itemType=MUSIC;
+someitem.movieid=10;
+return 0;
+} </pre>
+<div align="center" style="width:100%;height:93px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:93px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Data type, Operator and expression</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Data types and sizes
+  - Integer
+  - Floating point type
+  - Pointer
+ - Array
+ - Enum
+</pre></li>   <li class="big"><h2><a name="chap2_1">Constant</a></h2></li>   <li class="sml"><pre>Variable Declaration and Definition
+</pre></li>   <li class="sml"><pre> Operator
+ - Assignment operator and expression
+ - Arithmetic operator
+ - Relational operator
+ - Conditional operator
+</pre></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="sml"><pre>Type conversion
+</pre></li>   <li class="sml"><pre>Conditional expression</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Const
+The qualifier const can be added to the left of a variable or parameter type to declare that the code using the variable will not change the variable.
+  </pre>
+ <pre " class="code">void foo(const struct fraction* fract);
+int i, *pi, *const cpi = &i;
+const int j=func();
+char amessage[] = "now is the time"; /* an array */
+char *pmessage = "now is the time"; /* a pointer */
+const int *p; // pointer to constant
+int * const p;//const pointer to integer
+const int * const p;//const pointer to integer const </pre>
+ <pre " class="slidecontent"> 
+Const must be defined or initialized at the time of declaration.
+ 
+Const has internal linkage similar to static.
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Data type, Operator and expression</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Data types and sizes
+  - Integer
+  - Floating point type
+  - Pointer
+ - Array
+ - Enum
+</pre></li>   <li class="sml"><pre>Constant
+</pre></li>   <li class="big"><h2><a name="chap2_2">Variable Declaration and Definition</a></h2></li>   <li class="sml"><pre> Operator
+ - Assignment operator and expression
+ - Arithmetic operator
+ - Relational operator
+ - Conditional operator
+</pre></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="sml"><pre>Type conversion
+</pre></li>   <li class="sml"><pre>Conditional expression</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Declaration - Asserts the existence of a variable, function or type defined elsewhere in the program. A variable may be declared by preceding its type with the keyword extern.
+ 
+const declaration are file scope and must be initialized or defined at the time of declaration.
+ 
+static variable and functions are file scoped and they can not be defined in other files like extern.
+ 
+$ cat a.c </pre>
+<div align="center" style="width:100%;height:57px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:57px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">extern int a;
+extern const int b=10; </pre>
+ <pre " class="slidecontent"> 
+$ cat b.c </pre>
+ <pre " class="code">#include &lt;stdio.h&gt;
+int a=10;//defined here
+const  int b=20; // error while linking
+int main(){
+return 0;
+} </pre>
+ <pre " class="slidecontent"> 
+$ gcc -c a.c -o a.o </pre>
+ <pre " class="code">a.c:2: warning: 'b' initialized and declared 'extern' </pre>
+ <pre " class="slidecontent">$ gcc -c b.c -o b.o
+$ gcc -o aa a.o b.o </pre>
+ <pre " class="code">b.o:(.rodata+0x0): multiple definition of 'b'
+a.o:(.rodata+0x0): first defined here
+collect2: ld returned 1 exit status
+ 
+int a; // just declaration
+void func();//just declaration
+ 
+c++
+int a // declaration and definition
+extern a // declaration </pre>
+ <pre " class="slidecontent"> 
+Declaration can be made multiple times.
+ 
+Definition - Allocates storage for a variable of a specified type and
+optionally initializes the variable
+  </pre>
+ <pre " class="code">int a=10; //declaration and definition
+void func(){// declaration and definition </pre>
+ <pre " class="slidecontent">}
+ 
+- Definition must be only once.
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Data type, Operator and expression</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Data types and sizes
+  - Integer
+  - Floating point type
+  - Pointer
+ - Array
+ - Enum
+</pre></li>   <li class="sml"><pre>Constant
+</pre></li>   <li class="sml"><pre>Variable Declaration and Definition
+</pre></li>   <li class="big"><h2><a name="chap2_3">Operator<br>- Assignment operator and expression<br>- Arithmetic operator<br>- Relational operator<br>- Conditional operator</a></h2></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="sml"><pre>Type conversion
+</pre></li>   <li class="sml"><pre>Conditional expression</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+ 
+An operator is a symbol that tells the compiler to perform specific mathematical or logical manipulations.
+ 
+- Assignment operator and expression
+Here's the list of assignment shorthand operators...
+  </pre>
+ <pre " class="code">+=, -= Increment or decrement by RHS
+*=, /= Multiply or divide by RHS
+%= Mod by RHS
+&gt;&gt;= Bitwise right shift by RHS (divide by power of 2)
+&lt;&lt;= Bitwise left shift RHS (multiply by power of 2)
+&=, |=, ^= Bitwise and, or, xor by RHS
+ 
+- Arithmetic Operators
++ Addition
+- Subtraction
+/ Division
+* Multiplication
+% Remainder (mod)
+ 
+- Unary Increment Operators: ++ -- </pre>
+<div align="center" style="width:100%;height:56px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:56px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+The unary ++ and -- operators increment or decrement the value in a variable. </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">var++ //post variant
+++var //pre variant </pre>
+ <pre " class="slidecontent"> 
+- Relational Operators
+These operate on integer or floating point values and return a 0 or 1 boolean value.
+  </pre>
+ <pre " class="code">== Equal
+!= Not Equal
+&gt; Greater Than
+&lt; Less Than
+&gt;= Greater or Equal
+&lt;= Less or Equal </pre>
+ <pre " class="slidecontent"> 
+Problem. </pre>
+ <pre " class="code">while(x=3);//legal
+while(x==3);//legal </pre>
+ <pre " class="slidecontent"> 
+- Logical Operators
+The value 0 is false, anything else is true. </pre>
+ <pre " class="code">! Boolean not (unary)
+&& Boolean and
+|| Boolean or </pre>
+ <pre " class="slidecontent"> 
+- Conditional Operators ?: </pre>
+ <pre " class="code">Exp1 ? Exp2 : Exp3; </pre>
+ <pre " class="slidecontent">Where Exp1, Exp2, and Exp3 are expressions.
+ 
+- Misc Operators </pre>
+ <pre " class="code">sizeof() Returns the size of an variable
+& Returns the address of an variable
+* Pointer to a variable </pre>
+ <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Data type, Operator and expression</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Data types and sizes
+  - Integer
+  - Floating point type
+  - Pointer
+ - Array
+ - Enum
+</pre></li>   <li class="sml"><pre>Constant
+</pre></li>   <li class="sml"><pre>Variable Declaration and Definition
+</pre></li>   <li class="sml"><pre> Operator
+ - Assignment operator and expression
+ - Arithmetic operator
+ - Relational operator
+ - Conditional operator
+</pre></li>   <li class="big"><h2><a name="chap2_4">Bitwise operator</a></h2></li>   <li class="sml"><pre>Type conversion
+</pre></li>   <li class="sml"><pre>Conditional expression</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Bitwise Operators
+C includes operators to manipulate memory at the bit level.
+  </pre>
+ <pre " class="code">~ Bitwise Negation (unary)  flip 0 to 1 and 1 to 0 throughout
+& Bitwise And
+| Bitwise Or
+^ Bitwise Exclusive Or
+&gt;&gt; Right Shift by right hand side (RHS) (divide by power of 2)
+&lt;&lt; Left Shift by RHS (multiply by power of 2) </pre>
+ <pre " class="slidecontent"> 
+- Note & and && are different </pre>
+ <pre " class="code">unsigned int a = 60; /* 60 = 0011 1100 */
+unsigned int b = 13; /* 13 = 0000 1101 */
+int c = 0;
+c = a & b; /* 12 = 0000 1100 */
+printf("Line 1 - Value of c is %d
+", c );
+c = a | b; /* 61 = 0011 1101 */
+printf("Line 2 - Value of c is %d
+", c );
+c = a ^ b; /* 49 = 0011 0001 */
+printf("Line 3 - Value of c is %d
+", c );
+c = ~a; /*-61 = 1100 0011 */
+printf("Line 4 - Value of c is %d
+", c );
+c = a &lt;&lt; 2; /* 240 = 1111 0000 */
+printf("Line 5 - Value of c is %d
+", c );
+c = a &gt;&gt; 2; /* 15 = 0000 1111 */ </pre>
+<div align="center" style="width:100%;height:71px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:71px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Data type, Operator and expression</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Data types and sizes
+  - Integer
+  - Floating point type
+  - Pointer
+ - Array
+ - Enum
+</pre></li>   <li class="sml"><pre>Constant
+</pre></li>   <li class="sml"><pre>Variable Declaration and Definition
+</pre></li>   <li class="sml"><pre> Operator
+ - Assignment operator and expression
+ - Arithmetic operator
+ - Relational operator
+ - Conditional operator
+</pre></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="big"><h2><a name="chap2_5">Type conversion</a></h2></li>   <li class="sml"><pre>Conditional expression</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+When an operator has operands of different types, they are converted to a common type according to a small number of rules. In  general, the only automatic conversions are those that convert a promotion "narrower" operand into "wider" one without losing information, such as converting an integer into floating point in an expression like f + i.
+ 
+Truncation
+Expressions that might lose information, like assigning a longer integer type to a shorter, or a floating-point type to an integer, may draw a warning, but they are not illegal. </pre>
+<div align="center" style="width:100%;height:52px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:52px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Data type, Operator and expression</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Data types and sizes
+  - Integer
+  - Floating point type
+  - Pointer
+ - Array
+ - Enum
+</pre></li>   <li class="sml"><pre>Constant
+</pre></li>   <li class="sml"><pre>Variable Declaration and Definition
+</pre></li>   <li class="sml"><pre> Operator
+ - Assignment operator and expression
+ - Arithmetic operator
+ - Relational operator
+ - Conditional operator
+</pre></li>   <li class="sml"><pre>Bitwise operator
+</pre></li>   <li class="sml"><pre>Type conversion
+</pre></li>   <li class="big"><h2><a name="chap2_6">Conditional expression</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Conditional Expression ?:
+Exp1 ? Exp2 : Exp3;
+Where Exp1, Exp2, and Exp3 are expressions. </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main3"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>

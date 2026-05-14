@@ -1,0 +1,1425 @@
+<div class="pg" style="margin-top:40px">
+ <pre class=title>C++ Essentials Training</pre>
+ <pre class=subtitle>5-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div align="center" style="width:100%;height:100px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:100px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:162px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding principles of Object Oriented Programming Overview
+Understanding the structure of a c++ program
+Understanding Polymorphism
+Understanding UML modeling
+Practical labs with GNU g++ compiler</pre>
+  </div>
+ </div>
+ <div style="height:96px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Three days - 40 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:74px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:96px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting large scale products.</pre>
+  </div>
+ </div>
+ <div style="height:294px;">
+  <div class="headerleft"> <pre>Prerequisite</pre>
+  </div>
+  <div class="headerright"> <pre><b>Knowledge of C programming</b>
+In particular, participants must be familiar with creating and dealing with
+complex data types and structures, with pointers to such symbols, as well as
+with function pointers.
+Advance C training agenda is available at
+<a href="http://minhinc.42web.io/training/c/advance-c-slide.php">http://minhinc.42web.io/training/c/advance-c-slide.php</a>
+and can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-c-slide.pdf">http://minhinc.42web.io/training/advance-c-slide.pdf</a>
+
+<b>Knowledge of Object Oriented Concepts</b>
+Oops concept like Abstraction, Inheritance, Polymorphism would help.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:74px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Linux machine with GNU g++ compiler installed.</pre>
+  </div>
+ </div>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-cpp-slides.pdf">http://minhinc.42web.io/training/advance-cpp-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:91px">Labs session would be completely hands on session where each example
+(with example data and execution instruction) would be provided to the
+students. Students can verify their results with the results provided in
+the material.</pre>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-cpp-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php#chap1_0"><pre>Source File</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_1"><pre>Header file</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_2"><pre>Object File</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_3"><pre>Declaration and Definition</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_4"><pre>Pre-processing, Compiling, Linking, Loading and Running</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_5"><pre>Executable File Format</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_6"><pre> Segments (.bss, .code, .data etc)</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_7"><pre>Creating static library</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_8"><pre>Creating dynamic library</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_9"><pre>Function calling convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_10"><pre>Function naming convention</pre></a></li>
+    <li><a href="./advance-cpp-slides.php#chap1_11"><pre>Function prototype</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main2" href="#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Functions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap2_0"><pre>Function calling convention</pre></a></li>
+    <li><a href="#chap2_1"><pre>Function naming convention</pre></a></li>
+    <li><a href="#chap2_2"><pre>Function prototype</pre></a></li>
+    <li><a href="#chap2_3"><pre>Function stack frame</pre></a></li>
+    <li><a href="#chap2_3"><pre>Return</pre></a></li>
+    <li><a href="#chap2_4"><pre>Inline functions</pre></a></li>
+    <li><a href="#chap2_5"><pre>Virtual function</pre></a></li>
+    <li><a href="#chap2_6"><pre>Function overloading</pre></a></li>
+    <li><a href="#chap2_7"><pre>Function default parameters</pre></a></li>
+    <li><a href="#chap2_8"><pre>Pass by value, pass by reference</pre></a></li>
+    <li><a href="#chap2_9"><pre>Unamed function parameter</pre></a></li>
+    <li><a href="#chap2_10"><pre>Variable parameter list</pre></a></li>
+    <li><a href="#chap2_11"><pre>Static functions</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main3" href="./advance-cpp-slides.php?chap=3#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Array Pointers References</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=3#chap3_0"><pre>Defining and initializing Array</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_1"><pre>Definining and Initializing Pointers</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_2"><pre>Using pointers to access array elements</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_3"><pre>Pointers and const qualifiers</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_4"><pre>Dynamically allocated arrays</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_5"><pre>References</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_6"><pre>Independent references and restriction</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=3#chap3_7"><pre>Multidimensional array argument to function</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-cpp-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Namespaces</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=4#chap4_0"><pre>What is namespace</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_1"><pre>Scope resolution</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_2"><pre>Using declaration</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_3"><pre>Aliases</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_4"><pre>Unnamed namespace</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_5"><pre>Overloading and namespaces</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=4#chap4_6"><pre>Namespace and templates</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a cpp file and make static and
+ shared library. Call library in main.</pre></li>
+    <li><pre>Write a function to accept multidimentional 
+array as an argument</pre></li>
+    <li><pre>Modify function argument to accept
+ reference to array.</pre></li>
+    <li><pre>Implement a function to accept pointer to
+ int and check were boundary overflow is
+ not checked by the compiler.</pre></li>
+    <li><pre>Emulate file scope static variable with
+ unnamed namespace</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-cpp-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Overview of C++</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=5#chap5_0"><pre>Object oriented programmming</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_1"><pre>C++ class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_2"><pre>Attribute and method</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_3"><pre>Private, protected and public access controls</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_4"><pre>Constructor, synthesised default constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_5"><pre>Copy control</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_6"><pre>Object</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_7"><pre>Array of objects</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_8"><pre>Virtual methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_9"><pre>Mutable data members and const methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_10"><pre>Class relationships, inheritance and containment</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_11"><pre>Static attributes and static methods.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=5#chap5_12"><pre>Friend function and class</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-cpp-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Virtual concepts</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=6#chap6_0"><pre>Object slicing</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_1"><pre>Calling virtual function for constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_2"><pre>Calling virtual function from non virtual function.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_3"><pre>Non member virtual function.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=6#chap6_4"><pre>Dual dispatching</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-cpp-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Copy Control</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=7#chap7_0"><pre>Copy constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_1"><pre>Synthesized copy constructor</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_2"><pre>Explicit qualifier</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_3"><pre>Preventing copies</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_4"><pre>Assignment operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=7#chap7_5"><pre>Destructor</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a simple class with overriden
+ constructor and destrutor</pre></li>
+    <li><pre>Write copy control for a class</pre></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-cpp-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Object Model and Polymorphism</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=8#chap8_0"><pre>Table driven model</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_1"><pre>Object model with single inheritance (SI)</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_2"><pre>Object model with multiple inheritance(MI)</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_3"><pre>Vtable</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_4"><pre>Vtable with virtual methods with SI and MI</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_5"><pre>Virtual base class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_6"><pre>Thunk based and Offset based object model</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=8#chap8_7"><pre>Thunk based and offset based object model</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-cpp-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Inheritance</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=9#chap9_0"><pre>Base class and drive class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_1"><pre>Virtual methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_2"><pre>Pure virtual methods</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_3"><pre> Changing scope of base member in derived classes</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_4"><pre>Multiple inheritance</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_5"><pre>Polymorphism</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_6"><pre>Friend function and friend class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_7"><pre>Function overriding</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_8"><pre>Function overloading and default parameter</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=9#chap9_9"><pre>Interface and Implementation inheritance</pre></a></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main10" href="./advance-cpp-slides.php?chap=10#chap10" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Generic Programming</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=10#chap10_0"><pre>What is generic programming</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_1"><pre>Iterator vs pointer</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_2"><pre>Read only and write to container algorithms</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_3"><pre>Five iterator categories</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_4"><pre>Insert iterators</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=10#chap10_5"><pre>Iostream iterator</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Check vtable entry through gdb</pre></li>
+    <li><pre>Write multiple inheritance class</pre></li>
+    <li><pre>Use Iostream iterator</pre></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main11" href="./advance-cpp-slides.php?chap=11#chap11" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Operator overloading</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=11#chap11_0"><pre> Basics of operator overloading</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_1"><pre>Overloading as method and non member function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_2"><pre>Overloading binary operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_3"><pre>Overloading relational and logical operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_4"><pre>Overloading unary operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_5"><pre>Overloading assignment operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_6"><pre>Overloading [] operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_7"><pre> Creating a conversion function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=11#chap11_8"><pre> Conversion & class types</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main12" href="./advance-cpp-slides.php?chap=12#chap12" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Templates</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=12#chap12_0"><pre>Generic class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_1"><pre>Class template</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_2"><pre>Template argument deduction</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_3"><pre>Function template explicit arguments</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_4"><pre> Function template friend function and class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_5"><pre>Specialization</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_6"><pre> Template bloating</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_7"><pre>Sequential standard template libraries</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=12#chap12_8"><pre>Associative standard template libraries</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 4 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main13" href="./advance-cpp-slides.php?chap=13#chap13" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Exception handling</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=13#chap13_0"><pre>Resumption and termination</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_1"><pre>Stack unwinding</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_2"><pre>Throwing and catching exception</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_3"><pre>Polymorphism</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_4"><pre>set_terminate function</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_5"><pre>Function try block and exception.</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_6"><pre>Exception specification</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=13#chap13_7"><pre>Function pointer exception specifications</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Impement prefix and postfix operator</pre></li>
+    <li><pre>write specialized template for adding any two
+ entities</pre></li>
+    <li><pre>Use object slicing to get base class
+exception object from derived object</pre></li>
+   </ul>
+ </div>
+
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main14" href="./advance-cpp-slides.php?chap=14#chap14" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Memory Management</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=14#chap14_0"><pre>New and delete operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_1"><pre>Exception bad_alloc from new</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_2"><pre>Allocator allocate</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_3"><pre>Allocator construct</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_4"><pre>Operator new, operator delete</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_5"><pre>Placement new</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_6"><pre>Array operator new[] and operator delete[]</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_7"><pre>Allocator construct vs placement new</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_8"><pre>Class specific new and delete</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_8"><pre>Member new and delete</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_9"><pre>Singleton pattern</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=14#chap14_10"><pre>Identifying object on heap or stack</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main15" href="./advance-cpp-slides.php?chap=15#chap15" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - RTTI</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=15#chap15_0"><pre>typeid operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_1"><pre>dynamic_cast operator</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_2"><pre>type_info class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_3"><pre>dynamic_cast vs static_cast</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=15#chap15_4"><pre>reinterpret_cast</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main16" href="./advance-cpp-slides.php?chap=16#chap16" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Modern C++ Ox,11x,14x,17x,20x versions</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=16#chap16_0"><pre>C++11 Intro</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_1"><pre>Explicit Virtual Overrides</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_2"><pre>Uniform Initialization</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_3"><pre>Constructors</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_4"><pre>Type Interface</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_5"><pre> Range based for loop</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_6"><pre>Lambdas</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=16#chap16_7"><pre>Functional programming</pre></a></li>
+   </ul>
+ </div>
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 5 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main17" href="./advance-cpp-slides.php?chap=17#chap17" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Pointer to class member</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=17#chap17_0"><pre>Declaring pointer to class member</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=17#chap17_1"><pre> Using pointer to class member</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=17#chap17_2"><pre>Command design pattern</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main18" href="./advance-cpp-slides.php?chap=18#chap18" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Nested class and volatile operator</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-cpp-slides.php?chap=18#chap18_0"><pre>Defining nested class members</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=18#chap18_1"><pre>Defining nested class outside the enclosing class</pre></a></li>
+    <li><a href="./advance-cpp-slides.php?chap=18#chap18_2"><pre>Volatile qualifier</pre></a></li>
+   </ul>
+ </div>
+ 
+</div>
+<div class="pg" style="margin-top:20px;">
+ <div align="center" style="width:100%;height:80px;clear:both;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:80px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>overload new and delete operator</pre></li>
+    <li><pre>Print RTTI of base and drive class
+ object</pre></li>
+   </ul>
+ </div>
+
+
+</div>
+<div style="clear:both;"></div>
+<div class="pg">
+<pre class="slidetitle">C++ Essentials</pre><pre class="slidesubtitle">C++ Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer"></pre>
+</div>
+<div class="pg">
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main1"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div><div class="pg" style="margin-top:20px;">
+<a name="chap2">&nbsp;<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <h1><pre class="topic">  2. Functions</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap2_0">Function calling convention</a></h2></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+A calling convention describes how the arguments are passed and values returned by functions.
+ 
+It also specifies how the function names are decorated.
+ 
+1) C calling convention (<pre class="codei">__cdecl</pre>) </pre>
+ <pre " class="code">int __cdecl sumExample (int a, int b); </pre>
+ <pre " class="slidecontent"> 
+- Arguments are passed from right to left, and placed on the stack.
+- Stack cleanup is performed by the caller.
+- Function name is decorated by prefixing it with an underscore character '_' .
+- The default calling convention for C and C++ programs. The advantage of this calling convention is that it allows functions with a variable number of arguments to be used. The disadvantage is that it creates larger executable.
+ 
+2) Standard calling convention (<pre class="codei">__stdcall</pre>) </pre>
+ <pre " class="code">int __stdcall sumExample (int a, int b); </pre>
+ <pre " class="slidecontent"> 
+- Arguments are passed from right to left, and placed on the stack.
+- Stack cleanup is performed by the called function.
+- Function name is decorated by prepending an underscore character and appending a '@' character and the number of bytes of stack space required.
+- It is used to call Win32 API functions. It does not allow functions to have a variable number of arguments.
+ 
+3) Fast calling convention (<pre class="codei">__fastcall</pre>) </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">int __fastcall sumExample (int a, int b); </pre>
+ <pre " class="slidecontent"> 
+- The first two function arguments that require 32 bits or less are placed into registers ECX and EDX. The rest of them are pushed on the stack from right to left.
+- Arguments are popped from the stack by the called function.
+- Function name is decorated by by prepending a '@' character and appending a '@' and the number of bytes (decimal) of space required by the arguments.
+- __fastcall attempts to put arguments in registers, rather than on the stack, thus making function calls faster.
+ 
+4) Thiscall
+- Arguments are passed from right to left, and placed on the stack. this is placed in ECX. Stack cleanup is performed by the called function.
+- Thiscall calling convention is the default calling convention used by C++ member functions that do not use variable arguments.
+  </pre>
+<div align="center" style="width:100%;height:71px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:71px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="big"><h2><a name="chap2_1">Function naming convention</a></h2></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Name mangling is changing function names to avoid name conflict. Used in function overloading.
+  </pre>
+ <pre " class="code">void fun(int x) {
+    cout&lt;&lt;x&lt;&lt;endl;
+}
+void fun(float x) {
+    cout&lt;&lt;x&lt;&lt;endl;
+}
+int main() {
+    fun(10);
+    fun(10.5f);
+ 
+    return 0;
+} </pre>
+ <pre " class="slidecontent"> 
+Mangled name for funtion void fun(int x) is <pre class="codei">?fun@@YAXH@Z</pre>
+Mangled name for funtion void fun(float x) is <pre class="codei">?fun@@YAXM@Z</pre>
+ 
+Tool - nm
+  </pre>
+ <pre " class="code">#ifndef SAMPLE_H
+#define SAMPLE_H
+#include &lt;iostream&gt;
+using namespace std;
+struct fraction {
+int numerator;
+int denominator;
+};
+class cfraction{
+int numerator;
+int denominator;
+public:
+cfraction(int,int);
+void func();
+};
+#endif
+ 
+#include "sample.h"
+cfraction::cfraction(int n,int d){
+numerator=n;
+denominator=d;
+}
+void cfraction::func(){
+cout&lt;&lt;numerator/denominator;
+} </pre>
+<div align="center" style="width:100%;height:93px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:93px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+$ g++ -c sample.cpp -o sample.o
+ 
+$ nm sample.o </pre>
+ <pre " class="codec">00000000 b .bss
+00000000 d .ctors
+00000000 d .data
+00000000 r .eh_frame
+00000000 r .rdata$zzz
+00000000 t .text
+0000004b t ___tcf_0
+0000008a t __GLOBAL__sub_I__ZN9cfractionC2Eii
+0000005d t __Z41__static_initialization_and_destruction_0ii
+0000001e T __ZN9cfraction4funcEv
+00000000 T __ZN9cfractionC1Eii
+00000000 T __ZN9cfractionC2Eii
+         U __ZNSolsEi
+         U __ZNSt8ios_base4InitC1Ev
+         U __ZNSt8ios_base4InitD1Ev
+         U __ZSt4cout
+00000000 b __ZStL8__ioinit
+         U _atexit </pre>
+ <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="big"><h2><a name="chap2_2">Function prototype</a></h2></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Function prototype provide the interface between the programmer
+who defines the function and programmers who use it.
+ 
+type name ( argument1, argument2, ...) statement
+ 
+- type is the type of data returned by the function.
+- name is the name by which it will be possible to call the function.
+- arguments (as many as wanted can be specified).
+- statement is the function's body. It can be a single instruction or a
+- block of instructions.
+In the later case it must be delimited by curly brackets {}.
+ 
+Function prototype generally placed in header files.
+&lt;&lt;header.h&gt;&gt; </pre>
+<div align="center" style="width:100%;height:71px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:71px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">class A{
+void func();
+}; </pre>
+ <pre " class="slidecontent"> 
+&lt;&lt;source.cpp&gt;&gt; </pre>
+ <pre " class="code">A::func(){
+} </pre>
+ <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="big"><h2><a name="chap2_3">Function stack frame<br></a></h2></li>   <li class="big"><h2><a name="chap2_3">Return</a></h2></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+The stack frame, also known as activation record is the collection of all data on the stack associated with one subprogram call.
+The stack frame generally includes the following components:
+ 
+- The return address
+- Argument variables passed on the stack
+- Local variables (in HLLs)
+- Saved copies of any registers modified by the subprogram that need to be restored (e.g. $s0 - $s8 in MAL).
+ 
+Automatic variables are therefore represented as an offset from the stack pointer, such as 4($sp) or 8($sp).
+  </pre>
+<div align="center" style="width:100%;height:66px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:66px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">int     function(int a, double b)
+{
+ int     x, y;
+ ...
+ return  x;
+} </pre>
+ <pre " class="slidecontent"> 
+Possible stack frame for function:
+Address Content </pre>
+ <pre " class="code">$sp --&gt; F080    Saved return address
+        F084    a
+        F088    b
+        F090    x
+        F094    y
+        F098    Saved register value
+        F09C    Saved register value </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+Function can return object(value) or reference. Do not return reference or pointer to local variable, as function de-allocate stack once it returns.
+Return type of overloaded function does not contribute to overloading.
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="big"><h2><a name="chap2_4">Inline functions</a></h2></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+- If a function is inline, the compiler places a copy of the code of that function at each point where the function is called at compile time.
+- Any change to an inline function could require all clients of the function to be recompiled.
+- To inline a function, place the keyword inline before the function name and define the function before any calls are made to the function.
+- The compiler can ignore the inline qualifier in case defined function is more than a line.
+- An inline function does type check and it is not MACRO.
+ 
+Automatic In-lining
+- A function definition in a class definition is an inline function definition, even without the use of the inline specifier.
+- Inline function definition must be in header files.
+  </pre>
+<div align="center" style="width:100%;height:76px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:76px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">#include &lt;iostream&gt;
+using namespace std;
+inline void func(){ // non class function inline
+cout&lt;&lt;"global inline func"&lt;&lt;endl;
+}
+class classA {
+public:
+inline const string& shorterstring(const string &s1, const string &s2); //inline
+void uppercase(const string& s);
+};
+const string& classA::shorterstring(const string &s1, const string &s2){
+return s1.size() &lt; s2.size() ? s1:s2;
+}
+inline void classA::uppercase(const string& s){
+s.toUpperCase();
+}
+int main() {
+classA clsA;
+cout&lt;&lt;clsA.shorterstring("one","three")&lt;&lt;endl;
+func();
+return 0;
+} </pre>
+<div align="center" style="width:100%;height:82px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:82px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="big"><h2><a name="chap2_5">Virtual function</a></h2></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+- Virtual function can belong to a class where it supports polymorphism
+- Virtual function makes entry in vtable. </pre>
+ <pre " class="code">class A{
+int a;
+virtual void f(int);
+};
+ 
+----------
+| a:int  |
+---------- vtble    ----------
+| vptr   |---------&gt;| &A::f()|
+----------          ----------
+ 
+struct P {
+int p1;
+virtual void pvf();
+};
+struct S : P {
+int s1;
+void pvf(); // overrides P::pvf and R::pvf
+void rvf(); // overrides R::rvf
+void svf(); // new
+};
+ 
+P*, S*
+  -----&gt; --------------      --------------
+         | P::vfptr  -|-----&gt;|  &S::pvf   |
+         --------------      --------------
+         | P::p1      |
+         -------------- </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+- static function can not be virtual as this pointer is not the implicit first argument.
+  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="big"><h2><a name="chap2_6">Function overloading</a></h2></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+- Multiple definitions for the same function name in the  same scope.  The definition of the function must differ from each other by the types and/or the number of arguments in the argument list.
+- Can not overload function declarations that differ only by return type.
+  </pre>
+ <pre " class="code">void print(int i) {
+cout &lt;&lt; "Printing int: " &lt;&lt; i &lt;&lt; endl;
+}
+void print(double f) {
+cout &lt;&lt; "Printing float: " &lt;&lt; f &lt;&lt; endl;
+}
+//void print(long double l) {
+//cout&lt;&lt;"Printing long:"&lt;&lt;l&lt;&lt;endl;
+//}
+void print(char* c) {
+cout &lt;&lt; "Printing character: " &lt;&lt; c &lt;&lt; endl;
+}
+int main(int argc, char *argv[]) {
+int i=10;
+double d=20.10;
+long double ld=10.10001;
+char *cp="ORACLE";
+print(i);
+print(d);
+print(ld);
+print(cp);
+return 0;
+} </pre>
+<div align="center" style="width:100%;height:86px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:86px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+Overloading and ambiguity
+- There can be ambiguity when exact matching type is not available and intermediate conversion is required where target type is more than one..
+- If both functions are available that is without the overloaded argument and with overloaded argument but with default values.
+ 
+In order to overcome ambiguity look the following rule is followed
+a) Select candidates. Same function name.
+b) Select viable function. Select function which has equal number of matching arguments.
+c) Select best match function. Function that require minimum conversion.
+  </pre>
+<div align="center" style="width:100%;height:61px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:61px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">#include &lt;iostream&gt;
+#include &lt;string&gt;
+using namespace std;
+ 
+void print(int i){cout&lt;&lt;"print int"&lt;&lt;endl;}
+void print(float f){cout&lt;&lt;"print float"&lt;&lt;endl;}
+void print(char c){cout&lt;&lt;"print char"&lt;&lt;endl;}
+void print(double d){cout&lt;&lt;"print double"&lt;&lt;endl;}
+void print(int *i){cout&lt;&lt;"print int*"&lt;&lt;endl;}
+class complex{
+public:
+complex(double){}
+};
+ 
+class longdouble{
+friend double operator+(longdouble&, int);
+//friend double operator+(longdouble&, double);
+public:
+longdouble(int){};
+operator double(){return 4.4;}
+double operator+(const complex&){
+cout&lt;&lt;"::operator+complex"&lt;&lt;endl;
+}
+};
+double operator+(longdouble& l, int i){
+//double operator+(longdouble& l, double i){
+cout&lt;&lt;"global operator+"&lt;&lt;endl;
+}
+int main(){
+longdouble ld(16.08); </pre>
+<div align="center" style="width:100%;height:112px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:112px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">double res=ld+15.05;
+//double res=ld+15;
+print(10.4);
+return 0;
+} </pre>
+ <pre " class="slidecontent"> 
+$g++ main.cpp </pre>
+ <pre " class="code">main.cpp: In function 'int main()':
+main.cpp:38: warning: passing 'double' for argument 1 to 'longdouble::longdouble(int)'
+main.cpp:39: error: ISO C++ says that these are ambiguous, even though the worst conversion
+  for the first is better than the worst conversion for the second:
+main.cpp:34: note: candidate 1: double operator+(longdouble&, int)
+main.cpp:39: note: candidate 2: operator+(double, double) &lt;built-in&gt;
+main.cpp:39: warning: passing 'double' for argument 2 to 'double operator+(longdouble&, int)' </pre>
+ <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="big"><h2><a name="chap2_7">Function default parameters</a></h2></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+- When a function is defined, a default value can be specified for each of the last parameters.
+- This value will be used if the corresponding argument is left blank when calling to the function.
+- This is done by using the assignment operator and assigning values for  the arguments in the function definition. If a value for that parameter  is not passed when the function is called, the default given value is used, but if a value is specified, this default value is ignored and the passed value is used instead.
+  </pre>
+ <pre " class="code">#include &lt;iostream&gt;
+using namespace std;
+int sum(int a, int b=20) {
+int result;
+result = a + b;
+return (result);
+}
+ 
+int sum(int a, int b){//error multiple definition
+Return a+b;
+}
+ 
+int main () {
+int a = 100;
+int b = 200;
+int result;
+result = sum(a, b);
+cout &lt;&lt; "Total value is :" &lt;&lt; result &lt;&lt; endl;
+result = sum(a);
+cout &lt;&lt; "Total value is :" &lt;&lt; result &lt;&lt; endl;
+return 0;
+} </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="big"><h2><a name="chap2_8">Pass by value, pass by reference</a></h2></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Two way parameter to function can be passed
+- By value
+- By reference
+ 
+By value
+Value is of the argument passed by callee the function is exactly copied in the caller parameter variable.
+  </pre>
+ <pre " class="code">void swap(int *v1, int *v2){
+int tmp=*v2;
+*v2=*v1;
+*v1=tmp;
+}
+void swapptr(int **v1, int **v2){
+int *tmp=*v2;
+*v2=*v1;
+*v1=tmp;
+}
+ 
+By reference
+void swap(int &v1,int &v2){
+int tmp=v2;
+v2=v1;
+v1=tmp;
+}
+void swapptr( int *&v1,int *&v2){
+int *tmp=v2;
+v2=v1;
+v1=tmp;
+} </pre>
+<div align="center" style="width:100%;height:82px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:82px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+Array Value </pre>
+ <pre " class="code">void printvalue(int arr[10]);
+void printvalue(int *arr);
+void printvalue(int arr[]); </pre>
+ <pre " class="slidecontent"> 
+Reference </pre>
+ <pre " class="code">void printvalue(int (&arr)[10]);
+void printvalue(int (&arr)[10][10]);
+ 
+#include &lt;iostream&gt;
+using namespace std;
+ 
+void printptrtoarray(int (*arr)[4]){
+int i=0,j=0;
+for(i=0;i&lt;4;i++){
+for(j=0;j&lt;4;j++)
+cout&lt;&lt;arr[i][j]&lt;&lt;" ";
+cout&lt;&lt;endl;
+}
+}
+void printarray(int (&arr)[4][4]){
+int i=0,j=0;
+for (i=0;i&lt;4;i++){
+for (j=0;j&lt;4;j++)
+cout&lt;&lt;arr[i][j]&lt;&lt;" ";
+cout&lt;&lt;endl;
+}
+}
+void preparearray(int (&arr)[4][4]){
+int i=0,j=0;
+for (i=0;i&lt;4;i++)
+for (j=0;j&lt;4;j++)
+arr[i][j]=i;
+}
+int main(int argc,char *argv[]){
+int arr[4][4];
+preparearray(arr);
+printarray(arr);
+printptrtoarray(arr);
+return 0;
+} </pre>
+<div align="center" style="width:100%;height:131px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:131px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="code">$ ./a.out
+0 0 0 0
+1 1 1 1
+2 2 2 2
+3 3 3 3
+0 0 0 0
+1 1 1 1
+2 2 2 2
+3 3 3 3 </pre>
+ <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="big"><h2><a name="chap2_9">Unamed function parameter</a></h2></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+Unnamed function parameters are used when a particular parameter is not required but it is in design.
+  </pre>
+ <pre " class="code">                       A
+                 +------------+
+                 | func()=0;  |
+                 +------------+
+                       /
+                        -
+                        |
+    +----------------------------------+
+  B |                                C |
++-------------+                 +--------------+
+|   func()    |                 |    func()    |
++-------------+                 +--------------+
+ 
+ 
+#include &lt;iostream&gt;
+using namespace std;
+struct A{
+virtual void func(int *)=0;
+};
+struct B:A{
+virtual void func(int *);
+};
+struct C:A{
+virtual void func(int*);
+};
+void B::func(int *){
+cout&lt;&lt;"A::func"&lt;&lt;endl;
+}
+void C::func(int *i){
+cout&lt;&lt;"B::func"&lt;&lt;*i&lt;&lt;endl;
+}
+void callfunc(A* a){
+int i=10;
+a-&gt;func(&i);
+}
+ 
+int main(int argc, char *argv[]){
+B b;
+C c;
+callfunc(&b);
+callfunc(&c);
+return 0;
+} </pre>
+<div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent">$ ./a.out </pre>
+ <pre " class="code">A::func
+B::func10 </pre>
+ <pre " class="slidecontent">  </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="big"><h2><a name="chap2_10">Variable parameter list</a></h2></li>   <li class="sml"><pre>Static functions</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent">  </pre>
+ <pre " class="code">#include &lt;stdarg.h&gt; 
+double average(int num,...) 
+{ 
+va_list valist; 
+double sum = 0.0; 
+int i; 
+/* initialize valist for num number of arguments */ 
+va_start(valist, num); 
+ 
+ 
+ 
+/* access all the arguments assigned to valist */ 
+for (i = 0; i &lt; num; i++)  { 
+sum += va_arg(valist, int); 
+} 
+/* clean memory reserved for valist */ 
+va_end(valist); 
+return sum/num; 
+}  </pre>
+<div align="center" style="width:100%;height:71px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:71px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre " class="slidecontent"> 
+- Define a function with last parameter as ellipses and the one just before  the ellipses is always an int which will represent number of arguments. 
+- Create a va_list type variable in the function definition. This type is  defined in stdarg.h header file. 
+ 
+-Use int parameter and va_start macro to initialize the va_list variable to an argument list. 
+- The macro va_start is defined in stdarg.h header file. 
+- Use va_arg macro and va_list variable to access each item in argument list. 
+- Use a macro va_end to clean up the memory assigned to va_list variable. 
+  </pre>
+<div align="center" style="width:100%;height:57px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle adslot_1"
+     style="display:inline-block;height:57px;"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main2"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>
+<div class="pg" style="margin-top:20px;">
+<div class="slideheader">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  2. Functions</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Function calling convention
+</pre></li>   <li class="sml"><pre>Function naming convention
+</pre></li>   <li class="sml"><pre>Function prototype
+</pre></li>   <li class="sml"><pre>Function stack frame
+</pre></li>   <li class="sml"><pre>Return
+</pre></li>   <li class="sml"><pre>Inline functions
+</pre></li>   <li class="sml"><pre>Virtual function
+</pre></li>   <li class="sml"><pre>Function overloading
+</pre></li>   <li class="sml"><pre>Function default parameters
+</pre></li>   <li class="sml"><pre>Pass by value, pass by reference
+</pre></li>   <li class="sml"><pre>Unamed function parameter
+</pre></li>   <li class="sml"><pre>Variable parameter list
+</pre></li>   <li class="big"><h2><a name="chap2_11">Static functions</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre " class="slidecontent"> 
+- static keyword makes variable or function scoped.
+- static keyword against global variable or global function makes it scoped to the file.
+- static keyword against class variable or class function makes it scoped to the class data structure.
+- static member function does not receive this pointer as first argument, it can not be virtual. </pre>
+<br><pre class="ftr">&copy minhinc.42web.io</pre><a class="pn" href="#main3"><img src="http://minhinc.42web.io/image/arrow.png" style="width:20px"/></a>
+</div>

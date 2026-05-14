@@ -1,0 +1,830 @@
+<div class="pg" style="margin-top:40px;height:1375px;">
+ <pre class=title>C Essentials Training</pre>
+ <pre class=subtitle>3-day session</pre>
+ <pre class=company></pre>
+<div style="width:100%;height:100px;"><div style="width:960px;height:100px;position:relative;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:5px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div> <div style="height:179px;">
+  <div class="headerleft"> <pre>Overview</pre>
+  </div>
+  <div class="headerright"> <pre>Understanding structural programming
+Understanding advance pointer and arrays
+Practical labs with GNU gcc compiler, gdb debugger</pre>
+  </div>
+ </div>
+ <div style="height:157px;">
+  <div class="headerleft"> <pre>Duration</pre>
+  </div>
+  <div class="headerright"> <pre>Three days - 24 hours (8 hours a day)
+50% of lecture, 50% of practical labs.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:135px;">
+  <div class="headerleft"> <pre>Trainer</pre>
+  </div>
+  <div class="headerright"> <pre><a href="https://www.linkedin.com/in/pravinkumarsinha">http://www.linkedin.com/in/pravinkumarsinha</a></pre>
+  </div>
+ </div>
+ <div style="height:157px;">
+  <div class="headerleft"> <pre>Audience</pre>
+  </div>
+  <div class="headerright"> <pre>Professional Software developers
+People supporting embedded and medium scale products.</pre>
+  </div>
+ </div>
+ <hr>
+ <div style="height:135px;">
+  <div class="headerleft"> <pre>Setup</pre>
+  </div>
+  <div class="headerright"> <pre>Linux machine with GNU gcc compiler installed.</pre>
+  </div>
+ </div>
+<pre class="ftr">&copy minhinc.42web.io</pre><a href="#main1" class="pn">p1</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <div class="header2" style="margin-top:0px;">
+  <pre class="header" style="line-height:40px">Lecture</pre>
+  <pre class="content" style="height:113px">Lecture session will be course content presentation through the trainer.
+Any source code example related to the topic will be demonstrated, it would
+include executing the binaries.
+Complete lecture material can be downloaded from
+<a href="http://minhinc.42web.io/training/advance-c-slides.pdf">http://minhinc.42web.io/training/advance-c-slides.pdf</a></pre>
+ </div>
+ <div class="header2" style="margin-top:125px;">
+  <pre class="header" style="line-height:40px">Labs</pre>
+  <pre class="content" style="height:91px">Labs session would be completely hands on session where each example
+(with example data and execution instruction) would be provided to the
+students. Students can verify their results with the results provided in
+the material.</pre>
+ </div>
+ <div style="width:960px;height:191px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:3px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:96px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:240px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main1" href="./advance-c-slides.php#chap1" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Introduction</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php#chap1_0"><pre>Source File</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_1"><pre>Header file</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_2"><pre>Object File</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_3"><pre>Declaration and Definition</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_4"><pre>Pre-processing, Compiling, Linking, Loading and Running</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_5"><pre>Executable File Format</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_6"><pre> Segments (.bss, .code, .data etc)</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_7"><pre>Creating static library</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_8"><pre>Creating dynamic library</pre></a></li>
+    <li><a href="./advance-c-slides.php#chap1_9"><pre>Discussion on where c fits</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:354px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main2" href="./advance-c-slides.php?chap=2#chap2" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Data type, Operator and expression</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=2#chap2_0"><pre>Data types and sizes
+  - Integer
+  - Floating point type
+  - Pointer
+ - Array
+ - Enum</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=2#chap2_1"><pre>Constant</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=2#chap2_2"><pre>Variable Declaration and Definition</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=2#chap2_3"><pre> Operator
+ - Assignment operator and expression
+ - Arithmetic operator
+ - Relational operator
+ - Conditional operator</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=2#chap2_4"><pre>Bitwise operator</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=2#chap2_5"><pre>Type conversion</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=2#chap2_6"><pre>Conditional expression</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:91px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:0px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:164px;">
+  <div class="dayheaderheader" style="background-color:#f38502;height:40px"><a name="main3" href="#chap3" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Array Pointers References</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="#chap3_0"><pre>Defnining and Initialzing Array</pre></a></li>
+    <li><a href="#chap3_1"><pre>Defining and initializing Pointers</pre></a></li>
+    <li><a href="#chap3_2"><pre>Using Pointers to access array elements</pre></a></li>
+    <li><a href="#chap3_3"><pre>Pointers and const qualifiers</pre></a></li>
+    <li><a href="#chap3_4"><pre>Dynamic allocated arrays</pre></a></li>
+    <li><a href="#chap3_5"><pre>Multidimensional array arugment to function</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:164px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:88px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p2</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 1 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Write a c file and make static and
+ shared library. Call library in main.</pre></li>
+    <li><pre>Write a funtion to accept multidimensional array
+ as an argument.</pre></li>
+    <li><pre>Modify function argument to accept
+ pointer to array.</pre></li>
+    <li><pre>Implement a function to accept pointer to
+ int and check were boundary overflow is
+ not checked by the compiler.</pre></li>
+   </ul>
+ </div><div style="width:475px;height:221px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:25px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:250px;top:10px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:274px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:15px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:330px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:645px;top:12px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:221px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main4" href="./advance-c-slides.php?chap=4#chap4" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Control structures</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=4#chap4_0"><pre>Statement and Block</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=4#chap4_1"><pre>Statements
+ - If
+ - Switch
+ - While
+ - For
+ - do while</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=4#chap4_2"><pre>Break and Continue</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=4#chap4_3"><pre>Goto and Labels</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main5" href="./advance-c-slides.php?chap=5#chap5" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Function</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=5#chap5_0"><pre>struct
+ - Structures and functions
+ - Array of structure
+ - Self referential structure
+ - Typedef
+ - Unions
+ - Bit-fields</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:104px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_728_90 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:116px;top:7px;display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2670898784"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:278px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main6" href="./advance-c-slides.php?chap=6#chap6" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Complex Data Types</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=6#chap6_0"><pre>Function Introduction</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_1"><pre>Scope rule</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_2"><pre>Header rule</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_3"><pre>Block structure</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_4"><pre>Function declaration and Definition</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_5"><pre>Value and reference parameters</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_6"><pre>Inline function</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_7"><pre>Recursion</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=6#chap6_8"><pre>Preprocessor
+ - File inclusion
+  - Macro
+  - Conditional inclusion</pre></a></li>
+   </ul>
+ </div><div style="width:475px;height:278px;position:relative;margin-top:0px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_250_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:14px;display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2427356203"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:266px;top:14px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p3</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px">
+ <div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 2 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:145px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Modify for loop to while loop</pre></li>
+    <li><pre>Recursion
+ - Implement fibonacci series
+ -Implement factorial</pre></li>
+    <li><pre>Check machine is little endian or big endian using union</pre></li>
+   </ul>
+ </div><div style="width:475px;height:145px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+
+ <div style="width:960px;height:146px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:76px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Morning</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main7" href="./advance-c-slides.php?chap=7#chap7" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Input and Output</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=7#chap7_0"><pre>Standard Input and Output</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_1"><pre>Buffered i/o</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_2"><pre>Variable length argument list</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_3"><pre>File access</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_4"><pre>Line input and output</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=7#chap7_5"><pre>Error handling - stderr and exit</pre></a></li>
+   </ul>
+ </div>
+ <div class="dayheaderright" style="margin-top:40px;height:183px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main8" href="./advance-c-slides.php?chap=8#chap8" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Storage class Specifier</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=8#chap8_0"><pre>Automatic</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_1"><pre>Const</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_2"><pre>Global</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_3"><pre>Extern</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_4"><pre>Register</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_5"><pre>Static</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=8#chap8_6"><pre>Volatile</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:83px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:11px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:11px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheaderleft" style="margin-top:0px;height:88px;">
+  <div class="dayheaderheader" style="height:40px"><a name="main9" href="./advance-c-slides.php?chap=9#chap9" class="dayheader" style="padding-top:10.0px;height:40px">  Lecture - Misc</a>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><a href="./advance-c-slides.php?chap=9#chap9_0"><pre>Debugging with gdb</pre></a></li>
+    <li><a href="./advance-c-slides.php?chap=9#chap9_1"><pre>64 bit data i/o</pre></a></li>
+   </ul>
+ </div>
+ <div style="width:960px;height:132px;position:relative;clear:both;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:4px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:8px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:484px;top:68px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="dayheader" style="margin-top:0px;height:50px"><pre>Day 3 Afternoon</pre><hr></div>
+  <div class="dayheaderleft" style="margin-top:40px;height:164px;">
+  <div class="dayheaderheaderlab" style="height:40px"><pre class="dayheader" style="padding-top:0px;line-height:40px">     Lab</pre>  </div>
+  <ul class="daycontent" style="padding-top:10px;">
+   <li><pre>Try various buffering, character, line and file
+ buffering. Check out speed differences.</pre></li>
+    <li><pre>Modify global variable defined in one in other c file
+Build binary with -g option
+ set break point on a function enter
+ inside function print pointer to struct fields</pre></li>
+   </ul>
+ </div><div style="width:475px;height:164px;position:relative;margin-top:40px;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:14px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:3px;top:88px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div>
+ <pre class="ftr">&copy www.MinhInc.com</pre><a class="pn">p4</a>
+</div>
+
+<div style="clear:both;"></div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<pre class="slidetitle">C Essentials</pre><pre class="slidesubtitle">C Essenstials- Training Course</pre><pre class="slidecompanytitle">Minh, Inc.</pre><pre class="slidedisclaimer">DISCLAIMER
+
+Text of this document is written in Bembo Std Otf(13 pt) font.
+
+Code parts are written in Consolas (10 pts) font.
+
+This training material is provided through <a style="font-family:mytwcenmt,Tw Cen MT;font-size:10pt;color:#004000;font-weight:bold" href="http://minhinc.42web.io">Minh, Inc.</a>, B'lore, India
+Pdf version of this document is available at <a href="http://minhinc.42web.io/training/advance-c-slides.pdf">http://minhinc.42web.io/training/advance-c-slides.pdf</a>
+For suggestion(s) or complaint(s) write to us at <a href="mailto:sales@minhinc.com">sales@minhinc.com</a>
+
+Document modified on May-15-2021 
+
+Document contains 37 pages.</pre>
+</div><div class="pg" style="margin-top:20px;height:1395px;">
+<a name="chap3">&nbsp;<div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <h1><pre class="topic">  3. Array Pointers References</pre></h1>
+   <ul class="slidecontent">
+   <li class="big"><h2><a name="chap3_0">Defnining and Initialzing Array</a></h2></li>   <li class="sml"><pre>Defining and initializing Pointers
+</pre></li>   <li class="sml"><pre>Using Pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamic allocated arrays
+</pre></li>   <li class="sml"><pre>Multidimensional array arugment to function</pre></li>
+   </ul>
+</div></a>
+<div class="clr"></div>
+ <pre style="height:76px;" class="slidecontent"> 
+- Define and initialize static array
+- Array has to be initialized with constant variable that is qualified at compile time
+  </pre>
+<div class="clr"></div> <pre style="height:60px;" class="code">int ia[get_size()]  // get_size() is function and resolved at run time
+const int size=get_size(); // size resolved at run time
+int ia[size]; // error
+int ia[10*2-10]; // resolved at compile time </pre>
+<div class="clr"></div> <pre style="height:95px;" class="slidecontent"> 
+- Local copy are uninitialized where as global copy is initialized to 0.
+- Uninitialized stati c or global array goes to .bss section in the binary.
+- Array is initialized in {} block
+  </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">int arr[]={1,2,3} // array size 3 </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">or </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">Int arr[3]={1,2,3}
+Int arr[5]={1,2,3} // rest initialized with 0 </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Uninitialized const array takes garbage value </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">const int arr[3];// garbage value
+ 
+C++ const uninitialized array is an error
+const int arr[3]={1}; // rest initialized with 0
+const int *arr=new arr[3]() // c++ value initialized </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Breaking array boundary is not an exception and it memory over writing </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">int ary[1];
+ary[2]=0; </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Function array arguments are actually pointer to array. </pre>
+<div class="clr"></div> <pre style="height:60px;float:left;" class="code">void func(int ap[4]);
+Void func(int ap[]);
+void func(int *ap); //all are same
+func (arr); </pre>
+<div style="width:480px;height:60px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:0px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+-Pointer to array and multidimensional array </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">void func(int (*arr)[10]);
+void func(int arr[][10]);
+void func(int arr[4][10]);// all same </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- Array can not be copied or assigned </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">int ia2[](ia); // error
+ia2 = ia1; //error </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- Array size can not be known. </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">sizeof(arr)/sizeof(&arr[0]) </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+- Array memory management is in users hand. Chance of memory overwriting.
+  </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">void func(int pa[6]){
+pa[6]=8;
+}
+int pa[4];
+func(pa); </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- Character array can be initialized with string null terminated. </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">char ca[] = "C++"; </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+- Character array can be initialized character wise, many not be null
+terminated </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">char cal[] = {'C', '+', '+', '\0' }; </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- In case of character strings use strn string function for manipulation, si.e </pre>
+<div class="clr"></div> <pre style="height:15px;" class="code">strncpy, strncat. </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p16</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+<div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defnining and Initialzing Array
+</pre></li>   <li class="big"><h2><a name="chap3_1">Defining and initializing Pointers</a></h2></li>   <li class="sml"><pre>Using Pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamic allocated arrays
+</pre></li>   <li class="sml"><pre>Multidimensional array arugment to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">type * pointer_name[,*pointer,name2,..];
+char * terry = "hello"; //character string
+const char *terry;//pointer to constant char
+char *const terry;//const pointer to char
+const char *const terry;//const pointer to char const </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+Various library function involving char pointer manipulation </pre>
+<div class="clr"></div> <pre style="height:75px;float:left;" class="code">str[n]cpy,str[n]cat,str[n]cmp,strdup,bcopy,memccopy,
+memcpy,memmove,string,wcscpy,wcsncpy,index, rindex,
+strcasecmp,strchr,strcmp, strcoll, strcspn,  strfry,
+strlen,strncasecmp, strpbrk, strrchr,strsep, strspn,
+strstr, strtok, strxfrm </pre>
+<div style="width:480px;height:75px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:7px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- Dynamically allocating array, allocating on heap </pre>
+<div class="clr"></div> <pre style="height:150px;" class="code">- void *realloc(void *ptr, size_t size);// buffer remain uninitialized
+int pia = malloc(sizeof(int)*10); // uninitialized
+ 
+- void *realloc(void *ptr, size_t size);// initialized buffer with char 0;
+int pia=calloc(sizeof(int)*10);
+ 
+- void *realloc(void *ptr, size_t size);// re-allocate uninitialized buffer of new size if continuous memory is available for new size.
+int pia=malloc(sizeof(int)*10);
+pia=realloc(sizeof(int)*20); </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+If run on empty buffer malloc is called. 0 size free the memory
+  </pre>
+<div class="clr"></div> <pre style="height:30px;" class="code">- void *realloc(void *ptr, size_t size);, frees the allocated memory
+free(pia); </pre>
+<div class="clr"></div> <pre style="height:57px;" class="slidecontent"> 
+ 
+- Its legal to dynamically allocate empty array unless dereferenced </pre>
+<div class="clr"></div><div align="center" style="width:100%;"<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive-square -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="8189130995"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> <pre style="height:45px;" class="code">char arr[0]; // error
+char arr = new char[0];// ok
+char arr = new char[get_size()];//get_size() can return 0; </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+  </pre>
+<div class="clr"></div><div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defnining and Initialzing Array
+</pre></li>   <li class="sml"><pre>Defining and initializing Pointers
+</pre></li>   <li class="big"><h2><a name="chap3_2">Using Pointers to access array elements</a></h2></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamic allocated arrays
+</pre></li>   <li class="sml"><pre>Multidimensional array arugment to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:76px;float:left;" class="slidecontent"> 
+- Pointer works in dynamic allocation
+ 
+- Array of pointers </pre>
+<div style="width:480px;height:76px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:8px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:15px;" class="code">classA *arrp=new classA[10]; </pre>
+<div class="clr"></div> <pre style="height:38px;" class="slidecontent"> 
+- Pointer to array of size 10 </pre>
+<div class="clr"></div> <pre style="height:330px;float:left;" class="code">classA (*ptoarr)=new classA[10];
+classA arryofarry[3][10;
+ptoarr=&arryofarry[2];
+ 
+int (*pa)[10];
+int *pi[10];
+ 
+int arr[4][10]
+pa=arr;
+pa++
+ 
+ 
+int (*pa)[10];
+int arr[4][10];
+pa=arr;
+i=0;
+for(j=0;j&lt;4;j++){
+for(k=0;k&lt;10;k++)
+arr[j][k]=i;
+++i;
+}
+++pa; </pre>
+<div style="width:480px;height:330px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_336_280 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:72px;top:25px;display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="3234005567"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p17</a>
+</div>
+<div class="pg" style="margin-top:20px;height:1395px;">
+ <pre style="height:30px;" class="code">for(j=0;j&lt;10;j++)
+cout&lt;&lt;pa[0][j]; </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defnining and Initialzing Array
+</pre></li>   <li class="sml"><pre>Defining and initializing Pointers
+</pre></li>   <li class="sml"><pre>Using Pointers to access array elements
+</pre></li>   <li class="big"><h2><a name="chap3_3">Pointers and const qualifiers</a></h2></li>   <li class="sml"><pre>Dynamic allocated arrays
+</pre></li>   <li class="sml"><pre>Multidimensional array arugment to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent"> 
+read from the right to left. </pre>
+<div class="clr"></div> <pre style="height:45px;" class="code">const char *terry;//pointer to constant char
+char *const terry;//const pointer to char
+const char *const terry;//const pointer to char const </pre>
+<div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defnining and Initialzing Array
+</pre></li>   <li class="sml"><pre>Defining and initializing Pointers
+</pre></li>   <li class="sml"><pre>Using Pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="big"><h2><a name="chap3_4">Dynamic allocated arrays</a></h2></li>   <li class="sml"><pre>Multidimensional array arugment to function</pre></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent"> 
+- malloc, calloc, realloc and free  are used for dynamic allocation </pre>
+<div class="clr"></div> <pre style="height:90px;float:left;" class="code">#include &lt;stdlib.h&gt;
+ 
+void *calloc(size_t nmemb, size_t size);
+void *malloc(size_t size);
+void free(void *ptr);
+void *realloc(void *ptr, size_t size); </pre>
+<div style="width:480px;height:90px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_468_60 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:6px;top:15px;display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="6116464988"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div> <pre style="height:19px;" class="slidecontent">  </pre>
+<div class="clr"></div><div class="slideheader" style="height:144px;width:432px;">
+  <pre class="day">Day 1 Morning</pre>
+  <pre class="topic">  3. Array Pointers References</pre>
+   <ul class="slidecontent">
+   <li class="sml"><pre>Defnining and Initialzing Array
+</pre></li>   <li class="sml"><pre>Defining and initializing Pointers
+</pre></li>   <li class="sml"><pre>Using Pointers to access array elements
+</pre></li>   <li class="sml"><pre>Pointers and const qualifiers
+</pre></li>   <li class="sml"><pre>Dynamic allocated arrays
+</pre></li>   <li class="big"><h2><a name="chap3_5">Multidimensional array arugment to function</a></h2></li>
+   </ul>
+</div>
+<div class="clr"></div>
+ <pre style="height:38px;" class="slidecontent"> 
+$ cat main.c </pre>
+<div class="clr"></div> <pre style="height:450px;float:left;" class="code">#include &lt;stdio.h&gt;
+ 
+void printarray(int (*arr)[4]){
+int i=0,j=0;
+for (i=0;i&lt;4;i++){
+for (j=0;j&lt;4;j++)
+printf("%d ",arr[i][j]);
+printf("
+");
+}
+}
+void preparearray(int (*arr)[4]){
+int i=0,j=0;
+for (i=0;i&lt;4;i++)
+for (j=0;j&lt;4;j++)
+arr[i][j]=i;
+}
+ 
+int main(int argc,char *argv[]){
+int arr[4][4];
+preparearray(arr);
+printarray(arr);
+return 0;
+}
+ 
+$ ./a.out
+0 0 0 0
+1 1 1 1
+2 2 2 2
+3 3 3 3 </pre>
+<div style="width:480px;height:450px;position:relative;float:right;" align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_300_250 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:0px;display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2112495580"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:26px;top:250px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fixed_200_200 -->
+<ins class="adsbygoogle"
+     style="position:absolute;left:252px;top:250px;display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-8488699542117607"
+     data-ad-slot="2697807187"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="clr"></div><pre class="ftr">&copy minhinc.42web.io</pre><a href="#main3" class="pn"><img src="http://minhinc.42web.io/image/arrow.png" width="20px" height="20px"/>p18</a>
+</div>
