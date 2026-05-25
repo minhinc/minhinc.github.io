@@ -1,10 +1,31 @@
 import re,random
+from flask import jsonify
 def randomnumsum(reset=True, _cache={}):
  if reset:
   min=1;max=300;_cache['num1']=random.randint(min,max);_cache['num2']=random.randint(min,max);_cache['sum']=_cache['num1']+_cache['num2'];
  return tuple(_cache.values())
  return num1,num2,sum
 
+def aboutus(self, **kwarg_):
+ return f'''<div class='grid-table'>
+ <div class='grid-cell title' style='grid-column:1 / -1'>About Us</div>
+ <div class='grid-cell content' style='grid-column:1 / -1;'>Minh. Inc was established in 2015 as Research and Development center.</div>
+ <div class='empty'></div>
+{chr(10).join([ "<div class='grid-cell title2' style='grid-column:2 / -1'><a href='https://minhinc.github.io/"+ii[0]+"'>"+ii[0].title()+"</a></div>"+chr(10)+"<div class='grid-cell content' style='grid-column:2'><span class='dot'>&bull;</span></div><div class='grid-cell:content' style='grid-column:3 / "+("span calc(3*10)" if not kwarg_['mobile'] else "-1")+"'>"+ii[1]+"</div><div class='empty'></div>" for ii in (('research','Company has 22 research papers, published across more than dozen publishers. Research area primary focus is Artifial intelligence, Deep Learning and 3D graphics'),('product','Company has 4 products. Company intend to develop various products in AI and 3D graphics.'),('training','Company provide training in various technologies, primarily in Machine Learning, AI and 3D Graphics.'),('service','Company also provide services in Networking and Health Care areas.'))])}
+</div>'''
+"""
+ <div class='grid-cell title2' style='grid-column:2 / -1'><a href='https://minhinc.github.io/research'>Research</a></div>
+ <div class='grid-cell content' style='grid-column:2'><span class='dot'>&bull;</span></div><div class='grid-cell:content' style='grid-column:3 / {"span calc(3*10)" if not kwarg_['mobile'] else "-1"}'>Company has 22 research papers, published across more than dozen publishers. Research area primary focus is Artifial intelligence, Deep Learning and 3D graphics.</div>
+ <div class='empty2'></div>
+ <div class='grid-cell title2' style='grid-column:2 / span 10'><a href='https://minhinc.github.io/product'>Product</a></div>
+ <div class='grid-cell content' style='grid-column:2'><span class='dot'>&bull;</span></div><div class='grid-cell content' style='grid-column:3 / calc(3*14)'>Company has 4 products. Company intend to develop various products in AI and 3D graphics.</div>
+ <div class='empty2'></div>
+ <div class='grid-cell title2' style='grid-column:2 / span 10'><a href='https://minhinc.github.io/training'>Training</a></div>
+ <div class='grid-cell content' style='grid-column:2'><span class='dot'>&bull;</span></div><div class='grid-cell content' style='grid-column:3 / calc(3*14)'>Company provide training in various technologies, primarily in Machine Learning, AI and 3D Graphics.</div>
+ <div class='empty2'></div>
+ <div class='grid-cell title2' style='grid-column:2 / span 10'><a href='https://minhinc.github.io/service'>Services</a></div>
+ <div class='grid-cell content' style='grid-column:2'><span class='dot'>&bull;</span></div><div class='grid-cell content' style='grid-column:3 / calc(3*14)'>Company also provide services in Networking and Health Care areas.</div>
+"""
 
 def uploadcv(self, **kwarg_):
 # subtopic,topic=re.sub(r'^.*?/(.*)',r'\1',kwarg_['path']),re.sub(r'^(.*)/.*$',r'\1',kwarg_['path'])
@@ -12,7 +33,7 @@ def uploadcv(self, **kwarg_):
  return (f'''<div class='downloadleft'>
 <ul class='tablist'>
 <a href='{kwarg_['staticurl']}/{topic}/'><li class='header'><p>{topic}</p></li></a>
-{chr(10).join(["<li class='current'><p class='padtop'>"+self.jsoni[topic]['data'][ii][0]+"</p></li>" if self.jsoni[topic]['data'][ii][4]==subtopic else "<a href='"+kwarg_['staticurl']+"/"+topic+"/"+self.jsoni[topic]['data'][ii][4]+"'><li class='"+['light','dark'][ii%2]+"'><p>"+self.jsoni[topic]['data'][ii][0]+"</p></li></a>" for ii in range(len(self.jsoni[topic]['data']))])}
+{chr(10).join(["<li class='current'><p class='padtop'>"+self.utili.gjf(self.jsoni[topic]['data'][ii],'title')+"</p></li>" if self.utili.gjf(self.jsoni[topic]['data'][ii],'abbreviation')==subtopic else "<a href='"+kwarg_['staticurl']+"/"+topic+"/"+self.utili.gjf(self.jsoni[topic]['data'][ii],'abbreviation')+"'><li class='"+['light','dark'][ii%2]+"'><p>"+self.utili.gjf(self.jsoni[topic]['data'][ii],'title')+"</p></li></a>" for ii in range(len(self.jsoni[topic]['data']))])}
  </ul>
 </div>
 <div class='downloadright'>
@@ -72,10 +93,10 @@ width:359px;
   <script async defer
    src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCypT5QJIhCg6kqW808Rsn-mXl-dJVtw0M&callback=initMap'>
   </script>
-  {"""<div class='r'><p class='b' style='font-family:mytwcenmt;font-size:24pt;color:#004000'>Minh, Inc.</p><div class='dl'><p class='n'>Tel: +91 9483160610<img src='"""+self.imageurl+"""/image/whatsapp.png' width='20px' height='20px'> <br>Email: <a href='mailto:tominhinc@gmail.com'><span class='green'>tominhinc@gmail.com</span></a></p></div><div class='dr'><p>#85<br>5th Main<br>P&T Colony<br>SanjayNagar<br>Bangalore-94</p></div></div>
+  {"""<div class='r'><p class='b' style='font-family:mytwcenmt;font-size:24pt;color:#004000'>Minh, Inc.</p><div class='dl'><p class='n'>Tel: +91 9483160610<img src='"""+kwarg_['imageurl']+"""/image/whatsapp.png' width='20px' height='20px'> <br>Email: <a href='mailto:tominhinc@gmail.com'><span class='green'>tominhinc@gmail.com</span></a></p></div><div class='dr'><p>#85<br>5th Main<br>P&T Colony<br>SanjayNagar<br>Bangalore-94</p></div></div>
  </li>
 </ul>
-""" if not kwarg_['mobile'] else """ <div class='right'><pre class='name' style='margin-left:10%'>Minh, Inc.</pre><pre class='f10' style='margin-left:10%;'>#85<br>5th Main<br>P&T Colony<br>SanjayNagar<br>Bangalore-94</pre><pre class='phone f10 bold' style='margin-left:10%'>+91 9483160610 <img src='"""+self.imageurl+"""/image/whatsapp.png' width='20px' height='20px'></pre><pre class='f10 bold' style='margin-top:8px;margin-left:10%;color:#4080ff;'><a href='mailto:tominhinc@gmail.com'>tominhinc@gmail.com</a></pre></div>
+""" if not kwarg_['mobile'] else """ <div class='right'><pre class='name' style='margin-left:10%'>Minh, Inc.</pre><pre class='f10' style='margin-left:10%;'>#85<br>5th Main<br>P&T Colony<br>SanjayNagar<br>Bangalore-94</pre><pre class='phone f10 bold' style='margin-left:10%'>+91 9483160610 <img src='"""+kwarg_['imageurl']+"""/image/whatsapp.png' width='20px' height='20px'></pre><pre class='f10 bold' style='margin-top:8px;margin-left:10%;color:#4080ff;'><a href='mailto:tominhinc@gmail.com'>tominhinc@gmail.com</a></pre></div>
 </li>
 <li class='form'>
 <a href='{kwarg_['staticurl']}/training/ml'><img style='margin-left:31%;width:38%' src='http://minhinc.42web.io/image/mltraininglogo.gif'></img></a>
@@ -107,7 +128,7 @@ def online(self, **kwarg_):
  <div class='row'><pre class='lc bold'>Technology</pre>
  <select id='selecttechid' value='' name='technology' class='l mandatory'>
    <option>-- Select --</option>
-   {chr(10).join(["<option>"+self.jsoni['training']['data'][ii][0]+"</option>" for ii in range(len(self.jsoni['training']['data']))])}
+   {chr(10).join(["<option>"+self.utili.gjf(self.jsoni['training']['data'][ii],'title')+"</option>" for ii in range(len(self.jsoni['training']['data']))])}
  </select><pre class='ls bold star'>*</pre></div>
  {"""<div class='row'><pre class='lc bold'>Fee:</pre><pre class='l bold' id='chargeid'></pre></div>
  <div class='row'><pre class='lc bold'>Duration:</pre><pre class='l bold' id='durationid'></pre></div>""" if kwarg_['path']=='online' else ''}
@@ -127,7 +148,7 @@ def online(self, **kwarg_):
 
 def about(self, **kwarg_):
  print(f'>< about {kwarg_=}')
- if re.search(r'^about$',kwarg_['path'],flags=re.I):
+ if re.search(r'^(about|help)$',kwarg_['path'],flags=re.I):
   return aboutus(self,**kwarg_)
  elif re.search(r'^about/contact$',kwarg_['path'],flags=re.I):
   return contact(self,**kwarg_)
@@ -140,7 +161,11 @@ def about(self, **kwarg_):
   for le in kwarg_['request'].get_json():
     ret=ret[le]
   print(f'<> about {ret=}')
-  return ret
+  return jsonify(ret)
+
+def jsonquery(self, **kwarg_):
+ return about(**kwarg_)
+
 """
 <?php
 function draw($util){
@@ -184,3 +209,10 @@ echo ' <ul class="seven">
 }
 ?>
 """
+
+def help(self,**kwarg_):
+ return self.about(**kwarg_)
+
+def career(self,**kwarg_):
+ return self.about(**kwarg_)
+

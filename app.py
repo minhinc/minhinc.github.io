@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 import re,json, os
-import apps.misc.util,apps.headerfooter,apps.main,apps.research,apps.about,apps.submit,apps.service
+import apps.handler
 
 app = Flask(__name__)
 CORS(app, origins=[
@@ -12,45 +12,30 @@ CORS(app, origins=[
  "http://192.168.43.45:8000"
 ])
 
-class handlerc:
- def __init__(self, *arg, **kwarg):
-  print(f'>< handler.init {arg=} {kwarg=}')
-  self.staticurl=self.renderurl=self.imageurl=None
-  self.jsoni=json.loads(open("./static/site.json").read(),object_pairs_hook=lambda m,re=re:{(int(k) if re.search(r'^\d+$',k) else k):v for k,v in m})
-  self.utili=apps.misc.util.utilc(jsoni=self.jsoni)
+handleri=apps.handler.handlerc()
 
- main=apps.main.main
- research = apps.research.research
- about = apps.about.about
- service = apps.service.service
- submit = apps.submit.submit
- header = apps.headerfooter.header
- footer = apps.headerfooter.footer
-
-handleri=handlerc()
-handleri.cwd=os.getcwd()
+@app.route("/ping")
+def ping():
+ return "<p>ping</p>"
 
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>", methods=["GET", "POST"])
 def data(path):
  print(f'>< data {path=}, {request.path=}, {handleri.cwd=}, {request.args=}  ')
  htmls=''
- path=re.sub(r'(^/|/$)','',path)
+ tdict=dict()
+ path=re.sub(r'(^/|/$)','',path).lower()
 
- staticurl=request.headers.get("Origin")
- renderurl=request.url_root
- if not staticurl: staticurl=renderurl
- handleri.imageurl='https://minhinc.github.io' if re.search('minhinc',renderurl,flags=re.I) else '/static'
- mobile=True if "Mobile" in request.headers.get("User-Agent") else False
+ handleri.staticurl=request.headers.get("Origin") if not hasattr(handleri,'staticurl') else handleri.staticurl
+ handleri.renderurl=request.url_root
+ if not handleri.staticurl: handleri.staticurl=handleri.renderurl
+ tdict['staticurl'],tdict['renderurl']=[re.sub(r'/$','',eval('handleri.'+x)) for x in ('staticurl','renderurl')]
+ tdict['imageurl']='https://minhinc.github.io' if re.search('minhinc',tdict['renderurl'],flags=re.I) else '/static'
+ tdict['mobile']=True if "Mobile" in request.headers.get("User-Agent") else False
+ tdict['request']=request
+ tdict['path']=path
 
- print(f'Modified {path=}, {staticurl=} {mobile=} {renderurl=} {request.method=} {dict(request.args)=}')
-
- if path=='jsonquery' and 'POST'==request.method:
-  return jsonify(handleri.about(path=path, request=request))
-
- htmls+=handleri.header(path=path,mobile=mobile,staticurl=staticurl,renderurl=renderurl)
- htmls+=handleri.main(path=path,mobile=mobile,staticurl=staticurl,renderurl=renderurl) if re.search(r'^\s*$',path,flags=re.I) else handleri.research(path=path,request=request,mobile=mobile,staticurl=staticurl,renderurl=renderurl) if re.search(r'^(research|training|product)',path,flags=re.I) else handleri.about(path=path,mobile=mobile,staticurl=staticurl,renderurl=renderurl) if re.search(r'^(about|online|career)',path,flags=re.I) else handleri.service(path=path,mobile=mobile,staticurl=staticurl,renderurl=renderurl) if re.search(r'^service($|/)',path,flags=re.I) else "<p>HTML request 404 Not found</p>"
- htmls+=handleri.footer(path=path,mobile=mobile,staticurl=staticurl,renderurl=renderurl)
+ htmls=handleri.header(**tdict)+(eval('handleri.'+re.sub(r'/.*$','',path or 'main')+'(**tdict)') if hasattr(handleri,re.sub(r'/.*$','',path or 'main')) else f'<p>FILE {path} NOT FOUND </p>')+handleri.footer(**tdict)
 
  open('test.html','w').write(htmls)
  '''
