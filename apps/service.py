@@ -7,12 +7,8 @@ def switch(reset=False,_cache={}):
 def service(self, **kwarg_):
  print(f'>< service {kwarg_=}')
  if re.search(r'^service$',kwarg_['path'],flags=re.I):
-  return (f'''<div class='downloadleft'>
- <ul class='tablist'>
- <a href='{kwarg_['staticurl']}/{kwarg_['path']}/'><li class='header'><p>{kwarg_['path']}</p></li></a>
- {chr(10).join(["<a href='"+kwarg_['staticurl']+"/"+kwarg_['path']+"/"+self.utili.gjf(self.jsoni[kwarg_['path']]['data'][ii],'abbreviation')+"'><li class='"+['light','dark'][ii%2]+"'><p>"+self.utili.gjf(self.jsoni[kwarg_['path']]['data'][ii],'title')+"</p></li></a>" for ii in range(len(self.jsoni[kwarg_['path']]['data']))])}
- </ul>
-</div>''' if not kwarg_['mobile'] else f''' ''') + f'''\n<div class='serviceright'>
+  return f'''{self.utili.downloadleft(topic='service',subtopic='network',**kwarg_) if not kwarg_['mobile'] else ''}
+ <div class='serviceright'>
  <ul class='{"desservice" if not kwarg_['mobile'] else "five"}'>
   <li class="header"><p>{self.jsoni[kwarg_['path']]['subtitle']}</p></li>
   <li class="dark"><p>{self.jsoni[kwarg_['path']]['description']}</p></li>
@@ -24,12 +20,7 @@ def service(self, **kwarg_):
   subtopic,topic=re.sub(r'^.*?/(.*)',r'\1',kwarg_['path']),re.sub(r'^(.*)/.*$',r'\1',kwarg_['path'])
   index=[ii for ii in range(len(self.jsoni[topic]['data'])) if subtopic==self.utili.gjf(self.jsoni[topic]['data'][ii],'abbreviation')][0]
   print(f'<=> service {(topic,index)=}')
-  return f'''<div class='downloadleft'>
-<ul class='tablist'>
-<a href='{kwarg_['staticurl']}/{topic}/'><li class='header'><p>{topic}</p></li></a>
-{chr(10).join(["<li class='current'><p class='padtop'>"+self.jsoni[topic]['data'][ii][0]+"</p></li>" if self.utili.gjf(self.jsoni[topic]['data'][ii],'abbreviation')==subtopic else "<a href='"+kwarg_['staticurl']+"/"+topic+"/"+self.utili.gjf(self.jsoni[topic]['data'][ii],'abbreviation')+"'><li class='"+['light','dark'][ii%2]+"'><p>"+self.utili.gjf(self.jsoni[topic]['data'][ii],'title')+"</p></li></a>" for ii in range(len(self.jsoni[topic]['data']))])}
- </ul>
-</div>
+  return (f'''{self.utili.downloadleft(topic=topic,subtopic=subtopic,**kwarg_)}
 <div class='serviceright'>
 <ul class='desservice'>
 <li class='header'><p>{subtopic.title()}</p></li>
@@ -37,4 +28,33 @@ def service(self, **kwarg_):
 {chr(10).join([("<li class='"+['light','dark'][switch()]+"'>" if switch(True) else "")+"<div class="+['l','r'][switch()]+"'><img src='"+kwarg_['imageurl']+'/image/'+self.utili.gjf(self.jsoni['product']['data'][jj],'abbreviation')+".png'/><div><p>"+self.utili.gjf(self.jsoni['product']['data'][jj],'title')+" - "+self.utili.gjf(self.jsoni['product']['data'][jj],'description')+"</p><a class='btnBlueGloss' href='"+kwarg_['staticurl']+"/product/"+self.utili.gjf(self.jsoni['product']['data'][jj],'abbreviation')+"'>... more</a></div></div>"+("</li>" if not switch() or jj==(len(self.jsoni['product']['data'])-1) else "") for jj in range(len(self.jsoni['product']['data'])) if self.utili.percentmatch(sourcel_=self.utili.gjf(self.jsoni[topic]['data'][index],'title'),targets_=self.utili.gjf(self.jsoni['product']['data'][jj],'description'))])}
  </ul>
 </div>
-'''
+''' if not kwarg_['mobile'] else f'''<ul class='five'>
+ <li class='header'><pre>{subtopic.title()}</pre></li>
+ <li class='dark' style='margin-bottom:10px'><pre>Company has following products in {self.utili.gjf(self.jsoni[topic]['data'][index],'title').title()}</pre></li>
+{chr(10).join([("<li class='"+['light','dark'][switch()]+"'>" if switch(True) else "")+"<div class="+['l','right'][switch()]+"'><img class='ll' src='"+kwarg_['imageurl']+'/image/'+self.utili.gjf(self.jsoni['product']['data'][jj],'abbreviation')+".png'/><div class='rr'><pre>"+self.utili.gjf(self.jsoni['product']['data'][jj],'title')+" - "+self.utili.gjf(self.jsoni['product']['data'][jj],'description')+"</pre><a class='btnBlueGloss' href='"+kwarg_['staticurl']+"/product/"+self.utili.gjf(self.jsoni['product']['data'][jj],'abbreviation')+"'>... more</a></div></div>"+("</li>" if not switch() or jj==(len(self.jsoni['product']['data'])-1) else "") for jj in range(len(self.jsoni['product']['data'])) if self.utili.percentmatch(sourcel_=self.utili.gjf(self.jsoni[topic]['data'][index],'title'),targets_=self.utili.gjf(self.jsoni['product']['data'][jj],'description'))])}
+ </ul>
+<div style='clear:both'></div>
+''')
+"""
+$first=TRUE;
+$light="";
+foreach(json_decode(mysqli_fetch_row($util->db->get('headername','content','name','product'))[0],true)['child'] as $key){
+$item=json_decode(mysqli_fetch_row($util->db->get('headername','content','name',$key))[0],true);
+if(in_array($util->subitem,$item['service'])){
+if($first){
+if($light=="light"){$light="dark";}else{$light="light";}
+echo '<li class="'.$light.'"><div class="l"><img class="ll" src="'.$util->level.'/image/'.$key.'.png"/><div class="rr"><pre>'.$item['title'].' - '.$item['description'].'</pre><a class="btnBlueGloss" href="'.$util->level.'/product/'.$key.'">... more</a></div></div>';
+}else{
+echo '<div class="right"><img class="ll" src="'.$util->level.'/image/'.$key.'.png"/><div class="rr"><pre>'.$item['title'].' - '.$item['description'].'</pre><a class="btnBlueGloss" href="'.$util->level.'/product/'.$key.'">... more</a></div></div></li>';
+}
+$first=!$first;
+}
+}
+if(!empty($light) and !$first){
+echo '</li>';
+}
+echo '</ul>
+<div style="clear:both"></div>';
+}
+?>
+"""

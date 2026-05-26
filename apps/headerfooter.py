@@ -3,6 +3,26 @@ def header(self,**kwarg_):
  print(f'>< handler.header {kwarg_=}')
  return f'''<html>
 <head>
+<style id="fouc-guard">
+  body {{ opacity: 0; }}
+</style>
+<script>
+  let loadedCssCount = 0;
+  const totalCssFiles = 3; // The number of CSS files you are tracking
+
+  function checkAndReveal() {{
+    loadedCssCount++; // Add 1 to the count every time a file finishes
+    
+    // Only reveal the page if the count matches the total
+    if (loadedCssCount === totalCssFiles) {{
+      var guard = document.getElementById('fouc-guard');
+      if (guard) guard.remove(); 
+      
+      document.body.style.opacity = '1';
+      document.body.style.transition = 'opacity 0.2s';
+    }}
+  }}
+</script>
  <meta charset='UTF-8'>
  <meta name='description' content='Training and Research Tutorials'>
  <meta name='keywords' content='HTML, CSS, JavaScript, Python, Machine Learning, Artificial Intelligence, ML, AI, OpenGL, 3D Graphics'>
@@ -12,9 +32,9 @@ def header(self,**kwarg_):
  <link rel='icon' type='image/png' href='{kwarg_['imageurl']}/image/favicon-32x32.png' sizes='32x32'>
  <link rel='icon' type='image/png' href='{kwarg_['imageurl']}/image/favicon-48x48.png' sizes='48x48'>
  <title>{'Minh, Inc. Software development and Outsourcing Bangalore India' if re.search("r'^"+chr(92)+"s*$'",kwarg_['path'],flags=re.I) else kwarg_['path']+'| Minh, Inc. Bangalore India'}</title>
- <link rel='stylesheet' type='text/css' href='/static/css/{"main" if not kwarg_['mobile'] else "main_m"}.css' media='all'/>
- <link rel='stylesheet' type='text/css' href='/static/css/{"agenda" if not kwarg_['mobile'] else "agenda_m"}.css' media='all'/>
- <link rel='stylesheet' type='text/css' href='/static/css/custom.css' media='all'/>
+ <link rel='stylesheet' type='text/css' href='/static/css/{"main" if not kwarg_['mobile'] else "main_m"}.css' media='all' onload='checkAndReveal()'/>
+ <link rel='stylesheet' type='text/css' href='/static/css/{"agenda" if not kwarg_['mobile'] else "agenda_m"}.css' media='all' onload='checkAndReveal()'/>
+ <link rel='stylesheet' type='text/css' href='/static/css/custom.css' media='all' onload='checkAndReveal()'/>
  <script type='module' src='{"/static/pyscript/core.js" if not re.search('minhinc.onrender.com',kwarg_['renderurl'],flags=re.I) else "https://pyscript.net/releases/2026.3.1/core.js"}'></script>
  <link rel='stylesheet' href='{"/static/pyscript/core.css" if not re.search('minhinc.onrender.com',kwarg_['renderurl'],flags=re.I) else "https://pyscript.net/releases/2026.3.1/core.css"}'>
 </head>
@@ -22,24 +42,18 @@ def header(self,**kwarg_):
  <br>
  <div class='ddm'>
   <ul class='drop'>
-  {chr(10).join(["<li><a href='"+kwarg_['staticurl']+"/"+ii+"'"+("style='color:#f38502'" if re.search(r'^'+ii+'$',kwarg_['path'],flags=re.I) else "")+">"+ii.title()+"</a><ul><li class='blank'>' '</li>"+chr(10).join(["<li><a href='"+(self.utili.gjf(self.jsoni[ii]['data'][jj],'url',**kwarg_) if self.utili.gjf(self.jsoni[ii]['data'][jj],'url') else kwarg_['staticurl']+"/"+ii+"/"+self.utili.gjf(self.jsoni[ii]['data'][jj],'abbreviation'))+"'>"+self.utili.gjf(self.jsoni[ii]['data'][jj],'title')+"</a></li>" for jj in range(len(self.jsoni[ii]['data']) if 'data' in self.jsoni[ii] else 0 )])+"</ul></li>" for ii in self.jsoni if not ii=='index'])}
+  {chr(10).join(["<li><a href='"+kwarg_['staticurl']+"/"+ii+"'"+("style='color:#f38502'" if re.search(r'^'+ii,kwarg_['path'],flags=re.I) else "")+">"+ii.title()+"</a><ul><li class='blank'>' '</li>"+chr(10).join(["<li><a href='"+(self.utili.gjf(self.jsoni[ii]['data'][jj],'url',**kwarg_) if self.utili.gjf(self.jsoni[ii]['data'][jj],'url') else kwarg_['staticurl']+"/"+ii+"/"+self.utili.gjf(self.jsoni[ii]['data'][jj],'abbreviation'))+"'>"+self.utili.gjf(self.jsoni[ii]['data'][jj],'title').title()+"</a></li>" for jj in range(len(self.jsoni[ii]['data']) if 'data' in self.jsoni[ii] else 0 )])+"</ul></li>" for ii in self.jsoni if not ii=='index'])}
   </ul>
  </div>
  <br>
  <ul class='domain'>
-  <li><a href='{kwarg_['staticurl']}/service/network' {'style=font-weight:bold;color:#aa4400;' if kwarg_['path']==r'service/network' else ''}>Networking</a></li>
-  <li>|</li>
-  <li><a href='{kwarg_['staticurl']}/service/multimedia' {'style=font-weight:bold;color:#aa4400;' if kwarg_['path']==r'service/multimedia' else ''}>MultiMedia</a></li>
-  <li>|</li>
-  <li><a href='{kwarg_['staticurl']}/service/medicalsystem' {'style=font-weight:bold;color:#aa4400;' if kwarg_['path']==r'service/medicalsystem' else ''}>Medical Systems</a></li>
-  <li>|</li>
-  <li><a href='{kwarg_['renderurl']}/online' {'style=font-weight:bold;color:#aa4400;' if kwarg_['path']==r'online' else ''}>Online Training</a></li>
+  {chr(10).join(["<li><a href='"+kwarg_['staticurl']+"/"+ii[0]+"'"+("style='font-weight:bold;color:#aa4400;'" if kwarg_['path']==ii[0] else '')+">"+ii[1]+"</a></li>"+chr(10)+"<li>|</li>" for ii in (('service/network','Netorking'),('service/multimedia','Multimedia'),('service/medicalsystem','Medical Systems'),('online','Online Training'))])}
  </ul>
  <br>''' if not kwarg_['mobile'] else f'''\n <div class='menubar'>
   <a href='{kwarg_['staticurl']}'><img class='homelogo' src='{kwarg_['imageurl']}/image/topconLogo.png'/></a>
   <span class='linelogo' onclick='myFunction()'>&#9776;</span>
   <div id='myDropdown' class='dropdown-content'>
-  {chr(10).join(["   <div class='line'>"+chr(10)+"    <div class='l'>"+chr(10)+"     <a "+("style='color:#f38502;font-weight:bold;'" if re.search(r'^'+ii,kwarg_['path'],flags=re.I) else "")+" href='"+kwarg_['staticurl']+"/"+ii+"'>"+ii+"</a>"+chr(10)+"    </div>"+chr(10)+"""    <div class='right linesubmenu' onclick="myFunction1('linesubmenu')">"""+chr(10)+"     <div class='tr'></div>"+chr(10)+"    </div>"+chr(10)+"   </div>"+chr(10)+"   <div class='submenu'>"+chr(10)+(chr(10).join(["    <div class='linew'><a href='' style='font-size:"+str((10*30)//len(self.utili.gjf(self.jsoni[ii]['data'][jj],'title')) if len(self.utili.gjf(self.jsoni[ii]['data'][jj],'title'))>30 else 10)+"pt;color:#ff0000>'>"+self.utili.gjf(self.jsoni[ii]['data'][jj],'title')+"</a></div>" for jj in range(len(self.jsoni[ii]['data']) if 'data' in self.jsoni[ii] else 0)]))+chr(10)+"   </div>" for ii in self.jsoni if not ii=='index'])}
+  {chr(10).join(["   <div class='line'>"+chr(10)+"    <div class='l'>"+chr(10)+"     <a "+("style='color:#f38502;font-weight:bold;'" if re.search(r'^'+ii,kwarg_['path'],flags=re.I) else "")+" href='"+kwarg_['staticurl']+"/"+ii+"'>"+ii.title()+"</a>"+chr(10)+"    </div>"+chr(10)+"""    <div class='right linesubmenu' onclick="myFunction1('linesubmenu')">"""+chr(10)+"     <div class='tr'></div>"+chr(10)+"    </div>"+chr(10)+"   </div>"+chr(10)+"   <div class='submenu'>"+chr(10)+(chr(10).join(["    <div class='linew'><a href='"+self.utili.gjf(self.jsoni[ii]['data'][jj],'url',**kwarg_)+"' style='font-size:"+str((10*30)//len(self.utili.gjf(self.jsoni[ii]['data'][jj],'title')) if len(self.utili.gjf(self.jsoni[ii]['data'][jj],'title'))>30 else 10)+"pt;color:#ff0000>'>"+self.utili.gjf(self.jsoni[ii]['data'][jj],'title').title()+"</a></div>" for jj in range(len(self.jsoni[ii]['data']) if 'data' in self.jsoni[ii] else 0)]))+chr(10)+"   </div>" for ii in self.jsoni if not ii=='index'])}
  <hr class='one'>
  <div class='line' style='border-color:transparent'><div class='l'><a {"style='color:#f38502;font-weight:bold'" if kwarg_['path']=='online' else ""}  href='{kwarg_['staticurl']}/online'>Online Training</a></div></div>
  <div class='line'><div class='l'><a {"style='color:#f38502;font-weight:bold;'" if re.search(r'^.*/qt',kwarg_['path'],flags=re.I) else ""} href='{kwarg_['staticurl']}/training/qt'>Qt Training</a></div></div>
@@ -118,7 +132,7 @@ def footer(self,**kwarg_):
  </li>
 </ul>
 <ul class='menu'>
- {chr(10).join(["<li class='top'><a href='"+kwarg_['staticurl']+"/"+ii+"'>"+ii.title()+"</a>"+chr(10)+" <ul>"+chr(10)+" <li><hr class='product' "+('style='+chr(34)+'background-color:#f38502'+chr(34) if re.search(r'^'+ii,kwarg_['path'],flags=re.I) else '')+"></li>"+chr(10).join([" <li><a href='"+(self.utili.gjf(self.jsoni[ii]['data'][jj],'url',**kwarg_) if self.utili.gjf(self.jsoni[ii]['data'][jj],'url') else kwarg_['staticurl']+"/"+ii+"/"+self.utili.gjf(self.jsoni[ii]['data'][jj],'abbreviation'))+"' "+('style='+chr(34)+'font-weight:bold;color:#aa4400;'+chr(34) if re.search("r'"+self.utili.gjf(self.jsoni[ii]['data'][jj],'abbreviation')+"$",kwarg_['path']) else '')+">"+self.utili.gjf(self.jsoni[ii]['data'][jj],'title')+"</a><li>" for jj in range(len(self.jsoni[ii]['data']) if 'data' in self.jsoni[ii] else 0) if not re.search(r'^research$',ii,flags=re.I)])+chr(10)+" </ul></li>" for ii in self.jsoni if not ii in ['index','about']])}
+ {chr(10).join(["<li class='top'><a href='"+kwarg_['staticurl']+"/"+ii+"'>"+ii.title()+"</a>"+chr(10)+" <ul>"+chr(10)+" <li><hr class='product' "+('style='+chr(34)+'background-color:#f38502'+chr(34) if re.search(r'^'+ii,kwarg_['path'],flags=re.I) else '')+"></li>"+chr(10).join([" <li><a href='"+(self.utili.gjf(self.jsoni[ii]['data'][jj],'url',**kwarg_) if self.utili.gjf(self.jsoni[ii]['data'][jj],'url') else kwarg_['staticurl']+"/"+ii+"/"+self.utili.gjf(self.jsoni[ii]['data'][jj],'abbreviation'))+"' "+('style='+chr(34)+'font-weight:bold;color:#aa4400;'+chr(34) if re.search("r'"+self.utili.gjf(self.jsoni[ii]['data'][jj],'abbreviation')+"$",kwarg_['path']) else '')+">"+self.utili.gjf(self.jsoni[ii]['data'][jj],'title').title()+"</a><li>" for jj in range(len(self.jsoni[ii]['data']) if 'data' in self.jsoni[ii] else 0) if not re.search(r'^research$',ii,flags=re.I)])+chr(10)+" </ul></li>" for ii in self.jsoni if not ii in ['index','about']])}
 </ul>
 <ul class="fr">
  <li><p>&copy Minh Inc 2015-{datetime.datetime.now():%Y}</p></li>
@@ -141,7 +155,7 @@ tominhinc@gmail.com</pre>
    </div>
   </div>
   <div class="right">
-{chr(10).join(["""   <div class='fline' style='margin-bottom:10px;'><div class='inline tv footermenu' onclick="myFunction1('footermenu')"></div><a class='inline' style='margin-left:10px;font-size:13px;"""+("color:#f38502" if re.sub(r'^.*/','',kwarg_['path'])==ii else "")+"' href='"+kwarg_['staticurl']+"/"+kwarg_['path']+"'>"+ii+"</a></div>"+chr(10)+"   <div class='fsubmenu'>"+chr(10)+chr(10).join(["    <div class='flinew' style='margin-bottom:5px;'><div class='fltleft ths'></div><a style='margin-left:5px;"+("color:#f38502" if self.utili.gjf(self.jsoni[ii]['data'][jj],'abbreviation')==re.sub(r'^.*/','',kwarg_['path']) else "")+"' href='"+kwarg_['staticurl']+"/"+kwarg_['path']+"'>"+self.utili.gjf(self.jsoni[ii]['data'][jj],'title')+"</a></div>" for jj in range(len(self.jsoni[ii]['data']) if 'data' in self.jsoni[ii] else 0)])+chr(10)+"   </div>" for ii in self.jsoni if not ii in ['index','about']])}
+{chr(10).join(["""   <div class='fline' style='margin-bottom:10px;'><div class='inline tv footermenu' onclick="myFunction1('footermenu')"></div><a class='inline' style='margin-left:10px;font-size:13px;"""+("color:#f38502" if re.search(r'^'+ii,kwarg_['path']) else "")+"' href='"+kwarg_['staticurl']+"/"+ii+"'>"+ii.title()+"</a></div>"+chr(10)+"   <div class='fsubmenu'>"+chr(10)+chr(10).join(["    <div class='flinew' style='margin-bottom:5px;'><div class='fltleft ths'></div><a style='margin-left:5px;"+("color:#f38502" if self.utili.gjf(self.jsoni[ii]['data'][jj],'abbreviation')==re.sub(r'^.*/','',kwarg_['path']) else "")+"' href='"+self.utili.gjf(self.jsoni[ii]['data'][jj],'url',**kwarg_)+"'>"+self.utili.gjf(self.jsoni[ii]['data'][jj],'title').title()+"</a></div>" for jj in range(len(self.jsoni[ii]['data']) if 'data' in self.jsoni[ii] else 0)])+chr(10)+"   </div>" for ii in self.jsoni if not ii in ['index','about']])}
   </div>
   <div style="clear:both"></div>
   <pre style="text-align:center;margin-top:20px">&copy Minh, Inc 2015-{datetime.datetime.now().year}</pre>

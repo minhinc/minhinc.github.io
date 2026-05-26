@@ -108,19 +108,21 @@ ul.one li img{width:24%;float:left;}
 ul.one li pre{float:left;width:65%;margin-left:5%;margin-top:2px;font-size:10pt;font-weight:bold}
 ul.one li.header {background-color:#808285;height:26px;margin-bottom:8px}
 hr.one {height:4px;margin-top:10px;background-color:#0000ff;}
-div.one {width:90%;margin-top:10px;margin-left:5%;}
+div.one {width:90%;margin-top:20px;margin-left:5%;}
 div.one ul.events li {width:90%;}
 div.one pre.title {font-family:mytwcenmt;font-size:28pt;color:#444;font-weight:bold}
 div.one pre.subtitle {font-family:mytwcenmt;font-size:14pt;color:#000}
 div.one ul.events li.dark,ul.events li.light {position:relative;height:32px;}
 div.one ul.events li.dark p.t,ul.events li.light p.t {position:absolute;width:73%;font-size:11px;top:3px;left:12px;}
 div.one ul.events li.dark p.b,ul.events li.light p.b {position:absolute;top:14px;left:74%;font-style:italic;font-size:11px;}
+div.one:has(pre.title) {margin-top:75px}
 
 
 ul.two {margin:20px 0 0 5%;width:90%}
 ul.two li {margin-top:2px;}
 ul.two li.header {background-color:#444;height:26px}
 ul.two img{width:100%}
+ul.two div.ll, ul.two div.rr {margin-top:10px;}
 /*ul.two img{width:100%;height:50%}*/
 
 ul.three {margin:20px 0 0 5%;width:90%}
@@ -146,17 +148,21 @@ ul.four li.os pre {font-weight:bold;text-align:center;line-height:26px;font-size
 ul.four li.os div.zip{width:70%;float:left;height:26px;}
 
 ul.five {margin:20px 5%;width:90%}
-ul.five img{width:24%;height:24%;}
+/*ul.five img{width:24%;height:24%;}*/
+ul.five img{width:24%;}
 ul.five pre{font-size:9pt;}
+ul.five li div.l , ul.five li div.right {margin-top:20px}
 
-ul.seven li{width:90%;}
+
+
+ul.seven li{width:90%;margin:10px 5%}
 
 ul.eight {margin:20px 2px;}
 ul.eight li pre{padding-left:5%;font-size:11pt;}
 ul.eight a.btnBlueGloss {color:#FFF; font-size:11px; text-align:center; text-decoration:none; line-height:19px; background:url(./../image/glossButtons.png); display:block; background-position:0px 0px; width:95px; height:20px;;margin-top:5px;}
 ul.eight a.btnBlueGloss:hover {background-position:95px 0px;}
 
-ul.ten li{width:90%;}
+ul.ten li{width:90%;margin:10px 5%}
 ul.ten li.main, ul.ten li.form{width:100%;}
 ul.ten pre.name{font-family:mytwcenmt;font-size:16pt;color:#004000;}
 ul.ten pre.phone {margin-top:40px;}

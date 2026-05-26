@@ -16,12 +16,12 @@ div.container p.title { padding:0.5px 3px; top: calc(50% + 44%);}
 div.container .toptitle { font-size:18pt; }
 }
 
-.grid-table { display:grid; grid-template-columns:repeat(60, 1fr); gap:2px;}
+.grid-table { display:grid; grid-template-columns:repeat(60, 1fr); gap:2px; width:90%; margin:10px 5%}
 .grid-cell { padding: 2px 1px; box-sizing: border-box; }
 
 .grid-table .title {font-size:20pt;font-weight:bold;padding:14px 5px;}
 .grid-table .title2 a {font-size:12pt;font-weight:bold;padding:6px 5px;color:#14903f;vertical-align:middle;}
-.grid-table .content {font-size:14pt;font-family:mytwcenmt;}
+.grid-table .content {font-size:14pt;font-family:mytwcenmt;padding-left:5px;}
 .grid-table .dot{ color:red; font-size:13pt; padding:0 1px; vertical-align:middle;}
 .grid-table .empty {grid-column:1 / -1;height:10px;}
 .grid-table .empty2 {grid-column:1 / -1;height:5px;}

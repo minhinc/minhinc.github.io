@@ -21,12 +21,12 @@ def ping():
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>", methods=["GET", "POST"])
 def data(path):
- print(f'>< data {path=}, {request.path=}, {handleri.cwd=}, {request.args=}  ')
+ print(f'>< app.py data {path=}, {request.path=}, {handleri.cwd=}, {request.args=}  ')
  htmls=''
  tdict=dict()
  path=re.sub(r'(^/|/$)','',path).lower()
 
- handleri.staticurl=request.headers.get("Origin") if not hasattr(handleri,'staticurl') else handleri.staticurl
+ handleri.staticurl=request.headers.get("Origin") if not hasattr(handleri,'staticurl') or handleri.staticurl==handleri.renderurl else handleri.staticurl
  handleri.renderurl=request.url_root
  if not handleri.staticurl: handleri.staticurl=handleri.renderurl
  tdict['staticurl'],tdict['renderurl']=[re.sub(r'/$','',eval('handleri.'+x)) for x in ('staticurl','renderurl')]
@@ -34,6 +34,8 @@ def data(path):
  tdict['mobile']=True if "Mobile" in request.headers.get("User-Agent") else False
  tdict['request']=request
  tdict['path']=path
+
+ print(f'<=> app.py data {(handleri.staticurl,handleri.renderurl)=} {tdict=}')
 
  htmls=handleri.header(**tdict)+(eval('handleri.'+re.sub(r'/.*$','',path or 'main')+'(**tdict)') if hasattr(handleri,re.sub(r'/.*$','',path or 'main')) else f'<p>FILE {path} NOT FOUND </p>')+handleri.footer(**tdict)
 

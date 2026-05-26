@@ -147,3 +147,11 @@ class utilc:
    _cache['today']=datetime.datetime.now().strftime("%Y%m%d") + str(hour % 6)
    return True
   return False
+
+ def downloadleft(self, **kwarg_):
+  return f'''<div class='downloadleft'>
+<ul class='tablist'>
+<a href='{kwarg_['staticurl']}/{kwarg_['topic']}/'><li class='header'><p>{kwarg_['topic']}</p></li></a>
+{chr(10).join(["<li class='current'><p class='padtop'>"+self.gjf(self.jsoni[kwarg_['topic']]['data'][ii],'title')+"</p></li>" if self.gjf(self.jsoni[kwarg_['topic']]['data'][ii],'abbreviation')==kwarg_['subtopic'] else "<a href='"+kwarg_['staticurl']+"/"+kwarg_['topic']+"/"+self.gjf(self.jsoni[kwarg_['topic']]['data'][ii],'abbreviation')+"'><li class='"+['light','dark'][ii%2]+"'><p>"+self.gjf(self.jsoni[kwarg_['topic']]['data'][ii],'title')+"</p></li></a>" for ii in range(len(self.jsoni[kwarg_['topic']]['data']))])}
+ </ul>
+</div>'''

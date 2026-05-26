@@ -6,12 +6,7 @@ def product(self,**kwarg_):
  elif kwarg_['path'].count(r'/')==1:
   subtopic,topic=re.sub(r'^.*?/(.*)',r'\1',kwarg_['path']),re.sub(r'^(.*)/.*$',r'\1',kwarg_['path'])
   index=[ii for ii in range(len(self.jsoni[topic]['data'])) if subtopic==self.utili.gjf(self.jsoni[topic]['data'][ii],'abbreviation')][0]
-  return (f'''<div class='downloadleft'>
-<ul class='tablist'>
-<a href='{kwarg_['staticurl']}/{topic}/'><li class='header'><p>{topic}</p></li></a>
-{chr(10).join(["<li class='current'><p class='padtop'>"+self.utili.gjf(self.jsoni[topic]['data'][ii],'title')+"</p></li>" if self.utili.gjf(self.jsoni[topic]['data'][ii],'abbreviation')==subtopic else "<a href='"+kwarg_['staticurl']+"/"+topic+"/"+self.utili.gjf(self.jsoni[topic]['data'][ii],'abbreviation')+"'><li class='"+['light','dark'][ii%2]+"'><p>"+self.utili.gjf(self.jsoni[topic]['data'][ii],'title')+"</p></li></a>" for ii in range(len(self.jsoni[topic]['data']))])}
- </ul>
-</div>
+  return (f'''{self.utili.downloadleft(subtopic=subtopic,topic=topic,**kwarg_)}
 <div class='downloadright'>
  <ul class='screenshot'>
   <li class='header'><p>Screenshots</p></li>
