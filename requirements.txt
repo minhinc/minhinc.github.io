@@ -1,5 +1,6 @@
 Flask
 flask_cors
+isodate
+Requests
+scikit_learn
 gunicorn
-scikit-learn
-requests
