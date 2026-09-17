@@ -3,4 +3,5 @@ flask_cors
 isodate
 Requests
 scikit_learn
+aiohttp
 gunicorn
